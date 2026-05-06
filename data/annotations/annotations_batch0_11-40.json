@@ -1,0 +1,1749 @@
+{
+    "created_at": "2026-04-24T15:51:19.633387",
+    "last_updated": "2026-04-24T17:55:49.250888",
+    "gazetteer": "swissnames3d",
+    "documents": [
+        {
+            "filename": "batch_0000_11.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Die günstigere Variante wird umgesetzt ===\n\nRegion/Wil Um Überschwemmungen wie im Jahr 2015 zu verhindern, sind Schutzmassnahmen für 27 Millionen Franken in Planung. Wilen hat den grössten Gemeindeanteil zu zahlen. Dorfbewohner äussern sich kritisch. Drei Jahre ist es her, seit ein kurzes, aber heftiges Unwetter nördlich der Stadt Wil niedergegangen ist. Die Bäche der Region konnten die Wassermassen nicht schlucken und die Autobahn A1 wurde bei der Einfahrt Wil geflutet. «Die letzten 100 Jahre haben wir zu wenig gemacht im Hochwasserschutz und den Gewässern den Raum genommen», sagt Wilens Gemeindepräsident Kurt Enderli. Seit 2015 wurden unter Federführung des Kantons Thurgau Massnahmen erarbeitet, die kürzlich der Öffentlichkeit vorgestellt worden sind. Die Projektverantwortlichen hatten zuvor zwei Varianten gegeneinander abgewogen. Die teurere hätte 44 Millionen Franken gekostet und einen Entlastungskanal zur Abwasserreinigungsanlage (ARA) Freudenau vorgesehen. Umgesetzt wird aber die andere Variante für 27,3 Millionen Franken. Sie sieht einen zweiten Düker unter der Autobahn A1 sowie den Ausbau der heutigen Situation vor. Die Profile des von Rossrüti über Wil nach Rickenbach fliessenden Krebs- und des von Kirchberg kommenden Alpbachs werden vergrössert und – wo möglich – in ihre ursprüngliche Form zurückversetzt. Auf Rickenbacher Gebiet wird der Krebsbach an den Bahndamm verlegt. Der von Sirnach kommende Hueb- und der Wilener Meienmättelibach werden offen geführt, wo dies möglich ist. Wo es nicht möglich ist, sind die Leitungen zu vergrössern. Astra und Kantone leisten den Bärenanteil Zudem sind zwei Überflutungsräume vorgesehen, wo das Wasser des Hueb- und des Alpbachs bei sehr starkem Regen kontrolliert auslaufen kann. Ein solcher Raum ist in der Nähe des Zusammenflusses von Alp- und Meienmättelibach, einer beim Huebbach nahe der Ortsgrenze Wilen/Sirnach geplant. Das Wasser fliesst dort verzögert ab. Nach dem Ereignis werden diese Landwirtschaftsgebiete wieder instand gestellt und Ertragsausfälle entschädigt. Auch der Schutz von Objekten, die gemäss einer Gefahrenkarte bedroht sind, sind Teil der Schutzmassnahmen. Die Gemeindebehörden sowie der Stadtrat stehen hinter dem Projekt. Der Kostenteiler sieht vor, dass das Bundesamt für Strassen Astra und die Kantone Thurgau und St.Gallen rund 17 der 27,3 Millionen Franken beisteuern. Auf Wil entfallen 3,61 Millionen, auf Rickenbach 2,64 Millionen. Den grössten Anteil hat Wilen mit 3,8 Millionen Franken zu tragen. «Wilen hat das grösste Schadenspotenzial der drei Gemeinden. Mit dem Schutzprojekt kann in Wilen am meisten Schaden verhindert werden. Wilen ist in der Lage, diesen Betrag während fünf bis zehn Jahren zu übernehmen», sagt Enderli. Privatpersonen zahlen 0,2 Millionen. Bei der Fragerunde wurden kritische Stimmen laut. Alois Wiesli aus Wilen sagte, 3,8 Millionen sei ein zu hoher Betrag. Auch Wilens Gemeindemitarbeiter Hase Rombach fand die Massnahmen «übertrieben». Eine Volksabstimmung werde voraussichtlich keine nötig sein, da die Gemeinden das Geld als «gebundene Ausgabe» sprechen. In einem Jahr soll das Vorprojekt optimiert und verfeinert werden. (sdu) In Wil ist der Damm die grösste Herausforderung Losgelöst vom Hochwasserschutzprojekt Wil, Rickenbach und Wilen ist die Stadt Wil daran, sechs weitere Sanierungsmassnahmen vorzubereiten. Je eine in Maugwil und Bronschhofen und zwei in Rossrüti. Auf städtischem Gebiet soll die Krebsbachunterführung der Konstanzerstrasse sicherer gemacht werden. Die grösste Herausforderung ist laut Stadtrat Daniel Stutz die Verstärkung des Damms bei der Oberen Weierwiese. Es darf nur so viel Wasser durchgelassen werden, dass die Düker bei der Autobahn nicht überlaufen. Noch steht das Vorprojekt nicht. (sdu)",
+            "toponyms": [
+                {
+                    "text": "Wil",
+                    "start": 55,
+                    "end": 58,
+                    "loc_id": "{DC22227E-01FC-4E19-811C-2F26709CF36D}"
+                },
+                {
+                    "text": "Wilen",
+                    "start": 170,
+                    "end": 175,
+                    "loc_id": "{8CD2485C-4A66-4D1B-89DF-BF9738984E5F}"
+                },
+                {
+                    "text": "Wil",
+                    "start": 337,
+                    "end": 340,
+                    "loc_id": "{F27CD6E1-90DD-41A4-B5D2-725947F5D302}"
+                },
+                {
+                    "text": "Wil",
+                    "start": 466,
+                    "end": 469,
+                    "loc_id": "{39E5EB9A-DB32-4F46-9145-E12984DE3A1F}"
+                },
+                {
+                    "text": "Kantons Thurgau",
+                    "start": 672,
+                    "end": 687,
+                    "loc_id": "{87370D3F-DBBE-4D05-AF85-C358C3924B3D}"
+                },
+                {
+                    "text": "Freudenau",
+                    "start": 959,
+                    "end": 968,
+                    "loc_id": "{7999DF8E-FF22-4386-AD09-2AD3F80AEEEC}"
+                },
+                {
+                    "text": "Rossrüti",
+                    "start": 1166,
+                    "end": 1174,
+                    "loc_id": "{F5BB6C59-665B-4DB9-8D95-81D2ADE7E766}"
+                },
+                {
+                    "text": "Wil",
+                    "start": 1180,
+                    "end": 1183,
+                    "loc_id": "{39E5EB9A-DB32-4F46-9145-E12984DE3A1F}"
+                },
+                {
+                    "text": "Rickenbach",
+                    "start": 1189,
+                    "end": 1199,
+                    "loc_id": "{902E3F9B-B020-4410-834A-ADB8EE9EFC56}"
+                },
+                {
+                    "text": "Kirchberg",
+                    "start": 1231,
+                    "end": 1240,
+                    "loc_id": "{9CF37876-6023-4C91-8541-2954247FFC71}"
+                },
+                {
+                    "text": "Alpbachs",
+                    "start": 1251,
+                    "end": 1259,
+                    "loc_id": "{8A609011-3EB9-4B94-B292-8AEF9B9A460E}"
+                },
+                {
+                    "text": "Krebsbach",
+                    "start": 1374,
+                    "end": 1383,
+                    "loc_id": "{53CC9308-0CF2-49D7-83A8-239E88EA2341}"
+                },
+                {
+                    "text": "Sirnach",
+                    "start": 1417,
+                    "end": 1424,
+                    "loc_id": "{2752AF68-6335-47F8-871A-3AA8D2D5A41E}"
+                },
+                {
+                    "text": "Wilen",
+                    "start": 1881,
+                    "end": 1886,
+                    "loc_id": "{8CD2485C-4A66-4D1B-89DF-BF9738984E5F}"
+                },
+                {
+                    "text": "Sirnach",
+                    "start": 1887,
+                    "end": 1894,
+                    "loc_id": "{122F1927-3F37-42B3-9B8D-BB650DBAF6B8}"
+                },
+                {
+                    "text": "Thurgau",
+                    "start": 2309,
+                    "end": 2316,
+                    "loc_id": "{87370D3F-DBBE-4D05-AF85-C358C3924B3D}"
+                },
+                {
+                    "text": "St.Gallen",
+                    "start": 2321,
+                    "end": 2330,
+                    "loc_id": "{05D55405-466B-4ECC-83C7-A906DEB0D607}"
+                },
+                {
+                    "text": "Wil",
+                    "start": 2382,
+                    "end": 2385,
+                    "loc_id": "{39E5EB9A-DB32-4F46-9145-E12984DE3A1F}"
+                },
+                {
+                    "text": "Rickenbach",
+                    "start": 2416,
+                    "end": 2426,
+                    "loc_id": "{902E3F9B-B020-4410-834A-ADB8EE9EFC56}"
+                },
+                {
+                    "text": "Wilen",
+                    "start": 2467,
+                    "end": 2472,
+                    "loc_id": "{8CD2485C-4A66-4D1B-89DF-BF9738984E5F}"
+                },
+                {
+                    "text": "Wilen",
+                    "start": 2601,
+                    "end": 2606,
+                    "loc_id": "{8CD2485C-4A66-4D1B-89DF-BF9738984E5F}"
+                },
+                {
+                    "text": "Wilen",
+                    "start": 2645,
+                    "end": 2650,
+                    "loc_id": "{8CD2485C-4A66-4D1B-89DF-BF9738984E5F}"
+                },
+                {
+                    "text": "Wil",
+                    "start": 3174,
+                    "end": 3177,
+                    "loc_id": "{39E5EB9A-DB32-4F46-9145-E12984DE3A1F}"
+                },
+                {
+                    "text": "Rickenbach",
+                    "start": 3262,
+                    "end": 3272,
+                    "loc_id": "{902E3F9B-B020-4410-834A-ADB8EE9EFC56}"
+                },
+                {
+                    "text": "Maugwil",
+                    "start": 3369,
+                    "end": 3376,
+                    "loc_id": "{B45E4CAE-4F08-4569-847F-8204B96B7EA3}"
+                },
+                {
+                    "text": "Bronschhofen",
+                    "start": 3381,
+                    "end": 3393,
+                    "loc_id": "{D81CDE49-BA28-4AC7-AA17-5424DFC87EE7}"
+                },
+                {
+                    "text": "Rossrüti",
+                    "start": 3406,
+                    "end": 3414,
+                    "loc_id": "{F5BB6C59-665B-4DB9-8D95-81D2ADE7E766}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_13.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== «Braut» räumt letzte Leichen aus dem Keller ===\n\nHOFSTETTEN Die Kleinkläranlagen in Dickbuch, Sennhof und Huggenberg werden aufgelöst und mit den grösseren in Elgg und Elsau verbunden. Bis im November muss das Grossprojekt fertig sein. Ein Rundgang auf den letzten Hofstetter Baustellen. Am Morgen des 3. Julis, als die Baustelle zwischen Oberschottikon und Dickbuch bereits eingerichtet war und die Arbeiter loslegen wollten, fehlte nur noch eines: die Baufreigabe des Kantons. «Sie traf prompt an jenem Morgen telefonisch bei mir ein», sagt der Hofstetter Werkvorsteher Andreas Zwicky erleichtert. Die Gemeinde Hofstetten, die im Laufe der Fusionsverhandlung öfters als Braut betitelt worden ist, räumt im letzten halben Jahr vor der Vermählung mit Elgg sprichwörtlich noch alle Leichen aus dem Keller und steht dabei unter hohem Zeitdruck. Denn die Gemeinde profitiert nur noch dieses Jahr vom Übergangsausgleich des Kantons, der damit das Defizit übernimmt. Die ersten Abschreibungen könnten so also noch über den Ausgleich finanziert werden. «Bis Ende November müssen wir dieses Projekt deshalb abgeschlossen und abgerechnet haben, es gibt keine Alternative», sagt Zwicky. «Wie der Neat-Tunnel» Das grösste Projekt in der Höhe von rund 2,2 Millionen Franken: Die Kleinkläranlagen (Klara) in Dickbuch, Sennhof und Huggenberg werden aufgehoben und zu Abwasser-Rückhaltebecken umfunktioniert. Das Abwasser der Weiler soll neu in den Abwasserreinigungsanlagen Elgg und Elsau gereinigt werden, dazu werden Leitungen von insgesamt 5,5 Kilometer Länge vergraben. Grund dafür ist das kantonale Amt für Abfall, Wasser, Energie und Luft, das etwa der Klara Huggenberg in der Nähe des Schauenbergs nur noch eine Bewilligung bis 2020 ausstellte, weil das Wasser die Anlage nicht sauber genug verlässt. Auch der Kanton Thurgau übte Druck auf die Hofstetter aus. Denn der örtliche Seebach leitet das Wasser in den grösstenteils thurgauischen Bichelsee. Die beiden Klaras in Dickbuch und Sennhof werden seit 2014 gar ohne Bewilligung betrieben. Der Kanton hat sich deshalb grosszügig gezeigt, als man eine Lösung fand, und übernimmt vierzig Prozent der Kosten beziehungsweise maximal eine Million Franken davon. «Für unsere Gemeinde ist dieses Projekt wie der Neat-Tunnel für die Schweiz», vergleicht Zwicky. Beim Grenzstein oberhalb von Oberschottikon befindet sich der Bagger bereits auf Hofstetter Gemeindegebiet, die Grabungsarbeiten für die Abwasserleitungen kommen gut voran, zweihundert Meter schaffen die Arbeiter pro Woche. Auf der Hofstetter Seite sowie in Oberschottikon wird die Strasse anschliessend noch für rund 800 000 Franken saniert und mit Mauern abgestützt. Allererste Abwasserleitung Als Zwicky via Schlatt nach Dickbuch fährt, zieht links der Weiler Wenzikon vorbei. Wieder sind Bagger und rot-weisse Absperrungen zu sehen. Für 460 000 Franken wird hier die Strasse und deren Entwässerung ersetzt. «Normalerweise nähme allein ein solches Projekt einen Gemeinderat komplett in Anspruch», sagt Zwicky. Er hält nicht an. In Heurüti, das zu Elgg gehört, findet die Wochensitzung zwischen den verantwortlichen Bauunternehmern, der Swisscom und den Elektrizitätswerken des Kantons Zürich statt. Insgesamt neun Personen unterhalten sich über Leitungsquerungen, Umleitungen und die effizienteste Umsetzung. Der Weiler Heurüti erhält dank dem Bauprojekt erstmals überhaupt eine Abwasserleitung, die Landwirte konnten ihr Abwasser bisher in Güllesilos ableiten und auf dem Acker verteilen. Auch eine zweite Wasserleitung wird gezogen, da in trockenen Sommern, zuletzt 2015, die Weilerquelle zu wenig Wasser brachte und der Ort mit Schläuchen provisorisch versorgt werden musste. Gleichzeitig werden noch die über hundertjährigen Wasserleitungen innerhalb des Weilers ersetzt. Zwicky fährt wieder in Richtung Eulachtal, auf der linken Seite ist die Schiessanlage Hofstetten zu sehen, er zeigt darauf: «Hier muss bis Ende Jahr noch die bleiverseuchte Erde abgetragen werden.» Die Arbeiten sollen bald beginnen. Eine Vorgabe des Kantons, die mit weiteren 316 000 Franken zu Buche schlägt. Insgesamt belaufen sich die Investitionen in der Gemeinde auf rund vier Millionen Franken. «Bis im Winter wird es uns hier bestimmt nicht langweilig», sagt Zwicky und kann noch grinsen. Jonas Gabrieli Zwischen Oberschottikon und Dickbuch wird bereits gegraben. Jonas Gabrieli WO IN DER GEMEINDE HOFSTETTEN BIS ENDE JAHR NOCH ÜBERALL GEBAUT WIRD",
+            "toponyms": [
+                {
+                    "text": "HOFSTETTEN",
+                    "start": 53,
+                    "end": 63,
+                    "loc_id": "{753D6167-0ADA-439A-80F9-5DF455B79ED7}"
+                },
+                {
+                    "text": "Dickbuch",
+                    "start": 88,
+                    "end": 96,
+                    "loc_id": "{0DE3CBAD-17A9-4938-819C-EA756D71358D}"
+                },
+                {
+                    "text": "Sennhof",
+                    "start": 98,
+                    "end": 105,
+                    "loc_id": "{C48DA572-B25B-4205-8E2B-F74CEE95AEA7}"
+                },
+                {
+                    "text": "Huggenberg",
+                    "start": 110,
+                    "end": 120,
+                    "loc_id": "{7E8481A2-D630-468C-A995-F8771798819D}"
+                },
+                {
+                    "text": "Elgg",
+                    "start": 163,
+                    "end": 167,
+                    "loc_id": "{A2DB776C-AE74-4821-A57F-3DDC2EED47C3}"
+                },
+                {
+                    "text": "Elsau",
+                    "start": 172,
+                    "end": 177,
+                    "loc_id": "{14250F82-4712-4899-B877-E71578CB3C77}"
+                },
+                {
+                    "text": "Oberschottikon",
+                    "start": 343,
+                    "end": 357,
+                    "loc_id": "{B22AF4C4-8EAC-4C62-9050-EF2EB2A5D249}"
+                },
+                {
+                    "text": "Dickbuch",
+                    "start": 362,
+                    "end": 370,
+                    "loc_id": "{0DE3CBAD-17A9-4938-819C-EA756D71358D}"
+                },
+                {
+                    "text": "Hofstetten",
+                    "start": 617,
+                    "end": 627,
+                    "loc_id": "{753D6167-0ADA-439A-80F9-5DF455B79ED7}"
+                },
+                {
+                    "text": "Elgg",
+                    "start": 755,
+                    "end": 759,
+                    "loc_id": "{A2DB776C-AE74-4821-A57F-3DDC2EED47C3}"
+                },
+                {
+                    "text": "Dickbuch",
+                    "start": 1300,
+                    "end": 1308,
+                    "loc_id": "{0DE3CBAD-17A9-4938-819C-EA756D71358D}"
+                },
+                {
+                    "text": "Sennhof",
+                    "start": 1310,
+                    "end": 1317,
+                    "loc_id": "{C48DA572-B25B-4205-8E2B-F74CEE95AEA7}"
+                },
+                {
+                    "text": "Huggenberg",
+                    "start": 1322,
+                    "end": 1332,
+                    "loc_id": "{7E8481A2-D630-468C-A995-F8771798819D}"
+                },
+                {
+                    "text": "Elgg",
+                    "start": 1465,
+                    "end": 1469,
+                    "loc_id": "{A2DB776C-AE74-4821-A57F-3DDC2EED47C3}"
+                },
+                {
+                    "text": "Elsau",
+                    "start": 1474,
+                    "end": 1479,
+                    "loc_id": "{14250F82-4712-4899-B877-E71578CB3C77}"
+                },
+                {
+                    "text": "Schauenbergs",
+                    "start": 1683,
+                    "end": 1695,
+                    "loc_id": "{987AEDE1-3500-42D5-ADBA-81118017BA79}"
+                },
+                {
+                    "text": "Kanton Thurgau",
+                    "start": 1808,
+                    "end": 1822,
+                    "loc_id": "{87370D3F-DBBE-4D05-AF85-C358C3924B3D}"
+                },
+                {
+                    "text": "Seebach",
+                    "start": 1876,
+                    "end": 1883,
+                    "loc_id": "{DF595D30-4D69-4C2C-8908-CC17CDE77869}"
+                },
+                {
+                    "text": "Bichelsee",
+                    "start": 1937,
+                    "end": 1946,
+                    "loc_id": "{17560BE3-8C58-4247-825E-8DAD268C4DFF}"
+                },
+                {
+                    "text": "Dickbuch",
+                    "start": 1969,
+                    "end": 1977,
+                    "loc_id": "{0DE3CBAD-17A9-4938-819C-EA756D71358D}"
+                },
+                {
+                    "text": "Sennhof",
+                    "start": 1982,
+                    "end": 1989,
+                    "loc_id": "{C48DA572-B25B-4205-8E2B-F74CEE95AEA7}"
+                },
+                {
+                    "text": "Oberschottikon",
+                    "start": 2332,
+                    "end": 2346,
+                    "loc_id": "{66623ACA-990E-4BCC-97F1-1C4C439328FF}"
+                },
+                {
+                    "text": "Oberschottikon",
+                    "start": 2561,
+                    "end": 2575,
+                    "loc_id": "{66623ACA-990E-4BCC-97F1-1C4C439328FF}"
+                },
+                {
+                    "text": "Schlatt",
+                    "start": 2714,
+                    "end": 2721,
+                    "loc_id": "{F6AE59F0-5AC8-4DBD-923F-D16A8BCACEDA}"
+                },
+                {
+                    "text": "Dickbuch",
+                    "start": 2727,
+                    "end": 2735,
+                    "loc_id": "{0DE3CBAD-17A9-4938-819C-EA756D71358D}"
+                },
+                {
+                    "text": "Wenzikon",
+                    "start": 2766,
+                    "end": 2774,
+                    "loc_id": "{856219AE-AD19-43E7-8294-C52EDA7BBA1E}"
+                },
+                {
+                    "text": "Heurüti",
+                    "start": 3037,
+                    "end": 3044,
+                    "loc_id": "{92992FE1-A635-4AB4-AFC9-065CC2B6F022}"
+                },
+                {
+                    "text": "Elgg",
+                    "start": 3053,
+                    "end": 3057,
+                    "loc_id": "{A2DB776C-AE74-4821-A57F-3DDC2EED47C3}"
+                },
+                {
+                    "text": "Heurüti",
+                    "start": 3326,
+                    "end": 3333,
+                    "loc_id": "{92992FE1-A635-4AB4-AFC9-065CC2B6F022}"
+                },
+                {
+                    "text": "Eulachtal",
+                    "start": 3814,
+                    "end": 3823,
+                    "loc_id": "{77AC94A2-2F3D-47FB-9F2B-547C11B39E85}"
+                },
+                {
+                    "text": "Oberschottikon",
+                    "start": 4302,
+                    "end": 4316,
+                    "loc_id": "{66623ACA-990E-4BCC-97F1-1C4C439328FF}"
+                },
+                {
+                    "text": "Dickbuch",
+                    "start": 4321,
+                    "end": 4329,
+                    "loc_id": "{0DE3CBAD-17A9-4938-819C-EA756D71358D}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_14.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Einfahrt weniger breit ===\n\nBRÜTTISELLEN Das Bundesamt für Strassen (Astra) nimmt zwischen der Verzweigung Zürich-Nord und dem Anschluss Effretikon bis voraussichtlich Mitte 2021 umfangreiche Instandsetzungsarbeiten vor und setzt Massnahmen zur Verkehrsoptimierung um. In diesem Rahmen werden in Brüttisellen auch an der Einfahrtsrampe von der A 53 in Fahrtrichtung A 1 Bern/ Zürich diverse Erhaltungsmassnahmen ausgeführt. Diese Arbeiten dauern voraussichtlich von Mitte Mai bis Anfang Oktober und erfordern ab 23. Mai eine Breitenbeschränkung von 2 Metern, sodass die Rampe ab diesem Zeitpunkt für breite Fahrzeuge gesperrt wird. Für die betroffenen Verkehrsteilnehmenden, insbesondere Busse, Lastwagen und andere sogenannte breite Fahrzeuge, wird während der Bauzeit eine Umleitung signalisiert. Die Einfahrtsrampe wird so weit instand gesetzt, dass während der nächsten 15 Jahre keine grösseren Unterhaltsmassnahmen mehr nötig sind. Unter anderem werden dabei Belag und Abdichtung sowie Fahrbahnübergänge, Entwässerung und Fahrzeugrückhaltesystem ersetzt, ausserdem werden die Brückenlager instand gesetzt und verstärkt. red\n\n---\n\n=== Schutz vor Hochwasser ===\n\nAADORF Die erste Etappe des Projekts für den Hochwasserschutz Lützelmurg bei Kleinbasel, Ettenhausen, wurde genehmigt. Gegen das Vorhaben sind keine Einsprachen eingegangen, wie der Gemeinderat in einer Mitteilung schreibt. Die Tiefbauarbeiten der Revitalisierung werden durch die Ed. Vetter AG in Lommis ausgeführt. Mit der Bauleitung wird die Fröhlich Wasserbau AG, Frauenfeld, beauftragt. Voraussichtlicher Baubeginn ist Ende Mai, Anfang Juni. red\n\n---\n\n=== Eindolung des Bachs wird saniert ===\n\nMosnang Mit den Arbeiten für die Sanierung der defekten Eindolung im Bereich der Grundwasserfassung Hofwis in Mosnang wurde gemäss Angaben im Mitteilungsblatt in der vergangenen Woche begonnen. Das Baudepartement des Kantons St.Gallen hat die entsprechende Bewilligung erteilt, die Reparatur darf sich aber nur auf die Schadstelle beschränken. Mit dieser Massnahme erhoffen sich der Gemeinderat und die Dorfkorporation Mosnang, dass die Infiltration-Probleme im Bereich der Grundwasserfassungen Hofwis verschwinden. Die Kosten der Sanierung werden zwischen Gemeinde und Dorfkorporation aufgeteilt. Für die Umsetzung der Abschnitte 3 bis 5 des Projekts «Dorfbach Mosnang» beabsichtigt der Gemeinderat am 25. November bei der Bürgerschaft mittels Urnenabstimmung einen Kredit einzuholen. Mit der Reparatur der Eindolung im Bereich der Grundwasserfassung Hofwis und der Beschränkung des Ausbau-Projektes auf das überbaute Gebiet ist der Gemeinderat überzeugt, dass die Hauptkritiken von der verlorenen Abstimmung vom 24. April 2016 im neuen Vorgehen berücksichtigt sind. Die Ingenieurarbeiten für die Überarbeitung und Anpassung des Projektes «Ausbau Dorfbach» wurden gemäss Angaben der Verantwortlichen an die Firma Steiger + Partner ag, Bütschwil vergeben. (gem/aru)",
+            "toponyms": [
+                {
+                    "text": "BRÜTTISELLEN",
+                    "start": 32,
+                    "end": 44,
+                    "loc_id": "{5891F38D-4F9D-4B97-85AE-0CF2AAEBE159}"
+                },
+                {
+                    "text": "Zürich-Nord",
+                    "start": 111,
+                    "end": 122,
+                    "loc_id": "{12252079-1694-4B7E-AFE2-CB50FC78F5B2}"
+                },
+                {
+                    "text": "Effretikon",
+                    "start": 141,
+                    "end": 151,
+                    "loc_id": "{D8DD3C71-40D2-42C0-8646-AFC972B669DD}"
+                },
+                {
+                    "text": "Brüttisellen",
+                    "start": 300,
+                    "end": 312,
+                    "loc_id": "{42F27B0B-48A7-49F4-998D-B11BB3F7C749}"
+                },
+                {
+                    "text": "Lützelmurg",
+                    "start": 1232,
+                    "end": 1242,
+                    "loc_id": "{557C6860-1230-4F3A-911A-4AFAF50E152B}"
+                },
+                {
+                    "text": "Kleinbasel",
+                    "start": 1247,
+                    "end": 1257,
+                    "loc_id": "{8A0E5BF1-5621-4D55-974E-FD4BDAF7A619}"
+                },
+                {
+                    "text": "Ettenhausen",
+                    "start": 1259,
+                    "end": 1270,
+                    "loc_id": "{6AD02B22-5B58-4D9E-B74B-CBE037609897}"
+                },
+                {
+                    "text": "Lommis",
+                    "start": 1468,
+                    "end": 1474,
+                    "loc_id": "{11DC7023-C883-4B56-A85E-C5508DCF065E}"
+                },
+                {
+                    "text": "Hofwis",
+                    "start": 1769,
+                    "end": 1775,
+                    "loc_id": "{74EB8B81-C001-4C5D-97EB-F6C44E356974}"
+                },
+                {
+                    "text": "Mosnang",
+                    "start": 1779,
+                    "end": 1786,
+                    "loc_id": "{66764793-E70F-41EA-A597-69168458B5B1}"
+                },
+                {
+                    "text": "Mosnang",
+                    "start": 2088,
+                    "end": 2095,
+                    "loc_id": "{66764793-E70F-41EA-A597-69168458B5B1}"
+                },
+                {
+                    "text": "Mosnang",
+                    "start": 2331,
+                    "end": 2338,
+                    "loc_id": "{66764793-E70F-41EA-A597-69168458B5B1}"
+                },
+                {
+                    "text": "Hofwis",
+                    "start": 2521,
+                    "end": 2527,
+                    "loc_id": "{74EB8B81-C001-4C5D-97EB-F6C44E356974}"
+                },
+                {
+                    "text": "Dorfbach",
+                    "start": 2817,
+                    "end": 2825,
+                    "loc_id": "{F7058B0C-1BCE-4E14-92A2-132F43812D19}"
+                },
+                {
+                    "text": "Bütschwil",
+                    "start": 2905,
+                    "end": 2914,
+                    "loc_id": "{C268FAF7-7162-4DEA-9904-1BF82A65400D}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_15.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Der Bagger arbeitet im Fluss ===\n\nIm Gebiet Werd in Jonen raus, unterhalb von Bremgarten wieder rein: Rund 12000 Kubikmeter Kies werden bis Mitte Oktober aus der Reuss gebaggert. Das sind rund 1000 Lastwagenladungen. Das Material wird im Bereich des Honeggerwehrs unterhalb von Bremgarten wieder in den Fluss geschüttet. Das Projekt läuft unter dem Titel «Realisierung der Umweltmassnahmen für das Kraftwerk Bremgarten-Zufikon». Initiiert hat es das Aargauer Departement für Bau, Verkehr und Umwelt (BVU). Nötig ist der Eingriff aufgrund einer Änderung im Gewässerschutzgesetz. Danach darf der Geschiebehaushalt in einem Fliessgewässer durch Anlagen nicht mehr so verändert werden, «dass die einheimischen Tiere und Pflanzen, deren Lebensräume, der Grundwasserhaushalt und der Hochwasserschutz wesentlich beeinträchtigt werden.» Wer also – beispielsweise – ein Kraftwerk betreibt, wie die AEW Energie AG in Bremgarten, muss dafür sorgen, dass durch das Stauwehr der Geschiebehaushalt in einem Fluss dennoch funktioniert. Weil das Kraftwerk Bremgarten-Zufikon nicht geschiebedurchgängig ist, wird der Kies mit dem Bagger umgelagert. Damit werden im unteren Reusslauf unter anderem neue Laichmöglichkeiten für Fische geschaffen. Mit der Ausbaggerung in Jonen ist vor wenigen Tagen begonnen worden. Vorerst wird der Kies dort gelagert, die Lastwagentransporte beginnen in den Herbstferien. Denn dann hat es weniger Verkehr auf den Strassen. Toni Widmer Schaufeln in der Reuss: Im Gebiet Werd in Jonen wird Kies aus dem Fluss gebaggert. Bild: T. Widmer\n\n---\n\n=== Leitungen ­ werden saniert ===\n\nIllnau-Effretikon Die Kanalisations- und Wasserleitungen im Schulweg in Illnau werden für rund 700 000 Franken erneuert. Wie der Stadtrat mitteilt, sind das Schulareal Hagen und die Liegenschaften beim Schulweg heute im Mischwassersystem an die Kanalisation angeschlossen. Wegen der fehlenden Meteorwasserleitung gelangen sämtliche unverschmutzten Abwässer aus diesem Gebiet in die ARA Mannenberg und verursachen dort unnötige Reinigungskosten. Der generelle Entwässerungsplan sieht für diesen Baubereich die Entwässerung im Trennsystem vor. Neu soll das Meteorwasser direkt in die Kempt geleitet werden. Dafür sind 578 000 Franken vorgesehen. Gleichzeitig wird die Wasserleitung im Schulweg ersetzt. Dies führt zu Aufwendungen von 75 000 Franken. Für die abschliessende Instandstellung des Schulweges sind weitere 50 000 Franken vorgesehen. Das Projekt soll im Herbst 2015 umgesetzt werden. red\n\n---\n\n=== Mehr Platz für die Gewässer ===\n\nZÜRICH Bäche, Flüsse und Seen sollen mehr Raum bekommen. Dies verlangt der Bund. Dadurch soll die Artenvielfalt entlang der Ufer zunehmen, der Hochwasserschutz verbessert und die Naherholungsgebiete aufgewertet werden. Im Kanton Zürich beginnt nun die Umsetzung. Entlang der Ufer werden Landstreifen definiert, die den Bächen, Flüssen und Seen vorbehalten sind und nicht bebaut werden dürfen. Für kleine Gewässer im Siedlungsgebiet legen Gemeinden diese Schutzzonen fest, für grössere Gewässer von regionaler und kantonaler Bedeutung ist der Kanton zuständig. Ab 2018 werden in einem ersten Schritt die Gewässerräume in Zürich, Winterthur und in 38 Städten und Gemeinden im Oberland, Glattal und Limmattal festgelegt. hz SEITE 23",
+            "toponyms": [
+                {
+                    "text": "Gebiet Werd",
+                    "start": 41,
+                    "end": 52,
+                    "loc_id": "{E82E43CA-B2F5-4011-B73E-61E0AA33A680}"
+                },
+                {
+                    "text": "Jonen",
+                    "start": 56,
+                    "end": 61,
+                    "loc_id": "{AC5F8144-572E-4E56-A084-452CBAF12BC7}"
+                },
+                {
+                    "text": "Bremgarten",
+                    "start": 82,
+                    "end": 92,
+                    "loc_id": "{FF48B731-933E-44D9-B881-67AFF27F9367}"
+                },
+                {
+                    "text": "Reuss",
+                    "start": 166,
+                    "end": 171,
+                    "loc_id": "{83F028A8-94C0-437F-9174-A02084BF1C6A}"
+                },
+                {
+                    "text": "Bremgarten",
+                    "start": 282,
+                    "end": 292,
+                    "loc_id": "{FF48B731-933E-44D9-B881-67AFF27F9367}"
+                },
+                {
+                    "text": "Bremgarten-Zufikon",
+                    "start": 412,
+                    "end": 430,
+                    "loc_id": "{2EEAC96E-429F-49DE-ABE1-189412E49E5B}"
+                },
+                {
+                    "text": "Bremgarten",
+                    "start": 911,
+                    "end": 921,
+                    "loc_id": "{FF48B731-933E-44D9-B881-67AFF27F9367}"
+                },
+                {
+                    "text": "Bremgarten-Zufikon",
+                    "start": 1044,
+                    "end": 1062,
+                    "loc_id": "{2EEAC96E-429F-49DE-ABE1-189412E49E5B}"
+                },
+                {
+                    "text": "Jonen",
+                    "start": 1255,
+                    "end": 1260,
+                    "loc_id": "{AC5F8144-572E-4E56-A084-452CBAF12BC7}"
+                },
+                {
+                    "text": "Reuss",
+                    "start": 1471,
+                    "end": 1476,
+                    "loc_id": "{83F028A8-94C0-437F-9174-A02084BF1C6A}"
+                },
+                {
+                    "text": "Werd",
+                    "start": 1488,
+                    "end": 1492,
+                    "loc_id": "{E82E43CA-B2F5-4011-B73E-61E0AA33A680}"
+                },
+                {
+                    "text": "Jonen",
+                    "start": 1496,
+                    "end": 1501,
+                    "loc_id": "{AC5F8144-572E-4E56-A084-452CBAF12BC7}"
+                },
+                {
+                    "text": "Illnau",
+                    "start": 1667,
+                    "end": 1673,
+                    "loc_id": "{E0C4F423-C8BC-4EFB-9909-CF5F336A0038}"
+                },
+                {
+                    "text": "Hagen",
+                    "start": 1763,
+                    "end": 1768,
+                    "loc_id": "{022C02CE-D7ED-4AAB-8E84-1D20EBB8A165}"
+                },
+                {
+                    "text": "Mannenberg",
+                    "start": 1981,
+                    "end": 1991,
+                    "loc_id": "{96CC0EA3-3A8E-4420-BC6C-D8ED69C90C81}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 2763,
+                    "end": 2769,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 3154,
+                    "end": 3160,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Winterthur",
+                    "start": 3162,
+                    "end": 3172,
+                    "loc_id": "{EBBF5595-6BFC-4B52-95B2-A05F0B3B01D8}"
+                },
+                {
+                    "text": "Oberland",
+                    "start": 3208,
+                    "end": 3216,
+                    "loc_id": "{0BCF863D-5CF9-4E18-B1DB-8CBAB6A20AFB}"
+                },
+                {
+                    "text": "Glattal",
+                    "start": 3218,
+                    "end": 3225,
+                    "loc_id": "{EE94D9FC-57B8-4255-BBBC-1FAFF29DE8CF}"
+                },
+                {
+                    "text": "Limmattal",
+                    "start": 3230,
+                    "end": 3239,
+                    "loc_id": "{179B20C9-EB6B-4D3F-9118-5A88479D504F}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_18.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Nachtragskredit für Sanierung ===\n\nFlawil 2010 hat die Flawiler Bürgerschaft für die Sanierung der Altdeponie Lehmtobel und den Ausbau des Lehmtobelbachs einen Bruttokredit von 2,57 Millionen Franken gesprochen. Das Baudepartement des Kantons hat im März 2016 das Projekt genehmigt. Erkenntnisse aus der Detailprojektierung machten einen Nachtragskredit notwendig, teilt die Gemeinde mit. Um das Projekt voranzutreiben, werden vorbehältlich der Genehmigung des Nachtragskredits die Baumeisterleistungen ausgeschrieben. Das Gebiet Botsberg-Lehmtobel wurde über Jahrzehnte als Ablagerungsplatz und Kehrichtdeponie genutzt. Dabei wurde der Bach eingedolt und das Tobel teilweise aufgefüllt. Eine Sanierung ist notwendig, weil die Sickerwässer mit Schadstoffen aus der Deponie belastet sind. Diese Sickerwässer gelangen aus der Deponie in den Lehmtobelbach. Ausserdem sind die Böschungen der Abfalldeponie instabil und die Eindolung in einem baulich schlechten Zustand. (pd)\n\n---\n\n=== Hochwasserlage entspannt sich leicht ===\n\nMARTHALEN Die Thur führt schon deutlich weniger Wasser als noch am Freitag. Dennoch beobachtet die Feuerwehr die Lage weiter. Der Wasserpegel des Bodensees ist am Montag weiter angestiegen. Damit hat sich auch der Abfluss in den Rhein Richtung Schaffhausen und Zürcher Weinland vergrössert. Die Messstelle bei Neuhausen verzeichnete ab Montagmittag Abflussmengen von knapp über 900 Kubikmetern pro Sekunde. Das liegt über der dritten von fünf Gefahrenstufen und bedeutet erhebliche Gefahr. Die Situation entspannt sich nur langsam, wie es im aktuellen Naturgefahrenbulletin des Bundes heisst. Insbesondere der Ausfluss aus dem Bodensee bleibe vorerst unverändert hoch. Der Pegel des Bodensees werde noch bis Dienstag leicht ansteigen. In Ellikon am Rhein weiter flussabwärts ist man auf die Wassermassen gut vorbereitet. Die freiwillige Feuerwehr rückte bereits am vergangenen Freitag aus, um vorsorglich einen Hochwasserschutz aufzubauen («Landbote» vom Samstag). «Das Wasser reichte bislang nicht ganz an die Schutzverbauung heran», sagt Feuerwehrkommandant Heiner Wipf. Die Lage habe sich seit Freitag weiter entspannt. Dies trotz steigender Wassermengen in Rhein und Bodensee. Grund dafür sei der bereits wieder tiefere Wasserstand der Thur. Diese mündet einige Hundert Meter unterhalb von Ellikon in den Rhein und sorgt bei Hochwasser dafür, dass sich der Rhein zurückstaut und so Gefahr läuft, über die Ufer zu treten. Noch keine Entwarnung Die Thur erreichte am vergangenen Freitag einen Höchststand mit einem Abfluss von knapp unter 600 Kubikmeter pro Sekunde. Seither ist die Wassermenge wieder deutlich zurückgegangen, am Montagmittag fiel sie auf unter 150 Kubikmeter pro Sekunde. Dennoch gibt Feuerwehrkommandant Heiner Wipf noch keine Entwarnung. Komme es diese Woche in der Ostschweiz zu Gewittern, könne die Thur rasch wieder ansteigen. Die Hochwasserschutzverbauung werde deshalb erst wieder zurückgebaut, wenn sich auch der Rhein wieder beruhigt habe. Rauschender Rheinfall Die hohen Wassermengen führen derzeit am Rheinfall zu einem seltenen Naturschauspiel. Über 900 Kubikmeter pro Sekunde schäumten am Montag über die Felsen in die Tiefe. Ansonsten sind es im Sommer gemäss IG Rheinfall rund 600 Kubikmeter pro Sekunde. Rafael Rohner Die Hochwasserschutzverbauung in Ellikon am Rhein wird sicherheitshalber noch nicht zurückgebaut. Moritz Hager",
+            "toponyms": [
+                {
+                    "text": "Lehmtobelbachs",
+                    "start": 143,
+                    "end": 157,
+                    "loc_id": "{6390B3F3-E406-4D32-BEA7-A94C64D8CF75}"
+                },
+                {
+                    "text": "Botsberg",
+                    "start": 534,
+                    "end": 542,
+                    "loc_id": "{D365BE97-75C2-484B-B42B-897A6D3EA827}"
+                },
+                {
+                    "text": "Lehmtobel",
+                    "start": 543,
+                    "end": 552,
+                    "loc_id": "{6390B3F3-E406-4D32-BEA7-A94C64D8CF75}"
+                },
+                {
+                    "text": "Lehmtobelbach",
+                    "start": 843,
+                    "end": 856,
+                    "loc_id": "{6390B3F3-E406-4D32-BEA7-A94C64D8CF75}"
+                },
+                {
+                    "text": "MARTHALEN",
+                    "start": 1027,
+                    "end": 1036,
+                    "loc_id": "{CA1FBD91-2D19-4B37-8008-17724B3B7822}"
+                },
+                {
+                    "text": "Thur",
+                    "start": 1041,
+                    "end": 1045,
+                    "loc_id": "{D1D0D154-47A3-4583-BE33-9E60009BAB3F}"
+                },
+                {
+                    "text": "Bodensees",
+                    "start": 1173,
+                    "end": 1182,
+                    "loc_id": "{BA996D4E-F43D-473C-A92C-0778C44B3105}"
+                },
+                {
+                    "text": "Rhein",
+                    "start": 1256,
+                    "end": 1261,
+                    "loc_id": "{8BE4BDA9-525B-4737-9DC8-290727340049}"
+                },
+                {
+                    "text": "Schaffhausen",
+                    "start": 1271,
+                    "end": 1283,
+                    "loc_id": "{2DF63BA0-CAB6-42C4-8C52-8ECBA1411CDE}"
+                },
+                {
+                    "text": "Zürcher Weinland",
+                    "start": 1288,
+                    "end": 1304,
+                    "loc_id": "{9661DD3D-4D9B-4F97-B3B7-5D602267794A}"
+                },
+                {
+                    "text": "Neuhausen",
+                    "start": 1337,
+                    "end": 1346,
+                    "loc_id": "{5EF7260D-FB81-45E6-B21D-3F0171E51B5C}"
+                },
+                {
+                    "text": "Bodensee",
+                    "start": 1654,
+                    "end": 1662,
+                    "loc_id": "{D34B9B77-9C30-4FE2-9470-47C4499DAB17}"
+                },
+                {
+                    "text": "Bodensees",
+                    "start": 1710,
+                    "end": 1719,
+                    "loc_id": "{BA996D4E-F43D-473C-A92C-0778C44B3105}"
+                },
+                {
+                    "text": "Ellikon am Rhein",
+                    "start": 1765,
+                    "end": 1781,
+                    "loc_id": "{03F2E4E2-2655-490F-94EE-41AE6D435CBB}"
+                },
+                {
+                    "text": "Rhein",
+                    "start": 2188,
+                    "end": 2193,
+                    "loc_id": "{8BE4BDA9-525B-4737-9DC8-290727340049}"
+                },
+                {
+                    "text": "Bodensee",
+                    "start": 2198,
+                    "end": 2206,
+                    "loc_id": "{D34B9B77-9C30-4FE2-9470-47C4499DAB17}"
+                },
+                {
+                    "text": "Thur",
+                    "start": 2267,
+                    "end": 2271,
+                    "loc_id": "{D1D0D154-47A3-4583-BE33-9E60009BAB3F}"
+                },
+                {
+                    "text": "Ellikon",
+                    "start": 2321,
+                    "end": 2328,
+                    "loc_id": "{4E91E3FB-3DF4-43ED-A6C1-49FD19D3D3EF}"
+                },
+                {
+                    "text": "Rhein",
+                    "start": 2336,
+                    "end": 2341,
+                    "loc_id": "{8BE4BDA9-525B-4737-9DC8-290727340049}"
+                },
+                {
+                    "text": "Rhein",
+                    "start": 2388,
+                    "end": 2393,
+                    "loc_id": "{8BE4BDA9-525B-4737-9DC8-290727340049}"
+                },
+                {
+                    "text": "Thur",
+                    "start": 2850,
+                    "end": 2854,
+                    "loc_id": "{D1D0D154-47A3-4583-BE33-9E60009BAB3F}"
+                },
+                {
+                    "text": "Rhein",
+                    "start": 2968,
+                    "end": 2973,
+                    "loc_id": "{8BE4BDA9-525B-4737-9DC8-290727340049}"
+                },
+                {
+                    "text": "Rheinfall",
+                    "start": 3008,
+                    "end": 3017,
+                    "loc_id": "{800D4334-EC7A-4EBA-A474-307D3DDC9D51}"
+                },
+                {
+                    "text": "Rheinfall",
+                    "start": 3059,
+                    "end": 3068,
+                    "loc_id": "{800D4334-EC7A-4EBA-A474-307D3DDC9D51}"
+                },
+                {
+                    "text": "Ellikon am Rhein",
+                    "start": 3314,
+                    "end": 3330,
+                    "loc_id": "{03F2E4E2-2655-490F-94EE-41AE6D435CBB}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_19.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Neue Inseln im Zürichsee ===\n\nZÜRICHSEE Vielleicht gibt es neben der Saffa-Insel in Zürich-Wollishofen bald zwei weitere künstlich aufgeschüttete Inseln im Zürichsee. Was nach einem Aprilscherz klingt, ist bierernst: Der Kanton Zürich prüft zurzeit, wo im Zürichsee Inselschüttungen möglich wären. Als mögliche Standorte sind die Gemeinden Richterswil mit der Mündung Mülibach und Stäfa im Bereich Risirain im Fokus. Eignen würden sich die beiden Standorte insbesondere wegen der geringen Seetiefe. Seit längerem ist bekannt, dass einige Gemeinden – insbesondere vom linken Ufer – das Geschiebe von Bächen für die Schüttung von Inseln nutzen möchten. Eine entsprechende Anregung der Planungsgruppe Zimmerberg ist ins Leitbild Zürichsee 2050 eingeflossen. Das Problem: Die Bäche am Zürichsee liefern nicht genug Geschiebe. Vorschub leistet der Vision zusätzlicher Inseln nun der Hochwasserschutz. Sollte dereinst zwischen der Sihl und dem Zürichsee ein Hochwasserentlastungsstollen gebaut werden, würde viel Ausbruchmaterial entstehen. Wäre doch der Stollen rund 2 Kilometer lang, sein Durchmesser würde gut 6 Meter betragen. Richard Gautschi, parteiloser Bauvorstand von Thalwil, setzt sich als Privatperson sehr dafür ein, dass diese «einmalige Chance» genutzt wird. sis SEITE 3\n\n---\n\n=== Limmatweg ist für zwei Monate gesperrt ===\n\nNeugestaltung Am Limmat- ufer beim Bahnhof Glanzenberg entsteht momentan die neue Allmend. Die Elektrizitätswerke des Kantons Zürich (EKZ) erstellen am Limmatufer beim Bahnhof Glanzenberg die neue Allmend. Wegen der Bauarbeiten ist der Limmatweg auf der linken Uferseite seit gestern bis und mit 31. Juli gesperrt. Die neue Allmend soll mit Feuerstelle Frischwasser, Rasen, Hartplatz, Tischen und Bänken einladen, schöne Sommerstunden an der Limmat zu verbringen. Auch wird das Ufer abgeflacht, damit man angenehm baden kann. Das kommt ausserdem den zahlreichen Gummiböötlern zugute, die hier bequem aussteigen können. Der neu gepflanzte Rasen soll im Sommer 2019 freigegeben werden. Bedingung für Konzession Die Neugestaltung wird durchgeführt, weil die EKZ ihre Kraftwerke ausbaut. Um die Konzession für die nächsten 60 Jahre zu erhalten, muss sie diverse Massnahmen für Renaturierung, Hochwasserschutz und Naherholung durchführen. Die EKZ investieren 37 Millionen Franken. Neu gebaut wird ein Dotierkraftwerk. Dieses und das zu erneuernde Hauptkraftwerk sollen 18 Prozent mehr Strom liefern. Letzte Woche wurde der Oberwasserkanal für die Kraftwerkserneuerung und den Bau von Fischwanderhilfen trockengelegt. Auch die Arbeiten auf der Grien-Insel, die einen Auenwald erhält und deren Inselspitz neu gestaltet wird, schreiten voran. Die Bauarbeiten für die Erstellung der neuen Allmend am Limmatufer beim Bahnhof Glanzenberg haben begonnen.",
+            "toponyms": [
+                {
+                    "text": "Zürichsee",
+                    "start": 19,
+                    "end": 28,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Zürich-Wollishofen",
+                    "start": 88,
+                    "end": 106,
+                    "loc_id": "{B5A2678B-2C59-4BAF-8852-C56725698156}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 160,
+                    "end": 169,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Kanton Zürich",
+                    "start": 225,
+                    "end": 238,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 260,
+                    "end": 269,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Richterswil",
+                    "start": 344,
+                    "end": 355,
+                    "loc_id": "{CF0FDD1F-1458-423B-A6BD-125B1A848AAD}"
+                },
+                {
+                    "text": "Mülibach",
+                    "start": 372,
+                    "end": 380,
+                    "loc_id": "{13FD1E7C-3DBC-4632-975A-6DC1FCFE94DA}"
+                },
+                {
+                    "text": "Stäfa",
+                    "start": 385,
+                    "end": 390,
+                    "loc_id": "{D25269FA-FA8D-455B-9602-5F1D12675338}"
+                },
+                {
+                    "text": "Risirain",
+                    "start": 402,
+                    "end": 410,
+                    "loc_id": "{C6CEE7AF-8CD1-4780-BE2B-35B0ECCDD18A}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 730,
+                    "end": 739,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 785,
+                    "end": 794,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 929,
+                    "end": 933,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 942,
+                    "end": 951,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Bahnhof Glanzenberg",
+                    "start": 1373,
+                    "end": 1392,
+                    "loc_id": "{B464696A-EA84-4EEE-A432-FB4F9B188CEB}"
+                },
+                {
+                    "text": "Glanzenberg",
+                    "start": 1514,
+                    "end": 1525,
+                    "loc_id": "{B464696A-EA84-4EEE-A432-FB4F9B188CEB}"
+                },
+                {
+                    "text": "Limmat",
+                    "start": 1780,
+                    "end": 1786,
+                    "loc_id": "{3BC7B081-BD4D-4504-96BC-BD1C81E819F4}"
+                },
+                {
+                    "text": "Grien-Insel",
+                    "start": 2576,
+                    "end": 2587,
+                    "loc_id": "{8EE96155-0211-4385-953A-2318108E46CA}"
+                },
+                {
+                    "text": "Bahnhof Glanzenberg",
+                    "start": 2745,
+                    "end": 2764,
+                    "loc_id": "{B464696A-EA84-4EEE-A432-FB4F9B188CEB}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_20.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Furtbach soll wieder natürlich fliessen ===\n\nAargauer Regierungsrat legt Kredit von 3,3 Millionen Franken für Renaturierung vor. Der Furtbach zwischen Würenlos und Hüttikon, an der Grenze zwischen dem Aargau und dem Kanton Zürich, soll wieder natürlicher fliessen. Diese Idee ist nicht neu, aber jetzt wird sie konkret: Der Aargauer Regierungsrat beantragt beim Grossen Rat in einer Botschaft von Ende März einen Verpflichtungskredit von rund 3,3 Millionen Franken. Der Bach im Furttal soll auf einer Strecke von 1,5 Kilometern nicht nur aus seinem Betonkorsett befreit, sondern auch zugänglicher werden für die Bevölkerung. Östlich von Würenlos war er nach 1920 kanalisiert worden. Dadurch entstand «ein grosses ökologisches Defizit», wie es in der Botschaft des Regierungsrats heisst. Aber nicht nur Flora und Fauna litten unter den Betonverbauungen: Auch der Hochwasserschutz ist auf der Höhe der Ortsteile Kempfhof und Oetlikon schon länger nicht mehr gewährleistet. Mehr Platz für Flora, Fauna und die Bevölkerung Der Furtbach soll wieder einen natürlichen Bachlauf entwickeln, mit typischer Bachflora und -fauna. Dazu werden die Betonplatten entfernt und an ausgewählten Stellen Mäander, also kleine Flussschlaufen, angelegt. Zudem wird die Strömung im Bach mit Totholz gelenkt, der bestehende Damm wird in der Höhe angepasst und instandgestellt. In den Gewässerraum integrierte Sitzgelegenheiten sollen die Bevölkerung zum Verweilen und Erleben in einem attraktiven Naherholungsraum einladen, schreibt der Regierungsrat weiter. Der Furtbach bietet Lebensraum für Pflanzen, Amphibien, Insekten und weitere Tiere. Es werden deshalb auch neue Laichgewässer und Kleintierstrukturen angelegt. Die Renaturierung soll als kantonsübergreifendes Projekt geschehen: Planung und Bau führen die Kantone Aargau und Zürich gemeinsam aus. Die Gesamtkosten von rund 4,8 Millionen Franken werden nach einem Kostenschlüssel aufgeteilt, an dem sich insbesondere der Bund (nachträglich mit rund 2,6 Millionen Franken) sowie das Elektrizitätswerk der Stadt Zürich und die SBB mit ökologischen Ausgleichszahlungen beteiligen. Die verbleibenden Restkosten im Aargau werden zwischen Kanton (40 Prozent) und Gemeinde (60 Prozent) aufgeteilt. Der Gemeinderat Würenlos hat im Dezem- ber 2019 dem Gemeindeanteil bereits zugestimmt, dieser wird mit dem Jahresbudget 2022 beschlossen. Andreas Fahrländer 4,8 Millionen Franken kostet das kantonsübergreifende Projekt insgesamt. Der Furtbach bei Würenlos. Bild: Chris Iseli",
+            "toponyms": [
+                {
+                    "text": "Furtbach",
+                    "start": 4,
+                    "end": 12,
+                    "loc_id": "{905F81FA-0132-48B1-AC3D-DE3FDA425831}"
+                },
+                {
+                    "text": "Furtbach",
+                    "start": 137,
+                    "end": 145,
+                    "loc_id": "{905F81FA-0132-48B1-AC3D-DE3FDA425831}"
+                },
+                {
+                    "text": "Würenlos",
+                    "start": 155,
+                    "end": 163,
+                    "loc_id": "{1A4A9808-BC62-4B11-84C9-64E17F5BD9EA}"
+                },
+                {
+                    "text": "Hüttikon",
+                    "start": 168,
+                    "end": 176,
+                    "loc_id": "{EC3E6093-E355-47FD-AE04-DD9F43DC14C3}"
+                },
+                {
+                    "text": "Aargau",
+                    "start": 205,
+                    "end": 211,
+                    "loc_id": "{E11CD2CA-2E2D-415C-8789-C10D7C26E441}"
+                },
+                {
+                    "text": "Kanton Zürich",
+                    "start": 220,
+                    "end": 233,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Furttal",
+                    "start": 482,
+                    "end": 489,
+                    "loc_id": "{0DEE3C46-D49E-45C5-BDF1-8460CAF7EADE}"
+                },
+                {
+                    "text": "Würenlos",
+                    "start": 641,
+                    "end": 649,
+                    "loc_id": "{E25A0E1E-F953-44E3-8D5E-1305DC9C3EFA}"
+                },
+                {
+                    "text": "Kempfhof",
+                    "start": 914,
+                    "end": 922,
+                    "loc_id": "{7BFE60BF-60E4-4344-84BD-1789414DDEBB}"
+                },
+                {
+                    "text": "Oetlikon",
+                    "start": 927,
+                    "end": 935,
+                    "loc_id": "{C6C89053-3D7F-4342-960A-75F02A369381}"
+                },
+                {
+                    "text": "Furtbach",
+                    "start": 1027,
+                    "end": 1035,
+                    "loc_id": "{905F81FA-0132-48B1-AC3D-DE3FDA425831}"
+                },
+                {
+                    "text": "Furtbach",
+                    "start": 1543,
+                    "end": 1551,
+                    "loc_id": "{905F81FA-0132-48B1-AC3D-DE3FDA425831}"
+                },
+                {
+                    "text": "Aargau",
+                    "start": 1802,
+                    "end": 1808,
+                    "loc_id": "{E11CD2CA-2E2D-415C-8789-C10D7C26E441}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 1813,
+                    "end": 1819,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Aargau",
+                    "start": 2147,
+                    "end": 2153,
+                    "loc_id": "{E11CD2CA-2E2D-415C-8789-C10D7C26E441}"
+                },
+                {
+                    "text": "Würenlos",
+                    "start": 2244,
+                    "end": 2252,
+                    "loc_id": "{E25A0E1E-F953-44E3-8D5E-1305DC9C3EFA}"
+                },
+                {
+                    "text": "Furtbach",
+                    "start": 2462,
+                    "end": 2470,
+                    "loc_id": "{905F81FA-0132-48B1-AC3D-DE3FDA425831}"
+                },
+                {
+                    "text": "Würenlos",
+                    "start": 2475,
+                    "end": 2483,
+                    "loc_id": "{E25A0E1E-F953-44E3-8D5E-1305DC9C3EFA}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_22.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Schönenwerd: Die neue Kreuzung kostet 18 Millionen ===\n\nJetzt ist klar, wie viel der Ausbau der Dietiker Schönenwerdkreuzung kosten wird: 17,85 Millionen Franken. Der Regierungsrat hat diesen Teilbetrag aus dem Rahmenkredit der Limmattalbahn freigegeben, wie er gestern mitgeteilt hat. Im November 2015 haben die Stimmberechtigten des Kantons insgesamt 136 Millionen Franken für Strassenprojekte im Zusammenhang mit der Limmattalbahn bewilligt. Hauptsächlich geht es dabei darum, die Zentren von Schlieren und Dietikon von Durchgangsverkehr zu befreien und Platz für die Bahn zu schaffen. Damit dies möglich wird, werden seit dem letzten Sommer schon diverse Kreuzungen, Strassen und Brücken in Schlieren und Dietikon aus- und umgebaut. Das vom Kanton im Einvernehmen mit den Städten Dietikon und Schlieren sowie der Gemeinde Urdorf ausgearbeitete Projekt für die Schönenwerdkreuzung umfasst den Bau einer Stützmauer und eines kombinierten Rad-/Gehwegs entlang der Bernstrasse, von der Brücke Schönenwerd bis zur Bushaltestelle Schönenwerd. Zudem wird zwischen der Zürcher- und der Bernstrasse eine neue Verbindungsstrasse mit einem Radweg sowie einer Lichtsignalanlage gebaut. Im Bereich der Zürcherstrasse 231 und 233 wird eine neue Lärmschutzwand erstellt, während die alte im Bereich der Zürcherstrasse 234 abgebrochen wird. Zudem werden Anpassungen an der Fahrbahngeometrie und entlang der Zürcher-/Badenerstrasse gestalterische Aufwertungen gemacht, wie der Regierungsrat mitteilt. Die Bushaltestelle Schönenwerd wird behindertengerecht ausgebaut und diverse Werkleitungen, die Strassenbeleuchtung, die Entwässerung und sämtliche Fahrbahnebeläge werden erneuert. Fünf Einsprachen Gemäss Mitteilung gingen während der öffentlichen Auflage fünf Einsprachen ein, die projektbezogene und enteignungsrechtliche Begehren beinhalteten. Mit der Projektfestsetzung hat der Regierungsrat die Begehren teilweise gutgeheissen und teilweise abgewiesen, wie er mitteilt. Sofern gegen die Projektfestsetzung keine Rechtsmittel ergriffen werden, beginnt das kantonale Tiefbauamt im August mit den Bauarbeiten. (BHI)",
+            "toponyms": [
+                {
+                    "text": "Schönenwerd",
+                    "start": 4,
+                    "end": 15,
+                    "loc_id": "{2E7AE0C0-6264-4E26-B9FC-AC9249ACC44C}"
+                },
+                {
+                    "text": "Schlieren",
+                    "start": 500,
+                    "end": 509,
+                    "loc_id": "{869A136C-21CC-4819-AD87-DB4AAA0CAFBE}"
+                },
+                {
+                    "text": "Dietikon",
+                    "start": 514,
+                    "end": 522,
+                    "loc_id": "{EE50E3C5-99B1-4D4A-A017-8BDC055B711C}"
+                },
+                {
+                    "text": "Schlieren",
+                    "start": 699,
+                    "end": 708,
+                    "loc_id": "{869A136C-21CC-4819-AD87-DB4AAA0CAFBE}"
+                },
+                {
+                    "text": "Dietikon",
+                    "start": 713,
+                    "end": 721,
+                    "loc_id": "{EE50E3C5-99B1-4D4A-A017-8BDC055B711C}"
+                },
+                {
+                    "text": "Dietikon",
+                    "start": 788,
+                    "end": 796,
+                    "loc_id": "{EE50E3C5-99B1-4D4A-A017-8BDC055B711C}"
+                },
+                {
+                    "text": "Schlieren",
+                    "start": 801,
+                    "end": 810,
+                    "loc_id": "{869A136C-21CC-4819-AD87-DB4AAA0CAFBE}"
+                },
+                {
+                    "text": "Urdorf",
+                    "start": 830,
+                    "end": 836,
+                    "loc_id": "{8894E61A-38BA-41F7-A926-7CC4C292FE45}"
+                },
+                {
+                    "text": "Schönenwerd",
+                    "start": 997,
+                    "end": 1008,
+                    "loc_id": "{2E7AE0C0-6264-4E26-B9FC-AC9249ACC44C}"
+                },
+                {
+                    "text": "Schönenwerd",
+                    "start": 1032,
+                    "end": 1043,
+                    "loc_id": "{2E7AE0C0-6264-4E26-B9FC-AC9249ACC44C}"
+                },
+                {
+                    "text": "Schönenwerd",
+                    "start": 1511,
+                    "end": 1522,
+                    "loc_id": "{2E7AE0C0-6264-4E26-B9FC-AC9249ACC44C}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_25.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Rasenplatz wird saniert ===\n\nKILCHBERG Der Rasensportplatz auf der Sportanlage Hochweid sei sanierungsbedürftig, teilt der Gemeinderat Kilchberg mit. Die Sportanlage Hochweid mit dem Rasensportplatz wurde 1970 fertiggestellt. Eine letzte Sanierung fand 1997 statt. Derzeit weise der Zustand des Platzes auf eine mangelnde Entwässerung der Spielfeldoberfläche hin, schreibt die Gemeinde. Entsprechende Sondagen brachten die Erkenntnis, dass die Sickerleitungen teilweise defekt oder verstopft und somit nicht mehr über alle Bereiche funktionstüchtig sind und der Boden durch die dauernde Benutzung und das jährliche Aufbringen einer Sandschicht stark verdichtet ist. Der Gemeinderat Kilchberg hat für die Sanierung des Rasens einen Kredit von 280 000 Franken bewilligt. Er geht davon aus, dass der jährliche Pflegeaufwand nach der Sanierung in den kommenden Jahren gesenkt werden kann. zsz\n\n---\n\n=== Kirchberg gewährt Baukredit ===\n\nKirchberg Das Kirchberger Stimmvolk heisst den Baukredit von rund 7 Millionen Franken für die Erweiterung des Oberstufenschulhauses Flurstrasse in Bazenheid mit rund 65 Prozent gut. Knapp 35 Prozent lehnten den Kredit ab. Das Projekt umfasst nebst der Erweiterung des Schulraums Massnahmen im Bereich Hochwasserschutz sowie die Verlegung der Trafostation und der Kommunikationszentrale. Die Gemeinde erachtet die Erweiterung vor allem aufgrund der steigenden Schülerzahlen in Bazenheid als notwendig. Nun werden zunächst Verlegungsarbeiten ausgeführt, dann beginnt der Erweiterungsbau. Die Einweihung ist für den Sommer 2020 geplant. (gem/tik)",
+            "toponyms": [
+                {
+                    "text": "Hochweid",
+                    "start": 83,
+                    "end": 91,
+                    "loc_id": "{DB4A046E-E965-441F-855A-84D4982F3243}"
+                },
+                {
+                    "text": "Kilchberg",
+                    "start": 139,
+                    "end": 148,
+                    "loc_id": "{D86C8841-E459-46AC-8B67-2D8FB8D93D77}"
+                },
+                {
+                    "text": "Hochweid",
+                    "start": 170,
+                    "end": 178,
+                    "loc_id": "{DB4A046E-E965-441F-855A-84D4982F3243}"
+                },
+                {
+                    "text": "Kilchberg",
+                    "start": 686,
+                    "end": 695,
+                    "loc_id": "{D86C8841-E459-46AC-8B67-2D8FB8D93D77}"
+                },
+                {
+                    "text": "Kirchberg",
+                    "start": 903,
+                    "end": 912,
+                    "loc_id": "{9CF37876-6023-4C91-8541-2954247FFC71}"
+                },
+                {
+                    "text": "Bazenheid",
+                    "start": 1083,
+                    "end": 1092,
+                    "loc_id": "{55AF1A52-3FBA-4344-B431-74EA6065A2B2}"
+                },
+                {
+                    "text": "Bazenheid",
+                    "start": 1412,
+                    "end": 1421,
+                    "loc_id": "{55AF1A52-3FBA-4344-B431-74EA6065A2B2}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_28.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Mehr Bäche zum Laichen öffnen ===\n\nZÜRICHSEE Die Seeforelle braucht Bäche zum Laichen. Doch meist ist der Weg blockiert. Küsnacht schaffte Abhilfe. Am Zürichsee gibt es noch weitere Orte, wo die Seeforelle auf Laichwanderung gehen könnte – auch am linken Ufer und am Obersee. Bäche, die in flachen, gepflästerten Betten und mit Stufen für den Hochwasserschutz in den Zürichsee münden, sind für Seeforellen ein unüberwindbares Hindernis. Sie gelangen nicht mehr in ihre ursprünglichen Fortpflanzungsgebiete. Kein Wunder, sind die Fangquoten im Zürichsee von über 6 (im Jahr 1971) auf unter 1 Tonne (2008) eingebrochen. Heute beträgt sie wieder rund 2,5 Tonnen. Das ist auch Renaturierungsmassnahmen wie in Küsnacht zu verdanken. Dort wurde ab 2011 die Sohle des Dorfbachs ausgehoben, sodass geschlechtsreife Fische wieder die Fliessgewässer hochwandern können. Von dieser Gelegenheit machen die Seeforellen nun Gebrauch, wie in diesem Herbst weit abseits vom See nachgewiesen wurde. Ein Seeforellenmännchen mass 74 Zentimeter Länge und wog fast fünf Kilogramm. Das letzte grosse Exemplar im Dorfbach Küsnacht wurde 2009 gefangen, kam damals aber nur bis zur Hornwegbrücke, nahe am See. Ohne Sanierung unerreichbar Andreas Hertig, Adjunkt der kantonalzürcherischen Fischereiund Jagdverwaltung, bezeichnet dies als Erfolg der Bemühungen. «Es freut mich, dass damit die Anstrengungen und Aufwendungen der Gemeinde und des Kantons klar ersichtlich Früchte tragen.» Ohne die Sanierung der Wanderhindernisse im Dorfbach wäre es unmöglich, dass wieder so grosse Laichtiere bis zur Alten Landstrasse – rund einen Kilometer vom Seeufer entfernt – aufschwimmen können. «Damit wurde viel neuer Laichund Jungfischlebensraum für die Seeforellen erschlossen», sagt Hertig. «Wir stellen aber immer wieder auch einzelne Seeforellen in kleineren Bächen fest.» Horgen und Jona möglich Da stellt sich die Frage, ob auch anderswo Revitalisierungen von Bacheinläufen in den Zürichsee der Seeforelle den Weg zu Laichplätzen wieder öffnen könnten. Ein grosses, noch nicht ausgeschöpftes Potenzial auf Zürcher Gebiet hätten besonders der Hornbach in Zürich, der Feldbacherbach in Hombrechtikon und der Aabach in Horgen, zählt der Fischereiadjunkt auf. Auch am St. Galler Ufer sieht Hertig Möglichkeiten, der Seeforelle wieder Entfaltungsmöglichkeiten zu geben. «Am Obersee könnte die Jona nach einer allfälligen Revitalisierung und Durchgängigkeitssanierung dereinst wieder bis nach Rüti hoch für Seeforellen als Laichgebiet erreichbar sein», sagt er. Projekt in Meilen vollendet Neben dem Dorfbach Küsnacht ist bereits ein zweites Projekt umgesetzt worden. In Meilen wurde jüngst der Dorfbach auf dem untersten Abschnitt zwischen Dorfstrasse und See revitalisiert und auch für die Seeforelle stark aufgewertet. «Wir hoffen, dass das gelungene Projekt dazu führt, dass der Dorfbach Meilen wieder zu einem guten Laichgewässer für die Seeforelle wird», sagt Hertig. «Nach Projektabschluss im vergangenen September haben wir im betreffenden Bachabschnitt wieder Seeforellensömmerlinge angesiedelt.» Machbarkeitsstudien zum Seeforellenaufstieg hat die Zürcher Fischereiund Jagdverwaltung bereits für den am Zürichhorn mündenden Hornbach, den Feldbacherbach und den Aabach Horgen erstellen lassen. Am Hornbach in Zürich sowie am Feldbacherbach sind kombinierte Hochwasserschutzund Revitalisierungsprojekte der Standortgemeinden in Vorbereitung. «In Horgen sind wir im Gespräch mit den Behörden für eine Lösung zugunsten der Seeforelle im Aabach», sagt Hertig. Was in Horgen fehlt, ist eine gewisse Dringlichkeit, wie der Fischereiadjunkt erklärt: «Dort gibt es kein Hochwasserschutzproblem, das auch als Treiber für eine freie Fischwanderung wirken würde.» Christian Dietz-Saluz Der Zürcher Fischereiadjunkt Andreas Hertig holte dieses kapitale Seeforellenmännchen aus dem Küsnachter Dorfbach. Fischereiverwaltung Kanton Zürich In Meilen bietet der Dorfbach für Seeforellen wieder Lebensraum. SEEFORELLE IN SEE UND BACH Die Zuflüsse sind Geburtsstätten der Seeforelle. Die Jungfische verbringen dort die ersten Lebensjahre. Im Alter von ein bis drei Jahren und ab einer Länge von 10 bis 20 Zentimetern wandern sie in den Zürichsee ab. Dann sind sie bereits zu gross, um vom grössten Feind, dem Egli, gefressen zu werden. Im See wachsen die Seeforellen dank des grösseren Futterangebots schnell und entwickeln sich zur Geschlechtsreife. Für die Fortpflanzung sucht der Fisch in der Regel sein Geburtsgewässer auf, wie im «Seeforellen-Management» der Zürcher Fischereiund Jagdverwaltung erklärt wird. Daher ist es so wichtig, mit der Revitalisierung der Bachläufe die Durchlässigkeit für Laichtiere zu erhöhen. Dazu gehören tiefe Rückzugspools und Mikrohabitate in den Zuflüssen für die Laichund Jungfische. di",
+            "toponyms": [
+                {
+                    "text": "Küsnacht",
+                    "start": 125,
+                    "end": 133,
+                    "loc_id": "{96C6C689-8B84-4463-94F7-E8A004D67D2E}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 155,
+                    "end": 164,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Obersee",
+                    "start": 271,
+                    "end": 278,
+                    "loc_id": "{2362E4BB-8CD1-444E-85A3-6C08C653E256}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 371,
+                    "end": 380,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 547,
+                    "end": 556,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Küsnacht",
+                    "start": 709,
+                    "end": 717,
+                    "loc_id": "{96C6C689-8B84-4463-94F7-E8A004D67D2E}"
+                },
+                {
+                    "text": "Küsnacht",
+                    "start": 1103,
+                    "end": 1111,
+                    "loc_id": "{96C6C689-8B84-4463-94F7-E8A004D67D2E}"
+                },
+                {
+                    "text": "Horgen",
+                    "start": 1846,
+                    "end": 1852,
+                    "loc_id": "{F221BE86-F247-4E4E-A6EE-409AA98F7D6E}"
+                },
+                {
+                    "text": "Jona",
+                    "start": 1857,
+                    "end": 1861,
+                    "loc_id": "{BB743F23-8A7A-4D33-8AB6-C951151D5E3F}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 1956,
+                    "end": 1965,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Hornbach",
+                    "start": 2117,
+                    "end": 2125,
+                    "loc_id": "{51852985-A551-41AA-860B-B6F77CE82086}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 2129,
+                    "end": 2135,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Feldbacherbach",
+                    "start": 2141,
+                    "end": 2155,
+                    "loc_id": "{5F0A8840-B787-4FE2-808C-6D77DDFFB047}"
+                },
+                {
+                    "text": "Hombrechtikon",
+                    "start": 2159,
+                    "end": 2172,
+                    "loc_id": "{2A2869CD-9034-4300-943F-23364EB8330B}"
+                },
+                {
+                    "text": "Aabach",
+                    "start": 2181,
+                    "end": 2187,
+                    "loc_id": "{7D327A19-F57F-4DEB-8F63-9EF8F38A70FA}"
+                },
+                {
+                    "text": "Horgen",
+                    "start": 2191,
+                    "end": 2197,
+                    "loc_id": "{F221BE86-F247-4E4E-A6EE-409AA98F7D6E}"
+                },
+                {
+                    "text": "Obersee",
+                    "start": 2344,
+                    "end": 2351,
+                    "loc_id": "{2362E4BB-8CD1-444E-85A3-6C08C653E256}"
+                },
+                {
+                    "text": "Rüti",
+                    "start": 2462,
+                    "end": 2466,
+                    "loc_id": "{487BED0B-9589-4000-8004-F6A6581C0E71}"
+                },
+                {
+                    "text": "Küsnacht",
+                    "start": 2578,
+                    "end": 2586,
+                    "loc_id": "{96C6C689-8B84-4463-94F7-E8A004D67D2E}"
+                },
+                {
+                    "text": "Meilen",
+                    "start": 2640,
+                    "end": 2646,
+                    "loc_id": "{027A2F6F-A7FC-48BB-99F3-CA5CA4BCAA56}"
+                },
+                {
+                    "text": "Dorfbach",
+                    "start": 2852,
+                    "end": 2860,
+                    "loc_id": "{D90F7E19-0BBC-41C8-A774-D6734C3D0DE0}"
+                },
+                {
+                    "text": "Zürichhorn",
+                    "start": 3182,
+                    "end": 3192,
+                    "loc_id": "{6F44FC7E-91F0-4500-8FA4-CA3984F923A3}"
+                },
+                {
+                    "text": "Hornbach",
+                    "start": 3203,
+                    "end": 3211,
+                    "loc_id": "{51852985-A551-41AA-860B-B6F77CE82086}"
+                },
+                {
+                    "text": "Feldbacherbach",
+                    "start": 3217,
+                    "end": 3231,
+                    "loc_id": "{5F0A8840-B787-4FE2-808C-6D77DDFFB047}"
+                },
+                {
+                    "text": "Hornbach",
+                    "start": 3275,
+                    "end": 3283,
+                    "loc_id": "{51852985-A551-41AA-860B-B6F77CE82086}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 3287,
+                    "end": 3293,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Feldbacherbach",
+                    "start": 3303,
+                    "end": 3317,
+                    "loc_id": "{5F0A8840-B787-4FE2-808C-6D77DDFFB047}"
+                },
+                {
+                    "text": "Horgen",
+                    "start": 3423,
+                    "end": 3429,
+                    "loc_id": "{F221BE86-F247-4E4E-A6EE-409AA98F7D6E}"
+                },
+                {
+                    "text": "Aabach",
+                    "start": 3512,
+                    "end": 3518,
+                    "loc_id": "{7D327A19-F57F-4DEB-8F63-9EF8F38A70FA}"
+                },
+                {
+                    "text": "Horgen",
+                    "start": 3541,
+                    "end": 3547,
+                    "loc_id": "{F221BE86-F247-4E4E-A6EE-409AA98F7D6E}"
+                },
+                {
+                    "text": "Dorfbach",
+                    "start": 3858,
+                    "end": 3866,
+                    "loc_id": "{0033AC26-A166-4ECB-B510-9798BABC3495}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 4195,
+                    "end": 4204,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_29.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Kantonsrat sagt Ja zu Stollen von der Sihl in den Zürichsee ===\n\n175-Millionen-Projekt Die Stadt Zürich soll vor Hochwasser geschützt werden. Der Kanton will dafür unter Thalwil hindurch einen Stollen bauen. Pascal Jäggi Trotz Corona-Krise spricht sich der Zürcher Kantonsrat für einen teuren Hochwasserschutz aus. Für 175,5 Millionen Franken soll ein Stollen gebaut werden, der von der Sihl auf Langnauer Gemeindegebiet in den Zürichsee führt. Der Auslauf wird sich bei der Badi Bürger I in Thalwil befinden. In den Kredit eingerechnet sind ökologische Ersatzmassnahmen an der Sihl und am Zürichsee in Richterswil. Aufgeschreckt durch ein kritisches Hochwasser der Sihl 2005, hat der Regierungsrat einen umfassenden Schutz für die Stadt Zürich in Auftrag gegeben. Denn die potenziellen Schäden in Zürich werden auf 6,7 Milliarden Franken geschätzt. Entschädigung für Thalwil Die Kommission für Planung und Bau empfahl die Vorlage zur Annahme. Kommissionspräsident Andrew Katumba (SP, Zürich) betonte an der Debatte am Montag, dass Zürich 2005 nur knapp einer Katastrophe entging. Der Entlastungsstollen sei nur ein Teil der Massnahmen für den Hochwasserschutz, wenn auch eine der wichtigsten. Im Kantonsrat sprachen sich alle Fraktionen für das Bauwerk aus. Zwar wurden die Kosten als hoch eingeschätzt, doch stellten die Fraktionen diesen die zu erwartenden Schäden entgegen. Redner von SVP, FDP, GLP und den Grünen äusserten Kritik an der kantonalen Gebäudeversicherung (GVZ). Diese beteiligt sich nicht an den Kosten. Einzig Barbara Günthard (EVP, Winterthur) stellte sich schützend vor die GVZ. Sie sei nur für Gebäudeschäden zuständig, nicht für Flächenschäden, sagte Günthard. Zieht man die Beiträge von SBB, SZU, Bund und der Stadt Zürich ab, muss der Kanton Zürich knapp 100 Millionen Franken übernehmen. Die Gemeinde Thalwil erhält vom Kanton 1,5 Millionen Franken als Entschädigung, weil die Badi Bürger I während der Bauzeit nicht genutzt werden kann. Kritik an Gemeinderat Für die SP stellte Jonas Erni (Wädenswil) die Frage, ob das wohl selten zum Einsatz kommende Bauwerk nicht auch anders genützt werden könnte, etwa als Fuss- oder Veloweg. Die Baudirektion lehnte dies bisher ab, weil erhebliche Mehrkosten und Schwierigkeiten entstünden. Erni forderte dennoch eine genaue Prüfung. Marcel Suter (SVP, Thalwil) nutzte die Gelegenheit, um den Thalwiler Gemeinderat zu kritisieren. Dieser lasse Bootsplätze verschwinden und eine Badi schliessen. In Thalwil führe das Projekt somit zu Leidtragenden. Der Gemeinderat nütze ausserdem die Pandemie aus, um umstrittene Geschäfte von der Gemeindeversammlung an die Urne zu verschieben. Trotz Kritik war der Kredit unbestritten. Der Kantonsrat sprach sich mit 172 zu 0 Stimmen für den Bau des Entlastungsstollens und die ökologischen Ersatzmassnahmen aus. Beschwerde hängig Mit dem Ja des Kantonsrats sollte dem Bau des Entlastungsstollens zwischen Sihl und Zürichsee nichts mehr im Weg stehen. Zumindest fast nichts. Gegen den Entscheid kann das Referendum ergriffen werden. Wie eine Anfrage bei der kantonalen Baudirektion ergibt, ist zudem noch eine Beschwerde beim Verwaltungsgericht hängig. Der Beschwerdeführer geht gegen den Festsetzungsentscheid des Regierungsrates vor. Mediensprecher Wolfgang Bollack sagt, dass noch offen sei, ob diese Beschwerde den Zeitplan des Baus beeinflussen werde. Zurzeit wird der Baubeginn im Frühling 2022 erwartet, wie Baudirektor Martin Neukom (Grüne) an der Kantonsratssitzung sagte. Die Bauzeit beträgt rund dreieinhalb Jahre. Ab Herbst 2025 sollte der Stollen also zur Verfügung stehen. Begonnen wird der Bau beim Einlauf an der Sihl. Von dort bohrt sich eine Maschine bis zum Auslauf in den Zürichsee durch den Untergrund. Das Aushubmaterial wird im Sihltal mit der Bahn abtransportiert. Der Stollen wird rund 2 Kilometer lang und hat einen Durchmesser von 6,6 Metern. Bei der Konzipierung musste unter anderem darauf geachtet werden, dass der Zimmerberg-Basistunnel II dereinst unter dem Stollen hindurchführen soll. Ein Rheinfall unter Thalwil Zusammen mit dem Schwemmholzrechen auf Langnauer Gemeindegebiet soll der Stollen vor allem die Stadt Zürich vor Schäden durch ein Hochwasser schützen. Sobald die Sihl mehr als 250 Kubikmeter Wasser pro Sekunde führt, öffnet sich der Stolleneingang automatisch, und ein Teil des Wassers fliesst in den Zürichsee. Beim letzten kritischen Hochwasser 2005 betrug die Wassermenge 290 Kubikmeter pro Sekunde. Die Stadt Zürich wäre mit den beiden Bauwerken mindestens vor einem Hochwasser geschützt, wie es statistisch gesehen alle 500 Jahre vorkommt. Der Stollen könnte bis zu 600 Kubikmeter pro Sekunde aufnehmen. Das entspreche der Menge, die im Sommer den Rheinfall hinabfliesse, sagte Martin Neukom zum Vergleich. Für den Zürichsee sollen die Wassermengen aufgrund der grossen Fläche keine dramatischen Folgen haben. Die Stadt muss noch Massnahmen treffen, um zu verhindern, dass die Limmat über die Ufer tritt. Sie plant darum, die Rathausbrücke zu erhöhen und das Wehr am Platzspitz zu erneuern. Wo heute die Badi Bürger I steht (im Vordergrund), soll der Entlastungsstollen in den Zürichsee münden. Archivfoto: Manuela Matt Thalwil erhält 1,5 Millionen Franken als Entschädigung, weil die Badi Bürger I während der Bauzeit nicht genutzt werden kann.",
+            "toponyms": [
+                {
+                    "text": "Sihl",
+                    "start": 42,
+                    "end": 46,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 54,
+                    "end": 63,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Stadt Zürich",
+                    "start": 95,
+                    "end": 107,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 174,
+                    "end": 181,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 391,
+                    "end": 395,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Langnauer",
+                    "start": 400,
+                    "end": 409,
+                    "loc_id": "{D97A5C10-7114-4CAB-BE33-02D30FAEA25A}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 432,
+                    "end": 441,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 496,
+                    "end": 503,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 582,
+                    "end": 586,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 594,
+                    "end": 603,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Richterswil",
+                    "start": 607,
+                    "end": 618,
+                    "loc_id": "{CF0FDD1F-1458-423B-A6BD-125B1A848AAD}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 670,
+                    "end": 674,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 872,
+                    "end": 879,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Stadt Zürich",
+                    "start": 1738,
+                    "end": 1750,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 1831,
+                    "end": 1838,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 2322,
+                    "end": 2329,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 2467,
+                    "end": 2474,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 2910,
+                    "end": 2914,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 2919,
+                    "end": 2928,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 3633,
+                    "end": 3637,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 3696,
+                    "end": 3705,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihltal",
+                    "start": 3755,
+                    "end": 3762,
+                    "loc_id": "{2F71F121-DA2A-4EA9-A655-1296330E8624}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 4043,
+                    "end": 4050,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Langnauer",
+                    "start": 4090,
+                    "end": 4099,
+                    "loc_id": "{D97A5C10-7114-4CAB-BE33-02D30FAEA25A}"
+                },
+                {
+                    "text": "Stadt Zürich",
+                    "start": 4146,
+                    "end": 4158,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 4213,
+                    "end": 4217,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 4352,
+                    "end": 4361,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Stadt Zürich",
+                    "start": 4458,
+                    "end": 4470,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 4771,
+                    "end": 4780,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Limmat",
+                    "start": 4933,
+                    "end": 4939,
+                    "loc_id": "{3BC7B081-BD4D-4504-96BC-BD1C81E819F4}"
+                },
+                {
+                    "text": "Platzspitz",
+                    "start": 5023,
+                    "end": 5033,
+                    "loc_id": "{56FECFB2-88D9-477A-9F02-57B08FFCB1E1}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 5133,
+                    "end": 5142,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_30.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Kanton Zürich will im See neue Inseln schaffen ===\n\nZÜRICHSEE Die Ufenau oder Lützelau sind beliebte Inseln im See. Schon bald könnten sie kleine Geschwister erhalten. Der Kanton Zürich will aus Aushubmaterial neue Inseln aufschütten. In Richterswil findet man die Idee gut, in Stäfa ist man skeptisch. Wenn die Bevölkerung wächst, kann man verdichtet bauen. Das Problem: Den See kann man nicht aufstocken oder vergrössern – sprich, Naherholungsgebiete können kaum wachsen. Der Kanton Zürich will diesem Problem jetzt mit einer kreativen Lösung im Zürichsee entgegentreten. Kantonsplaner Wilhelm Natrup enthüllte gegenüber der Sendung «Schweiz aktuell» von SRF die Pläne: «Wir wollen etwas Neues erschaffen, Inseln, wie sie zum Beispiel im Urner Reussdelta aufgeschüttet worden sind.» Das heisst, es könnten Badeinseln mit gepflegter Flora und Fauna werden. Der Kanton ist bei der Planung bereits weit fortgeschritten und hat mit den zwei möglichen Standortgemeinden Gespräche geführt. Angst vor Mehrverkehr In Stäfa begegnet man der Idee kritisch, wie Tiefbauvorsteherin Claudia Hollenstein (GLP) gegenüber SRF sagt. Die Gemeinde müsste einen Kostenanteil von 300 000 Franken tragen. Und auch das Problem mit dem erwarteten Mehrverkehr müsste die Gemeinde selber lösen. «Das hat die Vorteile nicht aufgewogen.» In Stäfa war die Insel im Gebiet Risi zwischen Ürikon und Feldbach angedacht. Dort gibt es bereits heute Badeplätze – die Parkplätze sind im Sommer stets sehr begehrt. Auf der anderen Seeseite in Richterswil sieht man die Idee des Kantons lieber. Dort könnten die Inseln im Gebiet Mülibach aufgeschüttet werden. «Eine Insel wäre nur im Winter sichtbar, die zweite könnte im Sommer etwa ein Floss ersetzen», erzählt Gemeindepräsident Hans Jörg Huber (FDP) in der TV-Sendung. Die Gemeinde sei interessiert daran, noch attraktiver zu werden. Ganz neu ist die Idee von zusätzlichen Inseln im See nicht. 2011 gab die Zürcher Planungsgruppe Zimmerberg (ZPZ) den Anstoss für die Vision, die damals auch in das Leitbild Zürichsee 2050 des Kantons eingeflossen ist. Geschiebe aus Bächen hätte als Material für die Inseln dienen können. Das ist nun anders. Aushubmaterial aus Thalwil Das Aushubmaterial, das für die Inseln benötigt wird, könnte der Kanton nämlich quasi im Vorbeigehen erhalten. Dann wenn er den geplanten Hochwasserentlastungsstollen bei Thalwil realisiert. Dieser ist Teil von mehreren Massnahmen, die dem Hochwasserschutz an Sihl, Zürichsee und Limmat dienen sollen. Der Kanton rechnet mit mindestens zehn Jahren, bis das Projekt der neuen Inseln im Zürichsee umgesetzt werden könnte. In dieser Zeit müssen die Gemeinden überzeugt und Kritiker besänftigt werden. Und diese gibt es bereits. Pro Natura stellt sich auf den Standpunkt, dass der Lebensraum Wasser schon durch Pflanzen und Tiere besetzt ist. «Diese werden verdrängt, wenn sich der Mensch im See breitmacht», sagt Geschäftsleiter Andreas Hasler. Pro Natura dürfte sich derweil an einem Inselprojekt freuen, das deutlich konkreter ist als die Zürichsee-Inseln vor Stäfa oder Richterswil. Im Obersee werden bei Rapperswil-Jona ab September Brutplätze für seltene Vögel geschaffen. Dafür werden zwei Inseln in der Stampfbucht umgebaut und aufgeschüttet. Die komplexen Aushub- und Gestaltungsarbeiten dauern rund zwei Wochen und kosten 120 000 Franken. Conradin Knabenhans Eine der ganz kleinen Zürichseeinseln befindet sich bereits vor Richterswil. Die Insel Schönenwerd erhält vielleicht bald schon Nachbarinseln. Patrick Gutenberg",
+            "toponyms": [
+                {
+                    "text": "ZÜRICHSEE",
+                    "start": 56,
+                    "end": 65,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Ufenau",
+                    "start": 70,
+                    "end": 76,
+                    "loc_id": "{5ABC17C1-A9AE-402F-852B-E513CDC2379B}"
+                },
+                {
+                    "text": "Lützelau",
+                    "start": 82,
+                    "end": 90,
+                    "loc_id": "{DD77887F-1FA2-49B5-8189-1BE206A3C107}"
+                },
+                {
+                    "text": "Kanton Zürich",
+                    "start": 482,
+                    "end": 495,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 552,
+                    "end": 561,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Stäfa",
+                    "start": 1015,
+                    "end": 1020,
+                    "loc_id": "{D25269FA-FA8D-455B-9602-5F1D12675338}"
+                },
+                {
+                    "text": "Stäfa",
+                    "start": 1319,
+                    "end": 1324,
+                    "loc_id": "{D25269FA-FA8D-455B-9602-5F1D12675338}"
+                },
+                {
+                    "text": "Risi",
+                    "start": 1349,
+                    "end": 1353,
+                    "loc_id": "{7CDDB3F8-32AF-451E-99CE-F04E45B87E63}"
+                },
+                {
+                    "text": "Ürikon",
+                    "start": 1363,
+                    "end": 1369,
+                    "loc_id": "{3557D676-3897-4A63-9533-96A4C2825125}"
+                },
+                {
+                    "text": "Feldbach",
+                    "start": 1374,
+                    "end": 1382,
+                    "loc_id": "{6272B66D-CB79-41F8-82FD-59B409139898}"
+                },
+                {
+                    "text": "Richterswil",
+                    "start": 1512,
+                    "end": 1523,
+                    "loc_id": "{CF0FDD1F-1458-423B-A6BD-125B1A848AAD}"
+                },
+                {
+                    "text": "Mülibach",
+                    "start": 1597,
+                    "end": 1605,
+                    "loc_id": "{13FD1E7C-3DBC-4632-975A-6DC1FCFE94DA}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 2182,
+                    "end": 2189,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 2361,
+                    "end": 2368,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 2450,
+                    "end": 2454,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 2456,
+                    "end": 2465,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Limmat",
+                    "start": 2470,
+                    "end": 2476,
+                    "loc_id": "{3BC7B081-BD4D-4504-96BC-BD1C81E819F4}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 2575,
+                    "end": 2584,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Stäfa",
+                    "start": 3049,
+                    "end": 3054,
+                    "loc_id": "{D25269FA-FA8D-455B-9602-5F1D12675338}"
+                },
+                {
+                    "text": "Richterswil",
+                    "start": 3060,
+                    "end": 3071,
+                    "loc_id": "{CF0FDD1F-1458-423B-A6BD-125B1A848AAD}"
+                },
+                {
+                    "text": "Obersee",
+                    "start": 3076,
+                    "end": 3083,
+                    "loc_id": "{2362E4BB-8CD1-444E-85A3-6C08C653E256}"
+                },
+                {
+                    "text": "Rapperswil-Jona",
+                    "start": 3095,
+                    "end": 3110,
+                    "loc_id": "{DC342B36-3791-4481-B6B3-0DE2657E81B0}"
+                },
+                {
+                    "text": "Richterswil",
+                    "start": 3419,
+                    "end": 3430,
+                    "loc_id": "{CF0FDD1F-1458-423B-A6BD-125B1A848AAD}"
+                },
+                {
+                    "text": "Schönenwerd",
+                    "start": 3442,
+                    "end": 3453,
+                    "loc_id": "{A7F47BF4-B3C5-4CF9-A233-FC15B8D82D9B}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_38.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Nachrichten ===\n\nUrdorf Kunsteisbahn öffnet Saison am 3.Oktober Am Samstag, 3.Oktober, öffnet die Kunsteisbahn Weihermatt ihre Türen für die kommende Saison. Montags, dienstags, donnerstags und sonntags ist die Eisbahn zwischen 12 Uhr und 16.30 Uhr geöffnet. Am Mittwoch und Freitag ist sie nebst zwischen 12 und 16.30 Uhr auch zwischen 19.30 Uhr und 21 Uhr beziehungsweise 22.15 Uhr geöffnet. Am Samstag kann man zwischen 10.30 Uhr und 16.30 Uhr Schlittschuhlaufen. (az) Urdorf Bachtobelgraben an der Dorfstrasse wird saniert Die Eindolung des Schäflibachs an der Dorfstrasse 17 in Urdorf bietet nicht ausreichend Kapazität. Wie in der Gemeindepublikation «Urdorf aktuell» zu lesen ist, wird dies nun geändert. «Ausgelöst durch die geplante Überbauung an der Dorfstrasse 17, erhält die Sanierung eine erhöhte Priorität», heisst es darin. Um Synergien zu nutzen, werde der Ausbau des Bachtobelgrabens gemeinsam mit der Überbauung «Dorfstrasse 17» ab dem Jahr 2016 realisiert werden. (az) Spreitenbach Umfassende Sanierung des Glattlerwegs Die gut 50 Jahre alten Wasserleitungen im Spreitenbacher Glattlerweg, an denen es in den letzten Jahren immer wieder zu Leitungsbrüchen kam, sind sanierungsbedürftig. Dies hätten kürzlich durchgeführte Abklärungen ergeben, wie der Gemeinderat Spreitenbach in einer Mitteilung schreibt. Deshalb sollen im Frühjahr 2015 zahlreiche Arbeiten ausgeführt werden: Neben der Sanierung der Wasserleitungen will die Swisscom öffentliche Kommunikationsleitungen sanieren und der Deckbelag des Gehwegs soll erneuert werden. Für die geplanten Arbeiten wird der Gemeindeversammlung vom 1. Dezember dieses Jahres ein Verpflichtungskredit von 375000 Franken zur Genehmigung vorgelegt. (az) Uitikon Reservoir Chapf wird ein Quellwasserpumpwerk Nachdem die Gemeindeversammlung Uitikon bereits im Juni einen Kredit von 400000 Franken gesprochen hatte, können die Bauarbeiten am Reservoir Chapf nun nächsten Montag beginnen, wie die Abteilung Tiefbau der Gemeinde Uitikon in einer Mitteilung schreibt. Das Reservoir soll in ein Quellwasserpumpwerk umgebaut werden. Dazu müssen im Reservoir umfangreiche Erneuerungen an Rohranlagen und Armaturen vorgenommen werden. Nachdem die Umbauarbeiten abgeschlossen sind, kann das Quellwasser in die Zone Buechhoger eingespeist und genutzt werden. Die Bauarbeiten werden voraussichtlich bis Ende November dieses Jahres dauern. Laut Tiefbauamt sind für die Anwohnerschaft durch die Bauarbeiten keine direkten Einschränkungen zu erwarten. (az)",
+            "toponyms": [
+                {
+                    "text": "Urdorf",
+                    "start": 21,
+                    "end": 27,
+                    "loc_id": "{8894E61A-38BA-41F7-A926-7CC4C292FE45}"
+                },
+                {
+                    "text": "Weihermatt",
+                    "start": 115,
+                    "end": 125,
+                    "loc_id": "{3F00F0C0-FC41-4DA9-BA72-641F1D18C949}"
+                },
+                {
+                    "text": "Schäflibachs",
+                    "start": 549,
+                    "end": 561,
+                    "loc_id": "{1C2296B8-7D18-4319-8E62-5F5F11AA8ECC}"
+                },
+                {
+                    "text": "Urdorf",
+                    "start": 587,
+                    "end": 593,
+                    "loc_id": "{8894E61A-38BA-41F7-A926-7CC4C292FE45}"
+                },
+                {
+                    "text": "Urdorf",
+                    "start": 662,
+                    "end": 668,
+                    "loc_id": "{8894E61A-38BA-41F7-A926-7CC4C292FE45}"
+                },
+                {
+                    "text": "Spreitenbach",
+                    "start": 992,
+                    "end": 1004,
+                    "loc_id": "{724EA168-033D-45AF-AC2D-56DDD88B9F25}"
+                },
+                {
+                    "text": "Spreitenbach",
+                    "start": 1286,
+                    "end": 1298,
+                    "loc_id": "{724EA168-033D-45AF-AC2D-56DDD88B9F25}"
+                },
+                {
+                    "text": "Chapf",
+                    "start": 1735,
+                    "end": 1740,
+                    "loc_id": "{41F1B1C0-A270-43C2-8B52-9275A3B9DF16}"
+                },
+                {
+                    "text": "Uitikon",
+                    "start": 1802,
+                    "end": 1809,
+                    "loc_id": "{4809E3E2-6351-460A-B942-CE6B54F75C85}"
+                },
+                {
+                    "text": "Uitikon",
+                    "start": 1987,
+                    "end": 1994,
+                    "loc_id": "{4809E3E2-6351-460A-B942-CE6B54F75C85}"
+                },
+                {
+                    "text": "Buechhoger",
+                    "start": 2267,
+                    "end": 2277,
+                    "loc_id": "{1BCD1255-FDE5-4500-B800-2BC39C50453C}"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1437 @@
+{
+    "created_at": "2026-04-24T13:52:10.492614",
+    "last_updated": "2026-04-24T15:50:22.426459",
+    "gazetteer": "swissnames3d",
+    "documents": [
+        {
+            "filename": "batch_0000_01.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Toggenburg ===\n\nSpital: Hat der Standort Wattwil Bestand? 23 Gähwil Hochwasserschutz: Es geht um viel Geld 25 Region Landwirtschaft: weniger Kredite erteilt 27 Ebnat-Kappel Gasthaus: neues Wirtepaar im «Nestel» 31\n\n---\n\n=== In Kürze ===\n\nLANGNAU Höhere Finanzkompetenz Für eine speditivere Arbeitserledigung sind bei der Gemeinde Langnau die Finanzkompetenzen in den Bereichen Soziales und Liegenschaften angepasst worden. Unter anderem kann so die Liegenschaftenkommission neu über budgetierte Ausgaben bis 75 000 Franken selber entscheiden, wie der Gemeinderat Langnau mitteilt. red LANGNAU Kredit für Hochwasserschutz Für die Ausarbeitung des Hochwasserschutzprojekts am Waldibach zusammen mit der Stadt Adliswil sowie für die geotechnischen Untersuchungen wird für den Anteil der Gemeinde Langnau ein Projektierungskredit von 85 000 Franken bewilligt, teilt der Gemeinderat Langnau mit. red\n\n---\n\n=== Entlang des Moosacherbachs wird gearbeitet ===\n\nUrdorf Am Lauf des Moosacherbachs in Urdorf sind ab Mitte Monat Unterhaltsarbeiten geplant. Wie die Gemeinde in einer Mitteilung schreibt, bitte sie für allfällige Unannehmlichkeiten im Zusammenhang mit den Arbeiten, insbesondere infolge kurzfristiger Sperrungen des Spazierweges entlang des Bachs, um Verständnis. Der Moosacherbach befindet sich im westlichen Gebiet der Gemeinde Urdorf. Er entspringt im Gebiet Honeret und mündet an der Waldgrenze in eine Eindolung, in der er mit dem Rietmattenbach zusammenfliesst. (liz)",
+            "toponyms": [
+                {
+                    "text": "Toggenburg",
+                    "start": 4,
+                    "end": 14,
+                    "loc_id": "{7608AC68-06B8-4D83-813B-A79CA8BF4B8D}"
+                },
+                {
+                    "text": "Wattwil",
+                    "start": 45,
+                    "end": 52,
+                    "loc_id": "{13E6C3F9-B445-40C7-B29C-9ADBDEF2E658}"
+                },
+                {
+                    "text": "Ebnat-Kappel",
+                    "start": 164,
+                    "end": 176,
+                    "loc_id": "{09553A01-880F-474E-A0E7-1D9DE3CE3700}"
+                },
+                {
+                    "text": "Nestel",
+                    "start": 207,
+                    "end": 213,
+                    "loc_id": "{E343527D-7512-4C59-83D9-33757D03D0F0}"
+                },
+                {
+                    "text": "Langnau",
+                    "start": 334,
+                    "end": 341,
+                    "loc_id": "{2AC22027-62D3-48FB-A46A-EB0A0875B529}"
+                },
+                {
+                    "text": "Langnau",
+                    "start": 567,
+                    "end": 574,
+                    "loc_id": "{2AC22027-62D3-48FB-A46A-EB0A0875B529}"
+                },
+                {
+                    "text": "Waldibach",
+                    "start": 678,
+                    "end": 687,
+                    "loc_id": "{424CCE6B-54AC-4762-A9C0-1FDC9AAB9A6B}"
+                },
+                {
+                    "text": "Adliswil",
+                    "start": 711,
+                    "end": 719,
+                    "loc_id": "{5D7E5812-120E-491A-BFCD-CCED809316F4}"
+                },
+                {
+                    "text": "Langnau",
+                    "start": 797,
+                    "end": 804,
+                    "loc_id": "{2AC22027-62D3-48FB-A46A-EB0A0875B529}"
+                },
+                {
+                    "text": "Langnau",
+                    "start": 882,
+                    "end": 889,
+                    "loc_id": "{2AC22027-62D3-48FB-A46A-EB0A0875B529}"
+                },
+                {
+                    "text": "Urdorf",
+                    "start": 994,
+                    "end": 1000,
+                    "loc_id": "{8894E61A-38BA-41F7-A926-7CC4C292FE45}"
+                },
+                {
+                    "text": "Urdorf",
+                    "start": 1338,
+                    "end": 1344,
+                    "loc_id": "{8894E61A-38BA-41F7-A926-7CC4C292FE45}"
+                },
+                {
+                    "text": "Honeret",
+                    "start": 1370,
+                    "end": 1377,
+                    "loc_id": "{B2BE4832-6D02-4AC7-81DB-EC4C6D373047}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_02.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Die Firma Pestalozzi ­erneuert ihren Namen ===\n\nDietikonDas traditionsreiche Dietiker Familienunternehmen Pestalozzi + Co AG nennt sich neu nur noch Pestalozzi AG. Man passe sich damit den ­heutigen Gegebenheiten an, teilt die Firma mit. (liz) Wasserverband braucht rund 550 000 Franken LimmattalDer 1979 gegründete Wasserwirtschaftsverband Limmattal, der die Gemeinden Dietikon, Schlieren, Weiningen, Geroldswil und Oetwil umfasst und das Grundwasserpumpwerk Schönenwerd betreibt, rechnet für das kommende Jahr mit Betriebskosten von rund 220000 Franken sowie Unterhalts- und Verwaltungskosten in der Höhe von 325000 Franken. Diese werden auf die besagten Gemeinden aufgeteilt. (liz) Bushaltestelle Halde um 30 Meter verschoben UitikonDa auf der privaten Parzelle der Bushaltestelle Halde ein Ersatzneubau entstehen soll, muss die Haltestelle verschoben werden. Und zwar rund 30 Meter in Richtung Zentrum Waldegg. «Dadurch kommen die beiden Haltestellen der Haldenstrasse näher beieinander zu liegen», teilt der Gemeinderat mit. Für den neuen Standort wurde ein Dienstbarkeitsvertrag für die kommenden 30 Jahre unterzeichnet. (liz) 174 500 Franken an die Berghilfe gespendet UitikonGenau ein halbes Steuerprozent spendet die Gemeinde Uitikon jedes Jahr an verschiedene Projekte der Berg- und Entwicklungshilfe. Für 2019 entspricht dies einem Betrag von 174500 Franken. 30000 Franken gehen nach Jaun, wo der Hochwasserschutz verbessert werden soll. Saas Balen wird mit 20000 Franken bedacht. Dort soll das Schulhaus saniert werden. Brontallo erhält für die Sanierung von Trockenmauern 17000 Franken. Denselben Betrag erhält Isenthal für ein Lawinenwarnsystem. Für die Sanierung von Landwirtschaftsstrassen erhält Soubey 12000 Franken. Für Projekte im Ausland werden der Verein ­Kinderhilfe (15000 Franken), die Stiftung Pukllasunchis (15000 Franken), Swiss-Contact (28500 Franken), die Stiftung P.Bachmann (10000 Franken) und die Shelter-Box (10000 Franken) bedacht. (liz) Landkauf am Zelgliweg für 80 000 Franken SchlierenWie der Schlieremer Stadtrat kürzlich mitteilte, kauft die Stadt eine Landparzelle am Zelgliweg. Bereits heute besitzt die Stadt mehrere Parzellen im Gebiet. Das westlich davon ­gelegene Grundstück mit einer Fläche von 1433 Quadratmetern befindet sich in der Reservezone. Dem Schlieremer Stadt- rat wurde dieses Land mit einem Quadratmeterpreis von 60 Franken angeboten, was einem Gesamtpreis von gut 80000 Franken entspricht. (liz)\n\n---\n\n=== 174000 Franken für die Berg- und Entwicklungshilfe ===\n\nDer Uitiker Gemeinderat hat entschieden, wie die Beiträge zur Berg- und Entwicklungshilfe verteilt werden. Zur Verfügung steht jeweils ein halbes Steuerprozent. Für das Jahr 2015 sind dies 174000 Franken. Wie der Gemeinderat schreibt, werde ein Anteil von 94000 Franken für Hilfsprojekte im Inland und der Rest von 80000 Franken für Auslandshilfe zur Verfügung gestellt. In der Schweiz gehen je 20000 Franken an die Gemeinden Jaun für die Trinkwasserversorgung, Saas-Balen für den Hochwasserschutz, Bürglen für die Wasserversorgung und die Renovation des Tell-Museums sowie Verdabbio für die Wasserversorgung. 14000 Franken erhält Safiental für die Anschaffung eines Feuerwehrfahrzeuges sowie Feuerwehrmaterial. Im Ausland werden Swiss-Contact zugunsten eines Projektes in Osteuropa und ein Schulraum-Projekt auf den Philippinen mit je 20000 Franken unterstützt. Je 10000 Franken erhalten die Stiftung Pukllasunchis, ShelterBox, medico international schweiz und das Auslandprojekt P. Bachmann in Kisumu, Kenia. (az)",
+            "toponyms": [
+                {
+                    "text": "Dietikon",
+                    "start": 374,
+                    "end": 382,
+                    "loc_id": "{BBB0262D-7930-4DF7-BF4C-CE1EC76DEECA}"
+                },
+                {
+                    "text": "Schlieren",
+                    "start": 384,
+                    "end": 393,
+                    "loc_id": "{A9664947-654E-4EE8-9945-B419E3767381}"
+                },
+                {
+                    "text": "Weiningen",
+                    "start": 395,
+                    "end": 404,
+                    "loc_id": "{735E7BA6-2313-4948-B2C1-44550C143EF8}"
+                },
+                {
+                    "text": "Geroldswil",
+                    "start": 406,
+                    "end": 416,
+                    "loc_id": "{34D0A672-2743-47F9-93B4-63E19499664C}"
+                },
+                {
+                    "text": "Oetwil",
+                    "start": 421,
+                    "end": 427,
+                    "loc_id": "{4A75E424-6E4E-4034-8109-023A53B94533}"
+                },
+                {
+                    "text": "Schönenwerd",
+                    "start": 464,
+                    "end": 475,
+                    "loc_id": "{2E7AE0C0-6264-4E26-B9FC-AC9249ACC44C}"
+                },
+                {
+                    "text": "Halde",
+                    "start": 704,
+                    "end": 709,
+                    "loc_id": "{E5C64CC2-7BE8-4148-A2BA-FE96AC2038B0}"
+                },
+                {
+                    "text": "Zentrum Waldegg",
+                    "start": 902,
+                    "end": 917,
+                    "loc_id": "{E5385A96-23D5-463C-99CD-D4B5AAC7E56F}"
+                },
+                {
+                    "text": "Uitikon",
+                    "start": 1239,
+                    "end": 1246,
+                    "loc_id": "{4809E3E2-6351-460A-B942-CE6B54F75C85}"
+                },
+                {
+                    "text": "Jaun",
+                    "start": 1399,
+                    "end": 1403,
+                    "loc_id": "{89B509BC-3C97-4772-A304-D5B82323A377}"
+                },
+                {
+                    "text": "Saas Balen",
+                    "start": 1453,
+                    "end": 1463,
+                    "loc_id": "{2B5DEB4C-9D25-4835-BE9C-B47FE800C622}"
+                },
+                {
+                    "text": "Brontallo",
+                    "start": 1536,
+                    "end": 1545,
+                    "loc_id": "{3D6C3A6B-2A26-4399-86E7-5F3D8D510DE3}"
+                },
+                {
+                    "text": "Isenthal",
+                    "start": 1628,
+                    "end": 1636,
+                    "loc_id": "{F05C8EBC-4E4A-46BE-8421-5A12AA211928}"
+                },
+                {
+                    "text": "Soubey",
+                    "start": 1717,
+                    "end": 1723,
+                    "loc_id": "{DA7CB9CB-D1CF-474E-9590-95DBAC9DD892}"
+                },
+                {
+                    "text": "Zelgliweg",
+                    "start": 2113,
+                    "end": 2122,
+                    "loc_id": "{8D593709-DA39-4FFB-BB71-F289C3BA8A9A}"
+                },
+                {
+                    "text": "Jaun",
+                    "start": 2952,
+                    "end": 2956,
+                    "loc_id": "{89B509BC-3C97-4772-A304-D5B82323A377}"
+                },
+                {
+                    "text": "Verdabbio",
+                    "start": 3100,
+                    "end": 3109,
+                    "loc_id": "{AA49D706-1364-46D8-A54C-4BA497EE6644}"
+                },
+                {
+                    "text": "Safiental",
+                    "start": 3157,
+                    "end": 3166,
+                    "loc_id": "{53967788-E702-4772-818C-111845E21017}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_03.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Teureres Projekt Entlastungsstollen ===\n\nThalwil Ein Entlastungsstollen soll zwischen Langnau und Thalwil zum Hochwasserschutz an der Sihl beitragen. Das Projekt, das auch einen neuen Wanderweg vorsieht sowie die Renaturierung eines Uferstücks am Zürichsee, wird jedoch mehr kosten als angenommen – allein 2,2 Millionen Franken mehr in der Projektierungsphase. Dabei ist das Einspracheverfahren noch gar nicht beendet. (red) Seite 3\n\n---\n\n=== Einbau eines Schlammsammlers ===\n\nIn Oerlingen muss bei der Einmündung der Trüllikerstrasse in die Schützenhausstrasse zur Entwässerung nach starken Niederschlägen für 9000 Franken ein Einlaufschacht mit Schlammsammler eingebaut werden. Wie der Gemeinderat mitteilt, erfolgt die Arbeitsausführung nach der Ernte der angrenzenden Getreidefelder. red\n\n---\n\n=== Giessenbach wird saniert ===\n\nillnau-effretikon Der Giessenbach durchfliesst auf einer Länge von zwei Kilometern Illnau-Effretikon, in Ottikon ist er eingedolt. Diese Eindolung sei bei einem Hochwasserereignis zu klein dimensioniert, schreibt der Stadtrat in seinem neusten Verhandlungsbericht. Der Bach muss deshalb saniert werden, er wird naturnah revitalisiert. So muss etwa ein Damm abgetragen und die Linienführung korrigiert werden. Holzschwellen sollen zudem die Fliessgeschwindigkeit verringern. Die Baukosten betragen knapp 450 000 Franken, die Stadt übernimmt 200 000 Franken, den Rest zahlen Bund und Kanton. Die Bauarbeiten finden im Sommer 2016 statt. red\n\n---\n\n=== Renaturierung abgeschlossen ===\n\nAADORF Die Arbeiten rund um den Hochwasserschutz und die Renaturierung Ettenhausen Süd sind abgeschlossen. Zusammen mit den auszuführenden Hochwasserschutzmassnahmen wurden der Rütelibach und der Häslerbach ausgedolt. Damit konnte eine ökologisch sehr wertvolle Vernetzung in diesem Gebiet erreicht werden, wie der Gemeinderat Aadorf in einer Mitteilung schreibt. Bund und Kanton haben sich bei diesem Projekt an den Kosten beteiligt. Die für die Gemeinde Aadorf verbliebenen Restkosten von rund 463 000 Franken hat der Gemeinderat an seiner letzten Sitzung genehmigt. Insgesamt schloss die Bauabrechnung mit 860 700 Franken, was gegenüber dem bewilligten Baukredit von 847 000 Franken einer Kostenüberschreitung von 1,62 Prozent entspricht. red\n\n---\n\n=== Verbesserung bei Hochwasser ===\n\nGACHNANG In Gachnang wird eine Bachkorrektion durchgeführt, die den Hochwasserschutz in den Gebieten Langäcker, Sandbüel und Messenriet verbessert. An die Kosten von 1,36 Millionen Franken wird der Gemeinde ein Anteil von 35 Prozent aus den Bundesmitteln für Schutzbauten Wasser zugesprochen, wie der Thurgauer Regierungsrat mitteilt. An die Nettokosten von 884 000 Franken leistet der Kanton einen Beitrag von 39 Prozent. red\n\n---\n\n=== Das Einbahnregime kehrt zurück ===\n\nSeit dem 4. Februar sind die Vorarbeiten zur Entwässerung der Fahrweid respektive zur Beseitigung der Hochwasserproblematik im Gang. Heute wird nun die Verkehrsumleitung im Einbahnregime in Betrieb genommen. Dieses Regime gilt bis auf Weiteres in der Fahrweidstrasse ab Brunaustrasse in Richtung Dietikon. In Richtung Geroldswil wird nur der Bus fahren dürfen. Im erwähnten Bereich hat es nun auch Lichtsignalanlagen. Je nach Stand der Arbeiten wird der Einbahnverkehr-Abschnitt angepasst, wie eine Ingenieurgemeinschaft mitteilte, die von der Limeco, der Gemeinde Geroldswil und der Gemeinde Weiningen beauftragt wurde. Vorerst werden nun diverse Werkleitungen beim Knoten Austrasse/Fahrweidstrasse provisorisch umgelegt. Zudem werden provisorische Umfahrungsstrassen und Pumpanlagen erstellt. Ab Mai 2019 soll dann mit den Hauptarbeiten im sogenannten Microtunneling-Verfahren begonnen und so die neue Kanalisation erstellt werden. (AZ)",
+            "toponyms": [
+                {
+                    "text": "Thalwil",
+                    "start": 45,
+                    "end": 52,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Langnau",
+                    "start": 90,
+                    "end": 97,
+                    "loc_id": "{2AC22027-62D3-48FB-A46A-EB0A0875B529}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 102,
+                    "end": 109,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 138,
+                    "end": 142,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 251,
+                    "end": 260,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Oerlingen",
+                    "start": 484,
+                    "end": 493,
+                    "loc_id": "{E7E1E20B-C648-4554-BDE3-25B1ED129577}"
+                },
+                {
+                    "text": "Illnau-Effretikon",
+                    "start": 919,
+                    "end": 936,
+                    "loc_id": "{0C860A9B-2AEF-4FE5-8575-3AEF5C73C275}"
+                },
+                {
+                    "text": "Ottikon",
+                    "start": 941,
+                    "end": 948,
+                    "loc_id": "{3BDE2A61-357F-47D3-B3F3-0E274BDCD16B}"
+                },
+                {
+                    "text": "Ettenhausen",
+                    "start": 1589,
+                    "end": 1600,
+                    "loc_id": "{6AD02B22-5B58-4D9E-B74B-CBE037609897}"
+                },
+                {
+                    "text": "Aadorf",
+                    "start": 1845,
+                    "end": 1851,
+                    "loc_id": "{AB98B67B-D207-4C14-8958-920271719223}"
+                },
+                {
+                    "text": "Aadorf",
+                    "start": 1974,
+                    "end": 1980,
+                    "loc_id": "{AB98B67B-D207-4C14-8958-920271719223}"
+                },
+                {
+                    "text": "Gachnang",
+                    "start": 2319,
+                    "end": 2327,
+                    "loc_id": "{C19CC440-E1E9-4259-B22E-032D04355CDC}"
+                },
+                {
+                    "text": "Langäcker",
+                    "start": 2408,
+                    "end": 2417,
+                    "loc_id": "{9AF7444A-1259-4277-9EB0-7E6B0C075C5A}"
+                },
+                {
+                    "text": "Sandbüel",
+                    "start": 2419,
+                    "end": 2427,
+                    "loc_id": "{B6EE7848-6027-47E2-9928-1C857BBF976C}"
+                },
+                {
+                    "text": "Messenriet",
+                    "start": 2432,
+                    "end": 2442,
+                    "loc_id": "{097B50C0-6D28-49B2-BB88-8613D173F1F1}"
+                },
+                {
+                    "text": "Fahrweid",
+                    "start": 2842,
+                    "end": 2850,
+                    "loc_id": "{E9A1E770-5B29-4B66-9041-FFC89B172CF3}"
+                },
+                {
+                    "text": "Dietikon",
+                    "start": 3076,
+                    "end": 3084,
+                    "loc_id": "{BBB0262D-7930-4DF7-BF4C-CE1EC76DEECA}"
+                },
+                {
+                    "text": "Geroldswil",
+                    "start": 3098,
+                    "end": 3108,
+                    "loc_id": "{34D0A672-2743-47F9-93B4-63E19499664C}"
+                },
+                {
+                    "text": "Geroldswil",
+                    "start": 3345,
+                    "end": 3355,
+                    "loc_id": "{34D0A672-2743-47F9-93B4-63E19499664C}"
+                },
+                {
+                    "text": "Weiningen",
+                    "start": 3373,
+                    "end": 3382,
+                    "loc_id": "{735E7BA6-2313-4948-B2C1-44550C143EF8}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_04.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Nachrichten ===\n\nRaubtiere Es werden mehr Luchse fotografiert und gezählt An 70 Standorten in der Nordostschweiz wurden im letzten Winter während 60 Tagen je zwei Fotofallen aufgestellt. In rund der Hälfte fanden sich Aufnahmen von Luchsen. Insgesamt nimmt die Population zu. In den Kantonen St. Gallen, Zürich, Appenzell Innerrhoden und Appenzell Ausserrhoden wurden mit Fotofallen Aufnahmen der scheuen Raubkatzen gesammelt. Danach werteten Forscher die Bilder aus. Aus den gesammelten Daten rechnete Kora, das Schweizer Kompetenzzentrum für Raubtierökologie und Wildtiermanagement, eine Luchsdichte von 2,53 Tieren je 100 Quadratkilometer hoch. Am meisten Luchse wurden im Gebiet Tössstock zwischen den Kantonen St. Gallen und Zürich gezählt. (sda) Revitalisierung Bach in Wülflingen soll wieder natürlich fliessen Der Niederfeldbach in Winterthur-Wülflingen soll im unteren Teil offengelegt und revitalisiert werden. Das Winterthurer Tiefbauamt legt das Bachprojekt ab Freitag bis am 17. Dezember öffentlich auf. Der Niederfeldbach, der im Wald Tannholz entspringt und in die Töss mündet, ist heute grösstenteils eingedolt. Nun ist die Nutzungsdauer der über 80 Jahre alten Eindolung unter der Siedlung Hardau erreicht – das massgebende Jahrhunderthochwasser kann sie nicht mehr ableiten. (sda)\n\n---\n\n=== Sicherheit für Raum Zürich verbessert ===\n\nMit einem Schwemmholzrechen in der Sihl hat der Kanton Zürich den Hochwasserschutz weiter verbessert. Gestern weihte Baudirektor Markus Kägi das Bauwerk bei Langnau am Albis ein. Im kommenden Winter will der SVP-Regierungsrat über ein weitaus teureres Hochwasserschutzprojekt entscheiden: Es geht um den Bau eines Stollens, durch den Wasser aus der schneller anschwellenden Sihl in den Zürichsee umgeleitet werden kann. Aufgrund der zunehmenden baulichen Verdichtung vom Sihltal bis ins Limmattal könnte ein grosses Hochwasser Milliardenschäden anrichten. Seite 19\n\n---\n\n=== Projektauflage für Hochwasserschutz ===\n\nAaretal Der Hochwasserschutz an der Aare zwischen der Thalgutbrücke und der Unteren Chesselau bei Münsingen soll verbessert werden. Konkret erhält die Aare mehr Platz, den sie eigendynamisch aufweiten kann. Das Projekt liegt während eines Monats öffentlich auf. Die Bauarbeiten sind für die Jahre 2021 bis 2025 geplant. Im Gebiet befinden sich wichtige Infrastrukturen wie die Autobahn A6 oder die Haupt-Trinkwasserleitung der Region Bern. Sie und verschiedene Liegenschaften in dem Gebiet sollen besser vor Hochwasser geschützt werden, wie der Kanton am Montag mitteilte. Dazu werden die Hochwasser- und Uferschutzmassnahmen rund 60 bis 100 Meter vom heutigen Aareufer entfernt erstellt. (sda)",
+            "toponyms": [
+                {
+                    "text": "St. Gallen",
+                    "start": 296,
+                    "end": 306,
+                    "loc_id": "{05D55405-466B-4ECC-83C7-A906DEB0D607}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 308,
+                    "end": 314,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Appenzell Innerrhoden",
+                    "start": 316,
+                    "end": 337,
+                    "loc_id": "{3F24991F-68F8-42E5-81EA-D4C8C3E21FE4}"
+                },
+                {
+                    "text": "Appenzell Ausserrhoden",
+                    "start": 342,
+                    "end": 364,
+                    "loc_id": "{5B0F52B1-5FE2-465F-835E-0F18F2E348CE}"
+                },
+                {
+                    "text": "Gebiet Tössstock",
+                    "start": 680,
+                    "end": 696,
+                    "loc_id": "{6F89AAF8-4462-4754-A3D1-A6FD427EA6C5}"
+                },
+                {
+                    "text": "St. Gallen",
+                    "start": 719,
+                    "end": 729,
+                    "loc_id": "{05D55405-466B-4ECC-83C7-A906DEB0D607}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 734,
+                    "end": 740,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Wülflingen",
+                    "start": 780,
+                    "end": 790,
+                    "loc_id": "{258DC2BA-E42F-4A3A-83F9-7EFBB8035CE1}"
+                },
+                {
+                    "text": "Winterthur-Wülflingen",
+                    "start": 844,
+                    "end": 865,
+                    "loc_id": "{258DC2BA-E42F-4A3A-83F9-7EFBB8035CE1}"
+                },
+                {
+                    "text": "Tannholz",
+                    "start": 1053,
+                    "end": 1061,
+                    "loc_id": "{48B3C8AE-9A42-4FF0-B541-42763BBDF95D}"
+                },
+                {
+                    "text": "Töss",
+                    "start": 1084,
+                    "end": 1088,
+                    "loc_id": "{87F11B68-3BE1-40E6-8A3D-B7692E0ADE79}"
+                },
+                {
+                    "text": "Hardau",
+                    "start": 1211,
+                    "end": 1217,
+                    "loc_id": "{5B38FFDD-52CD-4962-9334-E855EEC72EDF}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 1333,
+                    "end": 1339,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 1391,
+                    "end": 1395,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Kanton Zürich",
+                    "start": 1404,
+                    "end": 1417,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Langnau am Albis",
+                    "start": 1513,
+                    "end": 1529,
+                    "loc_id": "{2AC22027-62D3-48FB-A46A-EB0A0875B529}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 1730,
+                    "end": 1734,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 1742,
+                    "end": 1751,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihltal",
+                    "start": 1827,
+                    "end": 1834,
+                    "loc_id": "{2F71F121-DA2A-4EA9-A655-1296330E8624}"
+                },
+                {
+                    "text": "Limmattal",
+                    "start": 1843,
+                    "end": 1852,
+                    "loc_id": "{179B20C9-EB6B-4D3F-9118-5A88479D504F}"
+                },
+                {
+                    "text": "Aare",
+                    "start": 2008,
+                    "end": 2012,
+                    "loc_id": "{91F25742-9E4B-416D-AB12-DBA13BDD6623}"
+                },
+                {
+                    "text": "Chesselau",
+                    "start": 2056,
+                    "end": 2065,
+                    "loc_id": "{59B08FF4-5121-4EEA-8D97-A64CA7AF9CE0}"
+                },
+                {
+                    "text": "Münsingen",
+                    "start": 2070,
+                    "end": 2079,
+                    "loc_id": "{F2BCC298-86EA-4EB7-84E4-5C8F04485C1B}"
+                },
+                {
+                    "text": "Aare",
+                    "start": 2123,
+                    "end": 2127,
+                    "loc_id": "{91F25742-9E4B-416D-AB12-DBA13BDD6623}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_05.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Konzept zum Schutz vor Hochwasser ===\n\nRegion Das Defizit beim Hochwasserschutz in der Region Rickenbach-Wilen-Wil ist seit Jahren bekannt. Zuletzt wurde dies am 14. Juni 2015 sichtbar. Starke Regenfälle verursachten grosse Schäden in Wil. Sogar Teile der Autobahn A1 wurden überschwemmt. Deshalb haben die Gemeinden Rickenbach, Wilen und Sirnach, die Stadt Wil, das Bundesamt für Strassen (Astra) sowie die Kantone Thurgau und St.Gallen gemeinsam ein umfassendes, abgestuftes Konzept entwickelt. Dessen Umsetzung soll die Menschen, Infrastrukturanlagen und Wohnbauten in der Region in naher Zukunft vor Hochwasser schützen. Im Zentrum stehen dabei Massnahmen beim Alpbach, Krebsbach, Huebbach und beim Meienmättelibach. Erarbeitetes Konzept wird öffentlich vorgestellt Während der Evaluationsphase standen mehrere Projekt-Varianten zur Diskussion. Ein unabhängiges Gutachten zeigt gemäss einer Medienmitteilung des Amtes für Umwelt des Kantons Thurgau, dass das vorliegende Konzept nachhaltig und optimal sei, auch in Bezug auf das Kosten-Nutzen-Verhältnis. Direkt betroffene Grundeigentümer wurden persönlich zu einer Informationsveranstaltung eingeladen, an der das Projektteam das Konzept präsentieren wird. Die Bevölkerung der Gemeinden Rickenbach, Wilen, Sirnach und der Stadt Wil wird am Mittwoch, 20.Juni, um 20 Uhr, im Schulhaus Ägelsee in Wilen an einem öffentlichen Anlass über die vorgesehenen Massnahmen informiert. Start für die Ausarbeitung des Auflageprojekts Gemäss einer Medienmitteilung des Amtes für Umwelt des Kantons Thurgau haben die Standortgemeinden beim Thurgauer Baudepartement den Antrag eingereicht, dass das Amt für Umwelt Kanton Thurgau die Projektleitung für die Ausarbeitung des Auflageprojektes übernimmt. Für das Auflageprojekt sind noch einige Details zu klären: zum Beispiel die Optimierung der Massnahmen in enger Abstimmung mit Grundeigentümern und Naturverbänden, Nachweise der Umweltverträglichkeit sowie Verifizierung der Investitionskosten. Die öffentliche Auflage ist für den Sommer 2020 geplant. (red)",
+            "toponyms": [
+                {
+                    "text": "Wil",
+                    "start": 239,
+                    "end": 242,
+                    "loc_id": "{DC22227E-01FC-4E19-811C-2F26709CF36D}"
+                },
+                {
+                    "text": "Rickenbach",
+                    "start": 321,
+                    "end": 331,
+                    "loc_id": "{902E3F9B-B020-4410-834A-ADB8EE9EFC56}"
+                },
+                {
+                    "text": "Wilen",
+                    "start": 333,
+                    "end": 338,
+                    "loc_id": "{8CD2485C-4A66-4D1B-89DF-BF9738984E5F}"
+                },
+                {
+                    "text": "Sirnach",
+                    "start": 343,
+                    "end": 350,
+                    "loc_id": "{122F1927-3F37-42B3-9B8D-BB650DBAF6B8}"
+                },
+                {
+                    "text": "Wil",
+                    "start": 362,
+                    "end": 365,
+                    "loc_id": "{DC22227E-01FC-4E19-811C-2F26709CF36D}"
+                },
+                {
+                    "text": "Thurgau",
+                    "start": 420,
+                    "end": 427,
+                    "loc_id": "{87370D3F-DBBE-4D05-AF85-C358C3924B3D}"
+                },
+                {
+                    "text": "St.Gallen",
+                    "start": 432,
+                    "end": 441,
+                    "loc_id": "{05D55405-466B-4ECC-83C7-A906DEB0D607}"
+                },
+                {
+                    "text": "Alpbach",
+                    "start": 669,
+                    "end": 676,
+                    "loc_id": "{8A609011-3EB9-4B94-B292-8AEF9B9A460E}"
+                },
+                {
+                    "text": "Krebsbach",
+                    "start": 678,
+                    "end": 687,
+                    "loc_id": "{53CC9308-0CF2-49D7-83A8-239E88EA2341}"
+                },
+                {
+                    "text": "Rickenbach",
+                    "start": 1246,
+                    "end": 1256,
+                    "loc_id": "{902E3F9B-B020-4410-834A-ADB8EE9EFC56}"
+                },
+                {
+                    "text": "Wilen",
+                    "start": 1258,
+                    "end": 1263,
+                    "loc_id": "{8CD2485C-4A66-4D1B-89DF-BF9738984E5F}"
+                },
+                {
+                    "text": "Sirnach",
+                    "start": 1265,
+                    "end": 1272,
+                    "loc_id": "{122F1927-3F37-42B3-9B8D-BB650DBAF6B8}"
+                },
+                {
+                    "text": "Wilen",
+                    "start": 1353,
+                    "end": 1358,
+                    "loc_id": "{8CD2485C-4A66-4D1B-89DF-BF9738984E5F}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_06.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Was passiert, wenn die Sihl den Zürichsee zusätzlich füllt? ===\n\nHochwasser Der Pegel des Zürichsees ist zuletzt stark gestiegen. Ab 2024 führt der Entlastungsstollen von der Sihl bei Thalwil in den See. Könnte dann der See überschwappen? Der Zürichsee ist voll. Der Chef des Amts für Abfall, Wasser, Energie und Luft (Awel) sagt, der Pegel könnte bis zum Wochenende noch weiter steigen. Das ist schon für sich gesehen ein Problem, wie die Bilder von den Seeufern in den letzten Tagen zeigen. Neben den vielen kleineren und grösseren Zuflüssen, die der See heute schon hat, wird aber ein weiterer dazukommen. Ab 2025 wird gemäss Plan der Entlastungsstollen zwischen Sihl und Zürichsee in Betrieb genommen. Ab einer gewissen Menge fliesst ein Teil des Wassers aus der Sihl bei Thalwil automatisch durch den Stollen und in den See. Die Stadt Zürich wird so entlastet, weil die Sihl bei einem extremen Unwetter einen Grossteil der Innenstadt von Zürich überfluten und Milliardenschäden anrichten würde. Das ist nachvollziehbar. Doch müssen dann die Gemeinden am Zürichsee noch einen höheren Pegelstand des Zürichsees befürchten? Opfert man lieber ein paar Keller am See statt die wichtige Infrastruktur um den Zürcher HB? Alle Szenarien berechnet Wolfgang Bollack, Mediensprecher der Baudirektion des Kantons Zürich weist diese Interpretation zurück. «Es wird keine Verlegung der Apokalypse stattfinden», sagt er. Alle Szenarien seien in die Berechnungen eingeflossen, auch die Auswirkungen des Stollens auf den Zürichsee hätten die Spezialisten des Kantons betrachtet. Selbst im Extremfall, wenn gegen 300 Kubikmeter pro Sekunde durch den Stollen in Thalwil schiessen sollten, würde der Zürichsee höchstens um wenige Zentimeter steigen. Zum Vergleich: Allein seit letzten Samstag ist der Pegel um gut 40 Zentimeter angestiegen. Mit dem Entlastungsstollen werden nur absolute Hochwasserspitzen aus der Sihl in den Zürichsee geleitet. Solche Extremhochwasser der Sihl dauern nur wenige Stunden, da diese nur bei Starkniederschlägen auftreten. Diese dauern nicht tagelang. Dazu kommt, dass es sehr unwahrscheinlich ist, dass ein Starkregenereignis im Einzugsgebiet der Sihl auf einen übervollen Zürichsee trifft. Dafür sind die Wettersituationen zu unterschiedlich. Der Zürichsee hat sich jetzt über eine längere, regnerische Periode gefüllt, bei der Sihl sind akute Ereignisse massgebend. Abflussmenge wird erhöht Das Extremereignis wird mit 600 Kubikmeter Wasser pro Sekunde angegeben, die durch die Sihl fliessen. Der Entlastungsstollen soll aber bereits ab 250 Kubikmetern zum Einsatz kommen. Der See würde dann kaum beeinträchtigt. Was dann durch den Stollen fliesst, könne der See locker aufnehmen, sagt Bollack. In Zukunft wird es dank Erhöhung der Abflusskapazität auf Stadtzürcher Gebiet einfacher sein, den Seepegel zu stabilisieren. Dies dient der Entlastung der Seegemeinden auch in Zeiten, in denen kein Wasser durch den Stollen fliesst. Die Rathausbrücke wird saniert und die Pfeiler werden neu angehoben, bei der Münsterbrücke sollen Ausbaggerungen mehr Platz schaffen. Dazu kommt das Platzspitzwehr, das saniert wird. Dabei steigt auch die Kapazität des Wasserdurchlasses. Der Hochwasserschutz am Zürichsee werde letztlich sogar noch verbessert – trotz Entlastungsstollen, sagt Wolfgang Bollack. Pascal Jäggi «Es wird keine Verlegung der Apokalypse stattfinden.» Wolfgang Bollack Mediensprecher der Baudirektion des Kantons Zürich",
+            "toponyms": [
+                {
+                    "text": "Sihl",
+                    "start": 27,
+                    "end": 31,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 36,
+                    "end": 45,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Zürichsees",
+                    "start": 94,
+                    "end": 104,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 179,
+                    "end": 183,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 188,
+                    "end": 195,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 247,
+                    "end": 256,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 670,
+                    "end": 674,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 679,
+                    "end": 688,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 771,
+                    "end": 775,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 780,
+                    "end": 787,
+                    "loc_id": "{9E392C6A-BD9D-4E97-93AF-A1161D5231E1}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 844,
+                    "end": 850,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 879,
+                    "end": 883,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 947,
+                    "end": 953,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 1063,
+                    "end": 1072,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Zürichsees",
+                    "start": 1107,
+                    "end": 1117,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 1310,
+                    "end": 1316,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 1513,
+                    "end": 1522,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 1652,
+                    "end": 1659,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 1689,
+                    "end": 1698,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 1903,
+                    "end": 1907,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 1915,
+                    "end": 1924,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 1963,
+                    "end": 1967,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 2168,
+                    "end": 2172,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 2194,
+                    "end": 2203,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 2269,
+                    "end": 2278,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 2350,
+                    "end": 2354,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 2501,
+                    "end": 2505,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Platzspitzwehr",
+                    "start": 3099,
+                    "end": 3113,
+                    "loc_id": "{56FECFB2-88D9-477A-9F02-57B08FFCB1E1}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 3212,
+                    "end": 3221,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 3439,
+                    "end": 3445,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_07.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Austrasse wird temporär gesperrt ===\n\nFahrweid Wegen Bauarbeiten zur Entwässerung der Fahrweid unmittelbar neben dem Zentralschacht wird die Austrasse vom 2. bis 4. März von 7 bis 17 Uhr gesperrt. Das schreiben die Bauherrin Limeco und die Gemeinden Geroldswil und Weinigen in einer gemeinsamen Mitteilung. Der motorisierte Verkehr wird während dieser Zeit von einem Verkehrsdienst über die Einfahrt der Fahrweidstrasse 54 umgeleitet. Werden die Bauarbeiten früher als geplant fertiggestellt, dann wird die Sperrung bereits vorher aufgehoben. (liz)\n\n---\n\n=== Arbeitsvergabe für neues Quartier Ämet ===\n\nFür die Erschliessung des neuen Wohnquartiers Ämet in Birmensdorf sind die verschiedenen Arbeiten vergeben worden. Dies teilt der Gemeinderat nach seiner letzten Sitzung mit. Mit den Baumeisterarbeiten in der Höhe von rund 2,9 Millionen Franken wurde die Firma Büwe Tiefbau aus Rotkreuz beauftragt, mit den Installationsarbeiten für 174000 Franken die Ritschard Haustechnik aus Ottenbach. Da es sich bei der Bauherrschaft um private Eigentümer handle, seien die Arbeiten nach privatrechtlichen Grundsätzen und nicht in einem öffentlichen Submissionsverfahren vergeben worden, schreibt der Gemeinderat. Die Gemeinde selbst ist für die Wasserversorgung des Gebiets Ämet verantwortlich. Die Groberschliessung kostet gemäss Mitteilung 84 000 Franken. Darin enthalten sind auch Massnahmen zum Hochwasserschutz. (AZ)\n\n---\n\n=== In Kürze ===\n\nPFUNGEN Rumstal für sechs Wochen gesperrt Ab kommendem Montag ist die Durchfahrt von Pfungen nach Winterthur über das Rumstal während rund sechs Wochen gesperrt. Während dieser Zeit wird der Hochwasserschutz am Grabibach, der in der Nähe des Schützenhauses in den Mülibach mündet, erweitert, wie Gemeindeschreiber Stephan Brügel auf Anfrage sagt. Der Verkehr nach Winterthur muss über die Weiacherstrasse ausweichen, die bei 20 000 Fahrzeugen pro Tag schon stark ausgelastet ist. neh NEFTENBACH Werkgebäude erhält Solarenergieanlage Auf dem Dach des Werkgebäudes wird eine Fotovoltaikanlage mit einer Leistung von 21,9 Kilowatt erstellt. Der Auftrag wurde zum Preis von rund 40 000 Franken vergeben. Die Inbetriebnahme findet noch in diesem Jahr statt, wie der Gemeinderat in einer Mitteilung schreibt. Weitere Solaranlagen auf Gemeindeliegenschaften sollen folgen. Die Gemeindeversammlung vom 29. November 2017 hatte dafür einen Rahmenkredit von 300 000 Franken bewilligt. red",
+            "toponyms": [
+                {
+                    "text": "Fahrweid",
+                    "start": 90,
+                    "end": 98,
+                    "loc_id": "{E9A1E770-5B29-4B66-9041-FFC89B172CF3}"
+                },
+                {
+                    "text": "Geroldswil",
+                    "start": 254,
+                    "end": 264,
+                    "loc_id": "{34D0A672-2743-47F9-93B4-63E19499664C}"
+                },
+                {
+                    "text": "Ämet",
+                    "start": 597,
+                    "end": 601,
+                    "loc_id": "{0A444C66-3565-4DC9-81C3-290A32E7C735}"
+                },
+                {
+                    "text": "Ämet",
+                    "start": 653,
+                    "end": 657,
+                    "loc_id": "{0A444C66-3565-4DC9-81C3-290A32E7C735}"
+                },
+                {
+                    "text": "Birmensdorf",
+                    "start": 661,
+                    "end": 672,
+                    "loc_id": "{0AD298F9-A28E-41BC-9213-16F3AA0AC14F}"
+                },
+                {
+                    "text": "Rotkreuz",
+                    "start": 885,
+                    "end": 893,
+                    "loc_id": "{2CA29F03-01D9-420B-AC81-0CF0E3A9119A}"
+                },
+                {
+                    "text": "Ottenbach",
+                    "start": 985,
+                    "end": 994,
+                    "loc_id": "{A7290788-36F7-4243-80CB-0F73771CF5D8}"
+                },
+                {
+                    "text": "Ämet",
+                    "start": 1270,
+                    "end": 1274,
+                    "loc_id": "{0A444C66-3565-4DC9-81C3-290A32E7C735}"
+                },
+                {
+                    "text": "Pfungen",
+                    "start": 1527,
+                    "end": 1534,
+                    "loc_id": "{63B25738-0A7D-4475-AE76-2BCDFC8E9361}"
+                },
+                {
+                    "text": "Winterthur",
+                    "start": 1540,
+                    "end": 1550,
+                    "loc_id": "{EBBF5595-6BFC-4B52-95B2-A05F0B3B01D8}"
+                },
+                {
+                    "text": "Rumstal",
+                    "start": 1560,
+                    "end": 1567,
+                    "loc_id": "{183A3184-04F1-4628-B9E7-EFFA991BBFED}"
+                },
+                {
+                    "text": "Mülibach",
+                    "start": 1706,
+                    "end": 1714,
+                    "loc_id": "{FA52D092-AB0A-476F-AC0B-C2A3BD1C11AF}"
+                },
+                {
+                    "text": "Winterthur",
+                    "start": 1806,
+                    "end": 1816,
+                    "loc_id": "{EBBF5595-6BFC-4B52-95B2-A05F0B3B01D8}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_08.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Sihl-Überlauf in den Zürichsee ===\n\nHOCHWASSER Mit einem 130 Millionen Franken teuren Entlastungsstollen von der Sihl in den Zürichsee will der Zürcher Regierungsrat die Stadt Zürich vor Schäden in Milliardenhöhe durch ein Extremhochwasser schützen. Der Regierungsrat hat bezüglich Hochwasserschutz für die Stadt Zürich einen Variantenentscheid gefällt, wie er gestern vor den Medien darlegte. Weiterprojektiert wird nun ein zwei Kilometer langer Stollen von Langnau am Albis nach Thalwil, der Hochwasserspitzen von der Sihl in den Zürichsee überleiten kann. Frühestens 2023 wird er fertiggestellt sein. Projektleiter Matthias Oplatka rechnet damit, dass er alle 10 bis 15 Jahre zum Einsatz kommen wird. Der Stollen würde aber auch grosse Schäden durch ein Extremhochwasser, das nur alle 500 Jahre erwartet wird, verhindern. Hochwasser 2005 als Auslöser Auslöser des Jahrhundertprojekts Hochwasserschutz an Sihl, Zürichsee und Limmat war das Hochwasser im Sommer 2005. Die Stadt Zürich entging damals nur knapp grossen Hochwasserschäden. «Purer Zufall» sei es gewesen, dass die Stadt verschont blieb, sagte Baudirektor Markus Kägi (SVP). Nur noch 3 Zentimeter hätten beim Durchfluss der Sihl unter dem Hauptbahnhof gefehlt. «Es ist nur eine Frage der Zeit, dass das nächste ganz grosse Hochwasser auch den Kanton Zürich heimsucht.» Wäre am 21. August 2005 das Niederschlagszentrum der damaligen Unwetter über dem Einzugsgebiet der Sihl gelegen, wäre es zu einer grossflächigen Überflutung der Zürcher Innenstadt und des Hauptbahnhofs gekommen, wie Computersimulationen zeigen. Neue Erhebungen der kantonalen Gebäudeversicherungen haben laut Kägi ergeben, dass das Schadenpotenzial noch grösser ist als bisher angenommen. Ein Jahrhunderthochwasser könnte im unteren Sihltal und in der Stadt Zürich Schäden von 6,7 Milliarden Franken anrichten. Keine «Kombilösung Energie» Die Planung zum langfristigen Hochwasserschutz führte zu zwei möglichen Konzepten. Fallen gelassen wurde nun die Variante «Kombilösung Energie», die eine Hochwasserableitung aus dem Sihlsee in den oberen Zürichsee durch die Druckleitung des Etzel-Pumpspeicherkraftwerks der SBB vorsah. Der Regierungsrat entschied sich für den Entlastungsstollen nach Thalwil, weil er das Kosten-Nutzen-Verhältnis als besser einschätzt. Für dieses Projekt spreche auch die hohe Zuverlässigkeit durch die Unabhängigkeit von Wettervorhersagen. Zudem müsse mit geringeren ökologischen Auswirkungen gerechnet werden und der Kanton Zürich könne das Bauwerk unabhängig von anderen Planungen zügig realisieren. Die jährlichen Betriebskosten des Stollens sind laut Kägi «vergleichsweise gering». Seespiegel stiege nur wenig Der Einlauf des Entlastungsstollens bei Langnau am Albis würde unterhalb des riesigen Schwemmholzrechens liegen, der in diesem Jahr eingeweiht wurde. In den unteren Zürichsee fliessen würde das Wasser direkt neben der Abwasserreinigungsanlage in Thalwil. Die Umleitung von extremen Sihl-Hochwasserspitzen in den Zürichsee würde laut Oplatka nur zu einem geringen zusätzlichen Anstieg des Seespiegels von rund fünf Zentimetern führen. Dieser könnte ausgeglichen werden durch die Erhöhung der Abflusskapazität der Limmat bei der Münsterund der Rathausbrücke in Zürich. Entsprechende Anpassungen sind bereits in Planung. Erneuert werden soll auch das in die Jahre gekommene Platzspitzwehr, damit die Regulierung des Zürichsees verbessert werden kann. Im Kantonsrat frühestens 2020 Zur Projektierung des Entlastungsstollens Thalwil hatte der Regierungsrat 2015 4,65 Millionen Franken bewilligt. Für die Weiterprojektierung sprach er nun weitere 2,5 Millionen Franken. An den gesamten Projektierungskosten beteiligt sich der Bund voraussichtlich mit 35 bis 40 Prozent. Den Kredit von rund 130 Millionen Franken für den Bau des Stollens wird der Kantonsrat laut Baudirektor Kägi im besten Fall 2020 genehmigen. Die Bauzeit beträgt etwa zweieinhalb Jahre. sda ENTLASTUNGSSTOLLEN SIHL In Thalwil bei der Badi soll das Sihlwasser aus dem Entlastungsstollen in den Zürichsee fliessen. Die Toskammer bremst es ab. Bild Kanton Zürich / Grafik zsz «Es ist nur eine Frage der Zeit, bis das nächste ganz grosse Hochwasser auch den Kanton Zürich heimsucht.» Baudirektor Markus Kägi HOCHWASSERGEFAHR IN DER STADT ZÜRICH Bei einem Jahrhunderthochwasser würde die Zürcher Innenstadt bis zu einem halben Meter hoch überflutet Etwa alle hundert Jahre treten in Zürich Sihl und Limmat über die Ufer. Letztmals geschah dies 1910. Die letzten Hochwasser gab es 1999, 2005 und 2007. Starke Überflutungen erlebte Zürich 1846 und 1874. Weil früher aber vor allem an sicheren Orten gebaut wurde, verursachten die Überschwemmungen im vorletzten Jahrhundert noch nicht allzu grosse Schäden. Das deutlich niedrigere Hochwasser von 1910 richtete jedoch verheerende Schäden an, weil sich die stark gewachsene Stadt auf gefährdete Zonen, das natürliche Überschwemmungsgebiet der Sihl, ausdehnte. Weite Teile Zürichs und des Limmattals bis nach Schlieren standen unter Wasser. Seither hat sich die Zahl der Gebäude im gefährdeten Gebiet vervielfacht. Der Sihlschwemmkegel ist mittlerweile vollständig überbaut. Das Hochwasserschadenrisiko im unteren Sihltal und in der Stadt Zürich gehört gemäss Baudirektor Markus Kägi (SVP) denn auch schweizweit zu den höchsten – vergleichbar mit dem Alpenrhein und dem Rhonetal. Teure Sachwerte in Kellern Wäre bei den Unwettern 2005 der extreme Starkregen vom 21./22. August über dem Einzugsgebiet der Flüsse Alp, Biber und Sihl statt im Berner Oberland niedergegangen, wäre es zu grossflächigen Überschwemmungen in der Zürcher Innenstadt gekommen. Das Wasser wäre gemäss einer Computersimulation auf einer Fläche von rund fünf Quadratkilometern bis zu einen halben Meter hoch gestanden. Selbst bei einer geringen Wassertiefe an der Oberfläche sei mit hohen Schäden im Untergrund zu rechnen, schreibt die kantonale Baudirektion. In den Untergeschossen vieler Gebäude befänden sich nämlich sensible Betriebseinrichtungen wie Rechenzentren und teure Sachwerte. Hinzu kämen Strassenunterführungen und Bahntunnels. Ein Extremhochwasser der Sihl wie 1846 würde heute Schäden von 6,7 Milliarden Franken anrichten. Hinzu kämen volkswirtschaftliche Folgekosten durch den Ausfall der Infrastruktur für Energie, Telekommunikation und Verkehr, die die materiellen Schäden um eine Mehrfaches überstiegen. Im Überschwemmungsgebiet von Sihl und Limmat wären je nach Ausmass eines Jahrhunderthochwassers 1500 bis 3600 Gebäude betroffen. In 5 Prozent der Gebäude entstünden bis zu 50 Prozent der Schäden. sda",
+            "toponyms": [
+                {
+                    "text": "Zürichsee",
+                    "start": 25,
+                    "end": 34,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 117,
+                    "end": 121,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 129,
+                    "end": 138,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 180,
+                    "end": 186,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 317,
+                    "end": 323,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Langnau am Albis",
+                    "start": 463,
+                    "end": 479,
+                    "loc_id": "{2AC22027-62D3-48FB-A46A-EB0A0875B529}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 485,
+                    "end": 492,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 524,
+                    "end": 528,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 536,
+                    "end": 545,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 911,
+                    "end": 915,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 917,
+                    "end": 926,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Limmat",
+                    "start": 931,
+                    "end": 937,
+                    "loc_id": "{3BC7B081-BD4D-4504-96BC-BD1C81E819F4}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 983,
+                    "end": 989,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 1191,
+                    "end": 1195,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 1317,
+                    "end": 1323,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 1435,
+                    "end": 1439,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Sihltal",
+                    "start": 1769,
+                    "end": 1776,
+                    "loc_id": "{2F71F121-DA2A-4EA9-A655-1296330E8624}"
+                },
+                {
+                    "text": "Sihlsee",
+                    "start": 2057,
+                    "end": 2064,
+                    "loc_id": "{370599BD-6A21-4559-9801-545D61C3F85B}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 2079,
+                    "end": 2088,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 2226,
+                    "end": 2233,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Kanton Zürich",
+                    "start": 2478,
+                    "end": 2491,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Langnau am Albis",
+                    "start": 2714,
+                    "end": 2730,
+                    "loc_id": "{2AC22027-62D3-48FB-A46A-EB0A0875B529}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 2839,
+                    "end": 2848,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 2920,
+                    "end": 2927,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 2986,
+                    "end": 2995,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 3233,
+                    "end": 3239,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Zürichsees",
+                    "start": 3387,
+                    "end": 3397,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 3954,
+                    "end": 3961,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 4029,
+                    "end": 4038,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Kanton Zürich",
+                    "start": 4082,
+                    "end": 4095,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Kanton Zürich",
+                    "start": 4190,
+                    "end": 4203,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 4414,
+                    "end": 4420,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 4421,
+                    "end": 4425,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Limmat",
+                    "start": 4430,
+                    "end": 4436,
+                    "loc_id": "{3BC7B081-BD4D-4504-96BC-BD1C81E819F4}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 4561,
+                    "end": 4567,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 4919,
+                    "end": 4923,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichs",
+                    "start": 4948,
+                    "end": 4955,
+                    "loc_id": "{AB8B9000-3483-41F8-A948-321DA63FD07E}"
+                },
+                {
+                    "text": "Limmattals",
+                    "start": 4964,
+                    "end": 4974,
+                    "loc_id": "{179B20C9-EB6B-4D3F-9118-5A88479D504F}"
+                },
+                {
+                    "text": "Schlieren",
+                    "start": 4984,
+                    "end": 4993,
+                    "loc_id": "{A9664947-654E-4EE8-9945-B419E3767381}"
+                },
+                {
+                    "text": "Sihltal",
+                    "start": 5189,
+                    "end": 5196,
+                    "loc_id": "{2F71F121-DA2A-4EA9-A655-1296330E8624}"
+                },
+                {
+                    "text": "Stadt Zürich",
+                    "start": 5208,
+                    "end": 5220,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Alpenrhein",
+                    "start": 5326,
+                    "end": 5336,
+                    "loc_id": "{7E1D9A11-A32B-448C-9D55-09EE43EB442C}"
+                },
+                {
+                    "text": "Rhonetal",
+                    "start": 5345,
+                    "end": 5353,
+                    "loc_id": "{163DF63B-16B6-4AD5-896E-61F32CA4DBF9}"
+                },
+                {
+                    "text": "Alp",
+                    "start": 5486,
+                    "end": 5489,
+                    "loc_id": "{C4FCF690-8BA7-4E9B-B55D-CF292AF45862}"
+                },
+                {
+                    "text": "Biber",
+                    "start": 5491,
+                    "end": 5496,
+                    "loc_id": "{EC98B03F-72A7-4B83-8FAD-56019E2CB8F3}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 5501,
+                    "end": 5505,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 6113,
+                    "end": 6117,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 6399,
+                    "end": 6403,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Limmat",
+                    "start": 6408,
+                    "end": 6414,
+                    "loc_id": "{3BC7B081-BD4D-4504-96BC-BD1C81E819F4}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_09.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Beim Hochwasserschutz an der Sihl bleiben alle Optionen offen ===\n\nZürich Noch ist nicht entschieden, welche Massnahmen an der Sihl vor Hochwasser schützen sollen. Der Kanton Zürich treibt die Planung des Sihlstollens bei Thalwil voran. Doch die Option Vergrösserung Etzelwerk ist nicht vom Tisch. Standort und Personal liessen gestern bereits erahnen, dass kein endgültiger Entscheid zum Hochwasserschutz an der Sihl gefallen ist. An einer Medienkonferenz in Thalwil sprachen der Zürcher Regierungsrat Markus Kägi und der Schwyzer Landammann Andreas Barraud (beide SVP) über die weiteren Massnahmen. Diese kämen entweder auf Schwyzer oder auf Zürcher Boden zu stehen. Neben dem bereits bewilligten Schwemmholzrechen in Langnau bleiben die Optionen einer Vergrösserung des Wasserkraftwerks Etzelwerk am Sihlsee und eines zwei Kilometer langen Stollens, der von Langnau aus in den Zürich­see führt. Hintergrund für den Hochwasserschutz sind das hohe Schadenspotenzial, allein in der Stadt Zürich 5,5 Milliarden Franken, und das Hochwasser 2005. Zurzeit hat der Stollen Priorität, denn die Projektierung wird durch die Zürcher voran­getrieben. Bis 2022 könnte der Bau realisiert werden. Der Regierungsrat rechnet dafür mit Ausgaben von 4,65 Millionen Franken. Gut 40 Prozent steuert der Bund bei. Warten bis 2017 Bis zum Winter 2017/18 wird sich zeigen, ob die Variante Etzelwerk, die sogenannte Kombilösung Ener­gie­, umsetzbar ist. Sollten sich Zürcher und Schwyzer für diese Variante entscheiden, müssten die 4,65 Millionen abgeschrieben werden. Für den Regierungsrat ist es dennoch der richtige Entscheid. «Wir wollen der Kombilösung Ener­gie­ die Türe nicht verschliessen, aber das Schadenspotenzial von 5,5 Milliarden Franken rechtfertigt die Projektierung des Stollens», sagte Markus Kägi. Klar ist damit also nur, dass es eine weitere Massnahme für den Hochwasserschutz an der Sihl geben wird. Der Stollen wäre mit geschätzten Kosten von 122 Millionen Franken sicher teurer als die Option Etzelwerk. Dort sind die Kosten zwar noch offen, aber die Kantone Zürich, Schwyz und Zug sowie die Bezirke Einsiedeln und Höfe sind Konzessionäre. Beteiligt sind auch die SBB als Betreiberin des Kraftwerks. Die Kosten würden also aufgeteilt. Langwierige Planung Die Planung für diese sogenannte Kombilösung Ener­gie­ dauert aber. Wie Andreas Barraud ausführte, sei das Verfahren sehr komplex und müsse mit vielen Beteiligten geführt werden. Nach Verhandlungen und Volksabstimmungen könnte frühestens in den 2020er-Jahren mit dem Bau gerechnet werden. Realisiert würde die Kombilösung 2026. Weitere Massnahmen sind in der Stadt Zürich und im Sihltal geplant. So soll die Rathausbrücke in Zürich abgerissen und neu gebaut werden, um den Abfluss aus dem Zürichsee zu vergrössern. Das in die Jahre gekommene Platzspitzwehr soll ersetzt werden. Renaturierungen stehen im Bereich Allmend Brunau an. Aber auch in Adliswil kommt eine Aufwertung im Zen­trumsbereich wieder in den Bereich des Möglichen. Pascal Jäggi Die Sihl bei Adliswil. Wenn der Fluss Hochwasser führt, könnte ein Teil davon zukünftig durch einen Entlastungsstollen bei Thalwil in den Zürichsee fliessen. pd",
+            "toponyms": [
+                {
+                    "text": "Sihl",
+                    "start": 33,
+                    "end": 37,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 131,
+                    "end": 135,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Kanton Zürich",
+                    "start": 172,
+                    "end": 185,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 226,
+                    "end": 233,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 417,
+                    "end": 421,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 464,
+                    "end": 471,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Langnau",
+                    "start": 724,
+                    "end": 731,
+                    "loc_id": "{2AC22027-62D3-48FB-A46A-EB0A0875B529}"
+                },
+                {
+                    "text": "Sihlsee",
+                    "start": 807,
+                    "end": 814,
+                    "loc_id": "{370599BD-6A21-4559-9801-545D61C3F85B}"
+                },
+                {
+                    "text": "Langnau",
+                    "start": 865,
+                    "end": 872,
+                    "loc_id": "{2AC22027-62D3-48FB-A46A-EB0A0875B529}"
+                },
+                {
+                    "text": "Zürich­see",
+                    "start": 884,
+                    "end": 894,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 1887,
+                    "end": 1891,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 2065,
+                    "end": 2071,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Schwyz",
+                    "start": 2073,
+                    "end": 2079,
+                    "loc_id": "{F06DD902-ABC6-4331-81F5-19B85D091E5E}"
+                },
+                {
+                    "text": "Zug",
+                    "start": 2084,
+                    "end": 2087,
+                    "loc_id": "{1808E458-6C81-435D-8BF0-20047723927D}"
+                },
+                {
+                    "text": "Einsiedeln",
+                    "start": 2106,
+                    "end": 2116,
+                    "loc_id": "{458CB2DA-9767-44A7-8470-D7B782587F14}"
+                },
+                {
+                    "text": "Sihltal",
+                    "start": 2640,
+                    "end": 2647,
+                    "loc_id": "{2F71F121-DA2A-4EA9-A655-1296330E8624}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 2686,
+                    "end": 2692,
+                    "loc_id": "{FB7105B8-6D7C-4787-846E-17B2BC145C6E}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 2750,
+                    "end": 2759,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Allmend",
+                    "start": 2873,
+                    "end": 2880,
+                    "loc_id": "{89A18D3F-EE81-4F69-A7E9-39FE6F726743}"
+                },
+                {
+                    "text": "Brunau",
+                    "start": 2881,
+                    "end": 2887,
+                    "loc_id": "{7A2B94A9-5906-4BF1-A01E-518A403988A0}"
+                },
+                {
+                    "text": "Adliswil",
+                    "start": 2905,
+                    "end": 2913,
+                    "loc_id": "{5D7E5812-120E-491A-BFCD-CCED809316F4}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 3010,
+                    "end": 3014,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Adliswil",
+                    "start": 3019,
+                    "end": 3027,
+                    "loc_id": "{5D7E5812-120E-491A-BFCD-CCED809316F4}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 3129,
+                    "end": 3136,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 3144,
+                    "end": 3153,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_10.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Hochwasser-Engpass an der Limmat soll erweitert werden ===\n\nZürich Die Stadt hat das Projekt für den Neubau der Rathausbrücke präsentiert Matthias Scharrer Im Herzen von Zürich steht ein Bauprojekt an, das für den Hochwasserschutz von zentraler Bedeutung ist: Die Stadt plant dort, wo die Limmat am schmalsten ist, den Abriss und Neubau der Rathausbrücke. Gestern präsentierte der Zürcher Stadtrat Richard Wolff (AL) das Siegerprojekt. Geplant ist eine Brücke, die auf schlankeren Pfeilern steht als die heutige. Gleichzeitig soll das Flussbett der Limmat beim Zürcher Rathaus um bis zu zwei Meter vertieft werden. So würde die Abflusskapazität der Limmat um rund zehn Prozent erweitert. Dies ist nötig, weil der Kanton zwischen Langnau am Albis und Thalwil einen Stollen plant, mit dem bei anhaltend starken Regenfällen Wasser aus der Sihl in den Zürichsee geleitet würde. Damit stiege auch die zu bewältigende Abflussmenge in der Limmat an. Das neue Hochwasserkonzept gründet auf der Annahme, dass wegen des Klimawandels künftig heftigere Niederschläge zu erwarten sind. Gebaut werden soll die neue Rathausbrücke ab 2023. Zuvor gilt es allerdings noch einige Hürden für das auf 32 Millionen Franken veranschlagte Projekt zu nehmen: So wird das Stadtzürcher Stimmvolk über den Bau der Rathausbrücke entscheiden. Auch mit Einsprachen ist zu rechnen. Der Stadtzürcher Heimatschutz äusserte gestern bereits Kritik an der Aufhängung der Lampen über der geplanten neuen Rathausbrücke. Seite 19\n\n---\n\n=== Regierungsrat bewilligt weitere Ausgaben ===\n\nThalwil Das Projekt Entlastungsstollen kostet mehr als ursprünglich angenommen. Das Projekt Entlastungsstollen Thalwil kommt teurer als gedacht. Dies ist einem kürzlich publizierten Regierungsratsbericht zu entnehmen. Die bisher bewilligten Ausgaben betragen 7,15 Millionen Franken, nun kommen in der Projektierungsphase 2,2 Millionen Franken hinzu. Der Entlastungsstollen, der in Thalwil beim Seebad Bürger in den See führen soll, wird zwischen Langnau und Thalwil zum Hochwasserschutz an der Sihl beitragen. Nebst dem Bau des Entlastungsstollens beinhaltet das Projekt auch ökologische Ersatzmassnahmen. Dazu gehören ein neuer Wanderweg an der Sihl und die Renaturierung eines Uferstücks zwischen dem Hafen Richterswil und der Grenze zu Wollerau. Verhandlungen laufen noch Es sind unter anderem diese ökologischen Ersatzmassnahmen, welche für den Kanton höhere Planungskosten nach sich ziehen als erwartet. Der Wanderweg an der Sihl, ein baulicher Eingriff am Thalwiler Seeufer und weitere Faktoren haben bereits 700’000 Franken zusätzliche Planungskosten verursacht. Weitere 1,5 Millionen Franken in Zusatzleistungen erwartet der Kanton unter anderem wegen des «grösseren Planungsaufwands für ökologische Ersatzmassnahmen am Zürichsee» – unter Umständen müsse man ein neues Projekt an einem anderen Ort planen, schreibt der Regierungsrat. Wie eine Nachfrage bei der Baudirektion ergibt, ist noch offen, wie es in diesem Punkt weitergeht. Mediensprecher Wolfgang Bollack sagt dazu: «Kanton und Gemeinde arbeiten an der Lösungsfindung für die Ufergestaltung in Richterswil. Mögliche Alternativen prüfen wir, diese sind aber noch nicht spruchreif.» Noch immer nicht beendet sind die Einspracheverhandlungen zum Stollen selber. Auch für die verstärkte Bauherrenunterstützung in diesen Verhandlungen sieht der Regierungsrat mehr Geld vor. (cob/paj)",
+            "toponyms": [
+                {
+                    "text": "Limmat",
+                    "start": 30,
+                    "end": 36,
+                    "loc_id": "{3BC7B081-BD4D-4504-96BC-BD1C81E819F4}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 64,
+                    "end": 70,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 174,
+                    "end": 180,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Limmat",
+                    "start": 293,
+                    "end": 299,
+                    "loc_id": "{3BC7B081-BD4D-4504-96BC-BD1C81E819F4}"
+                },
+                {
+                    "text": "Limmat",
+                    "start": 553,
+                    "end": 559,
+                    "loc_id": "{3BC7B081-BD4D-4504-96BC-BD1C81E819F4}"
+                },
+                {
+                    "text": "Zürcher Rathaus",
+                    "start": 565,
+                    "end": 580,
+                    "loc_id": "{04E61512-71BB-4440-A64B-A038C27884EB}"
+                },
+                {
+                    "text": "Langnau am Albis",
+                    "start": 733,
+                    "end": 749,
+                    "loc_id": "{2AC22027-62D3-48FB-A46A-EB0A0875B529}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 754,
+                    "end": 761,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 840,
+                    "end": 844,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 852,
+                    "end": 861,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Limmat",
+                    "start": 936,
+                    "end": 942,
+                    "loc_id": "{3BC7B081-BD4D-4504-96BC-BD1C81E819F4}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 1931,
+                    "end": 1938,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Thalwil",
+                    "start": 2008,
+                    "end": 2015,
+                    "loc_id": "{8B06C286-094F-4FDF-9A13-B2F63B0154A9}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 2044,
+                    "end": 2048,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 2196,
+                    "end": 2200,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Richterswil",
+                    "start": 2259,
+                    "end": 2270,
+                    "loc_id": "{78B3A838-BC8C-4599-90E8-9E794783E5EB}"
+                },
+                {
+                    "text": "Wollerau",
+                    "start": 2289,
+                    "end": 2297,
+                    "loc_id": "{E8B6CBE1-635E-474A-BFB7-2033DAB9B632}"
+                },
+                {
+                    "text": "Sihl",
+                    "start": 2480,
+                    "end": 2484,
+                    "loc_id": "{F9F393F4-F959-40E4-B6D3-FA5F5E65BC17}"
+                },
+                {
+                    "text": "Zürichsee",
+                    "start": 2778,
+                    "end": 2787,
+                    "loc_id": "{C562F8A0-411E-4145-9038-B40DF89D5571}"
+                },
+                {
+                    "text": "Richterswil",
+                    "start": 3112,
+                    "end": 3123,
+                    "loc_id": "{78B3A838-BC8C-4599-90E8-9E794783E5EB}"
+                }
+            ]
+        }
+    ]
+}

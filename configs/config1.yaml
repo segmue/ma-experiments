@@ -1,0 +1,33 @@
+# =============================================================================
+# Config 1 — Baseline
+# H3: overlap-Modus, max_resolution=13 (fein, ~43 m² pro Zelle)
+# Kontext: statische Admin-Hierarchie (Gemeinde, Kanton, Bezirk)
+# =============================================================================
+
+gazetteer: swissnames3d
+source_crs: 2056
+
+target_cells: 100
+min_resolution: 5
+max_resolution: 13
+containment_mode: overlap
+
+static_slots:
+  - objektart: Gemeindegebiet
+    label: Gemeinde
+    slots: 2
+  - objektart: Bezirk
+    label: Bezirk
+    slots: 1
+  - objektart: Kanton
+    label: Kanton
+    slots: 1
+
+sentence_generator:
+  assoc_threshold: 0.001
+  max_slots: 10
+  max_slots_per_category: 5
+  max_categories: 10
+  max_filler_slots: 0
+
+output_file: config1/spatial_h3.duckdb

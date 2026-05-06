@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "anwendung"
+version = "0.1.0"
+description = "Anwendungsscripts fuer spatial-h3-resolver Experimente"
+authors = ["Sebastian Gmur"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+spatial-h3-resolver = {path = "../spatial-h3-resolver", develop = true}
+h3-spatial-engine = {path = "../h3-spatial-engine", develop = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
