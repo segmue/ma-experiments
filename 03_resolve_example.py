@@ -19,7 +19,7 @@ from pathlib import Path
 
 from geoparser import Geoparser, SpacyRecognizer
 
-from spatial_h3_resolver import SpatialSentenceResolver
+from geoparser_h3_resolver import SpatialSentenceResolver
 
 BASE = Path(__file__).parent
 CONFIGS = ["config1", "config2"]

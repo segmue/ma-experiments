@@ -18,7 +18,7 @@ from pathlib import Path
 
 import appdirs
 
-from spatial_h3_resolver.pipeline import build
+from geoparser_h3_resolver.pipeline import build
 
 BASE = Path(__file__).parent
 GEOPARSER_DB = Path(appdirs.user_data_dir("geoparser")) / "geoparser.db"

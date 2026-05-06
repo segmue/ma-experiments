@@ -22,7 +22,7 @@ from pathlib import Path
 
 from geoparser import Project
 
-from spatial_h3_resolver import SpatialSentenceResolver
+from geoparser_h3_resolver import SpatialSentenceResolver
 
 BASE = Path(__file__).parent
 #BASE = Path('~/Projekte/UZH_HS24/MA/anwendung').expanduser()
