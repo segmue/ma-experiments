@@ -76,7 +76,39 @@ def merge_annotation_files(annotation_dir: Path, output_path: Path) -> Path:
 merged_path = merge_annotation_files(ANNOTATIONS_DIR, MERGED_PATH)
 
 project = Project(name="first_test_06-05-2026")
-project.load_annotations(str(merged_path), tag="train", create_documents=True)
+print(f"Project erstellt: {project.name} (id={project.id})")
+
+try:
+    print("  1/3 create_documents ...")
+    project.create_documents([doc["text"] for doc in merged["documents"]])
+    print(f"      -> {len(merged['documents'])} Dokumente erstellt")
+
+    print("  2/3 create_references ...")
+    texts = [doc["text"] for doc in merged["documents"]]
+    references = [[(t["start"], t["end"]) for t in doc["toponyms"]] for doc in merged["documents"]]
+    project.create_references(texts, references, tag="train")
+    print(f"      -> Referenzen erstellt")
+
+    print("  3/3 create_referents ...")
+    gazetteer_name = merged["gazetteer"]
+    referents = []
+    for doc in merged["documents"]:
+        doc_referents = []
+        for toponym in doc["toponyms"]:
+            if toponym["loc_id"] and toponym["loc_id"] != "":
+                doc_referents.append((gazetteer_name, toponym["loc_id"]))
+            else:
+                doc_referents.append(None)
+        referents.append(doc_referents)
+    project.create_referents(texts, references, referents, tag="train")
+    print(f"      -> Referenten erstellt")
+
+except Exception as e:
+    print(f"\n  FEHLER in load_annotations: {type(e).__name__}: {e}")
+    import traceback
+    traceback.print_exc()
+    raise
+
 print("Annotations geladen.\n")
 
 # Pro Config ein Modell trainieren
