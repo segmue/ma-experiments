@@ -91,9 +91,7 @@ def extract_training_data(
         for toponym in doc["toponyms"]:
             if toponym.get("loc_id") and toponym["loc_id"] != "":
                 doc_refs.append((toponym["start"], toponym["end"]))
-                # Braces entfernen: Annotator speichert {UUID}, DB speichert UUID
-                loc_id = toponym["loc_id"].strip("{}")
-                doc_referents.append((gazetteer_name, loc_id))
+                doc_referents.append((gazetteer_name, toponym["loc_id"]))
 
         if doc_refs:
             texts.append(doc["text"])
