@@ -91,7 +91,9 @@ def extract_training_data(
         for toponym in doc["toponyms"]:
             if toponym.get("loc_id") and toponym["loc_id"] != "":
                 doc_refs.append((toponym["start"], toponym["end"]))
-                doc_referents.append((gazetteer_name, toponym["loc_id"]))
+                # Braces entfernen: Annotator speichert {UUID}, DB speichert UUID
+                loc_id = toponym["loc_id"].strip("{}")
+                doc_referents.append((gazetteer_name, loc_id))
 
         if doc_refs:
             texts.append(doc["text"])
@@ -124,6 +126,20 @@ for config_name in CONFIGS:
         config_path=BASE / "configs" / f"{config_name}.yaml",
         duckdb_path=duckdb_path,
     )
+
+    # Sanity check: Gazetteer-Suche und Identifier-Match testen
+    first_text = texts[0][references[0][0][0]:references[0][0][1]]
+    candidates = resolver.gazetteer.search(first_text)
+    first_id = referents[0][0][1]
+    match = any(c.location_id_value == first_id for c in candidates)
+    print(f"  Sanity check: search('{first_text}') -> {len(candidates)} Kandidaten, "
+          f"ID-Match={match} (loc_id={first_id})")
+    if not candidates:
+        print("  FEHLER: Gazetteer-Suche liefert keine Ergebnisse! Abbruch.")
+        continue
+    if not match:
+        print(f"  WARNUNG: Kein Kandidat matcht loc_id={first_id}")
+        print(f"  Kandidaten-IDs: {[c.location_id_value for c in candidates[:5]]}")
 
     output_path = BASE / "models" / f"model_{config_name}"
 
