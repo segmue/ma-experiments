@@ -72,6 +72,50 @@ def merge_annotation_files(annotation_dir: Path, output_path: Path) -> Dict:
     return merged
 
 
+def clean_annotations(merged: Dict) -> Dict:
+    """Entfernt Toponyme deren Position von spaCy keiner Sentence zugeordnet werden kann.
+
+    _extract_context() im Geoparser crasht wenn spaCy's Sentence Splitter
+    keine Sentence fuer eine Toponym-Position findet (z.B. bei Headern wie
+    "=== Toggenburg ==="). Diese Funktion prueft das vorab und entfernt
+    fehlerhafte Eintraege.
+    """
+    import spacy
+    try:
+        nlp = spacy.load("xx_sent_ud_sm")
+    except OSError:
+        spacy.cli.download("xx_sent_ud_sm")
+        nlp = spacy.load("xx_sent_ud_sm")
+
+    total_removed = 0
+    for doc in merged["documents"]:
+        spacy_doc = nlp(doc["text"])
+        sentences = list(spacy_doc.sents)
+
+        clean_toponyms = []
+        for toponym in doc["toponyms"]:
+            start = toponym["start"]
+            # Gleiche Logik wie _extract_context: sent.start_char <= start < sent.end_char
+            found = any(sent.start_char <= start < sent.end_char for sent in sentences)
+            if found:
+                clean_toponyms.append(toponym)
+            else:
+                total_removed += 1
+                print(f"  Entfernt: '{toponym['text']}' (pos {start}-{toponym['end']}) "
+                      f"in '{doc['text'][:50]}...'")
+
+        doc["toponyms"] = clean_toponyms
+
+    total_remaining = sum(len(doc["toponyms"]) for doc in merged["documents"])
+    if total_removed:
+        print(f"  -> {total_removed} Toponym(e) entfernt (keine spaCy-Sentence), "
+              f"{total_remaining} uebrig\n")
+    else:
+        print(f"  -> Alle {total_remaining} Toponyme OK\n")
+
+    return merged
+
+
 def extract_training_data(
     merged: Dict,
 ) -> Tuple[List[str], List[List[Tuple[int, int]]], List[List[Tuple[str, str]]]]:
@@ -101,8 +145,10 @@ def extract_training_data(
     return texts, references, referents
 
 
-# --- Annotations zusammenfuehren ---
+# --- Annotations zusammenfuehren und bereinigen ---
 merged = merge_annotation_files(ANNOTATIONS_DIR, MERGED_PATH)
+print("\nBereinige Annotations (spaCy Sentence-Check)...")
+merged = clean_annotations(merged)
 texts, references, referents = extract_training_data(merged)
 print(f"\nTrainingsdaten: {len(texts)} Dokumente, "
       f"{sum(len(r) for r in references)} annotierte Toponyme\n")
