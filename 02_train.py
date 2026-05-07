@@ -6,6 +6,10 @@ Config ein eigenes Modell. Die H3-basierten Saetze aus _generate_description()
 dienen als Trainingsziel — das Modell lernt, Toponyme mit ihrem raeumlichen
 Kontext zu matchen.
 
+Hinweis: Ruft resolver.fit() direkt auf, ohne den Geoparser-Project-DB-Weg
+(load_annotations / train_resolver), weil dieser auf Windows mit exit code 3
+abstuerzt (SpatiaLite DLL-Problem bei create_referents).
+
 Voraussetzungen:
     - data/annotations/*.json  (JSON-Exporte aus dem Geoparser Annotator)
     - output/config1/ und output/config2/ (von 01_build.py erzeugt)
@@ -18,53 +22,27 @@ Verwendung:
     poetry run python 02_train.py
 """
 
-import faulthandler
-faulthandler.enable()
-
 import json
-import os
-import platform
-import sys
-from datetime import datetime
 from pathlib import Path
-from typing import List
-
-# Workaround: SpatiaLite DLLs muessen dauerhaft im PATH sein (Windows),
-# weil mod_spatialite.dll delay-loaded dependencies hat die sonst nicht
-# gefunden werden (exit code 3).
-if platform.system() == "Windows":
-    import geoparser.db.extensions.spatialite.loader as _sl
-    import geoparser.db.extensions.spellfix.loader as _sf
-    for _get_path in (_sl.get_spatialite_path, _sf.get_spellfix_path):
-        _p = _get_path()
-        if _p and _p.exists():
-            dll_dir = str(_p.parent)
-            if dll_dir not in os.environ.get("PATH", ""):
-                os.environ["PATH"] = dll_dir + os.pathsep + os.environ.get("PATH", "")
-                print(f"DLL-Pfad hinzugefuegt: {dll_dir}")
-
-from geoparser import Project
+from typing import Dict, List, Tuple
 
 from geoparser_h3_resolver import SpatialSentenceResolver
 
 BASE = Path(__file__).parent
-#BASE = Path('~/Projekte/UZH_HS24/MA/anwendung').expanduser()
 ANNOTATIONS_DIR = BASE / "data" / "annotations"
 MERGED_PATH = BASE / "data" / "annotations_merged.json"
 BASE_MODEL = "sentence-transformers/distiluse-base-multilingual-cased-v1"
 CONFIGS = ["config1", "config2"]
-PROJECT_NAME = f"train_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
 
 
-def merge_annotation_files(annotation_dir: Path, output_path: Path) -> Path:
-    """Merge multiple annotator JSON exports into a single file.
+def merge_annotation_files(annotation_dir: Path, output_path: Path) -> Dict:
+    """Merge multiple annotator JSON exports into a single dict.
 
     The geoparser's load_annotations() overwrites the tag context on each call,
     so multiple calls with the same tag would lose earlier annotations.
-    This function combines all documents into one JSON to avoid that.
+    This function combines all documents into one structure to avoid that.
     """
     files = sorted(annotation_dir.glob("*.json"))
-    # Skip previously generated merged file
     files = [f for f in files if f != output_path]
 
     if not files:
@@ -91,21 +69,47 @@ def merge_annotation_files(annotation_dir: Path, output_path: Path) -> Path:
         json.dump(merged, f, ensure_ascii=False, indent=2)
     print(f"  -> Gespeichert: {output_path.name}")
 
-    return output_path, merged
+    return merged
 
 
-# --- Annotations zusammenfuehren und laden ---
-merged_path, merged = merge_annotation_files(ANNOTATIONS_DIR, MERGED_PATH)
+def extract_training_data(
+    merged: Dict,
+) -> Tuple[List[str], List[List[Tuple[int, int]]], List[List[Tuple[str, str]]]]:
+    """Extract texts, references, and referents from merged annotations.
 
-project = Project(name=PROJECT_NAME)
-print(f"Project erstellt: {project.name} (id={project.id})")
+    Filters out toponyms without loc_id and documents without any annotations.
+    Returns the same format that resolver.fit() expects.
+    """
+    gazetteer_name = merged["gazetteer"]
+    texts = []
+    references = []
+    referents = []
 
-project.load_annotations(str(merged_path), tag="train", create_documents=True)
-print("Annotations geladen.\n")
+    for doc in merged["documents"]:
+        doc_refs = []
+        doc_referents = []
+        for toponym in doc["toponyms"]:
+            if toponym.get("loc_id") and toponym["loc_id"] != "":
+                doc_refs.append((toponym["start"], toponym["end"]))
+                doc_referents.append((gazetteer_name, toponym["loc_id"]))
 
-# Pro Config ein Modell trainieren
+        if doc_refs:
+            texts.append(doc["text"])
+            references.append(doc_refs)
+            referents.append(doc_referents)
+
+    return texts, references, referents
+
+
+# --- Annotations zusammenfuehren ---
+merged = merge_annotation_files(ANNOTATIONS_DIR, MERGED_PATH)
+texts, references, referents = extract_training_data(merged)
+print(f"\nTrainingsdaten: {len(texts)} Dokumente, "
+      f"{sum(len(r) for r in references)} annotierte Toponyme\n")
+
+# --- Pro Config ein Modell trainieren ---
 for config_name in CONFIGS:
-    print(f"\n{'=' * 60}")
+    print(f"{'=' * 60}")
     print(f"Training: {config_name}")
     print(f"{'=' * 60}")
 
@@ -122,13 +126,17 @@ for config_name in CONFIGS:
     )
 
     output_path = BASE / "models" / f"model_{config_name}"
-    project.train_resolver(
-        resolver,
-        tag="train",
+
+    # Direkt resolver.fit() aufrufen — umgeht den Geoparser-DB-Weg
+    # der auf Windows mit exit code 3 abstuerzt.
+    resolver.fit(
+        texts=texts,
+        references=references,
+        referents=referents,
         output_path=output_path,
         epochs=5,
         batch_size=8,
     )
-    print(f"  -> Modell gespeichert: {output_path}")
+    print(f"  -> Modell gespeichert: {output_path}\n")
 
-print("\nTraining abgeschlossen.")
+print("Training abgeschlossen.")
