@@ -18,7 +18,9 @@ Verwendung:
     poetry run python 02_train.py
 """
 
+import json
 from pathlib import Path
+from typing import List
 
 from geoparser import Project
 
@@ -27,22 +29,55 @@ from geoparser_h3_resolver import SpatialSentenceResolver
 BASE = Path(__file__).parent
 #BASE = Path('~/Projekte/UZH_HS24/MA/anwendung').expanduser()
 ANNOTATIONS_DIR = BASE / "data" / "annotations"
+MERGED_PATH = BASE / "data" / "annotations_merged.json"
 BASE_MODEL = "sentence-transformers/distiluse-base-multilingual-cased-v1"
 CONFIGS = ["config1", "config2"]
 
-# Alle Annotator-JSONs laden (mehrere Sessions akkumulieren)
-annotation_files = sorted(ANNOTATIONS_DIR.glob("*.json"))
-if not annotation_files:
-    raise FileNotFoundError(
-        f"Keine Annotations-JSONs in {ANNOTATIONS_DIR} gefunden.\n"
-        "JSON-Exporte aus dem Geoparser Annotator dort ablegen."
-    )
 
-print(f"Lade {len(annotation_files)} Annotations-Datei(en)...")
+def merge_annotation_files(annotation_dir: Path, output_path: Path) -> Path:
+    """Merge multiple annotator JSON exports into a single file.
+
+    The geoparser's load_annotations() overwrites the tag context on each call,
+    so multiple calls with the same tag would lose earlier annotations.
+    This function combines all documents into one JSON to avoid that.
+    """
+    files = sorted(annotation_dir.glob("*.json"))
+    # Skip previously generated merged file
+    files = [f for f in files if f != output_path]
+
+    if not files:
+        raise FileNotFoundError(
+            f"Keine Annotations-JSONs in {annotation_dir} gefunden.\n"
+            "JSON-Exporte aus dem Geoparser Annotator dort ablegen."
+        )
+
+    print(f"Merge {len(files)} Annotations-Datei(en):")
+    merged = None
+    for json_file in files:
+        with open(json_file, "r") as f:
+            data = json.load(f)
+        n_docs = len(data["documents"])
+        print(f"  {json_file.name}  ({n_docs} Dokumente)")
+        if merged is None:
+            merged = data
+        else:
+            merged["documents"].extend(data["documents"])
+
+    print(f"  -> {len(merged['documents'])} Dokumente total")
+
+    with open(output_path, "w") as f:
+        json.dump(merged, f, ensure_ascii=False, indent=2)
+    print(f"  -> Gespeichert: {output_path.name}")
+
+    return output_path
+
+
+# --- Annotations zusammenfuehren und laden ---
+merged_path = merge_annotation_files(ANNOTATIONS_DIR, MERGED_PATH)
+
 project = Project(name="first_test_06-05-2026")
-for json_file in annotation_files:
-    print(f"  {json_file.name}")
-    project.load_annotations(str(json_file), tag="train", create_documents=True)
+project.load_annotations(str(merged_path), tag="train", create_documents=True)
+print("Annotations geladen.\n")
 
 # Pro Config ein Modell trainieren
 for config_name in CONFIGS:
