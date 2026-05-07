@@ -69,11 +69,11 @@ def merge_annotation_files(annotation_dir: Path, output_path: Path) -> Path:
         json.dump(merged, f, ensure_ascii=False, indent=2)
     print(f"  -> Gespeichert: {output_path.name}")
 
-    return output_path
+    return output_path, merged
 
 
 # --- Annotations zusammenfuehren und laden ---
-merged_path = merge_annotation_files(ANNOTATIONS_DIR, MERGED_PATH)
+merged_path, merged = merge_annotation_files(ANNOTATIONS_DIR, MERGED_PATH)
 
 project = Project(name="first_test_06-05-2026")
 print(f"Project erstellt: {project.name} (id={project.id})")
