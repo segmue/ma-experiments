@@ -42,7 +42,7 @@ print(f"Lade {len(annotation_files)} Annotations-Datei(en)...")
 project = Project(name="first_test_06-05-2026")
 for json_file in annotation_files:
     print(f"  {json_file.name}")
-    project.load_annotations(str(json_file), tag="train")
+    project.load_annotations(str(json_file), tag="train", create_documents=True)
 
 # Pro Config ein Modell trainieren
 for config_name in CONFIGS:
