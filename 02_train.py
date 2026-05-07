@@ -22,10 +22,26 @@ import faulthandler
 faulthandler.enable()
 
 import json
+import os
+import platform
 import sys
 from datetime import datetime
 from pathlib import Path
 from typing import List
+
+# Workaround: SpatiaLite DLLs muessen dauerhaft im PATH sein (Windows),
+# weil mod_spatialite.dll delay-loaded dependencies hat die sonst nicht
+# gefunden werden (exit code 3).
+if platform.system() == "Windows":
+    import geoparser.db.extensions.spatialite.loader as _sl
+    import geoparser.db.extensions.spellfix.loader as _sf
+    for _get_path in (_sl.get_spatialite_path, _sf.get_spellfix_path):
+        _p = _get_path()
+        if _p and _p.exists():
+            dll_dir = str(_p.parent)
+            if dll_dir not in os.environ.get("PATH", ""):
+                os.environ["PATH"] = dll_dir + os.pathsep + os.environ.get("PATH", "")
+                print(f"DLL-Pfad hinzugefuegt: {dll_dir}")
 
 from geoparser import Project
 
