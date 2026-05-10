@@ -9,6 +9,8 @@ package-mode = false
 python = ">=3.11,<3.14"
 geoparser-h3-resolver = {git = "https://github.com/segmue/ma-geoparser-h3-resolver.git"}
 h3-multi-resolution-index = {git = "https://github.com/segmue/ma-h3-multi-resolution-engine.git"}
+scikit-learn = "^1.5"
+numpy = "^2.0"
 
 [build-system]
 requires = ["poetry-core"]
