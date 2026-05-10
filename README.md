@@ -145,6 +145,19 @@ Da `fit()` keine interne Evaluation unterstuetzt (Black-Box), wird nach jedem Tr
 - **Accuracy@3** — Ist der korrekte Kandidat in den Top 3?
 - **MRR** (Mean Reciprocal Rank) — Mittlerer Kehrwert des Rangs
 
+### Performance-Optimierung
+
+Die Pipeline umgeht `fit()` und repliziert dessen Trainer-Setup direkt.
+So koennen teure Vorbereitungsschritte gecacht werden:
+
+| Ebene | Was | Wo | Wirkung |
+|-------|-----|-----|---------|
+| **A: Feature-Cache** | `feature_id → GeneratedSentence` Cache | `CandidateSentenceGenerator` | Jede Description wird nur 1× generiert (5 DuckDB-Queries gespart pro Duplikat) |
+| **B: Training-Daten** | `_prepare_training_data()` 1× pro Fold, gecacht fuer alle 18 HP-Combos | `run_hp_search()` | Phase 1: 90→5 Aufrufe |
+| **C: Eval-Daten** | Contexts + Descriptions 1× pro Fold vorberechnet | `prepare_eval_data()` | Phase 1: 90→5 Eval-Vorbereitungen |
+
+Ohne Optimierung: ~15-20h. Mit: ~2-4h.
+
 ### Logging
 
 Alles wird mit dem Python `logging`-Modul geloggt (nicht `print`):

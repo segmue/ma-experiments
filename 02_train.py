@@ -6,6 +6,13 @@ Dreiphasige Pipeline:
     Phase 2: Experiment-Matrix (10 Konfigurationen mit besten HPs, 5-Fold CV)
     Phase 3: Finale Modelle (Training auf Gesamtdaten)
 
+Performance-Optimierung:
+    - fit() wird umgangen: _prepare_training_data() wird pro Fold gecacht,
+      Trainer-Code wird direkt aufgerufen (Ebene B)
+    - Eval-Daten (Contexts + Descriptions) werden pro Fold gecacht,
+      nur Encoding + Ranking wird pro HP-Combo wiederholt (Ebene C)
+    - Feature-Level Description Cache im CandidateSentenceGenerator (Ebene A)
+
 Voraussetzungen:
     - data/preprocessed.json   (von 02_preprocess.py erzeugt)
     - output/config1/ und output/config2/ (von 01_build.py erzeugt)
@@ -34,12 +41,16 @@ import logging
 import random
 import shutil
 import time
-from dataclasses import asdict
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 import numpy as np
 import torch
+from datasets import Dataset
+from sentence_transformers import SentenceTransformer
+from sentence_transformers.losses import ContrastiveLoss
+from sentence_transformers import SentenceTransformerTrainer
+from sentence_transformers.training_args import SentenceTransformerTrainingArguments
 from sklearn.model_selection import KFold
 
 from geoparser_h3_resolver import SpatialSentenceResolver
@@ -132,7 +143,7 @@ def load_preprocessed() -> Tuple[Dict, List[Dict]]:
 def docs_to_training_format(
     documents: List[Dict],
 ) -> Tuple[List[str], List[List[Tuple[int, int]]], List[List[Tuple[str, str]]]]:
-    """Konvertiert Dokument-Dicts in das Format fuer resolver.fit()."""
+    """Konvertiert Dokument-Dicts in das Format fuer resolver._prepare_training_data()."""
     texts = []
     references = []
     referents = []
@@ -150,6 +161,7 @@ def create_document_folds(
 ) -> List[Tuple[np.ndarray, np.ndarray]]:
     """Erstellt K-Fold Splits auf Dokument-Ebene."""
     kf = KFold(n_splits=n_folds, shuffle=True, random_state=seed)
+    logger.info("Document-Folds erstellt: %d Folds, %d Dokumente", n_folds, n_documents)
     return list(kf.split(range(n_documents)))
 
 
@@ -201,13 +213,162 @@ def sentence_config_to_dict(config: Optional[SentenceGeneratorConfig]) -> Dict:
     return d
 
 
-# ── Evaluation ───────────────────────────────────────────────────────────────
+# ── Training (Ebene B: fit() umgehen) ───────────────────────────────────────
+
+def run_training(
+    resolver: SpatialSentenceResolver,
+    training_data: Dict[str, list],
+    output_path: Path,
+    epochs: int,
+    batch_size: int,
+    learning_rate: float,
+    warmup_ratio: float = 0.1,
+    save_strategy: str = "no",
+):
+    """Trainiert das Modell mit vorbereiteten Training-Daten.
+
+    Repliziert die Trainer-Logik aus SentenceTransformerResolver.fit()
+    (geoparser/.../sentencetransformer.py:630-667), aber ohne den
+    _prepare_training_data()-Aufruf. So koennen gecachte Training-Daten
+    direkt mit verschiedenen Hyperparametern verwendet werden.
+    """
+    train_dataset = Dataset.from_dict(training_data)
+    train_loss = ContrastiveLoss(resolver.transformer)
+
+    training_args = SentenceTransformerTrainingArguments(
+        output_dir=str(output_path),
+        num_train_epochs=epochs,
+        per_device_train_batch_size=batch_size,
+        learning_rate=learning_rate,
+        warmup_ratio=warmup_ratio,
+        save_strategy=save_strategy,
+        logging_strategy="steps",
+        logging_steps=max(1, len(training_data["sentence1"]) // (batch_size * 10)),
+        eval_strategy="no",
+        save_total_limit=2,
+        load_best_model_at_end=False,
+    )
+
+    trainer = SentenceTransformerTrainer(
+        model=resolver.transformer,
+        args=training_args,
+        train_dataset=train_dataset,
+        loss=train_loss,
+    )
+
+    trainer.train()
+    resolver.transformer.save_pretrained(str(output_path))
+
+
+# ── Evaluation (Ebene C: Eval-Daten cachen) ─────────────────────────────────
+
+def prepare_eval_data(
+    resolver: SpatialSentenceResolver,
+    val_documents: List[Dict],
+) -> List[Dict]:
+    """Vorberechnet Contexts + Descriptions + Gold-IDs fuer alle Val-Toponyme.
+
+    Diese Daten sind ueber HP-Combos hinweg identisch (haengen nur von der
+    Config/Variante und dem Fold-Split ab, nicht von den Modellgewichten).
+    So muss _generate_description() nur einmal pro Fold aufgerufen werden.
+    """
+    eval_items = []
+    for doc in val_documents:
+        text = doc["text"]
+        for ref, referent in zip(doc["references"], doc["referents"]):
+            start, end = ref[0], ref[1]
+            toponym_text = text[start:end]
+
+            candidates = resolver.gazetteer.search(toponym_text)
+            if not candidates:
+                eval_items.append({
+                    "context": None,
+                    "descriptions": [],
+                    "candidate_ids": [],
+                    "gold_id": referent[1],
+                })
+                continue
+
+            context = resolver._extract_context(text, start, end)
+            descriptions = [resolver._generate_description(c) for c in candidates]
+            candidate_ids = [c.location_id_value for c in candidates]
+
+            eval_items.append({
+                "context": context,
+                "descriptions": descriptions,
+                "candidate_ids": candidate_ids,
+                "gold_id": referent[1],
+            })
+
+    return eval_items
+
+
+def evaluate_with_cached_data(
+    resolver: SpatialSentenceResolver,
+    eval_items: List[Dict],
+) -> Dict:
+    """Evaluiert mit vorbereiteten Eval-Daten — nur Encoding + Ranking.
+
+    Gazetteer-Suche und Description-Generierung wurden bereits in
+    prepare_eval_data() durchgefuehrt. Hier wird nur noch:
+    1. Context + Descriptions encoden (mit dem trainierten Modell)
+    2. Cosine Similarity berechnen
+    3. Ranking gegen Gold-ID pruefen
+    """
+    correct_at_1 = 0
+    correct_at_3 = 0
+    reciprocal_ranks = []
+    total = 0
+    no_candidates = 0
+
+    for item in eval_items:
+        total += 1
+
+        if not item["descriptions"]:
+            reciprocal_ranks.append(0.0)
+            no_candidates += 1
+            continue
+
+        context_emb = resolver.transformer.encode(
+            [item["context"]], convert_to_tensor=True, show_progress_bar=False,
+        )[0]
+
+        cand_embs = resolver.transformer.encode(
+            item["descriptions"], convert_to_tensor=True, show_progress_bar=False,
+        )
+
+        similarities = torch.nn.functional.cosine_similarity(
+            context_emb.unsqueeze(0), cand_embs, dim=1,
+        )
+
+        ranked_indices = similarities.argsort(descending=True).tolist()
+
+        rank = None
+        for pos, idx in enumerate(ranked_indices):
+            if item["candidate_ids"][idx] == item["gold_id"]:
+                rank = pos + 1
+                break
+
+        if rank == 1:
+            correct_at_1 += 1
+        if rank is not None and rank <= 3:
+            correct_at_3 += 1
+        reciprocal_ranks.append(1.0 / rank if rank else 0.0)
+
+    return {
+        "accuracy_at_1": correct_at_1 / total if total else 0.0,
+        "accuracy_at_3": correct_at_3 / total if total else 0.0,
+        "mrr": sum(reciprocal_ranks) / len(reciprocal_ranks) if reciprocal_ranks else 0.0,
+        "total": total,
+        "no_candidates": no_candidates,
+    }
+
 
 def evaluate_fold(resolver: SpatialSentenceResolver, val_documents: List[Dict]) -> Dict:
     """Evaluiert einen trainierten Resolver auf Validation-Dokumenten.
 
-    Berechnet Accuracy@1, Accuracy@3 und MRR indem fuer jedes Toponym
-    alle Gazetteer-Kandidaten gerankt und mit der Gold-loc_id verglichen werden.
+    Nicht-gecachte Version fuer Phase 2 und 3, wo jede Variante
+    andere Descriptions generiert und kein Cross-HP-Caching moeglich ist.
     """
     correct_at_1 = 0
     correct_at_3 = 0
@@ -223,34 +384,28 @@ def evaluate_fold(resolver: SpatialSentenceResolver, val_documents: List[Dict]) 
             toponym_text = text[start:end]
             total += 1
 
-            # Kandidaten suchen
             candidates = resolver.gazetteer.search(toponym_text)
             if not candidates:
                 reciprocal_ranks.append(0.0)
                 no_candidates += 1
                 continue
 
-            # Kontext extrahieren und Embeddings berechnen
             context = resolver._extract_context(text, start, end)
             context_emb = resolver.transformer.encode(
                 [context], convert_to_tensor=True, show_progress_bar=False,
             )[0]
 
-            # Beschreibungen generieren und Embeddings berechnen
             descriptions = [resolver._generate_description(c) for c in candidates]
             cand_embs = resolver.transformer.encode(
                 descriptions, convert_to_tensor=True, show_progress_bar=False,
             )
 
-            # Cosine Similarity
             similarities = torch.nn.functional.cosine_similarity(
                 context_emb.unsqueeze(0), cand_embs, dim=1,
             )
 
-            # Ranking (absteigend nach Similarity)
             ranked_indices = similarities.argsort(descending=True).tolist()
 
-            # Gold-Kandidat finden
             rank = None
             for pos, idx in enumerate(ranked_indices):
                 if candidates[idx].location_id_value == gold_loc_id:
@@ -284,7 +439,6 @@ def extract_training_loss(model_dir: Path) -> List[float]:
         state = json.load(f)
 
     log_history = state.get("log_history", [])
-    # Sammle Loss-Werte pro Epoch (entries mit 'loss' key)
     losses = [entry["loss"] for entry in log_history if "loss" in entry]
     return losses
 
@@ -303,102 +457,6 @@ def free_resources():
     gc.collect()
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
-
-
-def train_and_evaluate_fold(
-    documents: List[Dict],
-    train_idx: np.ndarray,
-    val_idx: np.ndarray,
-    fold_idx: int,
-    model_dir: Path,
-    base_model: str,
-    config_path: Path,
-    duckdb_path: Path,
-    sentence_config: Optional[SentenceGeneratorConfig],
-    epochs: int,
-    batch_size: int,
-    learning_rate: float,
-) -> Dict:
-    """Trainiert einen Fold und evaluiert. Gibt Metriken zurueck."""
-    train_docs = [documents[i] for i in train_idx]
-    val_docs = [documents[i] for i in val_idx]
-
-    texts, refs, referents = docs_to_training_format(train_docs)
-
-    train_toponyms = sum(len(r) for r in refs)
-    val_toponyms = sum(len(doc["references"]) for doc in val_docs)
-
-    logger.debug(
-        "  Fold %d: %d train docs (%d toponyms), %d val docs (%d toponyms)",
-        fold_idx, len(train_docs), train_toponyms, len(val_docs), val_toponyms,
-    )
-
-    # Training
-    model_dir.mkdir(parents=True, exist_ok=True)
-    t0 = time.time()
-
-    resolver = SpatialSentenceResolver(
-        model_name=base_model,
-        gazetteer_name="swissnames3d",
-        config_path=config_path,
-        duckdb_path=duckdb_path,
-        sentence_config=sentence_config,
-    )
-
-    resolver.fit(
-        texts=texts,
-        references=refs,
-        referents=referents,
-        output_path=model_dir,
-        epochs=epochs,
-        batch_size=batch_size,
-        learning_rate=learning_rate,
-        save_strategy="no",
-    )
-
-    training_loss = extract_training_loss(model_dir)
-    train_duration = time.time() - t0
-
-    del resolver
-    free_resources()
-
-    # Evaluation mit trainiertem Modell
-    t1 = time.time()
-    eval_resolver = SpatialSentenceResolver(
-        model_name=str(model_dir),
-        gazetteer_name="swissnames3d",
-        config_path=config_path,
-        duckdb_path=duckdb_path,
-        sentence_config=sentence_config,
-    )
-
-    metrics = evaluate_fold(eval_resolver, val_docs)
-    eval_duration = time.time() - t1
-
-    del eval_resolver
-    free_resources()
-
-    cleanup_model_dir(model_dir)
-
-    result = {
-        "fold": fold_idx,
-        "train_documents": len(train_docs),
-        "val_documents": len(val_docs),
-        "train_toponyms": train_toponyms,
-        "val_toponyms": val_toponyms,
-        **metrics,
-        "training_loss": training_loss,
-        "train_duration_seconds": round(train_duration, 1),
-        "eval_duration_seconds": round(eval_duration, 1),
-    }
-
-    logger.info(
-        "  Fold %d: Acc@1=%.3f, Acc@3=%.3f, MRR=%.3f (%d toponyms, %.0fs)",
-        fold_idx, metrics["accuracy_at_1"], metrics["accuracy_at_3"],
-        metrics["mrr"], metrics["total"], train_duration + eval_duration,
-    )
-
-    return result
 
 
 def aggregate_fold_metrics(fold_results: List[Dict]) -> Dict:
@@ -421,6 +479,8 @@ def run_hp_search(
     """Phase 1: Grid Search ueber Hyperparameter mit K-Fold CV.
 
     Sucht auf config1/default nach den besten Hyperparametern.
+    Optimiert: Folds aussen, HP-Combos innen. Training-Daten und Eval-Daten
+    werden pro Fold einmal vorbereitet und fuer alle 18 HP-Combos wiederverwendet.
     """
     config_path = BASE / "configs" / "config1.yaml"
     duckdb_path = BASE / "output" / "config1" / "spatial_h3.duckdb"
@@ -446,40 +506,137 @@ def run_hp_search(
     logger.info("  Grid: %d Kombinationen x %d Folds = %d Runs",
                 len(hp_combos), n_folds, len(hp_combos) * n_folds)
     logger.info("  Referenz-Config: config1/default")
+    logger.info("  Optimierung: Training- und Eval-Daten werden pro Fold gecacht")
     logger.info("=" * 60)
 
-    all_results = []
+    # Ergebnisse pro HP-Combo sammeln: hp_key -> list of fold results
+    hp_fold_results: Dict[str, List[Dict]] = {
+        f"lr={lr}_ep={ep}_bs={bs}": []
+        for lr, ep, bs in hp_combos
+    }
 
-    for hp_idx, (lr, epochs, bs) in enumerate(hp_combos):
-        hp_key = f"lr={lr}_ep={epochs}_bs={bs}"
+    for fold_idx, (train_idx, val_idx) in enumerate(folds):
+        train_docs = [documents[i] for i in train_idx]
+        val_docs = [documents[i] for i in val_idx]
+
+        texts, refs, referents = docs_to_training_format(train_docs)
+        train_toponyms = sum(len(r) for r in refs)
+        val_toponyms = sum(len(doc["references"]) for doc in val_docs)
+
         logger.info(
-            "\n[Phase 1] HP %d/%d: %s", hp_idx + 1, len(hp_combos), hp_key,
+            "\n[Phase 1] Fold %d/%d: %d train docs (%d toponyms), %d val docs (%d toponyms)",
+            fold_idx + 1, n_folds, len(train_docs), train_toponyms,
+            len(val_docs), val_toponyms,
         )
 
-        fold_results = []
-        for fold_idx, (train_idx, val_idx) in enumerate(folds):
-            model_dir = hp_dir / hp_key / f"fold{fold_idx}"
+        # Ebene B: Training-Daten einmal pro Fold vorbereiten
+        logger.info("  Preparing training data (einmalig fuer diesen Fold)...")
+        t_prep = time.time()
+        prep_resolver = SpatialSentenceResolver(
+            model_name=base_model,
+            gazetteer_name="swissnames3d",
+            config_path=config_path,
+            duckdb_path=duckdb_path,
+            sentence_config=None,
+        )
+        training_data = prep_resolver._prepare_training_data(texts, refs, referents)
+        logger.info(
+            "  Training data: %d Beispiele (%.1fs)",
+            len(training_data["sentence1"]), time.time() - t_prep,
+        )
 
-            result = train_and_evaluate_fold(
-                documents=documents,
-                train_idx=train_idx,
-                val_idx=val_idx,
-                fold_idx=fold_idx,
-                model_dir=model_dir,
-                base_model=base_model,
+        # Ebene C: Eval-Daten einmal pro Fold vorbereiten
+        logger.info("  Preparing eval data (einmalig fuer diesen Fold)...")
+        t_eval_prep = time.time()
+        eval_items = prepare_eval_data(prep_resolver, val_docs)
+        logger.info(
+            "  Eval data: %d Toponyme (%.1fs)",
+            len(eval_items), time.time() - t_eval_prep,
+        )
+
+        del prep_resolver
+        free_resources()
+
+        # Alle HP-Combos mit gecachten Daten durchlaufen
+        for hp_idx, (lr, epochs, bs) in enumerate(hp_combos):
+            hp_key = f"lr={lr}_ep={epochs}_bs={bs}"
+            model_dir = hp_dir / hp_key / f"fold{fold_idx}"
+            model_dir.mkdir(parents=True, exist_ok=True)
+
+            logger.info(
+                "  [Fold %d] HP %d/%d: %s",
+                fold_idx + 1, hp_idx + 1, len(hp_combos), hp_key,
+            )
+
+            # Training mit gecachten Daten
+            t0 = time.time()
+            resolver = SpatialSentenceResolver(
+                model_name=base_model,
+                gazetteer_name="swissnames3d",
                 config_path=config_path,
                 duckdb_path=duckdb_path,
-                sentence_config=None,  # default variant
+                sentence_config=None,
+            )
+            run_training(
+                resolver=resolver,
+                training_data=training_data,
+                output_path=model_dir,
                 epochs=epochs,
                 batch_size=bs,
                 learning_rate=lr,
             )
-            fold_results.append(result)
+            training_loss = extract_training_loss(model_dir)
+            train_duration = time.time() - t0
 
+            del resolver
+            free_resources()
+
+            # Evaluation mit gecachten Eval-Daten
+            t1 = time.time()
+            eval_resolver = SpatialSentenceResolver(
+                model_name=str(model_dir),
+                gazetteer_name="swissnames3d",
+                config_path=config_path,
+                duckdb_path=duckdb_path,
+                sentence_config=None,
+            )
+            metrics = evaluate_with_cached_data(eval_resolver, eval_items)
+            eval_duration = time.time() - t1
+
+            del eval_resolver
+            free_resources()
+
+            cleanup_model_dir(model_dir)
+
+            result = {
+                "fold": fold_idx,
+                "train_documents": len(train_docs),
+                "val_documents": len(val_docs),
+                "train_toponyms": train_toponyms,
+                "val_toponyms": val_toponyms,
+                **metrics,
+                "training_loss": training_loss,
+                "train_duration_seconds": round(train_duration, 1),
+                "eval_duration_seconds": round(eval_duration, 1),
+            }
+            hp_fold_results[hp_key].append(result)
+
+            logger.info(
+                "    Acc@1=%.3f, Acc@3=%.3f, MRR=%.3f (%.0fs train, %.0fs eval)",
+                metrics["accuracy_at_1"], metrics["accuracy_at_3"],
+                metrics["mrr"], train_duration, eval_duration,
+            )
+
+    # Ergebnisse aggregieren
+    all_results = []
+    for lr, epochs, bs in hp_combos:
+        hp_key = f"lr={lr}_ep={epochs}_bs={bs}"
+        fold_results = hp_fold_results[hp_key]
         agg = aggregate_fold_metrics(fold_results)
+
         logger.info(
-            "[Phase 1] HP %d/%d complete: Acc@1=%.3f±%.3f, MRR=%.3f±%.3f",
-            hp_idx + 1, len(hp_combos),
+            "[Phase 1] %s: Acc@1=%.3f±%.3f, MRR=%.3f±%.3f",
+            hp_key,
             agg["mean_accuracy_at_1"], agg["std_accuracy_at_1"],
             agg["mean_mrr"], agg["std_mrr"],
         )
@@ -536,7 +693,11 @@ def run_experiments(
     base_model: str,
     n_folds: int = 5,
 ) -> List[Dict]:
-    """Phase 2: Alle 10 Konfigurationen mit besten HPs, K-Fold CV."""
+    """Phase 2: Alle 10 Konfigurationen mit besten HPs, K-Fold CV.
+
+    Nutzt run_training() statt fit() und den Feature-Level Cache (Ebene A)
+    im CandidateSentenceGenerator fuer schnellere Description-Generierung.
+    """
     folds = create_document_folds(len(documents), n_folds=n_folds)
 
     lr = best_hps["learning_rate"]
@@ -582,23 +743,86 @@ def run_experiments(
 
             fold_results = []
             for fold_idx, (train_idx, val_idx) in enumerate(folds):
-                model_dir = exp_dir / exp_name / f"fold{fold_idx}"
+                train_docs = [documents[i] for i in train_idx]
+                val_docs = [documents[i] for i in val_idx]
 
-                result = train_and_evaluate_fold(
-                    documents=documents,
-                    train_idx=train_idx,
-                    val_idx=val_idx,
-                    fold_idx=fold_idx,
-                    model_dir=model_dir,
-                    base_model=base_model,
+                texts, refs, referents = docs_to_training_format(train_docs)
+                train_toponyms = sum(len(r) for r in refs)
+                val_toponyms = sum(len(doc["references"]) for doc in val_docs)
+
+                logger.debug(
+                    "  Fold %d: %d train docs (%d toponyms), %d val docs (%d toponyms)",
+                    fold_idx, len(train_docs), train_toponyms, len(val_docs), val_toponyms,
+                )
+
+                model_dir = exp_dir / exp_name / f"fold{fold_idx}"
+                model_dir.mkdir(parents=True, exist_ok=True)
+
+                # Training-Daten vorbereiten
+                t0 = time.time()
+                resolver = SpatialSentenceResolver(
+                    model_name=base_model,
+                    gazetteer_name="swissnames3d",
                     config_path=config_path,
                     duckdb_path=duckdb_path,
                     sentence_config=sentence_config,
+                )
+                training_data = resolver._prepare_training_data(texts, refs, referents)
+                logger.debug(
+                    "  Fold %d: %d training examples prepared",
+                    fold_idx, len(training_data["sentence1"]),
+                )
+
+                # Training
+                run_training(
+                    resolver=resolver,
+                    training_data=training_data,
+                    output_path=model_dir,
                     epochs=epochs,
                     batch_size=bs,
                     learning_rate=lr,
                 )
+                training_loss = extract_training_loss(model_dir)
+                train_duration = time.time() - t0
+
+                del resolver
+                free_resources()
+
+                # Evaluation
+                t1 = time.time()
+                eval_resolver = SpatialSentenceResolver(
+                    model_name=str(model_dir),
+                    gazetteer_name="swissnames3d",
+                    config_path=config_path,
+                    duckdb_path=duckdb_path,
+                    sentence_config=sentence_config,
+                )
+                metrics = evaluate_fold(eval_resolver, val_docs)
+                eval_duration = time.time() - t1
+
+                del eval_resolver
+                free_resources()
+
+                cleanup_model_dir(model_dir)
+
+                result = {
+                    "fold": fold_idx,
+                    "train_documents": len(train_docs),
+                    "val_documents": len(val_docs),
+                    "train_toponyms": train_toponyms,
+                    "val_toponyms": val_toponyms,
+                    **metrics,
+                    "training_loss": training_loss,
+                    "train_duration_seconds": round(train_duration, 1),
+                    "eval_duration_seconds": round(eval_duration, 1),
+                }
                 fold_results.append(result)
+
+                logger.info(
+                    "  Fold %d: Acc@1=%.3f, Acc@3=%.3f, MRR=%.3f (%d toponyms, %.0fs)",
+                    fold_idx, metrics["accuracy_at_1"], metrics["accuracy_at_3"],
+                    metrics["mrr"], metrics["total"], train_duration + eval_duration,
+                )
 
             agg = aggregate_fold_metrics(fold_results)
 
@@ -683,7 +907,10 @@ def train_final_models(
     best_hps: Dict,
     base_model: str,
 ):
-    """Phase 3: Finale Modelle auf Gesamtdaten trainieren."""
+    """Phase 3: Finale Modelle auf Gesamtdaten trainieren.
+
+    Nutzt run_training() statt fit() fuer Konsistenz mit Phase 1+2.
+    """
     lr = best_hps["learning_rate"]
     epochs = best_hps["epochs"]
     bs = best_hps["batch_size"]
@@ -730,10 +957,11 @@ def train_final_models(
                 sentence_config=sentence_config,
             )
 
-            resolver.fit(
-                texts=texts,
-                references=refs,
-                referents=referents,
+            # Training-Daten vorbereiten und trainieren
+            training_data = resolver._prepare_training_data(texts, refs, referents)
+            run_training(
+                resolver=resolver,
+                training_data=training_data,
                 output_path=model_dir,
                 epochs=epochs,
                 batch_size=bs,
