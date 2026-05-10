@@ -1,0 +1,1889 @@
+{
+    "created_at": "2026-05-01T16:40:51.659485",
+    "last_updated": "2026-05-05T12:37:36.173805",
+    "gazetteer": "swissnames3d",
+    "documents": [
+        {
+            "filename": "batch_0001_04.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Langlaufen – atemberaubend schön ===\n\nKleinere Gebiete abseits bekannter Wintersportorte bieten naturnahes Langlaufvergnügen, so etwa im Heidiland und im Vorderprättigau. Von Susi Schildknecht Auf dem Weg in die bekannten Wintersportorte fährt man oft an ihnen vorbei. Zu schade! Die kleineren, meist mit viel Herzblut gepflegten Langlaufgebiete sind eine Entdeckung wert. Im Heidiland bieten etwa das Taminatal und die Flumserberge landschaftlich sehr reizvolle Loipen, eingangs Prättigau lohnt sich ein sportlicher Stopp bei Grüsch GR. Ist das Taminatal oberhalb von Bad Ragaz erst mal eingeschneit, erinnert es an unberührte Wildnis im Hohen Norden. Linkerhand ragen die schroffen Hänge des Calanda himmelwärts, rechts erstreckt sich die Tektonikarena Sardona, ein Unesco-Weltnaturerbe. Bei Vättis SG (940 m ü. M.) ist die Endhaltestelle des Postautos, hier schnallt man die Langlaufoder Skatingskis an und läuft auf der neun Kilometer langen Vättis-Rundloipe 408 in Richtung Kunkelspass. Die Spur führt über einladende Ebenen und durch idyllische Landschaften entlang des Görbsbachs und parallel zum Winterwanderweg. Einen Perspektivenwechsel vom Feinsten gibt’s auf der Rückfahrt, der Blick fällt auf die imposante Rätikon-Bergkette, die Zivilisation im Rheintal unten bleibt ausgeblendet. Auch St. Margrethenberg lockt auf seinem Hochplateau (1300 bis 1500 m ü. M.) mit 21 panoramareichen Loipen-Kilometern. Ob man ein paar Schlaufen läuft oder die Zehn-Kilometer-Verbindungspiste anpackt, einen Halt im Buura-Beizli sollte man einplanen. Ob Fleisch vom eigenen Hof, hausgemachtes Gebäck oder eine Suppe, alles schmeckt köstlich und nach Hier. Im Flumserberg, bekannt als Skigebiet, gibt’s gut 20 Kilometer Loipen für Gemütlich-Laufende bis Leistungssportler sowie etwas mehr Infrastruktur. Ein Tipp für Geniesser ist die vier Kilometer umfassende Madils-Rundloipe 405 (1400 m ü. M.) ab der Alp Tannenboden. Zwar gilt sie als leicht bis mittel anspruchsvoll, doch die Aussicht auf die Churfirsten-Gipfel ist schlicht atemberaubend. Raureif hat Charme. Entlang des Flusses Landquart im Prättigau zeigt er seine schönsten Seiten, wahre Wunder der Natur im kristallenen Winterkleid. Der wochenlangen Absenz der Sonne in der Ebene zwischen Grüsch und Schiers ist es zu verdanken, dass die Loipe Vorderprättigau ausserordentlich lange hält – wenn es einmal Schnee hat. Eine einfache 7-Kilometer-Runde lädt zu ersten Gehversuchen auf schmalen Latten, täglichem Training oder einem sportlichen Stopp auf der Durchreise. Eine engagierte Interessensgemeinschaft pflegt die Loipen und macht aus Grüsch eine Langlaufdestination. Hier trifft sich die Region, hier oder im Sportrestaurant nebenan. Wenn in tiefen Lagen einmal wirklich nichts läuft, können fitte Läuferinnen und Läufer auf die 6-Kilometer-Panoramaloipe ab der Bergstation der Gondelbahn Grüsch– Danusa (1800 m ü. M.) ausweichen. Hier sind das kupierte Gelände wie die Rundumsicht gleichermassen atemberaubend. In den Flumserbergen stehen mehrere Loipen unterschiedlicher Schwierigkeitsgrade zur Auswahl. Die spektakuläre Panoramaloipe auf Grüsch-Danusa führt auf 1800 Metern in einer weiten Schlaufe über das Hochplateau. Auf Grüsch-Danusa läuft man durch offenes Gelände, vorbei an Ställen, dunklen Waldabschnitten und Hochmoor-Flecken. Der Kunkelswagen bei Vättis im entlegenen, wilden Taminatal, dient bei schönem Wetter als Loipen- und Winterwander-Beizli. Von den Loipen, Pisten und Winterwanderwegen der Flumserberge aus offenbaren sich traumhafte Winterlandschaften. Einatmen, ausatmen, geniessen LANGLAUF-PARADIESE Lage Das Heidiland und das vordere Prättigau liegen in der Südostschweiz. Anreise Nach Vättis und St. Margrethenberg im Taminatal fahren Postautos ab Bad Ragaz. In die Flumserberge gibt es Postautoverbindungen ab Sargans. Grüsch und Schiers liegen an der RhB-Strecke, Autofahrende parkieren in Grüsch beim Sportrestaurant oder an der Danusa-Talstation. Essen Hinter Vättis hat das Loipen-Café Kunkelswagen bei schönem Wetter von Donnerstag bis Sonntag geöffnet. In St. Margrethenberg kehrt man im Buura-Beizli mit Hofladen ein. Im Vorderprättigau stärkt man sich nach dem Langlaufen im Sportrestaurant Grüsch oder im Danusa-Bergrestaurant Schwänzelegg. Langlaufunterricht Tamina Nordic in Vättis bietet Lektionen, Kurse oder ein Starter-Package. Ob Schnupperkurs oder Privatstunden, Langlaufunterricht gibt’s auch in den Flumserbergen, auf der Loipe Vorderprättigau sowie auf Danusa. (www.taminanordic.ch, www.flumserberg.ch, www.loipevp.ch, www.grueschdanusa.ch). Übernachten Die regionalen Verkehrsbüros sind www.heidiland.com und www.praettigau.info",
+            "toponyms": [
+                {
+                    "text": "Heidiland",
+                    "start": 141,
+                    "end": 150,
+                    "loc_id": "{0D36CBC2-6553-4964-B5BA-E5F0ECE33DF0}"
+                },
+                {
+                    "text": "Heidiland",
+                    "start": 380,
+                    "end": 389,
+                    "loc_id": "{0D36CBC2-6553-4964-B5BA-E5F0ECE33DF0}"
+                },
+                {
+                    "text": "Taminatal",
+                    "start": 406,
+                    "end": 415,
+                    "loc_id": "{5F4AFAD1-E24A-4F03-A5A3-A2E18C3141BF}"
+                },
+                {
+                    "text": "Flumserberge",
+                    "start": 424,
+                    "end": 436,
+                    "loc_id": "{79B5ED76-8882-4E50-A8A5-3FC653DB7840}"
+                },
+                {
+                    "text": "Prättigau",
+                    "start": 484,
+                    "end": 493,
+                    "loc_id": "{51AAF57C-1794-4919-B671-A1F8BCBD869D}"
+                },
+                {
+                    "text": "Grüsch",
+                    "start": 531,
+                    "end": 537,
+                    "loc_id": "{3313CBDC-2BB9-4B74-AAF1-3C09744C979F}"
+                },
+                {
+                    "text": "Taminatal",
+                    "start": 550,
+                    "end": 559,
+                    "loc_id": "{5F4AFAD1-E24A-4F03-A5A3-A2E18C3141BF}"
+                },
+                {
+                    "text": "Bad Ragaz",
+                    "start": 573,
+                    "end": 582,
+                    "loc_id": "{C743DBE9-B2F2-4FC1-AE5E-1B55A0D8ADB1}"
+                },
+                {
+                    "text": "Calanda",
+                    "start": 698,
+                    "end": 705,
+                    "loc_id": "{FECBE9A0-FFD1-4E1D-BBF6-999644869340}"
+                },
+                {
+                    "text": "Sardona",
+                    "start": 759,
+                    "end": 766,
+                    "loc_id": "{8E4B74BD-0F31-451A-A2DC-D3DCDA43D372}"
+                },
+                {
+                    "text": "Kunkelspass",
+                    "start": 983,
+                    "end": 994,
+                    "loc_id": "{E670313A-B3FD-4DDB-BA50-03647D1BBC5F}"
+                },
+                {
+                    "text": "Görbsbachs",
+                    "start": 1080,
+                    "end": 1090,
+                    "loc_id": "{21783871-E6E7-4CC4-A0BE-A0D8D821C9D6}"
+                },
+                {
+                    "text": "Rheintal",
+                    "start": 1263,
+                    "end": 1271,
+                    "loc_id": "{69E41419-CFC0-42A2-B960-DCF2E5F1CBF5}"
+                },
+                {
+                    "text": "St. Margrethenberg",
+                    "start": 1304,
+                    "end": 1322,
+                    "loc_id": "{7FCA5AF7-2C91-46BB-B5C8-7A2CDF0023F4}"
+                },
+                {
+                    "text": "Flumserberg",
+                    "start": 1657,
+                    "end": 1668,
+                    "loc_id": "{79B5ED76-8882-4E50-A8A5-3FC653DB7840}"
+                },
+                {
+                    "text": "Landquart",
+                    "start": 2082,
+                    "end": 2091,
+                    "loc_id": "{35FA399A-434B-49F7-9CA8-B22ED917EFEB}"
+                },
+                {
+                    "text": "Prättigau",
+                    "start": 2095,
+                    "end": 2104,
+                    "loc_id": "{51AAF57C-1794-4919-B671-A1F8BCBD869D}"
+                },
+                {
+                    "text": "Grüsch",
+                    "start": 2246,
+                    "end": 2252,
+                    "loc_id": "{3313CBDC-2BB9-4B74-AAF1-3C09744C979F}"
+                },
+                {
+                    "text": "Schiers",
+                    "start": 2257,
+                    "end": 2264,
+                    "loc_id": "{F389300A-053A-4173-AB5E-D7EDA15023FA}"
+                },
+                {
+                    "text": "Grüsch",
+                    "start": 2595,
+                    "end": 2601,
+                    "loc_id": "{3313CBDC-2BB9-4B74-AAF1-3C09744C979F}"
+                },
+                {
+                    "text": "Vättis",
+                    "start": 3322,
+                    "end": 3328,
+                    "loc_id": "{862EBC48-7E27-4CBE-8BBF-2855E52BE33E}"
+                },
+                {
+                    "text": "Taminatal",
+                    "start": 3351,
+                    "end": 3360,
+                    "loc_id": "{5F4AFAD1-E24A-4F03-A5A3-A2E18C3141BF}"
+                },
+                {
+                    "text": "Flumserberge",
+                    "start": 3473,
+                    "end": 3485,
+                    "loc_id": "{79B5ED76-8882-4E50-A8A5-3FC653DB7840}"
+                },
+                {
+                    "text": "Heidiland",
+                    "start": 3595,
+                    "end": 3604,
+                    "loc_id": "{0D36CBC2-6553-4964-B5BA-E5F0ECE33DF0}"
+                },
+                {
+                    "text": "Prättigau",
+                    "start": 3621,
+                    "end": 3630,
+                    "loc_id": "{51AAF57C-1794-4919-B671-A1F8BCBD869D}"
+                },
+                {
+                    "text": "Vättis",
+                    "start": 3673,
+                    "end": 3679,
+                    "loc_id": "{862EBC48-7E27-4CBE-8BBF-2855E52BE33E}"
+                },
+                {
+                    "text": "St. Margrethenberg",
+                    "start": 3684,
+                    "end": 3702,
+                    "loc_id": "{7FCA5AF7-2C91-46BB-B5C8-7A2CDF0023F4}"
+                },
+                {
+                    "text": "Taminatal",
+                    "start": 3706,
+                    "end": 3715,
+                    "loc_id": "{5F4AFAD1-E24A-4F03-A5A3-A2E18C3141BF}"
+                },
+                {
+                    "text": "Bad Ragaz",
+                    "start": 3736,
+                    "end": 3745,
+                    "loc_id": "{C743DBE9-B2F2-4FC1-AE5E-1B55A0D8ADB1}"
+                },
+                {
+                    "text": "Flumserberge",
+                    "start": 3754,
+                    "end": 3766,
+                    "loc_id": "{79B5ED76-8882-4E50-A8A5-3FC653DB7840}"
+                },
+                {
+                    "text": "Sargans",
+                    "start": 3799,
+                    "end": 3806,
+                    "loc_id": "{E3B58A5E-3EF7-4C46-9117-9274912482F2}"
+                },
+                {
+                    "text": "Grüsch",
+                    "start": 3808,
+                    "end": 3814,
+                    "loc_id": "{3313CBDC-2BB9-4B74-AAF1-3C09744C979F}"
+                },
+                {
+                    "text": "Schiers",
+                    "start": 3819,
+                    "end": 3826,
+                    "loc_id": "{F389300A-053A-4173-AB5E-D7EDA15023FA}"
+                },
+                {
+                    "text": "Grüsch",
+                    "start": 3880,
+                    "end": 3886,
+                    "loc_id": "{3313CBDC-2BB9-4B74-AAF1-3C09744C979F}"
+                },
+                {
+                    "text": "St. Margrethenberg",
+                    "start": 4051,
+                    "end": 4069,
+                    "loc_id": "{7FCA5AF7-2C91-46BB-B5C8-7A2CDF0023F4}"
+                },
+                {
+                    "text": "Vättis",
+                    "start": 4275,
+                    "end": 4281,
+                    "loc_id": "{862EBC48-7E27-4CBE-8BBF-2855E52BE33E}"
+                },
+                {
+                    "text": "Danusa",
+                    "start": 4462,
+                    "end": 4468,
+                    "loc_id": "{88E5536C-3CBC-4DC5-8FAE-37D8F33D53A4}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_05.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Rot ist die Liebe – und rot sind die Hörner ===\n\nÜber drei Dutzend Rothörner gibt es in der Schweiz. Auf diese hier führen anspruchsvolle, aber prächtige Bergwege. Parpaner Rothorn: Tausend-Gipfel-Sicht, Arosa/Lenzerheide GR Die Rundsicht vom Parpaner Rothorn ist exzellent. In alle Himmelsrichtungen sieht man Berge. Es heisst, man könne hier nicht weniger als tausend Gipfel überblicken. Den bequemsten Zugang zu diesem Augenschmaus gibt es per Seilbahn. Sie fährt ab Lenzerheide bis zum Bergrestaurant unterhalb des Gipfels. Viel schöner ist aber eine Wanderung ab Innerarosa auf das Rothorn. Die Bergtour bietet eine Fülle von grossartigen Eindrücken. Der Weg führt zunächst über weite Alpweiden, dann an zwei idyllischen Bergseen vorbei und schliesslich durch eine wunderbar karge Hochgebirgslandschaft. Start und Ziel Mit dem Bus ab Arosa (1738 m) nach Arosa/Hörnli (1838 m), von dort via Älplisee (2155 m) und Schafälpli (2329 m) zum Gredigs Fürggli (2614 m) und via Totälpli (2760 m) auf das Parpaner Rothorn (2896 m); talwärts mit der Seilbahn nach Lenzerheide/Canols (1484 m) Distanz 9,9 km Gehzeit 4 h 15 min Höhenmeter 1160 auf-, 140 abwärts Einkehr Im Panoramarestaurant Rothorngipfel TECHNIK KONDITION Brienzer Rothorn: Lungern OW/Sörenberg LU/ Brienz BE Wohl das vielfältigste Panorama aller Rothörner der Schweiz bietet das Brienzer Rothorn. In der Tiefe zieht sich der türkisblaue Brienzersee wie ein Fjord dahin, darüber glänzen die Gipfel der Berner Hochalpen mit Eiger, Mönch und Jungfrau im Zentrum. Entgegen seinem Namen ist das Brienzer Rothorn kein lupenreiner Berner Berg. Seine Spitze ist auch Teil der Kantone Obwalden und Luzern. Die aussichtsreichste Wanderung zum Gipfel verläuft auf dem Höhenweg, der von der Dundelegg ob Lungern OW über den Grat westwärts führt. Start und Ziel Mit der Luftseilbahn von Lungern (701 m) nach Turren (1562 m), von dort auf die Dundelegg (1726 m) und via Höch Gumme (2204 m) und Eiseesattel (2025 m) zum Brienzer Rothorn (2348 m). Talfahrt mit der Brienz-Rothorn-Bahn ab Station Brienzer Rothorn (2253 m) nach Brienz (566 m) oder mit der Luftseilbahn nach Sörenberg (1265 m) Distanz 12 km Gehzeit 5 h 15 min Höhenmeter 1300 auf-, 570 abwärts Tipp Übernachten im urchigen Berghaus unterhalb des Rothorn-Gipfels und am frühen Morgen den Sonnenaufgang erleben Einkehr Am Brienzer Rothorn TECHNIK KONDITION Rothorn-Zwillinge: Zermatt VS Das höchste Rothorn der Schweiz, das auf einem signalisierten Wanderweg zugänglich ist, liegt in Zermatt. Vom 3413 Meter hohen Gipfel des Oberrothorns überblickt man ringsum zwei Dutzend Viertausender, darunter den berühmtesten, das Matterhorn. Der Nachbargipfel und Namensvetter, das Unterrothorn, ist mit einer Seilbahn erschlossen. Die Rothorn-Zwillinge lassen sich im Rahmen einer genussreichen Bergtour erkunden. Die Marschzeit beträgt theoretisch nur dreieinhalb Stunden, doch weil die Luft in dieser Höhe dünn ist, muss man mit deutlich mehr Zeit rechnen. Start und Ziel Mit der Seilbahn ab Zermatt (1605 m) via Sunnegga nach Blauherd (2574 m), von dort via Furggji (2983 m) auf das Oberrothorn (3413 m), dann zurück nach Furggji und zum Unterrothorn (3102 m). Rückfahrt nach Zermatt mit der Seilbahn via Blauherd und Sunnegga Distanz 7,4 km Gehzeit 4 h 30 min Höhenmeter 970 auf-, 450 abwärts Tipp Talfahrt auf Sunnegga unterbrechen und im Leisee ein kühlendes Bad nehmen Einkehr Auf dem Unterrothorn TECHNIK KONDITION Zweisprachiges Rothorn: St-Luc VS Richtig bunt verläuft die Sprachgrenze im Wallis. Sie führt unter anderem über die Gipfel von Schwarzhorn, Rothorn und Weisshorn, die allesamt auf dem Gebirgskamm zwischen dem Turtmanntal und dem Val d’Anniviers liegen. Dieses «zweisprachige» Rothorn lässt sich auf einer abwechslungsreichen Rundwanderung ab Tignousa (oberhalb von St-Luc) erkunden. Vom Gipfel geniesst man nordwärts einen eindrücklichen Tiefblick ins Rhonetal, während sich im Süden neben dem Weisshorn und dem Matterhorn mehrere weitere Viertausender in voller Pracht zeigen. Der untere Teil der Tour führt über Alpweiden, weiter oben wandert man durch wunderbar weite Felslandschaft. Start und Ziel Mit der Standseilbahn von St-Luc (1655 m) nach Tignousa (2184 m), von dort via Chalet Blanc (2179m), Marais de Roua (2485 m) und Pas de Boeuf (2816 m) auf die Bella Tola (3025 m) und hinüber zum Rothorn (2997 m), dann über Marais de Roua und die Cabane Bella-Tola (2346 m) zurück nach Tignousa Distanz 13,8 km Gehzeit 5 h 30 min Höhenmeter 1040 auf-, 1040 abwärts Einkehr In der Cabane Bella-Tola TECHNIK KONDITION",
+            "toponyms": [
+                {
+                    "text": "Parpaner Rothorn",
+                    "start": 168,
+                    "end": 184,
+                    "loc_id": "{83C78C6D-80EF-4EEE-AF1B-44FF5A6FF8D8}"
+                },
+                {
+                    "text": "Arosa",
+                    "start": 208,
+                    "end": 213,
+                    "loc_id": "{0F19FDE6-7378-482E-B3F3-40913521851C}"
+                },
+                {
+                    "text": "Parpaner Rothorn",
+                    "start": 247,
+                    "end": 263,
+                    "loc_id": "{83C78C6D-80EF-4EEE-AF1B-44FF5A6FF8D8}"
+                },
+                {
+                    "text": "Lenzerheide",
+                    "start": 474,
+                    "end": 485,
+                    "loc_id": "{307B28CC-E9F7-4C17-9D08-C8BFE97345AD}"
+                },
+                {
+                    "text": "Innerarosa",
+                    "start": 572,
+                    "end": 582,
+                    "loc_id": "{F750B47F-8E4A-42C7-9C8A-CCE99608601F}"
+                },
+                {
+                    "text": "Arosa",
+                    "start": 843,
+                    "end": 848,
+                    "loc_id": "{0F19FDE6-7378-482E-B3F3-40913521851C}"
+                },
+                {
+                    "text": "Arosa",
+                    "start": 863,
+                    "end": 868,
+                    "loc_id": "{0F19FDE6-7378-482E-B3F3-40913521851C}"
+                },
+                {
+                    "text": "Hörnli",
+                    "start": 869,
+                    "end": 875,
+                    "loc_id": "{DFBC67B0-3886-475A-93DD-2EE28D66D96C}"
+                },
+                {
+                    "text": "Älplisee",
+                    "start": 899,
+                    "end": 907,
+                    "loc_id": "{85FF9BE6-D2A8-4B17-81B8-F73457F37E10}"
+                },
+                {
+                    "text": "Schafälpli",
+                    "start": 921,
+                    "end": 931,
+                    "loc_id": "{3B0AF782-9662-4609-8A06-328FFC71DDB6}"
+                },
+                {
+                    "text": "Fürggli",
+                    "start": 953,
+                    "end": 960,
+                    "loc_id": "{DC199E27-DCB3-488A-99DC-0362646ECC0B}"
+                },
+                {
+                    "text": "Totälpli",
+                    "start": 978,
+                    "end": 986,
+                    "loc_id": "{0896930C-CEC4-4D68-A026-B0BDBC852609}"
+                },
+                {
+                    "text": "Parpaner Rothorn",
+                    "start": 1004,
+                    "end": 1020,
+                    "loc_id": "{83C78C6D-80EF-4EEE-AF1B-44FF5A6FF8D8}"
+                },
+                {
+                    "text": "Lenzerheide",
+                    "start": 1062,
+                    "end": 1073,
+                    "loc_id": "{3CA70DBA-0510-4EBF-8B09-4590EA4ED633}"
+                },
+                {
+                    "text": "Canols",
+                    "start": 1074,
+                    "end": 1080,
+                    "loc_id": "{DC9471EE-6851-40B1-9E3F-B93AF5266FB8}"
+                },
+                {
+                    "text": "Brienzer Rothorn",
+                    "start": 1220,
+                    "end": 1236,
+                    "loc_id": "{0CA54100-88AB-40A4-A7A7-4CD98AAFDE2F}"
+                },
+                {
+                    "text": "Lungern",
+                    "start": 1238,
+                    "end": 1245,
+                    "loc_id": "{30B60578-91A0-4ABB-8234-B06D01A71383}"
+                },
+                {
+                    "text": "Brienzer Rothorn",
+                    "start": 1344,
+                    "end": 1360,
+                    "loc_id": "{0CA54100-88AB-40A4-A7A7-4CD98AAFDE2F}"
+                },
+                {
+                    "text": "Brienzersee",
+                    "start": 1402,
+                    "end": 1413,
+                    "loc_id": "{3C0E5FAE-7A4C-4A91-B1B6-D769B7D6A941}"
+                },
+                {
+                    "text": "Eiger",
+                    "start": 1487,
+                    "end": 1492,
+                    "loc_id": "{5BE294B0-910F-4DA3-BECD-201FB42320E3}"
+                },
+                {
+                    "text": "Mönch",
+                    "start": 1494,
+                    "end": 1499,
+                    "loc_id": "{C5ECA227-5D99-4A1C-8F5B-166EFB73A0E4}"
+                },
+                {
+                    "text": "Jungfrau",
+                    "start": 1504,
+                    "end": 1512,
+                    "loc_id": "{90746569-C677-4C73-9252-35B8CE95A3CE}"
+                },
+                {
+                    "text": "Brienzer Rothorn",
+                    "start": 1555,
+                    "end": 1571,
+                    "loc_id": "{0CA54100-88AB-40A4-A7A7-4CD98AAFDE2F}"
+                },
+                {
+                    "text": "Obwalden",
+                    "start": 1641,
+                    "end": 1649,
+                    "loc_id": "{A0B4BCED-C1F9-47C6-831F-54282BFBA3CE}"
+                },
+                {
+                    "text": "Luzern",
+                    "start": 1654,
+                    "end": 1660,
+                    "loc_id": "{A7C284E4-45C4-44E2-ABAF-D1A0EAB10397}"
+                },
+                {
+                    "text": "Lungern",
+                    "start": 1839,
+                    "end": 1846,
+                    "loc_id": "{30B60578-91A0-4ABB-8234-B06D01A71383}"
+                },
+                {
+                    "text": "Turren",
+                    "start": 1860,
+                    "end": 1866,
+                    "loc_id": "{7DF392F5-6FDD-4B75-B9D5-B2F9B1A86C2F}"
+                },
+                {
+                    "text": "Dundelegg",
+                    "start": 1894,
+                    "end": 1903,
+                    "loc_id": "{8363A698-D98A-4C06-B336-0F79E78AC758}"
+                },
+                {
+                    "text": "Eiseesattel",
+                    "start": 1945,
+                    "end": 1956,
+                    "loc_id": "{E66126BF-1453-4029-B5F8-CC04A4A1BB7D}"
+                },
+                {
+                    "text": "Brienzer Rothorn",
+                    "start": 1970,
+                    "end": 1986,
+                    "loc_id": "{0CA54100-88AB-40A4-A7A7-4CD98AAFDE2F}"
+                },
+                {
+                    "text": "Brienzer Rothorn",
+                    "start": 2045,
+                    "end": 2061,
+                    "loc_id": "{0CA54100-88AB-40A4-A7A7-4CD98AAFDE2F}"
+                },
+                {
+                    "text": "Brienz",
+                    "start": 2076,
+                    "end": 2082,
+                    "loc_id": "{DC7B9E35-2908-4E04-B939-CDA18B310D18}"
+                },
+                {
+                    "text": "Sörenberg",
+                    "start": 2122,
+                    "end": 2131,
+                    "loc_id": "{7BDC34DC-3D7B-4DCE-A9F8-6669958B7D99}"
+                },
+                {
+                    "text": "Brienzer Rothorn",
+                    "start": 2334,
+                    "end": 2350,
+                    "loc_id": "{0CA54100-88AB-40A4-A7A7-4CD98AAFDE2F}"
+                },
+                {
+                    "text": "Zermatt",
+                    "start": 2496,
+                    "end": 2503,
+                    "loc_id": "{E1773FB1-2D32-4EB3-9C38-EC5934950077}"
+                },
+                {
+                    "text": "Oberrothorns",
+                    "start": 2537,
+                    "end": 2549,
+                    "loc_id": "{19941382-E55B-437C-AC18-5C5CC97D0CD8}"
+                },
+                {
+                    "text": "Matterhorn",
+                    "start": 2632,
+                    "end": 2642,
+                    "loc_id": "{168481A3-A3CE-48F9-AA88-71CF2D04C719}"
+                },
+                {
+                    "text": "Unterrothorn",
+                    "start": 2684,
+                    "end": 2696,
+                    "loc_id": "{7BB21E5D-CEB1-4279-8F15-916659EB50BA}"
+                },
+                {
+                    "text": "Zermatt",
+                    "start": 2997,
+                    "end": 3004,
+                    "loc_id": "{E1773FB1-2D32-4EB3-9C38-EC5934950077}"
+                },
+                {
+                    "text": "Sunnegga",
+                    "start": 3018,
+                    "end": 3026,
+                    "loc_id": "{5BA35D10-4384-45A2-9DC7-87E6FA77CCE9}"
+                },
+                {
+                    "text": "Blauherd",
+                    "start": 3032,
+                    "end": 3040,
+                    "loc_id": "{AE6A936C-6459-4C1E-97A8-42463AE881FC}"
+                },
+                {
+                    "text": "Furggji",
+                    "start": 3064,
+                    "end": 3071,
+                    "loc_id": "{82C79DF7-22DA-4265-9A4A-1A36115953D5}"
+                },
+                {
+                    "text": "Oberrothorn",
+                    "start": 3089,
+                    "end": 3100,
+                    "loc_id": "{19941382-E55B-437C-AC18-5C5CC97D0CD8}"
+                },
+                {
+                    "text": "Furggji",
+                    "start": 3128,
+                    "end": 3135,
+                    "loc_id": "{82C79DF7-22DA-4265-9A4A-1A36115953D5}"
+                },
+                {
+                    "text": "Unterrothorn",
+                    "start": 3144,
+                    "end": 3156,
+                    "loc_id": "{7BB21E5D-CEB1-4279-8F15-916659EB50BA}"
+                },
+                {
+                    "text": "Zermatt",
+                    "start": 3182,
+                    "end": 3189,
+                    "loc_id": "{E1773FB1-2D32-4EB3-9C38-EC5934950077}"
+                },
+                {
+                    "text": "Blauherd",
+                    "start": 3211,
+                    "end": 3219,
+                    "loc_id": "{AE6A936C-6459-4C1E-97A8-42463AE881FC}"
+                },
+                {
+                    "text": "Sunnegga",
+                    "start": 3224,
+                    "end": 3232,
+                    "loc_id": "{5BA35D10-4384-45A2-9DC7-87E6FA77CCE9}"
+                },
+                {
+                    "text": "Sunnegga",
+                    "start": 3318,
+                    "end": 3326,
+                    "loc_id": "{5BA35D10-4384-45A2-9DC7-87E6FA77CCE9}"
+                },
+                {
+                    "text": "Leisee",
+                    "start": 3347,
+                    "end": 3353,
+                    "loc_id": "{02DA4F35-F072-4B19-B520-521B00632893}"
+                },
+                {
+                    "text": "Unterrothorn",
+                    "start": 3395,
+                    "end": 3407,
+                    "loc_id": "{7BB21E5D-CEB1-4279-8F15-916659EB50BA}"
+                },
+                {
+                    "text": "Wallis",
+                    "start": 3502,
+                    "end": 3508,
+                    "loc_id": "{54B25E50-30A7-4995-ADE3-5FFF6E13A995}"
+                },
+                {
+                    "text": "Schwarzhorn",
+                    "start": 3554,
+                    "end": 3565,
+                    "loc_id": "{D9FD740A-6C13-4656-8A06-5D56D036B82A}"
+                },
+                {
+                    "text": "Rothorn",
+                    "start": 3567,
+                    "end": 3574,
+                    "loc_id": "{C158B8FA-76F6-4F3D-8CE9-2FC0411580CB}"
+                },
+                {
+                    "text": "Weisshorn",
+                    "start": 3579,
+                    "end": 3588,
+                    "loc_id": "{72E86FA4-97EB-4213-8A16-48B9EC00B90F}"
+                },
+                {
+                    "text": "Turtmanntal",
+                    "start": 3636,
+                    "end": 3647,
+                    "loc_id": "{5C20F934-20C5-40D1-A65B-4CDB45850CD8}"
+                },
+                {
+                    "text": "Val d’Anniviers",
+                    "start": 3656,
+                    "end": 3671,
+                    "loc_id": "{6FF7E659-7D3A-4572-B5E3-07A0BD9A5E55}"
+                },
+                {
+                    "text": "Tignousa",
+                    "start": 3769,
+                    "end": 3777,
+                    "loc_id": "{5DB72708-C5A1-446C-8FAB-664BC4E8B47C}"
+                },
+                {
+                    "text": "St-Luc",
+                    "start": 3792,
+                    "end": 3798,
+                    "loc_id": "{8D55F694-DA1A-4BB2-9461-8FE7E29E412F}"
+                },
+                {
+                    "text": "Rhonetal",
+                    "start": 3879,
+                    "end": 3887,
+                    "loc_id": "{163DF63B-16B6-4AD5-896E-61F32CA4DBF9}"
+                },
+                {
+                    "text": "Weisshorn",
+                    "start": 3921,
+                    "end": 3930,
+                    "loc_id": "{72E86FA4-97EB-4213-8A16-48B9EC00B90F}"
+                },
+                {
+                    "text": "Matterhorn",
+                    "start": 3939,
+                    "end": 3949,
+                    "loc_id": "{168481A3-A3CE-48F9-AA88-71CF2D04C719}"
+                },
+                {
+                    "text": "St-Luc",
+                    "start": 4155,
+                    "end": 4161,
+                    "loc_id": "{8D55F694-DA1A-4BB2-9461-8FE7E29E412F}"
+                },
+                {
+                    "text": "Tignousa",
+                    "start": 4176,
+                    "end": 4184,
+                    "loc_id": "{5DB72708-C5A1-446C-8FAB-664BC4E8B47C}"
+                },
+                {
+                    "text": "Chalet Blanc",
+                    "start": 4208,
+                    "end": 4220,
+                    "loc_id": "{C31C879A-CA43-4D13-817D-7B45D40567E2}"
+                },
+                {
+                    "text": "Pas de Boeuf",
+                    "start": 4258,
+                    "end": 4270,
+                    "loc_id": "{BE3D3D10-4C3C-4607-B638-CDC1FDBC8E31}"
+                },
+                {
+                    "text": "Bella Tola",
+                    "start": 4288,
+                    "end": 4298,
+                    "loc_id": "{CA470C6E-B1A5-4DE1-AAA8-9C72080C2EE1}"
+                },
+                {
+                    "text": "Rothorn",
+                    "start": 4324,
+                    "end": 4331,
+                    "loc_id": "{C158B8FA-76F6-4F3D-8CE9-2FC0411580CB}"
+                },
+                {
+                    "text": "Cabane Bella-Tola",
+                    "start": 4375,
+                    "end": 4392,
+                    "loc_id": "{FE06114F-3462-404E-B2D2-ED127001F019}"
+                },
+                {
+                    "text": "Tignousa",
+                    "start": 4414,
+                    "end": 4422,
+                    "loc_id": "{5DB72708-C5A1-446C-8FAB-664BC4E8B47C}"
+                },
+                {
+                    "text": "Cabane Bella-Tola",
+                    "start": 4508,
+                    "end": 4525,
+                    "loc_id": "{FE06114F-3462-404E-B2D2-ED127001F019}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_06.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Turner blieben auch in der Ferienzeit aktiv ===\n\nZofingen Die Ferienzeit soll trotz geschlossener Turnhalle keine inaktive Zeit sein. Daher bot der Männerturnverein Zofingen einige Aktivitäten für die Daheimgebliebenen an: Mitte Juli stand eine Velotour auf dem Programm. Sechs Teilnehmer fuhren eine flache Strecke über Boningen durch den Wald nach Wolfwil. Die Aare überquerten sie beim Kraftwerk Wynau. Zurück ging es auf schmalen Wegen entlang der Aare nach Murgenthal, wo sie in der Bäckerei Felber eine Pause einlegen konnten. Der Heimweg führte über Rothrist, Vordemwald und Strengelbach. Ende Juli war Pétanque in Strengelbach angesagt. Nach der langen Hitzeperiode war ausgerechnet an diesem Tag ein Aprilwetter vorhergesagt. Trotzdem kamen elf Kameraden auf den Begegnungsplatz und fingen, mit Unterstützung von Hans Vonäsch des Pétanquevereins Strengelbach, mit dem Spielen an. Am 9. August stand der letzte Anlass auf dem Programm: Eine «Flachspazierwanderung» von Sursee zum Seeauslauf und über Mariazell zurück nach Sursee. Zehn Teilnehmer starteten. Vom Bahnhof ging es in Richtung Altstadt. Der Sure entlang spazierten die Turner zum Fischerhof, wo die Sure aus dem See fliesst. Sie durchquerten das Zellmoos, erreichten den Trichter und wanderten durch den Rebberg zum Kirchlein Mariazell mit seiner kunstvollen Kassettendecke und reichhaltigen Innenausstattung. Zurück in der Altstadt von Sursee kehrten die Turner im Restaurant «Wilder Mann» ein. Dieses Gasthaus ist sein 1495 ununterbrochen in Betrieb. Nach einer kleinen Weinprobe fuhren sie zurück nach Zofingen. (ag) Trotz Aprilwetter spielten elf Turner in Strengelbach Pétanque.Bild: zvg",
+            "toponyms": [
+                {
+                    "text": "Zofingen",
+                    "start": 169,
+                    "end": 177,
+                    "loc_id": "{BEDE2EDF-AB57-489C-94D5-A489EA5E1603}"
+                },
+                {
+                    "text": "Boningen",
+                    "start": 325,
+                    "end": 333,
+                    "loc_id": "{58C18555-540F-4652-BEE8-F48AB6D9E8E7}"
+                },
+                {
+                    "text": "Wolfwil",
+                    "start": 354,
+                    "end": 361,
+                    "loc_id": "{F8545103-6C9F-497D-A58F-8EB9AD0A13E0}"
+                },
+                {
+                    "text": "Aare",
+                    "start": 367,
+                    "end": 371,
+                    "loc_id": "{F1BDC4EA-464D-4E79-BA47-C84386E5CCF8}"
+                },
+                {
+                    "text": "Wynau",
+                    "start": 403,
+                    "end": 408,
+                    "loc_id": "{99595495-4BEA-463D-8ACC-D64B25494ADB}"
+                },
+                {
+                    "text": "Aare",
+                    "start": 456,
+                    "end": 460,
+                    "loc_id": "{F1BDC4EA-464D-4E79-BA47-C84386E5CCF8}"
+                },
+                {
+                    "text": "Murgenthal",
+                    "start": 466,
+                    "end": 476,
+                    "loc_id": "{0CD0853E-5C08-46BA-8B99-578470776151}"
+                },
+                {
+                    "text": "Rothrist",
+                    "start": 561,
+                    "end": 569,
+                    "loc_id": "{79547DD0-EB4F-4A9B-9ABC-653A1B925F33}"
+                },
+                {
+                    "text": "Vordemwald",
+                    "start": 571,
+                    "end": 581,
+                    "loc_id": "{07FA4F11-2C05-4434-9C93-236E93D58AC3}"
+                },
+                {
+                    "text": "Strengelbach",
+                    "start": 586,
+                    "end": 598,
+                    "loc_id": "{1CD8F644-9CE6-4F5C-B31F-5FBA21A0D3AF}"
+                },
+                {
+                    "text": "Strengelbach",
+                    "start": 626,
+                    "end": 638,
+                    "loc_id": "{1CD8F644-9CE6-4F5C-B31F-5FBA21A0D3AF}"
+                },
+                {
+                    "text": "Sursee",
+                    "start": 981,
+                    "end": 987,
+                    "loc_id": "{56A3495C-CB58-4E73-B100-3C4692893E36}"
+                },
+                {
+                    "text": "Mariazell",
+                    "start": 1012,
+                    "end": 1021,
+                    "loc_id": "{273E95A2-75C4-4AF1-BEA0-6399C6804596}"
+                },
+                {
+                    "text": "Sursee",
+                    "start": 1034,
+                    "end": 1040,
+                    "loc_id": "{56A3495C-CB58-4E73-B100-3C4692893E36}"
+                },
+                {
+                    "text": "Mariazell",
+                    "start": 1300,
+                    "end": 1309,
+                    "loc_id": "{273E95A2-75C4-4AF1-BEA0-6399C6804596}"
+                },
+                {
+                    "text": "Sursee",
+                    "start": 1411,
+                    "end": 1417,
+                    "loc_id": "{56A3495C-CB58-4E73-B100-3C4692893E36}"
+                },
+                {
+                    "text": "Zofingen",
+                    "start": 1579,
+                    "end": 1587,
+                    "loc_id": "{BEDE2EDF-AB57-489C-94D5-A489EA5E1603}"
+                },
+                {
+                    "text": "Strengelbach",
+                    "start": 1635,
+                    "end": 1647,
+                    "loc_id": "{1CD8F644-9CE6-4F5C-B31F-5FBA21A0D3AF}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_07.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Wanderung am Urnersee mit Schifffahrt ===\n\nSchöftland Die Wandergruppe der Pro Senectute Suhrental führt am Dienstag, 9. Mai eine Kurzwanderung von Isleten–Seedorf/Reussdelta–Flüelen mit anschliessender Schifffahrt nach Brunnen durch. Nach dem Startkaffee in Isleten führt die Wanderung am Urnersee entlang. Vor Seedorf schlängelt sich der Wanderweg 192 Höhenmeter hinauf zu einem Aussichtspunkt auf das Reussdelta, den Urnersee und die Alpen. Von dort geht es wieder abwärts ins Dorf Seedorf. Für den Auf- und Abstieg sind Wanderstöcke empfehlenswert. In Seedorf wandert die Gruppe am Wasserschloss A Pro Seedorf vorbei zum Seerestaurant, wo das Mittagessen serviert wird. Am Nachmittag durchwandert die Gruppe das zwischen dem Urnersee und den Gemeinden Seedorf und Flüelen eingebettete Reussdelta. Die anschliessende Schifffahrt nach Brunnen rundet den erlebnisreichen Tag ab. Die Wanderzeit der Kurzwanderung beträgt 2 Stunden 50 Minuten für 9,75 Kilometer mit je 205 Meter Auf- und Abstieg. Besammlung ist um 6.45 Uhr beim Bahnhof Schöftland. Zugabfahrt um 6.57 Uhr via Aarau nach Isleten. Die Rückkehr ist um 19.33 Uhr geplant. Es wird ein Gruppenbillett gelöst. (zg) Anmeldung bis Sonntag, 7. Mai, 21 Uhr auf der Website www.ag.pro-senectute.ch oder an den Wanderleiter René Kern, 079 310 33 60.",
+            "toponyms": [
+                {
+                    "text": "Urnersee",
+                    "start": 17,
+                    "end": 25,
+                    "loc_id": "{BC686E1F-3F86-4673-B2C2-B3D3C94E3F93}"
+                },
+                {
+                    "text": "Isleten",
+                    "start": 152,
+                    "end": 159,
+                    "loc_id": "{2877E746-1785-4AFE-B7C1-18366E30E695}"
+                },
+                {
+                    "text": "Flüelen",
+                    "start": 179,
+                    "end": 186,
+                    "loc_id": "{1C2845F4-599E-44C5-8DC4-D8E0CD5F4C89}"
+                },
+                {
+                    "text": "Brunnen",
+                    "start": 224,
+                    "end": 231,
+                    "loc_id": "{E7EAE638-5AF5-4C10-AC97-8729AADA45F9}"
+                },
+                {
+                    "text": "Isleten",
+                    "start": 263,
+                    "end": 270,
+                    "loc_id": "{2877E746-1785-4AFE-B7C1-18366E30E695}"
+                },
+                {
+                    "text": "Urnersee",
+                    "start": 294,
+                    "end": 302,
+                    "loc_id": "{BC686E1F-3F86-4673-B2C2-B3D3C94E3F93}"
+                },
+                {
+                    "text": "Seedorf",
+                    "start": 316,
+                    "end": 323,
+                    "loc_id": "{5FBAFA0A-3C8C-4A6B-8AC3-46AA07B93321}"
+                },
+                {
+                    "text": "Urnersee",
+                    "start": 424,
+                    "end": 432,
+                    "loc_id": "{BC686E1F-3F86-4673-B2C2-B3D3C94E3F93}"
+                },
+                {
+                    "text": "Seedorf",
+                    "start": 489,
+                    "end": 496,
+                    "loc_id": "{5FBAFA0A-3C8C-4A6B-8AC3-46AA07B93321}"
+                },
+                {
+                    "text": "Seedorf",
+                    "start": 560,
+                    "end": 567,
+                    "loc_id": "{5FBAFA0A-3C8C-4A6B-8AC3-46AA07B93321}"
+                },
+                {
+                    "text": "Urnersee",
+                    "start": 733,
+                    "end": 741,
+                    "loc_id": "{BC686E1F-3F86-4673-B2C2-B3D3C94E3F93}"
+                },
+                {
+                    "text": "Seedorf",
+                    "start": 760,
+                    "end": 767,
+                    "loc_id": "{5FBAFA0A-3C8C-4A6B-8AC3-46AA07B93321}"
+                },
+                {
+                    "text": "Flüelen",
+                    "start": 772,
+                    "end": 779,
+                    "loc_id": "{1C2845F4-599E-44C5-8DC4-D8E0CD5F4C89}"
+                },
+                {
+                    "text": "Isleten",
+                    "start": 1090,
+                    "end": 1097,
+                    "loc_id": "{2877E746-1785-4AFE-B7C1-18366E30E695}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_08.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Velotour in den Thurgau ===\n\nElisabeth und Fredy Bollhalder führten eine grosse Schar Senioren 60+ Aktive bei schönstem Wetter auf eine Velotour in den Thurgau. Erstes Ziel war der Kaffeehalt in Wuppenau. Gestärkt und die schöne Aussicht Richtung Thurtal und Ottenberg geniessend radelte die Schar über Schönholzerswilen nach Moos nahe der Thur. Versteckt im Gaassholz, entdeckten die Radler ein besonderes Kleinod, der Istighofer Weiher. Er entstand aus einer ehemaligen Lehmgrube der Ziegelei Istighofen, die seit 1888 betrieben wurde. Eine kurze Rast erlaubte, ein paar schöne Fotos zu knipsen. Bald erreichte die Radlergruppe das Restaurant Sonne nahe Sulgen. Das Mittagessen unter Bäumen mundete allen. Der nächste Halt war die alte Steinbogen-Thurbrücke in Bischofszell. Diese wurde nach sechsjähriger Bauzeit im Jahre 1488 in Betrieb genommen. Über Oberbüren und Niederwil erreichte die Gruppe auf teils verschlungenen Velowegen den Ausgangsort Flawil. (pd) Kurzer Halt am Istighofer Weiher. Bild: PD",
+            "toponyms": [
+                {
+                    "text": "Wuppenau",
+                    "start": 199,
+                    "end": 207,
+                    "loc_id": "{8A9F15A9-5F3C-455A-964F-F0C3B6B16BF7}"
+                },
+                {
+                    "text": "Ottenberg",
+                    "start": 263,
+                    "end": 272,
+                    "loc_id": "{B7CBD7A4-7052-4BCB-80DE-0FC00ED0AFD9}"
+                },
+                {
+                    "text": "Thur",
+                    "start": 344,
+                    "end": 348,
+                    "loc_id": "{D1D0D154-47A3-4583-BE33-9E60009BAB3F}"
+                },
+                {
+                    "text": "Gaassholz",
+                    "start": 363,
+                    "end": 372,
+                    "loc_id": "{0C1B7142-07C7-41B1-9289-1C027DF33525}"
+                },
+                {
+                    "text": "Istighofer Weiher",
+                    "start": 424,
+                    "end": 441,
+                    "loc_id": "{0E50294F-F262-4255-B1E6-A479208A87C0}"
+                },
+                {
+                    "text": "Istighofen",
+                    "start": 499,
+                    "end": 509,
+                    "loc_id": "{1B6D3C27-1904-4530-AC56-0B0C015F05D1}"
+                },
+                {
+                    "text": "Sulgen",
+                    "start": 660,
+                    "end": 666,
+                    "loc_id": "{AE6D6AC0-D3B6-46CC-8426-D3DDA162DEE4}"
+                },
+                {
+                    "text": "Bischofszell",
+                    "start": 767,
+                    "end": 779,
+                    "loc_id": "{45004BFB-BEF9-4029-B5F1-FE4476072BAC}"
+                },
+                {
+                    "text": "Oberbüren",
+                    "start": 860,
+                    "end": 869,
+                    "loc_id": "{9DBF8B01-597B-4624-95C1-7D884A459982}"
+                },
+                {
+                    "text": "Niederwil",
+                    "start": 874,
+                    "end": 883,
+                    "loc_id": "{9432C74E-D3D7-4FA5-A253-CC521CE6CBA0}"
+                },
+                {
+                    "text": "Flawil",
+                    "start": 956,
+                    "end": 962,
+                    "loc_id": "{707B1BB9-88FE-45A5-904A-B8CA38F152F5}"
+                },
+                {
+                    "text": "Istighofer Weiher",
+                    "start": 984,
+                    "end": 1001,
+                    "loc_id": "{0E50294F-F262-4255-B1E6-A479208A87C0}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_10.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Durch den Nebel dem Untersee entlang nach Steckborn ===\n\nText und Bild: Mark Schoder Vom Bahnhof Tägerwilen führt der Wanderweg durch Reben und Felder nach Triboltingen und weiter über Ermatingen hinauf zum Schloss Arenenberg mit dem Napoleonmuseum. Hier wirbt eine Ausstellung zum Weinbau um Gäste. Nach einer Pause im Bistro geht’s hinunter an den Untersee, durchs Jochental bis nach Steckborn. Beim Wandern bleibt der See im Dunst verborgen, dafür zeigt sich die Landschaft von ihrer stillen Seite. Wer Glück hat, findet noch die Spätlese auf den Weinbergen, hört am Wegesrand Ziegen blöken und Kühe muhen. Die Rebblätter leuchten golden gegen das Grau. Auf Infotafeln erfahren Wandersleute, wie hier Tag für Tag über 200 Familien den Thurgauer Wein pflegen – meist Müller-Thurgau und Blauburgunder. In Salenstein oder Berlingen laden Gasthöfe zur Einkehr ein, bevor man in Steckborn erstmals den See sieht. Dort, am Hafen, wird klar: Auch ein Tag ohne Sonne kann leuchten. Mystische Landschaft mit Nebel und späten Trauben am Untersee. Tägerwilen – Arenenberg – Weisser Felsen – Steckborn Start und Ziel: Bahnhof Tägerwilen Strecke: 15,6 Kilometer Wanderzeit: 4h 20min Aufstieg: 375m Abstieg: 392m Ausrüstung: Festes Schuhwerk wie Wanderschuhe, für Kinderwagen ungeeignet Schwierigkeit: Mittelschwer Gaststätten: Gasthaus Ochsen, Tägerwilen; Bistro Luis Napoléon, Salenstein; zurSchiffländi,Steckborn Parkplätze: kostenpflichtig beim Bahnhof Tägerwilen Öffentlicher Verkehr: S1 oder S14 nach Kreuzlingen, hält am Bahnhof Tägerwilen Quelle: OSM, Grafik: let www. Eine ausführliche Fassung und weitere Wander- und Freizeittipps finden Sie unter: www.bergundbeiz.ch",
+            "toponyms": [
+                {
+                    "text": "Untersee",
+                    "start": 24,
+                    "end": 32,
+                    "loc_id": "{0713A590-B5E2-4AB8-9D38-1D131C3EA5C6}"
+                },
+                {
+                    "text": "Steckborn",
+                    "start": 46,
+                    "end": 55,
+                    "loc_id": "{3E2708B3-9B6D-494C-82E5-7476E644E226}"
+                },
+                {
+                    "text": "Triboltingen",
+                    "start": 160,
+                    "end": 172,
+                    "loc_id": "{7637E23F-16E4-4141-8C66-ED4C623FB9EE}"
+                },
+                {
+                    "text": "Ermatingen",
+                    "start": 189,
+                    "end": 199,
+                    "loc_id": "{CC79ED06-F58E-4394-8F91-6A80EB87BBA6}"
+                },
+                {
+                    "text": "Schloss Arenenberg",
+                    "start": 211,
+                    "end": 229,
+                    "loc_id": "{BC8EC9EF-74B3-489D-BD63-346B555D1B60}"
+                },
+                {
+                    "text": "Untersee",
+                    "start": 354,
+                    "end": 362,
+                    "loc_id": "{0713A590-B5E2-4AB8-9D38-1D131C3EA5C6}"
+                },
+                {
+                    "text": "Jochental",
+                    "start": 371,
+                    "end": 380,
+                    "loc_id": "{22F52C73-DA67-44A9-84B0-CBEA5FA5C761}"
+                },
+                {
+                    "text": "Steckborn",
+                    "start": 390,
+                    "end": 399,
+                    "loc_id": "{3E2708B3-9B6D-494C-82E5-7476E644E226}"
+                },
+                {
+                    "text": "Salenstein",
+                    "start": 810,
+                    "end": 820,
+                    "loc_id": "{C1194DEA-D9DC-48A4-B274-E871D9B23ECA}"
+                },
+                {
+                    "text": "Berlingen",
+                    "start": 826,
+                    "end": 835,
+                    "loc_id": "{861275A0-228D-4CB1-840A-C502EB72CBCE}"
+                },
+                {
+                    "text": "Steckborn",
+                    "start": 881,
+                    "end": 890,
+                    "loc_id": "{3E2708B3-9B6D-494C-82E5-7476E644E226}"
+                },
+                {
+                    "text": "Untersee",
+                    "start": 1034,
+                    "end": 1042,
+                    "loc_id": "{0713A590-B5E2-4AB8-9D38-1D131C3EA5C6}"
+                },
+                {
+                    "text": "Arenenberg",
+                    "start": 1057,
+                    "end": 1067,
+                    "loc_id": "{3866EE80-985D-4BFE-9C46-9326232DB4EE}"
+                },
+                {
+                    "text": "Steckborn",
+                    "start": 1087,
+                    "end": 1096,
+                    "loc_id": "{3E2708B3-9B6D-494C-82E5-7476E644E226}"
+                },
+                {
+                    "text": "Salenstein",
+                    "start": 1372,
+                    "end": 1382,
+                    "loc_id": "{C1194DEA-D9DC-48A4-B274-E871D9B23ECA}"
+                },
+                {
+                    "text": "Steckborn",
+                    "start": 1399,
+                    "end": 1408,
+                    "loc_id": "{3E2708B3-9B6D-494C-82E5-7476E644E226}"
+                },
+                {
+                    "text": "Kreuzlingen",
+                    "start": 1500,
+                    "end": 1511,
+                    "loc_id": "{8529A1DB-AFAF-4617-A3DD-2FE41C1CEFCD}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_12.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== An der Sonnenseite der Honegg ===\n\nWandertipp Die leichte Rundwanderung am sonnigen Südhang der Honegg bietet eine grossartige Aussicht zur Sichle. Der Weg verläuft über Alpweiden, durch Bergwald und zu einem wunderschönen Moorgebiet. Das Tal der Zulg zählt geografisch und politisch zur Region Thun. Mit dem Eriz hingegen, dem obersten Teil des Zulgtals, scheint es sich anders zu verhalten. Wer einen oberflächlichen Blick auf die Landeskarte wirft, könnte annehmen, das Gebiet gehöre zum Oberemmental, denn Schangnau und der Schallenbergpass liegen fast um die Ecke. Erharts Grund und Boden Doch zwischen den Tälern der Zulg und der Emme erstreckt sich ein breiter und fast gänzlich bewaldeter Rücken – die Honegg. Sie zieht eine klare Grenzlinie zum Emmental und trägt damit entscheidend dazu bei, dass das Eriz eine eigenständige, topografisch weitgehend abgeschlossene Geländekammer bildet. Die Region wurde um 1320 erstmals urkundlich erwähnt – die Rede ist von «im Eraza», was aus «Erharts» (Besitztum des Erhart) entstanden sein soll. Mehrere Wanderwege in unterschiedlicher Höhenlage durchziehen die Honegg. Besonders sonnig und aussichtsreich ist der Abschnitt vom Rotmoos nach Babschwand. Ab Innereriz/ Säge gelangt man auf einer asphaltierten Hofzufahrt zum Bauernhaus Dräcker. Weiterhin leicht ansteigend werden ein kurzes Waldstück und eine ausgedehnte Lichtung durchquert. Nach der Überquerung des Chaltbach-Grabens steigt man dem rötlich schimmernden Hochmoor von Rotmoos entlang weiter aufwärts. Naturparadies Rotmoos Das rund 65 Hektaren grosse Naturschutzgebiet Rotmoos-Breitwang steht seit 1944 unter Schutz. Zahlreiche seltene Pflanzenarten und Dutzende verschiedener Vogelarten konnten hier beobachtet werden. Weil die Vegetation ausserordentlich empfindlich ist, darf die Moorlandschaft nur auf den eigens angelegten Pfaden betreten werden. Bei den Hütten von Unter Scheidzun schwenkt man gegen Westen um und gelangt, weiterhin in leichtem Anstieg, erneut zum Chaltbach. Über Alpweiden und durch Bergwald erreicht man Babschwand, von wo sich der Weg zum Bödeli senkt. Unterwegs öffnen sich immer wieder schöne Ausblicke zu den Fluhwänden von Hohgant, Solflue und Sigriswilgrat mit dem markanten Einschnitt der Sichle dazwischen. Unterhalb der Hauptstrasse ist ein hübscher Uferweg der Zulg entlang angelegt. Auf diesem gelangt man taleinwärts zurück zum Ausgangspunkt Innereriz/Säge. Andreas Staeger Anreise: Mit dem Bus nach Innerereiz/Säge Rückreise: Ab Innereriz/Säge mit dem Bus Route: Innereriz – Unter Scheidzun – Babschwand – Innereriz Wanderzeit: 2 Std. 20 Min Streckenlänge: 7,4 km Höhendifferenz: 360 m Aufstieg, 360 m Abstieg Technik: mittel Kondition: leicht Ideale Saison: Anfang Mai bis Mitte November Von Scheidzun geniesst man eine wunderbare Aussicht zu Solflue, Sichle und Sigriswilgrat. Foto: Andreas Staeger",
+            "toponyms": [
+                {
+                    "text": "Honegg",
+                    "start": 27,
+                    "end": 33,
+                    "loc_id": "{C2DAE330-7A9D-4C3F-BF9D-590534214595}"
+                },
+                {
+                    "text": "Honegg",
+                    "start": 100,
+                    "end": 106,
+                    "loc_id": "{C2DAE330-7A9D-4C3F-BF9D-590534214595}"
+                },
+                {
+                    "text": "Sichle",
+                    "start": 144,
+                    "end": 150,
+                    "loc_id": "{925288B0-4C9E-4DE6-A60B-D878CB70EC1F}"
+                },
+                {
+                    "text": "Zulg",
+                    "start": 251,
+                    "end": 255,
+                    "loc_id": "{13EB1A04-C4C0-4B29-A674-49CDDF536C66}"
+                },
+                {
+                    "text": "Thun",
+                    "start": 299,
+                    "end": 303,
+                    "loc_id": "{F807601B-5753-4D0D-AE45-3AC6D2BF2667}"
+                },
+                {
+                    "text": "Eriz",
+                    "start": 313,
+                    "end": 317,
+                    "loc_id": "{538677C6-2A0E-42E5-AECB-1858A695C4D7}"
+                },
+                {
+                    "text": "Schangnau",
+                    "start": 514,
+                    "end": 523,
+                    "loc_id": "{A2C3757F-50D2-4DE8-8A40-474EFF9C3E50}"
+                },
+                {
+                    "text": "Schallenbergpass",
+                    "start": 532,
+                    "end": 548,
+                    "loc_id": "{67078BF2-ED3A-47E1-AD98-6EB9653A84DA}"
+                },
+                {
+                    "text": "Zulg",
+                    "start": 627,
+                    "end": 631,
+                    "loc_id": "{13EB1A04-C4C0-4B29-A674-49CDDF536C66}"
+                },
+                {
+                    "text": "Emme",
+                    "start": 640,
+                    "end": 644,
+                    "loc_id": "{88F8AADE-A132-4675-A58D-A6B537197863}"
+                },
+                {
+                    "text": "Honegg",
+                    "start": 714,
+                    "end": 720,
+                    "loc_id": "{C2DAE330-7A9D-4C3F-BF9D-590534214595}"
+                },
+                {
+                    "text": "Emmental",
+                    "start": 758,
+                    "end": 766,
+                    "loc_id": "{3C00F50D-000A-493F-A73A-EC4E3D099AEC}"
+                },
+                {
+                    "text": "Eriz",
+                    "start": 815,
+                    "end": 819,
+                    "loc_id": "{538677C6-2A0E-42E5-AECB-1858A695C4D7}"
+                },
+                {
+                    "text": "Honegg",
+                    "start": 1114,
+                    "end": 1120,
+                    "loc_id": "{C2DAE330-7A9D-4C3F-BF9D-590534214595}"
+                },
+                {
+                    "text": "Rotmoos",
+                    "start": 1180,
+                    "end": 1187,
+                    "loc_id": "{2CB4BB89-8128-46E8-9D8D-7F62DBCB1C2D}"
+                },
+                {
+                    "text": "Babschwand",
+                    "start": 1193,
+                    "end": 1203,
+                    "loc_id": "{2DFF0D4A-F136-4FA0-8F2F-6E0834CDC6DC}"
+                },
+                {
+                    "text": "Innereriz",
+                    "start": 1208,
+                    "end": 1217,
+                    "loc_id": "{8D492A5F-5149-409F-924B-8CD8AD27CC2E}"
+                },
+                {
+                    "text": "Säge",
+                    "start": 1219,
+                    "end": 1223,
+                    "loc_id": "{2F5C1761-4CCD-4E5C-9993-555EBB73BA26}"
+                },
+                {
+                    "text": "Chaltbach",
+                    "start": 1418,
+                    "end": 1427,
+                    "loc_id": "{CB4CA396-C75F-41CD-B49C-8A738AD9FCE4}"
+                },
+                {
+                    "text": "Rotmoos",
+                    "start": 1485,
+                    "end": 1492,
+                    "loc_id": "{2CB4BB89-8128-46E8-9D8D-7F62DBCB1C2D}"
+                },
+                {
+                    "text": "Scheidzun",
+                    "start": 1894,
+                    "end": 1903,
+                    "loc_id": "{56A0A7BA-0E40-4131-AEB3-AEDB2D233BFC}"
+                },
+                {
+                    "text": "Chaltbach",
+                    "start": 1988,
+                    "end": 1997,
+                    "loc_id": "{CB4CA396-C75F-41CD-B49C-8A738AD9FCE4}"
+                },
+                {
+                    "text": "Babschwand",
+                    "start": 2046,
+                    "end": 2056,
+                    "loc_id": "{2DFF0D4A-F136-4FA0-8F2F-6E0834CDC6DC}"
+                },
+                {
+                    "text": "Bödeli",
+                    "start": 2082,
+                    "end": 2088,
+                    "loc_id": "{D242B163-0D16-47B5-A6C9-E2087E25FA2E}"
+                },
+                {
+                    "text": "Hohgant",
+                    "start": 2170,
+                    "end": 2177,
+                    "loc_id": "{D77BFA65-4895-4F18-8CAA-248013938211}"
+                },
+                {
+                    "text": "Solflue",
+                    "start": 2179,
+                    "end": 2186,
+                    "loc_id": "{FEDC91D5-C045-4023-B667-DFD6BDB020D3}"
+                },
+                {
+                    "text": "Sigriswilgrat",
+                    "start": 2191,
+                    "end": 2204,
+                    "loc_id": "{B02D12D0-0294-483A-8A8F-FFEA43AB5CCC}"
+                },
+                {
+                    "text": "Sichle",
+                    "start": 2238,
+                    "end": 2244,
+                    "loc_id": "{925288B0-4C9E-4DE6-A60B-D878CB70EC1F}"
+                },
+                {
+                    "text": "Zulg",
+                    "start": 2313,
+                    "end": 2317,
+                    "loc_id": "{13EB1A04-C4C0-4B29-A674-49CDDF536C66}"
+                },
+                {
+                    "text": "Innereriz",
+                    "start": 2396,
+                    "end": 2405,
+                    "loc_id": "{8D492A5F-5149-409F-924B-8CD8AD27CC2E}"
+                },
+                {
+                    "text": "Innereriz",
+                    "start": 2484,
+                    "end": 2493,
+                    "loc_id": "{8D492A5F-5149-409F-924B-8CD8AD27CC2E}"
+                },
+                {
+                    "text": "Innereriz",
+                    "start": 2518,
+                    "end": 2527,
+                    "loc_id": "{8D492A5F-5149-409F-924B-8CD8AD27CC2E}"
+                },
+                {
+                    "text": "Scheidzun",
+                    "start": 2536,
+                    "end": 2545,
+                    "loc_id": "{56A0A7BA-0E40-4131-AEB3-AEDB2D233BFC}"
+                },
+                {
+                    "text": "Babschwand",
+                    "start": 2548,
+                    "end": 2558,
+                    "loc_id": "{2DFF0D4A-F136-4FA0-8F2F-6E0834CDC6DC}"
+                },
+                {
+                    "text": "Innereriz",
+                    "start": 2561,
+                    "end": 2570,
+                    "loc_id": "{8D492A5F-5149-409F-924B-8CD8AD27CC2E}"
+                },
+                {
+                    "text": "Scheidzun",
+                    "start": 2748,
+                    "end": 2757,
+                    "loc_id": "{56A0A7BA-0E40-4131-AEB3-AEDB2D233BFC}"
+                },
+                {
+                    "text": "Solflue",
+                    "start": 2799,
+                    "end": 2806,
+                    "loc_id": "{FEDC91D5-C045-4023-B667-DFD6BDB020D3}"
+                },
+                {
+                    "text": "Sichle",
+                    "start": 2808,
+                    "end": 2814,
+                    "loc_id": "{925288B0-4C9E-4DE6-A60B-D878CB70EC1F}"
+                },
+                {
+                    "text": "Sigriswilgrat",
+                    "start": 2819,
+                    "end": 2832,
+                    "loc_id": "{B02D12D0-0294-483A-8A8F-FFEA43AB5CCC}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_15.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Wanderweg bleibt bis Herbst gesperrt ===\n\nNesslau Im Sommer 2021 riss ein Wolf auf der Säntisalp auf dem Gemeindegebiet von Nesslau nachweislich über 30 Schafe. Da die betroffene Alp im Oberhofeld aufgrund des Geländes unübersichtlich ist, müssen ab diesem Sommer während der rund 90-tägigen Alpzeit im Gebiet Herdenschutzhunde eingesetzt werden. Sie schützen die Schafe vor dem Raubtier. Aus Sicherheitsgründen bleibt der Wanderweg zwischen Oberhofeld und der Lauchwis für alle Wanderer bis September gesperrt, wie die Gemeinde Nesslau in ihrem aktuellen Mitteilungsblatt schreibt. (pd/mas)",
+            "toponyms": [
+                {
+                    "text": "Säntisalp",
+                    "start": 91,
+                    "end": 100,
+                    "loc_id": "{C32D1438-BAE5-42B6-B46A-0B5BA2FC3BE8}"
+                },
+                {
+                    "text": "Nesslau",
+                    "start": 128,
+                    "end": 135,
+                    "loc_id": "{9E2F0F22-6712-44DE-B45B-D747717F2D77}"
+                },
+                {
+                    "text": "Oberhofeld",
+                    "start": 190,
+                    "end": 200,
+                    "loc_id": "{940DE728-77BF-4B07-961E-1370445EB7ED}"
+                },
+                {
+                    "text": "Oberhofeld",
+                    "start": 446,
+                    "end": 456,
+                    "loc_id": "{940DE728-77BF-4B07-961E-1370445EB7ED}"
+                },
+                {
+                    "text": "Lauchwis",
+                    "start": 465,
+                    "end": 473,
+                    "loc_id": "{FE49A2CE-6A5B-4FB3-8CB1-727EB5F92EF4}"
+                },
+                {
+                    "text": "Nesslau",
+                    "start": 533,
+                    "end": 540,
+                    "loc_id": "{9E2F0F22-6712-44DE-B45B-D747717F2D77}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_24.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Steiler Aufstieg wird belohnt: Vom Appenzell ins Toggenburg ===\n\nText und Bild: Krisztina Scherrer Zuerst geht es steil in die Höhe, dann flach weiter, bis zum Abstieg. Mal ist es sonnig und warm, mal schattig und kalt – der Ausblick: unbezahlbar. Die Wanderung von Urnäsch nach St. Peterzell ist Teil des Jakobswegs. Start der Route ist am Bahnhof in Urnäsch. Der Weg führt über Wiesen und Strassen und schlängelt sich den Hang hinauf. Vorbei an einzelnen Bauernhöfen geht es in Richtung Oberer Buchen, wo die Wanderroute über einen Hang in den Wald führt. Die Füliweid erreicht, geht es über Teerstrassen und Kieswege ins Appenzeller Dorf Schönengrund. Die Route 44 führt von dort weiter in den Kanton St. Gallen. Der Wanderweg verläuft nun parallel zur Kantonsstrasse. Wer kurz vor dem Ziel noch einmal Verweilen will, kann dies auf einem Bänkli tun. In St. Peterzell angekommen, ist die Bushaltestelle Dorf für die Rückreise direkt gegenüber der ehemaligen Propstei. Quelle: OSM, Lizenz Odbl 1.0 Karte und Profil: let Blick in Richtung Hoher Kasten. Bahnhof Urnäsch – Aussichtspunkt mit Bänkli – Schönengrund – Bänkli zum Verweilen – ehemalige Propstei St. Peterzell – Bushaltestelle St. Peterzell, Dorf Start: Bahnhof Urnäsch Ziel: St. Peterzell, Propstei Strecke: 11,31 Kilometer Wanderzeit: 3h 10min Aufstieg: 400m Abstieg: 450m Ausrüstung: Gutes Schuhwerk, nicht für Kinderwagen geeignet Gaststätten: Diverse Gaststätten in Schönengrund und St. Peterzell Parkplätze: Beim Bahnhof Urnäsch oder Herisau Öffentlicher Verkehr: Zug von Herisau bis Urnäsch, Bus von St. Peterzell bis Herisau Landeskarte: 1:25000, Blatt: Blatt 2514 Säntis-Churfisten und 1094 Degersheim. (krs) Start und Ziel www. Eine ausführliche Fassung und weitere Bilder finden Sie unter: go.tagblatt.ch/wandertipp",
+            "toponyms": [
+                {
+                    "text": "Appenzell",
+                    "start": 39,
+                    "end": 48,
+                    "loc_id": "{6BDD997F-83BA-4F25-A691-137BA43142B9}"
+                },
+                {
+                    "text": "Toggenburg",
+                    "start": 53,
+                    "end": 63,
+                    "loc_id": "{8BEA5CA8-AAA9-47E0-AE7B-072D1A449C1D}"
+                },
+                {
+                    "text": "Urnäsch",
+                    "start": 270,
+                    "end": 277,
+                    "loc_id": "{5B0984CC-57F5-4D9E-A416-8B1B5E41363E}"
+                },
+                {
+                    "text": "St. Peterzell",
+                    "start": 283,
+                    "end": 296,
+                    "loc_id": "{1EBCDCBC-E204-4F89-9580-F66265959FB4}"
+                },
+                {
+                    "text": "Urnäsch",
+                    "start": 356,
+                    "end": 363,
+                    "loc_id": "{5B0984CC-57F5-4D9E-A416-8B1B5E41363E}"
+                },
+                {
+                    "text": "Füliweid",
+                    "start": 566,
+                    "end": 574,
+                    "loc_id": "{F460EE26-6C47-42D9-875C-D1AB61678D15}"
+                },
+                {
+                    "text": "Schönengrund",
+                    "start": 645,
+                    "end": 657,
+                    "loc_id": "{BAA3DC53-86D0-4C73-8327-CA8CBE20311C}"
+                },
+                {
+                    "text": "St. Peterzell",
+                    "start": 861,
+                    "end": 874,
+                    "loc_id": "{1EBCDCBC-E204-4F89-9580-F66265959FB4}"
+                },
+                {
+                    "text": "Hoher Kasten",
+                    "start": 1044,
+                    "end": 1056,
+                    "loc_id": "{286F3918-45E1-41FD-A16E-42601B2A99FB}"
+                },
+                {
+                    "text": "Urnäsch",
+                    "start": 1066,
+                    "end": 1073,
+                    "loc_id": "{FEEDF6F8-1E72-4529-9662-882418011E91}"
+                },
+                {
+                    "text": "St. Peterzell",
+                    "start": 1192,
+                    "end": 1205,
+                    "loc_id": "{1EBCDCBC-E204-4F89-9580-F66265959FB4}"
+                },
+                {
+                    "text": "St. Peterzell",
+                    "start": 1241,
+                    "end": 1254,
+                    "loc_id": "{1EBCDCBC-E204-4F89-9580-F66265959FB4}"
+                },
+                {
+                    "text": "Schönengrund",
+                    "start": 1436,
+                    "end": 1448,
+                    "loc_id": "{BAA3DC53-86D0-4C73-8327-CA8CBE20311C}"
+                },
+                {
+                    "text": "St. Peterzell",
+                    "start": 1453,
+                    "end": 1466,
+                    "loc_id": "{1EBCDCBC-E204-4F89-9580-F66265959FB4}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_26.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Holzbrücken, Papierflieger und ein rosaroter Brunnen ===\n\nText und Bild: Janine Bollhalder Noch immer gilt die Devise: Abstand halten und Menschenmassen meiden. Dieser Wandertipp kann daher mit dem Auto zurückgelegt werden. Der Roadtrip dem Untersee entlang startet in Kreuzlingen. Der Seeburgpark lockt mit Aussichtsturm, Minigolfanlage und Tierpark. Weiter geht es nach Eschenz, wo der Ausflügler über eine 200 Meter lange Holzbrücke die Insel Werd erreicht. Dies bleibt nicht die einzige Brücke auf dieser Wanderung: Von Eschenz geht es nach Diessenhofen zur Rheinbrücke, die über die Grenze hinweg nach Gailingen führt. Ein Erinnerungsselfie kann beim rosaroten Brunnen nach Schlattingen geknipst werden. Die nächsten zwei Punkte können verbunden werden, vom Parkplatz an der Thur kann man bis zur Kartause Ittingen spazieren. Dort trifft man auf Kunstobjekte wie etwa den Paperplane aus Aluminium oder den singenden Tannenbaum. Den Schlusspunkt der Wanderung markiert das Badi-Beizli Frankrichli in Pfyn. Die schmale Brücke führt über das Wasser zur Insel Werd. Start: Kreuzlingen Hafen Ziel: Badi-Beizli Frankrichli, Pfyn Strecke: 67 Kilometer Wanderzeit: individuell Ausrüstung: Strassenschuhe genügen, Wanderung ist kinderwagentauglich Gaststätten: Bitte aufgrund der aktuellen Situation die Öffnungszeiten und Vorschriften der Gaststätten vor dem Besuch prüfen Parkplätze: Bei jeder Station gibt es Parkplätze Öffentlicher Verkehr: Bis auf die Station Nummer 4 (rosa Brunnen) sind alle Punkte der Wanderung mit den öffentlichen Verkehrsmitteln erreichbar Kartenmaterial: 1032 Kreuzlingen, 1033 Steckborn, 1034 Diessenhofen, 1052 Andelfingen, 1053 Frauenfeld (jab)",
+            "toponyms": [
+                {
+                    "text": "Untersee",
+                    "start": 245,
+                    "end": 253,
+                    "loc_id": "{0713A590-B5E2-4AB8-9D38-1D131C3EA5C6}"
+                },
+                {
+                    "text": "Kreuzlingen",
+                    "start": 273,
+                    "end": 284,
+                    "loc_id": "{25B18D03-E735-42B4-95A9-0E609A3F2D4A}"
+                },
+                {
+                    "text": "Seeburgpark",
+                    "start": 290,
+                    "end": 301,
+                    "loc_id": "{0B1E36C9-F577-4E9C-A217-C58567EE8ECF}"
+                },
+                {
+                    "text": "Eschenz",
+                    "start": 376,
+                    "end": 383,
+                    "loc_id": "{29826CDE-7B36-4DE7-9B36-8A64068CDED8}"
+                },
+                {
+                    "text": "Werd",
+                    "start": 450,
+                    "end": 454,
+                    "loc_id": "{36AEE0C3-2894-456C-9971-20E3503E3220}"
+                },
+                {
+                    "text": "Eschenz",
+                    "start": 528,
+                    "end": 535,
+                    "loc_id": "{29826CDE-7B36-4DE7-9B36-8A64068CDED8}"
+                },
+                {
+                    "text": "Diessenhofen",
+                    "start": 549,
+                    "end": 561,
+                    "loc_id": "{ED72FDBD-BA99-486D-A047-5D420E0F5098}"
+                },
+                {
+                    "text": "Schlattingen",
+                    "start": 683,
+                    "end": 695,
+                    "loc_id": "{A9569806-E3BA-42BE-A7E8-70153F283769}"
+                },
+                {
+                    "text": "Thur",
+                    "start": 784,
+                    "end": 788,
+                    "loc_id": "{D1D0D154-47A3-4583-BE33-9E60009BAB3F}"
+                },
+                {
+                    "text": "Kartause Ittingen",
+                    "start": 806,
+                    "end": 823,
+                    "loc_id": "{01FE384D-3175-4662-807A-6B4308170A67}"
+                },
+                {
+                    "text": "Pfyn",
+                    "start": 1008,
+                    "end": 1012,
+                    "loc_id": "{87D1AD09-0625-4DF8-8722-0456894838D2}"
+                },
+                {
+                    "text": "Werd",
+                    "start": 1065,
+                    "end": 1069,
+                    "loc_id": "{36AEE0C3-2894-456C-9971-20E3503E3220}"
+                },
+                {
+                    "text": "Kreuzlingen Hafen",
+                    "start": 1078,
+                    "end": 1095,
+                    "loc_id": "{126E9816-70EA-4BBC-8C15-255BA8C7717E}"
+                },
+                {
+                    "text": "Pfyn",
+                    "start": 1127,
+                    "end": 1131,
+                    "loc_id": "{87D1AD09-0625-4DF8-8722-0456894838D2}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_27.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== In 17 Stunden auf den Gotthard ===\n\nAm 25. Juni findet zum 20. Mal der Gotthardmarsch statt. Organisator Paul Dubacher lädt zu Wandervorbereitungen ein. Der Gotthardmarsch führt am Samstag, 25. Juni, von Seelisberg über 70 Kilometer und mit 2000 Metern Höhendifferenz in 17 Stunden auf den Gotthardpass. «Vor 19 Jahren startete ich mit acht Personen in Seelisberg zum Gotthardmarsch», erinnert sich Paul Dubacher. Auch in diesem Jahr sei das Interesse ungebrochen, wie es in der Mitteilung der Organisatoren heisst. Der Organisator freut sich sehr über das grosse Interesse, verweist aber auf die beschränkte Teilnehmerzahl: «Aus organisatorischen Gründen sind die Plätze für den Gotthardmarsch beschränkt. Mehr als rund 130 Personen können wir leider nicht mitnehmen.» Eine gute Vorbereitung ist wichtig «Ohne eine gute Vorbereitung ist die Strecke nicht zu schaffen», ist der Urner Wanderprofi überzeugt. Und er muss es wissen: Bereits zum 20. Mal leitet er den Gotthardmarsch. Ab dem 29. Mai organisiert Paul Dubacher darum jeden Sonntag eine Trainingswanderung als Vorbereitung zum Gotthardmarsch. An den einzelnen Wanderungen können alle teilnehmen, auch wenn diese dann nicht am Gotthardmarsch mitmachen werden. Eine Anmeldung für die Trainingswanderungen ist nicht nötig. Folgende Wandervorbereitungen finden in den nächsten Wochen statt: Am kommenden Sonntag, 29. Mai, 7 Uhr: Seedorf Seerestaurant – Bauen – Seedorf; Montag, 6. Juni, 7 Uhr: Seedorf Seerestaurant – Erstfeld – Seedorf; Sonntag, 12. Juni, 7 Uhr: Erstfeld Reussbrücke – Göschenen; sowie am Sonntag, 19. Juni, 8 Uhr: Göschenen Bahnhof – Andermatt – Gotthardpass. Unterwegs auf dem Gottardo-Wanderweg Der Gotthardmarsch folgt ab Attinghausen bis Göschenen dem Streckennetz des Gottardo-Wanderwegs. Dieser wurde zum 125-Jahr-Jubiläum der Gotthardbahn eröffnet und im Sommer 2016 bis Altdorf verlängert. Im Süden verläuft der Wanderweg weiter von Airolo bis Giornico. Er gilt als nachhaltiges Projekt der Jubiläumsfeierlichkeiten. Wer den Gottardo-Wanderweg auf der Urner Seite mit seinen über 50 Informationstafeln und unzähligen Sehenswürdigkeiten im gemütlicheren Tempo ablaufen und geniessen möchte, startet am besten in Göschenen auf 1111 Metern über Meer und wandert dann talwärts Richtung Altdorf. (pd/RIN) Die Wandergruppe während eines vergangenen Gotthardmarsches auf der Teufelsbrücke. Bild: PD",
+            "toponyms": [
+                {
+                    "text": "Gotthard",
+                    "start": 26,
+                    "end": 34,
+                    "loc_id": "{8161EB27-DFE4-4ABE-86F2-FCDB5B6B4990}"
+                },
+                {
+                    "text": "Seelisberg",
+                    "start": 208,
+                    "end": 218,
+                    "loc_id": "{68675EB9-302C-4801-8EE2-C599FBB93B1D}"
+                },
+                {
+                    "text": "Gotthardpass",
+                    "start": 294,
+                    "end": 306,
+                    "loc_id": "{8161EB27-DFE4-4ABE-86F2-FCDB5B6B4990}"
+                },
+                {
+                    "text": "Seelisberg",
+                    "start": 357,
+                    "end": 367,
+                    "loc_id": "{68675EB9-302C-4801-8EE2-C599FBB93B1D}"
+                },
+                {
+                    "text": "Seedorf",
+                    "start": 1388,
+                    "end": 1395,
+                    "loc_id": "{1475E3B7-EDD8-4DAB-9721-2BA94D6E3746}"
+                },
+                {
+                    "text": "Bauen",
+                    "start": 1412,
+                    "end": 1417,
+                    "loc_id": "{8FE4EC38-E743-4D90-BADB-D7B25E63A30B}"
+                },
+                {
+                    "text": "Seedorf",
+                    "start": 1420,
+                    "end": 1427,
+                    "loc_id": "{1475E3B7-EDD8-4DAB-9721-2BA94D6E3746}"
+                },
+                {
+                    "text": "Seedorf",
+                    "start": 1488,
+                    "end": 1495,
+                    "loc_id": "{1475E3B7-EDD8-4DAB-9721-2BA94D6E3746}"
+                },
+                {
+                    "text": "Andermatt",
+                    "start": 1612,
+                    "end": 1621,
+                    "loc_id": "{518DAC37-2296-4E90-86E7-352E7DCE53CF}"
+                },
+                {
+                    "text": "Gotthardpass",
+                    "start": 1624,
+                    "end": 1636,
+                    "loc_id": "{8161EB27-DFE4-4ABE-86F2-FCDB5B6B4990}"
+                },
+                {
+                    "text": "Attinghausen",
+                    "start": 1703,
+                    "end": 1715,
+                    "loc_id": "{6E5E0DBE-20DC-4DC5-BA4E-4F5F331431BE}"
+                },
+                {
+                    "text": "Göschenen",
+                    "start": 1720,
+                    "end": 1729,
+                    "loc_id": "{83A5027F-2CE3-49D0-A2D5-81116F0702A5}"
+                },
+                {
+                    "text": "Altdorf",
+                    "start": 1856,
+                    "end": 1863,
+                    "loc_id": "{E919F2BB-D194-4FF2-BDF5-4C244DE24084}"
+                },
+                {
+                    "text": "Airolo",
+                    "start": 1919,
+                    "end": 1925,
+                    "loc_id": "{D7351D07-3CF7-47B4-88B9-2ACF8C7E9DEE}"
+                },
+                {
+                    "text": "Giornico",
+                    "start": 1930,
+                    "end": 1938,
+                    "loc_id": "{9A2DCC9B-E608-4D5D-A605-C68A874FDD79}"
+                },
+                {
+                    "text": "Göschenen",
+                    "start": 2197,
+                    "end": 2206,
+                    "loc_id": "{83A5027F-2CE3-49D0-A2D5-81116F0702A5}"
+                },
+                {
+                    "text": "Altdorf",
+                    "start": 2268,
+                    "end": 2275,
+                    "loc_id": "{E919F2BB-D194-4FF2-BDF5-4C244DE24084}"
+                },
+                {
+                    "text": "Teufelsbrücke",
+                    "start": 2354,
+                    "end": 2367,
+                    "loc_id": "{E0195A78-75EC-4663-9D59-7D3B760B905A}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_28.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Novemberwanderung der Wandersleut vom Oberdorf ===\n\nBei sonnigem und etwas windigem Winterwetter trafen sich 14 aufgestellte Kameraden, begleitet von einem Hund, zur vorgesehenen Wanderung ins Reppischtal, bei der Bushaltestelle an der Bahnhofstrasse in Dietikon. Abfahrt mit Bus 314 über Urdorf nach Birmensdorf Bahnhof, wo die Wanderung begann. Der direkte Weg führte zum Dorfbach Reppisch, nach kurzer Durchquerung der Industriezone ging’s weiter dem Bach entlang Richtung Kaserne. Im Bereich der Umgehungsstrasse standen diverse Fitnessgeräte zur Körperertüchtigung bereit, welche von einigen Wandergesellen rege benützt wurden. Am Strassenende, steiler Aufstieg in den Wald, dem Wanderweg folgend war eine beeindruckende Rundsicht über das Reppischtal zu geniessen. Das idyllische Tal mitten im Agglomerationsgürtel der Stadt Zürich gilt als ideales Wandergebiet. Im Naturschutzgebiet ging’s Richtung Honeret, der Waldstrasse entlang wurde bald Lindenbühl erreicht. Weiter im Wald hinunter Richtung Urdorfer Industriezone, wo der Baufortschritt betreffend Autobahnanschluss bestaunt wurde. Durch die Unterführung Herweg gings zur Brunau, wo im Restaurant Rustica der Zvierihalt erfolgte. Nach einer Stärkung führte der Rückweg weiter der Guggenbühlstrasse und Windeggstrasse folgend ins Dietikoner Oberdorf. Kurt Huber Die Fitnessgeräte werden rege genützt.... Bild: zvg",
+            "toponyms": [
+                {
+                    "text": "Reppischtal",
+                    "start": 197,
+                    "end": 208,
+                    "loc_id": "{DA2F3A85-0912-464B-9EB8-C3090F70E65F}"
+                },
+                {
+                    "text": "Dietikon",
+                    "start": 258,
+                    "end": 266,
+                    "loc_id": "{BBB0262D-7930-4DF7-BF4C-CE1EC76DEECA}"
+                },
+                {
+                    "text": "Urdorf",
+                    "start": 293,
+                    "end": 299,
+                    "loc_id": "{8F381166-C29A-46F7-ACE7-4CE45676D20F}"
+                },
+                {
+                    "text": "Birmensdorf",
+                    "start": 305,
+                    "end": 316,
+                    "loc_id": "{3FEBF7B7-B8B5-44E0-B2DD-4BC81DCA48A9}"
+                },
+                {
+                    "text": "Reppisch",
+                    "start": 387,
+                    "end": 395,
+                    "loc_id": "{9DD592D9-E6F3-4AB8-957A-5AA738686996}"
+                },
+                {
+                    "text": "Reppischtal",
+                    "start": 749,
+                    "end": 760,
+                    "loc_id": "{DA2F3A85-0912-464B-9EB8-C3090F70E65F}"
+                },
+                {
+                    "text": "Zürich",
+                    "start": 835,
+                    "end": 841,
+                    "loc_id": "{DA52EAD1-6419-40A6-93A3-C4C85B2757E8}"
+                },
+                {
+                    "text": "Honeret",
+                    "start": 910,
+                    "end": 917,
+                    "loc_id": "{B2BE4832-6D02-4AC7-81DB-EC4C6D373047}"
+                },
+                {
+                    "text": "Lindenbühl",
+                    "start": 954,
+                    "end": 964,
+                    "loc_id": "{CC842745-D73F-4025-899F-D5F5CF5B0313}"
+                },
+                {
+                    "text": "Herweg",
+                    "start": 1122,
+                    "end": 1128,
+                    "loc_id": "{71005C00-5195-4EA2-A76D-26895E786731}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_29.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Picknick mit Aussicht ===\n\nManchmal muss man umdisponieren – und wird reichlich dafür belohnt. Unser Plan, die Wanderung von der Thurgauer Gemeinde Pfyn über den Seerücken nach Steckborn mit einem Znüni im Café Bürgi zu beginnen und uns drei Stunden später ein Stück Hecht mit Bodenseeblick zu gönnen, fiel coronabedingt ins Wasser. Also bestückten wir den Rucksack mit Schlemmereien, fuhren von Frauenfeld mit dem Postauto bis Station «Pfyn, Gemeinde» und folgten dem Wegweiser Richtung «Stäckbore», wie die Thurgauer sagen. Die Route über Ratzebüel, Unterhörstetten, Oberhörstetten und Tägermoos hinunter zur Bodenseestadt ist perfekt markiert – dem Verband Schweizer Wanderwege sei Dank. Die Auf- und Abstiege sind moderat (je 260 Höhenmeter), die Wege durch Acker- und Wiesenland von Weitsichten gekrönt, und bei Oberhörstetten, wo der Wanderweg links hinauf zum Waldrand führt, laden Tisch, Bank und Feuerstelle zum Picknick ein. Den Blick auf Säntis und Churfirsten gibts gratis dazu. Wohlgestärkt ziehen wir weiter nach Tägermoos, auf dessen Krete sich erstmals der Bodensee zeigt und der Abstieg nach Steckborn beginnt. KOE Thurgauer Wanderkarte über www.thurgauer-wanderwege.ch Weckt Mittelmeergefühle: Der Abstieg nach Steckborn wird vom Blick auf den Bodensee begleitet.",
+            "toponyms": [
+                {
+                    "text": "Pfyn",
+                    "start": 152,
+                    "end": 156,
+                    "loc_id": "{31C58A64-80E1-4D72-9BB3-604251BCBF1C}"
+                },
+                {
+                    "text": "Seerücken",
+                    "start": 166,
+                    "end": 175,
+                    "loc_id": "{F5408FAB-F3C8-44A1-AA1A-82DBED471D13}"
+                },
+                {
+                    "text": "Steckborn",
+                    "start": 181,
+                    "end": 190,
+                    "loc_id": "{3E2708B3-9B6D-494C-82E5-7476E644E226}"
+                },
+                {
+                    "text": "Frauenfeld",
+                    "start": 400,
+                    "end": 410,
+                    "loc_id": "{8C121DB2-56FF-4113-8586-191D213BEA44}"
+                },
+                {
+                    "text": "Pfyn",
+                    "start": 441,
+                    "end": 445,
+                    "loc_id": "{31C58A64-80E1-4D72-9BB3-604251BCBF1C}"
+                },
+                {
+                    "text": "Ratzebüel",
+                    "start": 545,
+                    "end": 554,
+                    "loc_id": "{F6284A1A-8637-43BA-B4EC-A0E142CCE284}"
+                },
+                {
+                    "text": "Unterhörstetten",
+                    "start": 556,
+                    "end": 571,
+                    "loc_id": "{BA9542D6-90F3-4508-907D-C6F1C7F010F2}"
+                },
+                {
+                    "text": "Oberhörstetten",
+                    "start": 573,
+                    "end": 587,
+                    "loc_id": "{A0F8523E-9D9C-495B-BE4C-5F3E6B372481}"
+                },
+                {
+                    "text": "Tägermoos",
+                    "start": 592,
+                    "end": 601,
+                    "loc_id": "{28C77640-EF34-4B14-BFF1-CB6D0CD85B9A}"
+                },
+                {
+                    "text": "Säntis",
+                    "start": 953,
+                    "end": 959,
+                    "loc_id": "{7F9E6D76-E6BB-4176-9A1B-28C7648BEAAC}"
+                },
+                {
+                    "text": "Churfirsten",
+                    "start": 964,
+                    "end": 975,
+                    "loc_id": "{3ED5C7AE-6411-43F3-A4DA-46B008976CA0}"
+                },
+                {
+                    "text": "Tägermoos",
+                    "start": 1031,
+                    "end": 1040,
+                    "loc_id": "{28C77640-EF34-4B14-BFF1-CB6D0CD85B9A}"
+                },
+                {
+                    "text": "Bodensee",
+                    "start": 1077,
+                    "end": 1085,
+                    "loc_id": "{BA996D4E-F43D-473C-A92C-0778C44B3105}"
+                },
+                {
+                    "text": "Steckborn",
+                    "start": 1113,
+                    "end": 1122,
+                    "loc_id": "{3E2708B3-9B6D-494C-82E5-7476E644E226}"
+                },
+                {
+                    "text": "Steckborn",
+                    "start": 1233,
+                    "end": 1242,
+                    "loc_id": "{3E2708B3-9B6D-494C-82E5-7476E644E226}"
+                },
+                {
+                    "text": "Bodensee",
+                    "start": 1266,
+                    "end": 1274,
+                    "loc_id": "{BA996D4E-F43D-473C-A92C-0778C44B3105}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0001_30.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Rundherum gibts was zu sehen ===\n\nDer Blick vom Hirzli (1640 m ü. M.) fällt auf die Linthebene und den Walensee. Doch vom Gipfel sieht man noch mehr. In der Ferne den Zürichsee, den Säntis, die Churfirsten oder die Rigi. Für diese Aussicht gilt es aber zuerst 664 Höhenmeter und viele Kehren zu überwinden. Startpunkt der Bergwanderung ist die Bergstation Morgenholz. Die Route folgt erst dem Niederurner Skulpturenweg, dann immer entlang dem Wegweiser «Hirzli-Rundweg», weiter via Schwifärch bis zum Hirzli. Zuerst gehts auf einem Forstweg dann auf einem Wanderweg hoch. Der Weg wird immer steiler, dafür gibts immer wieder Rastplätze mit Aussicht auf den Walensee. Beim Abstieg über die Obere Planggen gehts hinunter ins Niederurner Tal, wo dann das Restaurant Hirzli hungrige und durstige Wanderinnen und Wanderer verwöhnt. Start &amp; Ziel Seilbahnstation Niederurnen Dauer 3 h Distanz 7,4 km Höhenmeter Aufstieg: 675 m Abstieg: 675 m Gipfelhöhe Summit-Kategorie 1640 m ü. M.",
+            "toponyms": [
+                {
+                    "text": "Hirzli",
+                    "start": 52,
+                    "end": 58,
+                    "loc_id": "{6E9B3304-725E-4CF6-9BBB-A8208079E2E1}"
+                },
+                {
+                    "text": "Linthebene",
+                    "start": 88,
+                    "end": 98,
+                    "loc_id": "{207709C4-E02A-4D8D-9090-9871F7CC0632}"
+                },
+                {
+                    "text": "Walensee",
+                    "start": 107,
+                    "end": 115,
+                    "loc_id": "{056B38A0-01BF-4895-B870-28052FC13BBD}"
+                },
+                {
+                    "text": "Morgenholz",
+                    "start": 360,
+                    "end": 370,
+                    "loc_id": "{218D50C2-7900-4056-9320-D99EEB5EE4F6}"
+                },
+                {
+                    "text": "Schwifärch",
+                    "start": 486,
+                    "end": 496,
+                    "loc_id": "{0044BBE0-C360-4284-A579-F6EADC767E6D}"
+                },
+                {
+                    "text": "Hirzli",
+                    "start": 505,
+                    "end": 511,
+                    "loc_id": "{6E9B3304-725E-4CF6-9BBB-A8208079E2E1}"
+                },
+                {
+                    "text": "Walensee",
+                    "start": 661,
+                    "end": 669,
+                    "loc_id": "{056B38A0-01BF-4895-B870-28052FC13BBD}"
+                },
+                {
+                    "text": "Niederurner Tal",
+                    "start": 727,
+                    "end": 742,
+                    "loc_id": "{75BB2E08-BE47-4BFC-AD1E-00A72CB7363E}"
+                },
+                {
+                    "text": "Hirzli",
+                    "start": 767,
+                    "end": 773,
+                    "loc_id": "{6E9B3304-725E-4CF6-9BBB-A8208079E2E1}"
+                }
+            ]
+        }
+    ]
+}

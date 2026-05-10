@@ -1,0 +1,435 @@
+{
+    "created_at": "2026-04-24T17:59:44.166403",
+    "last_updated": "2026-04-30T07:59:53.094880",
+    "gazetteer": "swissnames3d",
+    "documents": [
+        {
+            "filename": "batch_0000_01.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Mystischer Alpstein ===\n\nLeserbild Marie-Louise Rusch fotografierte im Gebiet Tierwis auf der Bergtour auf den Säntis.\n\n---\n\n=== Mit dem Velo zur Waldschenke ===\n\nOberthurgau Am 20.Mai führt «Pro Senectute» eine Velotour durch den Oberthurgau (rund 50 km) durch – von Stachen über Hagenwil und Zihlschlacht zur Waldschenke Bischofszell und zurück via Hauptwil, St.Pelagiberg, Ruggisberg und Roggwil. Infos und Anmeldung bei Felix Büsser (f.buesser@bluewin.ch oder 0719441056). (man)\n\n---\n\n=== Wanderweg beim Hohlenstein bleibt weiterhin gesperrt ===\n\nNiederhelfenschwil/Oberbüren Der Wanderweg beim Hohlenstein oberhalb des Dorfes Sonnental, welcher die Gemeinden Oberbüren und Niederhelfenschwil verbindet, bleibt bis auf weiteres gesperrt. Dies teilt die Gemeinde Oberbüren mit. Grund dafür ist ein Hangrutsch, der zu Beschädigungen am Weg geführt hat. Die Sanierung des Weges wird durch die Gemeinde Niederhelfenschwil koordiniert. (pd)\n\n---\n\n=== Der Herbst lädt zum Wandern ein ===\n\nRegion Ein Wandertipp direkt vor der Haustüre: von Frümsen via Trübliweg nach Sax mit einem Abstecher zur Burgruine Hohensax. 10Bild: Corinne Hanselmann\n\n---\n\n=== Mystische Stimmung im Alpstein ===\n\nLeserbild Monika Baumann, Romanshorn, fotografierte vom Wanderweg zur Alp Siegel.\n\n---\n\n=== «Zauberberg» Säntis ===\n\nWeitsicht Robert Hahn, Bauer aus Konstanz, fotografierte während seiner Velotour vom «Säntisblick» in Illighausen aus.\n\n---\n\n=== Die dunklen Wolken mobilisierten alle Kräfte bei den Radlern ===\n\n60plus St. Urban Eine kleine Gruppe Velofahrer besammelte sich trotz bewölktem und kühlem Wetter zur geplanten Velotour. Pünktlich starteten sie nach Walliswil, dem Kanal entlang nach Murgenthal und auf Waldwegen nach Rothrist. Durch Rothrist und Oftringen fuhren sie im Autoverkehr mit. Danach genossen es die Teilnehmer auf den schönen Radwegen nach Safenwil, Kölliken bis nach Holziken. Im Restaurant Bären genoss die Gruppe ein feines Mittagessen. Gut gestärkt fuhren sie weiter nach Schöftland, Staffelbach und mehrere Kilometer der Suhre entlang. Kurz vor Sursee bogen die Radler Richtung Knutwil ab. Über die Höhen Dubenmoos, Waldhof, Erlifeld, Lätten und Gsteing erreichten sie nach einer rasanten Talfahrt Reiden. Auf dem letzten Abschnitt Brittnau, Pfaffnau nach St. Urban mobilisierten sie nochmals alle Kräfte, auch weil die Wolken immer dunkler waren. (zg) 60plus St. Urban auf Velotour.Bild: zvg\n\n---\n\n=== Über dem Nebel... ===\n\nSchweiz Ganz oben scheint die Freiheit grenzenlos – und herrscht strahlender Sonnenschein: Wintersportlerinnen und -sportler blicken im Skigebiet Jura sur Leman im La-Dole-Massiv auf das Nebelmeer. Foto: Jean-Christophe Bott (Keystone)\n\n---\n\n=== Über dem Nebel... ===\n\nSchweiz Ganz oben scheint die Freiheit grenzenlos – und herrscht strahlender Sonnenschein: Wintersportlerinnen und -sportler blicken im Skigebiet Jura sur Leman im La-Dole-Massiv auf das Nebelmeer. Foto: Jean-Christophe Bott (Keystone)\n\n---\n\n=== Über dem Nebel... ===\n\nSchweiz Ganz oben scheint die Freiheit grenzenlos – und herrscht strahlender Sonnenschein: Wintersportlerinnen und -sportler blicken im Skigebiet Jura sur Leman im La-Dole-Massiv auf das Nebelmeer. Foto: Jean-Christophe Bott (Keystone)\n\n---\n\n=== Über dem Nebel... ===\n\nSchweiz Ganz oben scheint die Freiheit grenzenlos – und herrscht strahlender Sonnenschein: Wintersportlerinnen und -sportler blicken im Skigebiet Jura sur Leman im La-Dole-Massiv auf das Nebelmeer. Foto: Jean-Christophe Bott (Keystone)",
+            "toponyms": [
+                {
+                    "text": "Oberthurgau",
+                    "start": 235,
+                    "end": 246,
+                    "loc_id": "{6D227241-F632-4D41-8A31-CDD7F4689C97}"
+                },
+                {
+                    "text": "Stachen",
+                    "start": 272,
+                    "end": 279,
+                    "loc_id": "{E71E7628-F516-4C24-9C5B-88D6F6D9CF7E}"
+                },
+                {
+                    "text": "Hagenwil",
+                    "start": 285,
+                    "end": 293,
+                    "loc_id": "{190620F1-5E90-4754-BBAC-7F12DC917F8A}"
+                },
+                {
+                    "text": "Zihlschlacht",
+                    "start": 298,
+                    "end": 310,
+                    "loc_id": "{34DFE642-8065-4774-91AA-9BEED2BAFBCF}"
+                },
+                {
+                    "text": "Waldschenke Bischofszell",
+                    "start": 315,
+                    "end": 339,
+                    "loc_id": "{87308D87-3786-4D77-99A4-B682D14B14B5}"
+                },
+                {
+                    "text": "Hauptwil",
+                    "start": 355,
+                    "end": 363,
+                    "loc_id": "{7766C4D0-A037-4332-8D9E-166636CC9856}"
+                },
+                {
+                    "text": "Ruggisberg",
+                    "start": 380,
+                    "end": 390,
+                    "loc_id": "{280BA50C-830C-4C26-A0B5-80F923BD6243}"
+                },
+                {
+                    "text": "Roggwil",
+                    "start": 395,
+                    "end": 402,
+                    "loc_id": "{2F174277-9DC7-457E-BF46-174CA0DCD5D7}"
+                },
+                {
+                    "text": "Sonnental",
+                    "start": 635,
+                    "end": 644,
+                    "loc_id": "{83C23BA3-9D2E-42EB-90F4-EDCF463E7789}"
+                },
+                {
+                    "text": "Oberbüren",
+                    "start": 668,
+                    "end": 677,
+                    "loc_id": "{CA140883-3D6D-49E4-8BE0-E4CC5740B7FA}"
+                },
+                {
+                    "text": "Niederhelfenschwil",
+                    "start": 682,
+                    "end": 700,
+                    "loc_id": "{EE3855EF-A2D3-425B-AE81-AA1C3ADB21C4}"
+                },
+                {
+                    "text": "Oberbüren",
+                    "start": 770,
+                    "end": 779,
+                    "loc_id": "{CA140883-3D6D-49E4-8BE0-E4CC5740B7FA}"
+                },
+                {
+                    "text": "Niederhelfenschwil",
+                    "start": 907,
+                    "end": 925,
+                    "loc_id": "{EE3855EF-A2D3-425B-AE81-AA1C3ADB21C4}"
+                },
+                {
+                    "text": "Frümsen",
+                    "start": 1042,
+                    "end": 1049,
+                    "loc_id": "{1D17F42E-02C7-4F5B-B895-7F7C497F1B09}"
+                },
+                {
+                    "text": "Sax",
+                    "start": 1069,
+                    "end": 1072,
+                    "loc_id": "{8A5339E7-F373-4EBB-8C59-AB0FF130912B}"
+                },
+                {
+                    "text": "Burgruine Hohensax",
+                    "start": 1097,
+                    "end": 1115,
+                    "loc_id": "{C72FBEEB-5FD5-4743-A4C1-E704D9E3E0C7}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_02.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Über dem Nebel... ===\n\nSchweiz Ganz oben scheint die Freiheit grenzenlos – und herrscht strahlender Sonnenschein: Wintersportlerinnen und -sportler blicken im Skigebiet Jura sur Leman im La-Dole-Massiv auf das Nebelmeer. Foto: Jean-Christophe Bott (Keystone)\n\n---\n\n=== Über dem Nebel... ===\n\nSchweiz Ganz oben scheint die Freiheit grenzenlos – und herrscht strahlender Sonnenschein: Wintersportlerinnen und -sportler blicken im Skigebiet Jura sur Leman im La-Dole-Massiv auf das Nebelmeer. Foto: Jean-Christophe Bott (Keystone)\n\n---\n\n=== Über dem Nebel... ===\n\nSchweiz Ganz oben scheint die Freiheit grenzenlos – und herrscht strahlender Sonnenschein: Wintersportlerinnen und -sportler blicken im Skigebiet Jura sur Leman im La-Dole-Massiv auf das Nebelmeer. Foto: Jean-Christophe Bott (Keystone)\n\n---\n\n=== Über dem Nebel... ===\n\nSchweiz Ganz oben scheint die Freiheit grenzenlos – und herrscht strahlender Sonnenschein: Wintersportlerinnen und -sportler blicken im Skigebiet Jura sur Leman im La-Dole-Massiv auf das Nebelmeer. Foto: Jean-Christophe Bott (Keystone)\n\n---\n\n=== Über dem Nebel... ===\n\nSchweiz Ganz oben scheint die Freiheit grenzenlos – und herrscht strahlender Sonnenschein: Wintersportlerinnen und -sportler blicken im Skigebiet Jura sur Leman im La-Dole-Massiv auf das Nebelmeer. Foto: Jean-Christophe Bott (Keystone)\n\n---\n\n=== Chur – spannende Altstadt, tolle Wintererlebnisse ===\n\nDie Fahrt in die Region Chur bietet vielfältige Erlebnismöglichkeiten. Als älteste Stadt der Schweiz besticht Chur mit ihrer malerischen Altstadt: gut erhaltene historische Gebäude, enge Gassen und charmante Plätze laden zum Verweilen und Entdecken ein. Umgeben von beeindruckenden Bergkulissen und der Bündner Herrschaft ist Chur ein idealer Ausgangspunkt für Outdoor-Aktivitäten. Ein besonderes Highlight mit dem Einführungs-Hit ist Urban Golf, bei dem die Altstadt spielerisch auf neun Bahnen mit einem speziellen Softball erkundet werden kann. Nicht weit von Chur entfernt warten beeindruckende Wintererlebnisse: Winterwanderungen am Flumserberg und Langlaufstrecken in Malbun versprechen unvergessliche Momente. Informationen Flumserberg: Winterwander-Ticket Ruhe, Idylle und Natur pur: Grandiose Aussichten auf den Spitzmeilen, die Churfirsten und den Walensee. Bei einem Halt laden Ruhebänke, Sonnenterrassen und Liegestühle zum Verweilen ein. Mit dem Einführungs-Hit ist das Heidi-Winterwanderticket mit Gondel- und Sesselbahnfahrt inbegriffen. Malbun: Langlauf-Tagespass Die Winterlandschaft im Valünatal hat beim Langlaufen in Malbun ihren grossen Auftritt. Auf 15 Kilometern von Steg zur Alp Valüna kann Natur pur erlebt werden. Mit dem Einführungs-Hit ist der Langlauf-Tagespass inbegriffen. Urban Golf inkl. Urban-Golf-Ausrüstung Der Parcours ist so angelegt, dass sich ein sehenswerter Rundgang vom Bahnhof durch die Altstadt ergibt. Instruktion und Materialausgabe in der Tourist Info bei Chur Tourismus. Mit dem Einführungs-Hit ist eine Runde Golf inklusive Urban-Golf-Ausrüstung dabei.",
+            "toponyms": [
+                {
+                    "text": "Chur",
+                    "start": 1514,
+                    "end": 1518,
+                    "loc_id": "{64CEB71B-78FB-4C4B-BD15-583B339D13CA}"
+                },
+                {
+                    "text": "Altstadt",
+                    "start": 1541,
+                    "end": 1549,
+                    "loc_id": "{F0665719-35A6-46C3-845E-125B9F5610E5}"
+                },
+                {
+                    "text": "Chur",
+                    "start": 1730,
+                    "end": 1734,
+                    "loc_id": "{64CEB71B-78FB-4C4B-BD15-583B339D13CA}"
+                },
+                {
+                    "text": "Altstadt",
+                    "start": 1863,
+                    "end": 1871,
+                    "loc_id": "{F0665719-35A6-46C3-845E-125B9F5610E5}"
+                },
+                {
+                    "text": "Chur",
+                    "start": 1967,
+                    "end": 1971,
+                    "loc_id": "{64CEB71B-78FB-4C4B-BD15-583B339D13CA}"
+                },
+                {
+                    "text": "Flumserberg",
+                    "start": 2042,
+                    "end": 2053,
+                    "loc_id": "{79B5ED76-8882-4E50-A8A5-3FC653DB7840}"
+                },
+                {
+                    "text": "Malbun",
+                    "start": 2078,
+                    "end": 2084,
+                    "loc_id": "{4B44ED22-6C11-4EC4-8527-36FDCB662A5C}"
+                },
+                {
+                    "text": "Flumserberg",
+                    "start": 2135,
+                    "end": 2146,
+                    "loc_id": "{79B5ED76-8882-4E50-A8A5-3FC653DB7840}"
+                },
+                {
+                    "text": "Spitzmeilen",
+                    "start": 2225,
+                    "end": 2236,
+                    "loc_id": "{2AAB78E7-75BF-4BAC-A658-8A3BB4CE57A2}"
+                },
+                {
+                    "text": "Churfirsten",
+                    "start": 2242,
+                    "end": 2253,
+                    "loc_id": "{3ED5C7AE-6411-43F3-A4DA-46B008976CA0}"
+                },
+                {
+                    "text": "Walensee",
+                    "start": 2262,
+                    "end": 2270,
+                    "loc_id": "{056B38A0-01BF-4895-B870-28052FC13BBD}"
+                },
+                {
+                    "text": "Malbun",
+                    "start": 2457,
+                    "end": 2463,
+                    "loc_id": "{4B44ED22-6C11-4EC4-8527-36FDCB662A5C}"
+                },
+                {
+                    "text": "Valünatal",
+                    "start": 2508,
+                    "end": 2517,
+                    "loc_id": "{CB2CB32B-8C9D-47E2-B5B2-BD6DC145B280}"
+                },
+                {
+                    "text": "Malbun",
+                    "start": 2541,
+                    "end": 2547,
+                    "loc_id": "{4B44ED22-6C11-4EC4-8527-36FDCB662A5C}"
+                },
+                {
+                    "text": "Alp Valüna",
+                    "start": 2603,
+                    "end": 2613,
+                    "loc_id": "{1AE37B67-5890-4D58-8C72-EC1A78FCDE93}"
+                },
+                {
+                    "text": "Altstadt",
+                    "start": 2835,
+                    "end": 2843,
+                    "loc_id": "{F0665719-35A6-46C3-845E-125B9F5610E5}"
+                },
+                {
+                    "text": "Chur",
+                    "start": 2908,
+                    "end": 2912,
+                    "loc_id": "{64CEB71B-78FB-4C4B-BD15-583B339D13CA}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_17.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Steinhauserstrasse erneut gesperrt ===\n\nBaar Die Steinhauserstrasse von Blickensdorf über den Zimbel nach Steinhausen weist laut einer Mitteilung der Gemeinde Baar verschiedene Belagsschäden auf. Vor einem Jahr hat die Gemeinde Steinhausen deshalb die Strasse auf Steinhauser Boden saniert. Bestandteil des Projekts war auch der Abschnitt auf Baarer Gemeindegebiet vom Waldrand bis zum Hof Chupferschmitte. Diesen Sommer ist nun der Abschnitt vom Hof Chupferschmitte bis zur Abzweigung Sonnrain in Blickensdorf an der Reihe. Die Bauarbeiten beginnen am Montag, 11. Juli, und nehmen rund drei Wochen in Anspruch. Da die Arbeiten witterungsabhängig sind, kann es zu Verzögerungen kommen. Die Steinhauserstrasse ist während der Bauzeit für jeglichen Verkehr gesperrt. Der motorisierte Verkehr wird über die Autobahn umgeleitet. Die Zufahrt zum Sonnrain ist von Baar her jederzeit möglich. Der kantonale Velo-und Wanderweg von der Autobahn zum Unterzimbel über die Steinhauserstrasse hinauf zum Zimbel ist während der gesamten Bauzeit mit Behinderungen geöffnet. Zudem können Fussgänger und Velofahrer die Steinhauserstrasse vom Unterzimbel in Richtung Steinhausen nutzen. Auch hier ist laut der Gemeinde Baar mit Behinderungen zu rechnen. Das Fahrrad muss gestossen werden. (bier)\n\n---\n\n=== 70’000 Franken für Bündner Gemeinde ===\n\nThalwil Ein Schweizer Dorf erhält seit ein paar Wochen besonders viel mediale Aufmerksamkeit: Brienz im Kanton Graubünden. Dort bewegt sich der Berg rasant talwärts. Dieses Brienz gehört zur Gemeinde Albula/Alvra, die aus insgesamt sieben Fraktionen besteht. Die Gemeinde Thalwil möchte nun eine Patenschaft für Albula übernehmen. Am 14. Juni entscheidet die Gemeindeversammlung darüber. Bei einem Ja würde Thalwil jährlich 70’000 Franken in verschiedene Projekte in Albula investieren, zum Beispiel einen Wanderweg oder ein Kulturzentrum. An die Schäden des Bergsturzes zahlt Thalwil jedoch nicht. (lny) Seite 9\n\n---\n\n=== 70’000 Franken für Bündner Gemeinde ===\n\nThalwil Ein Schweizer Dorf erhält seit ein paar Wochen besonders viel mediale Aufmerksamkeit: Brienz im Kanton Graubünden. Dort bewegt sich der Berg rasant talwärts. Dieses Brienz gehört zur Gemeinde Albula/Alvra, die aus insgesamt sieben Fraktionen besteht. Die Gemeinde Thalwil möchte nun eine Patenschaft für Albula übernehmen. Am 14. Juni entscheidet die Gemeindeversammlung darüber. Bei einem Ja würde Thalwil jährlich 70’000 Franken in verschiedene Projekte in Albula investieren, zum Beispiel einen Wanderweg oder ein Kulturzentrum. An die Schäden des Bergsturzes zahlt Thalwil jedoch nicht. (lny) Seite 5",
+            "toponyms": [
+                {
+                    "text": "Blickensdorf",
+                    "start": 76,
+                    "end": 88,
+                    "loc_id": "{9342D461-B1E4-48E0-B919-3A0124211BEE}"
+                },
+                {
+                    "text": "Zimbel",
+                    "start": 98,
+                    "end": 104,
+                    "loc_id": "{1F064F8C-093E-4ABD-AD55-89B12EC6863A}"
+                },
+                {
+                    "text": "Steinhausen",
+                    "start": 110,
+                    "end": 121,
+                    "loc_id": "{B931A785-5716-4912-9ABD-E88E8E66E8DD}"
+                },
+                {
+                    "text": "Baar",
+                    "start": 163,
+                    "end": 167,
+                    "loc_id": "{C19A0C34-EBF8-42D0-89F5-989959CDF67F}"
+                },
+                {
+                    "text": "Steinhausen",
+                    "start": 232,
+                    "end": 243,
+                    "loc_id": "{B931A785-5716-4912-9ABD-E88E8E66E8DD}"
+                },
+                {
+                    "text": "Blickensdorf",
+                    "start": 502,
+                    "end": 514,
+                    "loc_id": "{9342D461-B1E4-48E0-B919-3A0124211BEE}"
+                },
+                {
+                    "text": "Baar",
+                    "start": 862,
+                    "end": 866,
+                    "loc_id": "{C19A0C34-EBF8-42D0-89F5-989959CDF67F}"
+                },
+                {
+                    "text": "Unterzimbel",
+                    "start": 944,
+                    "end": 955,
+                    "loc_id": "{51DECCEE-5DB5-44D1-85BB-F9C8072999FC}"
+                },
+                {
+                    "text": "Zimbel",
+                    "start": 995,
+                    "end": 1001,
+                    "loc_id": "{1F064F8C-093E-4ABD-AD55-89B12EC6863A}"
+                },
+                {
+                    "text": "Unterzimbel",
+                    "start": 1129,
+                    "end": 1140,
+                    "loc_id": "{51DECCEE-5DB5-44D1-85BB-F9C8072999FC}"
+                },
+                {
+                    "text": "Steinhausen",
+                    "start": 1153,
+                    "end": 1164,
+                    "loc_id": "{B931A785-5716-4912-9ABD-E88E8E66E8DD}"
+                }
+            ]
+        },
+        {
+            "filename": "batch_0000_18.txt",
+            "spacy_model": "de_core_news_lg",
+            "spacy_applied": true,
+            "text": "=== Vom Toggenburg über den Köbelisberg ins Neckertal ===\n\nText und Bild: Samuel Ryter Wie wäre es mit einem Brunch am Dorfbach in Wattwil, einem Flammkuchen auf dem Köbelisberg oder einem Picknick mit Glace am Neckerufer in Brunnadern? Ja, so gemütlich kann eine Frühlingswanderung sein. Der heutige Wandertipp führt Sie über Saumpfade und Hügelkuppen vom Toggenburg ins Neckertal. Für Sportler sind die 400 Höhenmeter auf den Wattwiler Hausberg ein Klacks. Doch auch Leute mit durchschnittlichem Fitnesslevel werden genug Energie für das Bestaunen der Hügel-und Berglandschaft haben. Diese dreistündige Tour bietet immer wieder schöne Panoramaausblicke auf den Alpstein, die Churfirsten oder den Speer. Gleichzeitig liegen gemütliche Beizen und gut ausgestattete Grillplätze direkt am Weg. Nach neun Kilometern endet die Wanderung in Brunnadern am idyllischen, flachen Flussufer des Neckers. Sowohl der Ausgangspunkt als auch das Ziel sind mit öffentlichen Verkehrsmitteln gut erschlossen. Der Köbelisberg bietet schöne Ausblicke auf die Toggenburger Hügellandschaften. Quelle: OSM, Lizenz Odbl 1.0 Karte und Profil: let Wattwil Bahnhof – Grindlen – Büel – Köbelisberg – Waldschwilerberg – Hinteregg – Feuerstelle Pärkli Brunnadern – Brunnadern-Neckertal Bahnhof Start: Wattwil Ziel: Brunnadern Strecke: 9,4 Kilometer Wanderzeit: 3 Stunden Aufstieg: 480 m Abstieg: 440 m Ausrüstung: Wander-oder Trekkingschuhe, Wanderung nicht für Kinderwagen geeignet. Schwierigkeit: mittelschwer Gaststätten: Cafe am Dorfbach, Tel. 077 420 43 20, Wattwil. «Köbelisberg», Tel. 071 988 15 01, Lichtensteig. Parkplätze: gibt es kostenpflichtig am Bahnhof Wattwil. Öffentlicher Verkehr: Bahnlinien S2 und S4 nach Wattwil und ab Brunnadern. www. Eine ausführliche Fassung und weitere Wander-und Freizeittipps finden Sie unter: www.bergundbeiz.ch Start und Ziel",
+            "toponyms": [
+                {
+                    "text": "Toggenburg",
+                    "start": 8,
+                    "end": 18,
+                    "loc_id": "{7608AC68-06B8-4D83-813B-A79CA8BF4B8D}"
+                },
+                {
+                    "text": "Köbelisberg",
+                    "start": 28,
+                    "end": 39,
+                    "loc_id": "{1BF13288-DF79-46F4-8FC4-C05D58987D7B}"
+                },
+                {
+                    "text": "Neckertal",
+                    "start": 44,
+                    "end": 53,
+                    "loc_id": "{759254DA-4C8C-4FA0-BAF1-2A3D4F49A6E1}"
+                },
+                {
+                    "text": "Wattwil",
+                    "start": 131,
+                    "end": 138,
+                    "loc_id": "{625EEC1C-466E-41EB-BCFA-76AA90FBDF24}"
+                },
+                {
+                    "text": "Köbelisberg",
+                    "start": 166,
+                    "end": 177,
+                    "loc_id": "{1BF13288-DF79-46F4-8FC4-C05D58987D7B}"
+                },
+                {
+                    "text": "Toggenburg",
+                    "start": 357,
+                    "end": 367,
+                    "loc_id": "{7608AC68-06B8-4D83-813B-A79CA8BF4B8D}"
+                },
+                {
+                    "text": "Neckertal",
+                    "start": 372,
+                    "end": 381,
+                    "loc_id": "{759254DA-4C8C-4FA0-BAF1-2A3D4F49A6E1}"
+                },
+                {
+                    "text": "Alpstein",
+                    "start": 663,
+                    "end": 671,
+                    "loc_id": "{AF9DB909-2E03-4CFE-8541-186BB90313C7}"
+                },
+                {
+                    "text": "Speer",
+                    "start": 698,
+                    "end": 703,
+                    "loc_id": "{C868226E-0E4A-472A-86A8-B64E68B3C416}"
+                },
+                {
+                    "text": "Brunnadern",
+                    "start": 836,
+                    "end": 846,
+                    "loc_id": "{3961AF3D-3BD1-424F-9FC9-AF878237162F}"
+                },
+                {
+                    "text": "Neckers",
+                    "start": 885,
+                    "end": 892,
+                    "loc_id": "{C8FC1689-46BB-44B9-8936-0782B035EF76}"
+                },
+                {
+                    "text": "Köbelisberg",
+                    "start": 996,
+                    "end": 1007,
+                    "loc_id": "{1BF13288-DF79-46F4-8FC4-C05D58987D7B}"
+                },
+                {
+                    "text": "Wattwil Bahnhof",
+                    "start": 1123,
+                    "end": 1138,
+                    "loc_id": "{625EEC1C-466E-41EB-BCFA-76AA90FBDF24}"
+                },
+                {
+                    "text": "Grindlen",
+                    "start": 1141,
+                    "end": 1149,
+                    "loc_id": "{19A129D4-932D-447B-ABFF-75065D3C143B}"
+                },
+                {
+                    "text": "Köbelisberg",
+                    "start": 1159,
+                    "end": 1170,
+                    "loc_id": "{1BF13288-DF79-46F4-8FC4-C05D58987D7B}"
+                },
+                {
+                    "text": "Waldschwilerberg",
+                    "start": 1173,
+                    "end": 1189,
+                    "loc_id": "{7B1A98AC-D347-4E23-ABD2-5700873F5F27}"
+                },
+                {
+                    "text": "Hinteregg",
+                    "start": 1192,
+                    "end": 1201,
+                    "loc_id": "{0A6E5323-24D3-4093-BC60-D1ADE6E0CF5B}"
+                },
+                {
+                    "text": "Brunnadern-Neckertal",
+                    "start": 1236,
+                    "end": 1256,
+                    "loc_id": "{C4601564-68D0-4288-AF22-AED2FC22E336}"
+                },
+                {
+                    "text": "Wattwil",
+                    "start": 1272,
+                    "end": 1279,
+                    "loc_id": "{625EEC1C-466E-41EB-BCFA-76AA90FBDF24}"
+                },
+                {
+                    "text": "Bahnhof Wattwil",
+                    "start": 1631,
+                    "end": 1646,
+                    "loc_id": "{625EEC1C-466E-41EB-BCFA-76AA90FBDF24}"
+                },
+                {
+                    "text": "Wattwil",
+                    "start": 1696,
+                    "end": 1703,
+                    "loc_id": "{625EEC1C-466E-41EB-BCFA-76AA90FBDF24}"
+                },
+                {
+                    "text": "Brunnadern",
+                    "start": 1711,
+                    "end": 1721,
+                    "loc_id": "{3961AF3D-3BD1-424F-9FC9-AF878237162F}"
+                }
+            ]
+        }
+    ]
+}
