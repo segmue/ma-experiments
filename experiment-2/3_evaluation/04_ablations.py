@@ -11,6 +11,10 @@ Zur Inferenzzeit wird die SentenceGeneratorConfig des Spatial-Resolvers variiert
   - uniform_b1             B1-Matrix ohne Gewichtung (alle Werte 1.0) — misst den
                            Effekt der raeumlichen Assoziations-GEWICHTE isoliert
                            (Betreuer-Feedback 12.6.)
+  - all_uniform / all_b1 / all_d1   (Zusatzlauf 29.09.2026) wie uniform_b1 / baseline_c1 /
+                           D1-Matrix, aber max_categories=200: gesucht wird in ALLEN
+                           Kategorien ueber der Schwelle (0.001), nicht nur in den ersten
+                           zehn. Slotvergabe unveraendert (greedy, 5 je Kategorie, 10 total).
 
 Pro Variante: Beschreibungen neu generieren (H3, modell-unabhaengig) → mit M4
 encodieren/ranken. Output: results/ablations.json (Acc@1/MRR + Delta zur Baseline);
@@ -21,11 +25,14 @@ Verwendung:
     python 04_ablations.py --variants uniform_b1  # nur einzelne Varianten rechnen
     python 04_ablations.py --max-docs 200         # Stichprobe
     python 04_ablations.py --model M4_spatial_config1 --out ablations_M4.json
+    python 04_ablations.py --variants baseline_c1 no_dynamic uniform_b1 all_uniform all_b1 all_d1 \
+        --out ablations_all.json                  # Zusatzlauf 29.09.2026 (D1: output/config1/d1_matrix.csv)
 """
 
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import time
 from dataclasses import replace
@@ -52,7 +59,23 @@ def uniform_b1_matrix() -> Path:
     return dst
 
 
-def build_variants():
+# Zusatzlauf all_categories (29.09.2026)
+ALL_MAX_CATEGORIES = 200          # > 110 Kategorien: keine Kappung der Suchliste
+D1_MATRIX_MD5 = "c22b60c94561e397bf642193724994b6"   # npmi_dist_matrix_D1.csv (E_d1-Lauf)
+
+
+def check_d1_matrix(path) -> Path:
+    """D1-Matrix des E_d1-Laufs; abweichende md5 wird gemeldet, nicht abgebrochen."""
+    p = Path(path)
+    if not p.exists():
+        raise SystemExit(f"D1-Matrix fehlt: {p}")
+    md5 = hashlib.md5(p.read_bytes()).hexdigest()
+    if md5 != D1_MATRIX_MD5:
+        print(f"WARNUNG: D1-Matrix {p} hat md5 {md5}, der Zusatzlauf vom 29.09.2026 lief mit {D1_MATRIX_MD5}")
+    return p
+
+
+def build_variants(d1_matrix=None):
     base_build = BuildConfig.from_yaml(C.config_yaml(C.ABLATION_BASE_CONFIG))
     base_sg = base_build.to_sentence_generator_config(C.matrix_path(C.ABLATION_BASE_CONFIG))
     variants = {
@@ -65,6 +88,13 @@ def build_variants():
         variants[f"assoc_{t}"] = replace(base_sg, assoc_threshold=t)
     for s in C.MAX_SLOTS_SWEEP:
         variants[f"max_slots_{s}"] = replace(base_sg, max_slots=s)
+    # Zusatzlauf all_categories: Suche in allen Kategorien ueber der Schwelle.
+    variants["all_uniform"] = replace(base_sg, matrix_path=uniform_b1_matrix(),
+                                      max_categories=ALL_MAX_CATEGORIES)
+    variants["all_b1"] = replace(base_sg, max_categories=ALL_MAX_CATEGORIES)
+    if d1_matrix is not None:
+        variants["all_d1"] = replace(base_sg, matrix_path=check_d1_matrix(d1_matrix),
+                                     max_categories=ALL_MAX_CATEGORIES)
     return variants
 
 
@@ -78,6 +108,8 @@ def main():
                     help=f"Encoder-Modell (Default {C.ABLATION_MODEL})")
     ap.add_argument("--out", default="ablations.json",
                     help="Ausgabedatei relativ zu results/ (Default: ablations.json)")
+    ap.add_argument("--d1-matrix", default=None,
+                    help="D1-Matrix fuer all_d1 (Default: output/config1/d1_matrix.csv)")
     args = ap.parse_args()
 
     C.ensure_dirs()
@@ -88,7 +120,8 @@ def main():
 
     documents = E.load_documents(args.max_docs)
     text_by_doc = E.text_index(documents)
-    variants = build_variants()
+    d1_matrix = args.d1_matrix or C.matrix_path(C.ABLATION_BASE_CONFIG, "d1")
+    variants = build_variants(d1_matrix if Path(d1_matrix).exists() else None)
     if args.variants is not None:
         unknown = [v for v in args.variants if v not in variants]
         if unknown:

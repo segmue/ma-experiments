@@ -1,0 +1,73 @@
+{
+  "model": "M5_spatial_config2",
+  "base_config": "config1",
+  "n_documents": 6323,
+  "variants": {
+    "baseline_c1": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.840297857171149,
+      "accuracy_at_3": 0.8709681678351223,
+      "mrr": 0.8568043009158341,
+      "accuracy_at_1_with_candidates": 0.9417448433014708,
+      "accuracy_at_3_with_candidates": 0.9761179012163002,
+      "delta_acc1": 0.0,
+      "delta_mrr": 0.0
+    },
+    "no_dynamic": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.821166871311443,
+      "accuracy_at_3": 0.8673637791948878,
+      "mrr": 0.8458352409994523,
+      "accuracy_at_1_with_candidates": 0.9203042230179633,
+      "accuracy_at_3_with_candidates": 0.9720783640614364,
+      "delta_acc1": -0.019130985859706073,
+      "delta_mrr": -0.010969059916381863
+    },
+    "uniform_b1": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8275042579316354,
+      "accuracy_at_3": 0.8672581560845513,
+      "mrr": 0.8488325969944012,
+      "accuracy_at_1_with_candidates": 0.9274067059276139,
+      "accuracy_at_3_with_candidates": 0.9719599893462756,
+      "delta_acc1": -0.01279359923951362,
+      "delta_mrr": -0.007971703921432982
+    },
+    "all_uniform": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.798550322810631,
+      "accuracy_at_3": 0.8657662296510477,
+      "mrr": 0.8333881021634,
+      "accuracy_at_1_with_candidates": 0.8949572371341481,
+      "accuracy_at_3_with_candidates": 0.9702879464946288,
+      "delta_acc1": -0.041747534360518035,
+      "delta_mrr": -0.02341619875243417
+    },
+    "all_b1": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8235829999603913,
+      "accuracy_at_3": 0.8683143871879168,
+      "mrr": 0.8477999954286343,
+      "accuracy_at_1_with_candidates": 0.9230120446272676,
+      "accuracy_at_3_with_candidates": 0.9731437364978841,
+      "delta_acc1": -0.016714857210757716,
+      "delta_mrr": -0.009004305487199882
+    },
+    "all_d1": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8293394594737329,
+      "accuracy_at_3": 0.8721300220488243,
+      "mrr": 0.8517591122173287,
+      "accuracy_at_1_with_candidates": 0.9294634666035335,
+      "accuracy_at_3_with_candidates": 0.9774200230830694,
+      "delta_acc1": -0.010958397697416133,
+      "delta_mrr": -0.005045188698505454
+    }
+  }
+}

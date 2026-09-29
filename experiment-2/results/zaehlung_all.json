@@ -1,0 +1,66 @@
+{
+  "gueltig": true,
+  "varianten": {
+    "baseline_c1": {
+      "anteil_bei": 0.6674131953084822,
+      "obj_mittel": 2.5559647638481064,
+      "kat_mittel": 1.3862622140380563,
+      "parse_warnungen": 0,
+      "fehlende_beschreibungen": 0,
+      "acc1_ambig": 0.842879906071788,
+      "delta_no_dynamic": 0.06075981214357595,
+      "acc3_ambig": 0.9402884937940289
+    },
+    "no_dynamic": {
+      "anteil_bei": 0.0,
+      "obj_mittel": 0.0,
+      "kat_mittel": 0.0,
+      "parse_warnungen": 0,
+      "fehlende_beschreibungen": 0,
+      "acc1_ambig": 0.782120093928212,
+      "delta_no_dynamic": 0.0,
+      "acc3_ambig": 0.9288409929553841
+    },
+    "uniform_b1": {
+      "anteil_bei": 0.12194130625922793,
+      "obj_mittel": 0.20926856782627448,
+      "kat_mittel": 0.14536571608686275,
+      "parse_warnungen": 0,
+      "fehlende_beschreibungen": 0,
+      "acc1_ambig": 0.8022475679302248,
+      "delta_no_dynamic": 0.020127474002012757,
+      "acc3_ambig": 0.9285055350553506
+    },
+    "all_uniform": {
+      "anteil_bei": 0.9904776124355082,
+      "obj_mittel": 7.133180709699896,
+      "kat_mittel": 3.5863484795699994,
+      "parse_warnungen": 0,
+      "fehlende_beschreibungen": 0,
+      "acc1_ambig": 0.710290171083529,
+      "delta_no_dynamic": -0.07182992284468304,
+      "acc3_ambig": 0.9237671922173767
+    },
+    "all_b1": {
+      "anteil_bei": 0.9874002554786907,
+      "obj_mittel": 6.397750460359329,
+      "kat_mittel": 2.9390169047263557,
+      "parse_warnungen": 0,
+      "fehlende_beschreibungen": 0,
+      "acc1_ambig": 0.7897936933914794,
+      "delta_no_dynamic": 0.0076735994632674,
+      "acc3_ambig": 0.931860114055686
+    },
+    "all_d1": {
+      "anteil_bei": 0.5942616831732445,
+      "obj_mittel": 4.048831267937424,
+      "kat_mittel": 1.9213988287795085,
+      "parse_warnungen": 0,
+      "fehlende_beschreibungen": 0,
+      "acc1_ambig": 0.8080761489433076,
+      "delta_no_dynamic": 0.02595605501509557,
+      "acc3_ambig": 0.9439785306943979
+    }
+  },
+  "hinweis": "acc3_ambig am 29.09.2026 mit 16_zaehlung_kontext.py-Formel aus ablations_all.json ergaenzt; uebrige Werte = Rueckgabe des Windows-Laufs"
+}

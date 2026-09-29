@@ -81,5 +81,7 @@ $PY 12_stratified_delta.py
 $PY 13_plot_config_ablation.py
 $PY 14_random_baseline.py
 $PY 15_obergrenze_ambig.py
+$PY 04_ablations.py --variants baseline_c1 no_dynamic uniform_b1 all_uniform all_b1 all_d1 --out ablations_all.json "${PASS[@]}"   # Zusatzlauf: Suche in allen Kategorien (M5)
+$PY 16_zaehlung_kontext.py --json ablations_all.json --out ../results/zaehlung_all.json
 
 echo "== Fertig. Ergebnisse in ../results/, Plots in plots/ =="
