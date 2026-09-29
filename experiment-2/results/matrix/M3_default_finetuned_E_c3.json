@@ -1,0 +1,33 @@
+{
+  "model": "M3_default_finetuned",
+  "eval_resolver": "E_c3",
+  "n_documents_eval": 6323,
+  "location": {
+    "total": 75741,
+    "no_candidates": 8159,
+    "accuracy_at_1": 0.8283624457031198,
+    "accuracy_at_3": 0.8695158500679949,
+    "mrr": 0.8501212571187934,
+    "accuracy_at_1_with_candidates": 0.9283685004882957,
+    "accuracy_at_3_with_candidates": 0.9744902488828386
+  },
+  "document": {
+    "document_accuracy": 0.8107331190703624,
+    "n_documents": 6323,
+    "document_precision": 0.8107331190703624,
+    "document_recall": 0.8107331190703624,
+    "document_f1": 0.8107331190703624
+  },
+  "errors": {
+    "correct": 62741,
+    "correct_unambiguous": 43544,
+    "correct_ambiguous": 19197,
+    "unambiguous_total": 43734,
+    "ambiguous_total": 23848,
+    "acc1_ambiguous_only": 0.8049731633679973,
+    "wrong_rank": 4286,
+    "gold_not_in_candidates": 555,
+    "no_candidate": 8159
+  },
+  "eval_seconds": 6.2
+}

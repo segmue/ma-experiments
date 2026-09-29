@@ -1,0 +1,14 @@
+register_id,beschreibung,wert_register,wert_thesis,wert_nachgerechnet,gleich
+B 8 (Nachtrag 18.09.),"Jaccard Zehnermengen, erstes Quartil (mit Schwelle 0.001)",0.1111,0.1111 (chapters/06_results.tex:157),0.111111,ja
+B 8,"Jaccard Zehnermengen, Median (mit Schwelle 0.001)",0.1765,0.1765 (chapters/06_results.tex:157),0.176471,ja
+B 8 (Nachtrag 18.09.),"Jaccard Zehnermengen, drittes Quartil (mit Schwelle 0.001)",0.2500,0.2500 (chapters/06_results.tex:157),0.250000,ja
+B 8 (Nachtrag 18.09.),"Jaccard Zehnermengen, Maximum (mit Schwelle 0.001)","0.5385 (Haltestelle Schiff, 7 von 13)",nicht in der Arbeit,"0.538462 (Haltestelle Schiff, 7 von 13)",ja
+B 8 (Nachtrag 18.09.),"Jaccard Zehnermengen, Minimum (mit Schwelle 0.001)",0.0000,nicht in der Arbeit,0.000000,ja
+B 8,Zeilen ohne gemeinsamen Partner (mit Schwelle 0.001),11 von 110,eleven of the 110 rows (chapters/06_results.tex:157),11 von 110,ja
+B 8,Zeilen mit gleichem stärkstem Partner (mit Schwelle),19 von 110,"19 of the 110 rows, 91 change (chapters/06_results.tex:157)",19 von 110,ja
+B 8 (Nachtrag 18.09.),"Jaccard Zehnermengen, erstes Quartil (ohne Schwelle)",0.1111,nicht in der Arbeit,0.111111,ja
+B 8,"Jaccard Zehnermengen, Median (ohne Schwelle)",0.1765,nicht in der Arbeit,0.176471,ja
+B 8 (Nachtrag 18.09.),"Jaccard Zehnermengen, drittes Quartil (ohne Schwelle)",0.2500,nicht in der Arbeit,0.250000,ja
+B 8 (Nachtrag 18.09.),"Jaccard Zehnermengen, Maximum (ohne Schwelle)","0.5385 (Haltestelle Schiff, 7 von 13)",nicht in der Arbeit,"0.538462 (Haltestelle Schiff, 7 von 13)",ja
+B 8 (Nachtrag 18.09.),"Jaccard Zehnermengen, Minimum (ohne Schwelle)",0.0000,nicht in der Arbeit,0.000000,ja
+B 8,Zeilen ohne gemeinsamen Partner (ohne Schwelle),10 von 110,nicht in der Arbeit,10 von 110,ja

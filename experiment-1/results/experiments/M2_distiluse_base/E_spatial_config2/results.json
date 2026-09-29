@@ -1,0 +1,81 @@
+{
+  "model": "M2_distiluse_base",
+  "eval_resolver": "E_spatial_config2",
+  "model_config": {
+    "base_model": "sentence-transformers/distiluse-base-multilingual-cased-v1",
+    "train": false
+  },
+  "eval_config": {
+    "type": "spatial",
+    "config": "config2"
+  },
+  "hyperparameters": null,
+  "n_folds": 5,
+  "seed": 42,
+  "folds": [
+    {
+      "fold": 0,
+      "val_documents": 12,
+      "val_toponyms": 213,
+      "accuracy_at_1": 0.4413145539906103,
+      "accuracy_at_3": 0.7746478873239436,
+      "mrr": 0.617230545927729,
+      "total": 213,
+      "no_candidates": 14,
+      "eval_duration_seconds": 10.3
+    },
+    {
+      "fold": 1,
+      "val_documents": 11,
+      "val_toponyms": 221,
+      "accuracy_at_1": 0.4841628959276018,
+      "accuracy_at_3": 0.8371040723981901,
+      "mrr": 0.6614654408772056,
+      "total": 221,
+      "no_candidates": 10,
+      "eval_duration_seconds": 10.2
+    },
+    {
+      "fold": 2,
+      "val_documents": 11,
+      "val_toponyms": 186,
+      "accuracy_at_1": 0.553763440860215,
+      "accuracy_at_3": 0.8118279569892473,
+      "mrr": 0.6848274278302742,
+      "total": 186,
+      "no_candidates": 14,
+      "eval_duration_seconds": 10.3
+    },
+    {
+      "fold": 3,
+      "val_documents": 11,
+      "val_toponyms": 245,
+      "accuracy_at_1": 0.46938775510204084,
+      "accuracy_at_3": 0.763265306122449,
+      "mrr": 0.6279642461558106,
+      "total": 245,
+      "no_candidates": 14,
+      "eval_duration_seconds": 10.4
+    },
+    {
+      "fold": 4,
+      "val_documents": 11,
+      "val_toponyms": 191,
+      "accuracy_at_1": 0.5340314136125655,
+      "accuracy_at_3": 0.743455497382199,
+      "mrr": 0.641257124940658,
+      "total": 191,
+      "no_candidates": 33,
+      "eval_duration_seconds": 9.7
+    }
+  ],
+  "training_info": null,
+  "aggregate": {
+    "mean_accuracy_at_1": 0.49653201189860674,
+    "std_accuracy_at_1": 0.04152207835514957,
+    "mean_accuracy_at_3": 0.7860601440432057,
+    "std_accuracy_at_3": 0.03386580269918345,
+    "mean_mrr": 0.6465489571463354,
+    "std_mrr": 0.02416901740606002
+  }
+}

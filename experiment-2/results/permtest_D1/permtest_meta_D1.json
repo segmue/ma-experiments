@@ -1,0 +1,55 @@
+{
+  "tag": "D1",
+  "nullmodell": "frei",
+  "placebo": null,
+  "strata_edges": null,
+  "n_permutationen": 1000,
+  "seed": 7,
+  "n_kategorien": 110,
+  "pairs": [
+    "pairs_cellwise_r0_2099115.parquet"
+  ],
+  "pool": "pool.parquet",
+  "cache": {
+    "n_raw_rows": 46868091,
+    "w_sum_raw": 4411033.373545202,
+    "n_pairs": 45432351,
+    "w_sum_agg": 4411033.373546776,
+    "max_feature_id": 442000,
+    "n_self_pairs": 0,
+    "seconds": 7.1,
+    "input": {
+      "files": [
+        {
+          "path": "pairs_cellwise_r0_2099115.parquet",
+          "bytes": 282837868,
+          "mtime": 1789645645.783
+        }
+      ]
+    }
+  },
+  "W_total": 4411033.373546776,
+  "npmi_min": -1.0,
+  "npmi_max": 0.728872433678404,
+  "bodenanteil_ausserdiagonal": 0.25754795663052543,
+  "median_diagonale": 0.22643363446132037,
+  "p_minimum_moeglich": 0.000999000999000999,
+  "n_signifikant_q05_betrag": 4024,
+  "n_signifikant_q05_zweiseitig": 4465,
+  "n_ausserdiagonalzellen": 11990,
+  "nullmittel_median": -0.01100869464511018,
+  "nullmittel_max_betrag": 1.0,
+  "sekunden_je_permutation": 0.2694,
+  "sekunden_gesamt": 278.6,
+  "gegenproben": {
+    "W_vs_npy": {
+      "max_abs_diff": 0.02651168336160481,
+      "rel_diff_total": 1.4058396640672002e-08,
+      "ref_total": 4411033.3115347205
+    },
+    "npmi_vs_csv": {
+      "max_abs_diff": 3.7477724534884516e-09,
+      "kategorien_identisch": true
+    }
+  }
+}

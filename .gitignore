@@ -1,0 +1,19 @@
+# runtime data, built indices, models (not published)
+data/
+output/
+# caches, logs, plots written by the pipelines
+**/cache*/
+**/logs*/
+**/plots*/
+experiment-2/5_figures/output/
+experiment-2/results/tables/class_profile.tex
+experiment-2/results/permtest_D1*/*.npz
+experiment-2/results/permtest_D1*/*_log.txt
+*.pkl
+*.pkl.gz
+*.duckdb
+*.gpkg
+__pycache__/
+.venv/
+.idea/
+.DS_Store

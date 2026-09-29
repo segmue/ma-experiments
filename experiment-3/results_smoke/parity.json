@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-12 09:24:23",
+  "configs": {
+    "config1": {
+      "n_features": 50,
+      "identical_sentence_rate": 0.86,
+      "jaccard_context_names_mean": 0.9742,
+      "jaccard_context_names_median": 1.0,
+      "jaccard_dynamic_categories_mean": 0.995
+    },
+    "config2": {
+      "n_features": 50,
+      "identical_sentence_rate": 0.12,
+      "jaccard_context_names_mean": 0.6611,
+      "jaccard_context_names_median": 0.7143,
+      "jaccard_dynamic_categories_mean": 0.6553
+    }
+  }
+}

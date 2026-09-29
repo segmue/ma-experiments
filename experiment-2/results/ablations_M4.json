@@ -1,0 +1,117 @@
+{
+  "model": "M4_spatial_config1",
+  "base_config": "config1",
+  "n_documents": 6323,
+  "variants": {
+    "uniform_b1": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8153840060205173,
+      "accuracy_at_3": 0.8611188127962398,
+      "mrr": 0.8402501847489174,
+      "accuracy_at_1_with_candidates": 0.9138232073629072,
+      "accuracy_at_3_with_candidates": 0.9650794590275518,
+      "delta_acc1": -0.0214943029534862,
+      "delta_mrr": -0.013602304653571262
+    },
+    "baseline_c1": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8368783089740035,
+      "accuracy_at_3": 0.8691329662930249,
+      "mrr": 0.8538524894024887,
+      "accuracy_at_1_with_candidates": 0.9379124618981386,
+      "accuracy_at_3_with_candidates": 0.9740611405403806,
+      "delta_acc1": 0.0,
+      "delta_mrr": 0.0
+    },
+    "no_dynamic": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8020226825629447,
+      "accuracy_at_3": 0.8609867839083192,
+      "mrr": 0.8333811352218624,
+      "accuracy_at_1_with_candidates": 0.8988488058950608,
+      "accuracy_at_3_with_candidates": 0.9649314906336006,
+      "delta_acc1": -0.03485562641105877,
+      "delta_mrr": -0.02047135418062629
+    },
+    "no_static": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8289697785875549,
+      "accuracy_at_3": 0.8702684147291427,
+      "mrr": 0.8504115761125998,
+      "accuracy_at_1_with_candidates": 0.9290491551004706,
+      "accuracy_at_3_with_candidates": 0.9753336687283596,
+      "delta_acc1": -0.007908530386448565,
+      "delta_mrr": -0.003440913289888936
+    },
+    "assoc_0.001": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8368783089740035,
+      "accuracy_at_3": 0.8691329662930249,
+      "mrr": 0.8538524894024887,
+      "accuracy_at_1_with_candidates": 0.9379124618981386,
+      "accuracy_at_3_with_candidates": 0.9740611405403806,
+      "delta_acc1": 0.0,
+      "delta_mrr": 0.0
+    },
+    "assoc_0.01": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8392944376229519,
+      "accuracy_at_3": 0.8698591251765886,
+      "mrr": 0.85556879689738,
+      "accuracy_at_1_with_candidates": 0.9406202835074428,
+      "accuracy_at_3_with_candidates": 0.9748749667071114,
+      "delta_acc1": 0.002416128648948357,
+      "delta_mrr": 0.001716307494891267
+    },
+    "assoc_0.1": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8060363607557334,
+      "accuracy_at_3": 0.8614356821272494,
+      "mrr": 0.835461525823955,
+      "accuracy_at_1_with_candidates": 0.9033470450711728,
+      "accuracy_at_3_with_candidates": 0.9654345831730342,
+      "delta_acc1": -0.030841948218270132,
+      "delta_mrr": -0.018390963578533648
+    },
+    "max_slots_10": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8368783089740035,
+      "accuracy_at_3": 0.8691329662930249,
+      "mrr": 0.8538524894024887,
+      "accuracy_at_1_with_candidates": 0.9379124618981386,
+      "accuracy_at_3_with_candidates": 0.9740611405403806,
+      "delta_acc1": 0.0,
+      "delta_mrr": 0.0
+    },
+    "max_slots_5": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8286000977013771,
+      "accuracy_at_3": 0.869159372070609,
+      "mrr": 0.8496555630197581,
+      "accuracy_at_1_with_candidates": 0.9286348435974076,
+      "accuracy_at_3_with_candidates": 0.9740907342191708,
+      "delta_acc1": -0.008278211272626401,
+      "delta_mrr": -0.004196926382730615
+    },
+    "max_slots_3": {
+      "total": 75741,
+      "no_candidates": 8159,
+      "accuracy_at_1": 0.8217742041958781,
+      "accuracy_at_3": 0.8684464160758374,
+      "mrr": 0.8459064415085195,
+      "accuracy_at_1_with_candidates": 0.9209848776301383,
+      "accuracy_at_3_with_candidates": 0.9732917048918351,
+      "delta_acc1": -0.015104104778125405,
+      "delta_mrr": -0.007946047893969244
+    }
+  }
+}

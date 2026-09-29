@@ -1,0 +1,169 @@
+register_id,beschreibung,wert_register,wert_thesis,wert_nachgerechnet,gleich
+JSON-Abgleich,M1/E_default: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+JSON-Abgleich,M2/E_default: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 2 (Hauptmatrix),M3/E_default acc1 [= JSON],—,.821 (chapters/06_results.tex:208),0.821008,ja
+A 2 (Hauptmatrix),M3/E_default ambig [= JSON],—,.782 (chapters/06_results.tex:228),0.781617,ja
+JSON-Abgleich,M3/E_default: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+JSON-Abgleich,M4/E_default: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+JSON-Abgleich,M5/E_default: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M1/E_c1 acc1 [= JSON],0.7595,nicht in der Arbeit,0.759523,ja
+A 7.1–7.3,M1/E_c1 ambig [= JSON],0.5863,nicht in der Arbeit,0.586338,ja
+A 7.1–7.3,M1/E_c1 acc3 [= JSON],0.8498,.850 (appendix/appendix.tex Tab. A5),0.849778,ja
+A 7.1–7.3,M1/E_c1 mrr [= JSON],0.8085,.808 (appendix/appendix.tex Tab. A6),0.808467,ja
+A 7.1–7.3,M1/E_c1 doc [= JSON],0.7111,.711 (appendix/appendix.tex Tab. A5),0.711127,ja
+A 7.1–7.3,M1/E_c1 acc1_wc [= JSON],—,.851 (appendix/appendix.tex Tab. A5),0.851218,ja
+A 7.1–7.3,M1/E_c1 acc3_wc [= JSON],—,.952 (appendix/appendix.tex Tab. A5),0.952369,ja
+JSON-Abgleich,M1/E_c1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M1/E_d1 acc1 [= JSON],0.7834,nicht in der Arbeit,0.783354,ja
+A 7.1–7.3,M1/E_d1 ambig [= JSON],0.6620,.662 (chapters/06_results.tex:230),0.662026,ja
+A 7.1–7.3,M1/E_d1 acc3 [= JSON],0.8523,.852 (appendix/appendix.tex Tab. A5),0.852286,ja
+A 7.1–7.3,M1/E_d1 mrr [= JSON],0.8213,.821 (appendix/appendix.tex Tab. A6),0.821267,ja
+A 7.1–7.3,M1/E_d1 doc [= JSON],0.7624,.762 (appendix/appendix.tex Tab. A5),0.762413,ja
+A 7.1–7.3,M1/E_d1 acc1_wc [= JSON],—,.878 (appendix/appendix.tex Tab. A5),0.877926,ja
+A 7.1–7.3,M1/E_d1 acc3_wc [= JSON],—,.955 (appendix/appendix.tex Tab. A5),0.955180,ja
+JSON-Abgleich,M1/E_d1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M2/E_c1 acc1 [= JSON],0.8015,nicht in der Arbeit,0.801481,ja
+A 7.1–7.3,M2/E_c1 ambig [= JSON],0.7196,nicht in der Arbeit,0.719599,ja
+A 7.1–7.3,M2/E_c1 acc3 [= JSON],0.8616,.862 (appendix/appendix.tex Tab. A5),0.861621,ja
+A 7.1–7.3,M2/E_c1 mrr [= JSON],0.8335,.834 (appendix/appendix.tex Tab. A6),0.833490,nein
+A 7.1–7.3,M2/E_c1 doc [= JSON],0.7745,.774 (appendix/appendix.tex Tab. A5),0.774481,ja
+A 7.1–7.3,M2/E_c1 acc1_wc [= JSON],—,.898 (appendix/appendix.tex Tab. A5),0.898242,ja
+A 7.1–7.3,M2/E_c1 acc3_wc [= JSON],—,.966 (appendix/appendix.tex Tab. A5),0.965642,ja
+JSON-Abgleich,M2/E_c1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M2/E_d1 acc1 [= JSON],0.8101,nicht in der Arbeit,0.810116,ja
+A 7.1–7.3,M2/E_d1 ambig [= JSON],0.7470,.747 (chapters/06_results.tex:230),0.747023,ja
+A 7.1–7.3,M2/E_d1 acc3 [= JSON],0.8622,.862 (appendix/appendix.tex Tab. A5),0.862188,ja
+A 7.1–7.3,M2/E_d1 mrr [= JSON],0.8375,.838 (appendix/appendix.tex Tab. A6),0.837470,nein
+A 7.1–7.3,M2/E_d1 doc [= JSON],0.7903,.790 (appendix/appendix.tex Tab. A5),0.790280,ja
+A 7.1–7.3,M2/E_d1 acc1_wc [= JSON],—,.908 (appendix/appendix.tex Tab. A5),0.907919,ja
+A 7.1–7.3,M2/E_d1 acc3_wc [= JSON],—,.966 (appendix/appendix.tex Tab. A5),0.966278,ja
+JSON-Abgleich,M2/E_d1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M3/E_c1 acc1 [= JSON],0.8367,.8367 (chapters/06_results.tex:214),0.836720,ja
+A 7.1–7.3,M3/E_c1 ambig [= JSON],0.8315,nicht in der Arbeit,0.831516,ja
+A 7.1–7.3,M3/E_c1 acc3 [= JSON],0.8713,.871 (appendix/appendix.tex Tab. A5),0.871272,ja
+A 7.1–7.3,M3/E_c1 mrr [= JSON],0.8550,.855 (appendix/appendix.tex Tab. A6),0.855047,ja
+A 7.1–7.3,M3/E_c1 doc [= JSON],0.8156,.816 (appendix/appendix.tex Tab. A5),0.815561,ja
+A 7.1–7.3,M3/E_c1 acc1_wc [= JSON],—,.938 (appendix/appendix.tex Tab. A5),0.937735,ja
+A 7.1–7.3,M3/E_c1 acc3_wc [= JSON],—,.976 (appendix/appendix.tex Tab. A5),0.976458,ja
+JSON-Abgleich,M3/E_c1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M3/E_d1 acc1 [= JSON],0.8299,nicht in der Arbeit,0.829934,ja
+A 7.1–7.3,M3/E_d1 ambig [= JSON],0.8100,nicht in der Arbeit,0.809963,ja
+A 7.1–7.3,M3/E_d1 acc3 [= JSON],0.8696,.870 (appendix/appendix.tex Tab. A5),0.869608,ja
+A 7.1–7.3,M3/E_d1 mrr [= JSON],0.8510,.851 (appendix/appendix.tex Tab. A6),0.850991,ja
+A 7.1–7.3,M3/E_d1 doc [= JSON],0.8139,.814 (appendix/appendix.tex Tab. A5),0.813918,ja
+A 7.1–7.3,M3/E_d1 acc1_wc [= JSON],—,.930 (appendix/appendix.tex Tab. A5),0.930129,ja
+A 7.1–7.3,M3/E_d1 acc3_wc [= JSON],—,.975 (appendix/appendix.tex Tab. A5),0.974594,ja
+JSON-Abgleich,M3/E_d1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M4/E_c1 acc1 [= JSON],0.8369,.8369 (chapters/06_results.tex:214),0.836878,ja
+A 7.1–7.3,M4/E_c1 ambig [= JSON],0.8320,.832 (chapters/06_results.tex:210),0.832019,ja
+A 7.1–7.3,M4/E_c1 acc3 [= JSON],0.8691,.869 (appendix/appendix.tex Tab. A5),0.869133,ja
+A 7.1–7.3,M4/E_c1 mrr [= JSON],0.8539,.854 (appendix/appendix.tex Tab. A6),0.853852,ja
+A 7.1–7.3,M4/E_c1 doc [= JSON],0.8190,.819 (appendix/appendix.tex Tab. A5),0.819048,ja
+A 7.1–7.3,M4/E_c1 acc1_wc [= JSON],—,.938 (appendix/appendix.tex Tab. A5),0.937912,ja
+A 7.1–7.3,M4/E_c1 acc3_wc [= JSON],—,.974 (appendix/appendix.tex Tab. A5),0.974061,ja
+JSON-Abgleich,M4/E_c1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M4/E_d1 acc1 [= JSON],0.8358,nicht in der Arbeit,0.835822,ja
+A 7.1–7.3,M4/E_d1 ambig [= JSON],0.8287,.829 (chapters/06_results.tex:281 (Tab. 9)),0.828665,ja
+A 7.1–7.3,M4/E_d1 acc3 [= JSON],0.8680,.868 (appendix/appendix.tex Tab. A5),0.867958,ja
+A 7.1–7.3,M4/E_d1 mrr [= JSON],0.8533,.853 (appendix/appendix.tex Tab. A6),0.853273,ja
+A 7.1–7.3,M4/E_d1 doc [= JSON],0.8211,.821 (appendix/appendix.tex Tab. A5),0.821104,ja
+A 7.1–7.3,M4/E_d1 acc1_wc [= JSON],—,.937 (appendix/appendix.tex Tab. A5),0.936729,ja
+A 7.1–7.3,M4/E_d1 acc3_wc [= JSON],—,.973 (appendix/appendix.tex Tab. A5),0.972744,ja
+JSON-Abgleich,M4/E_d1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M5/E_c1 acc1 [= JSON],0.8403,.8403 (chapters/06_results.tex:214),0.840298,ja
+A 7.1–7.3,M5/E_c1 ambig [= JSON],0.8429,.8429 (chapters/06_results.tex:326),0.842880,ja
+A 7.1–7.3,M5/E_c1 acc3 [= JSON],0.8710,.871 (appendix/appendix.tex Tab. A5),0.870968,ja
+A 7.1–7.3,M5/E_c1 mrr [= JSON],0.8568,.857 (appendix/appendix.tex Tab. A6),0.856804,ja
+A 7.1–7.3,M5/E_c1 doc [= JSON],0.8217,.822 (appendix/appendix.tex Tab. A5),0.821738,ja
+A 7.1–7.3,M5/E_c1 acc1_wc [= JSON],—,.942 (appendix/appendix.tex Tab. A5),0.941745,ja
+A 7.1–7.3,M5/E_c1 acc3_wc [= JSON],—,.976 (appendix/appendix.tex Tab. A5),0.976118,ja
+JSON-Abgleich,M5/E_c1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M5/E_d1 acc1 [= JSON],0.8438,.844 (chapters/06_results.tex:210),0.843849,ja
+A 7.1–7.3,M5/E_d1 ambig [= JSON],0.8542,.8542 (chapters/06_results.tex:320),0.854160,ja
+A 7.1–7.3,M5/E_d1 acc3 [= JSON],0.8716,.872 (appendix/appendix.tex Tab. A5),0.871642,ja
+A 7.1–7.3,M5/E_d1 mrr [= JSON],0.8592,.859 (chapters/06_results.tex:214 (Maximum MRR) / appendix/appendix.tex Tab. A6),0.859160,ja
+A 7.1–7.3,M5/E_d1 doc [= JSON],0.8314,.831 (appendix/appendix.tex Tab. A5),0.831377,ja
+A 7.1–7.3,M5/E_d1 acc1_wc [= JSON],—,.946 (appendix/appendix.tex Tab. A5),0.945725,ja
+A 7.1–7.3,M5/E_d1 acc3_wc [= JSON],—,.977 (appendix/appendix.tex Tab. A5),0.976873,ja
+JSON-Abgleich,M5/E_d1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M4/E_b1_c6 acc1 [= JSON],0.8252,nicht in der Arbeit,0.825167,ja
+A 7.1–7.3,M4/E_b1_c6 ambig [= JSON],0.7948,nicht in der Arbeit,0.794826,ja
+A 7.1–7.3,M4/E_b1_c6 acc3 [= JSON],0.8676,nicht in der Arbeit,0.867641,ja
+A 7.1–7.3,M4/E_b1_c6 mrr [= JSON],0.8474,nicht in der Arbeit,0.847408,ja
+A 7.1–7.3,M4/E_b1_c6 doc [= JSON],0.8095,nicht in der Arbeit,0.809489,ja
+JSON-Abgleich,M4/E_b1_c6: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M4/E_b1_c20 acc1 [= JSON],0.8343,nicht in der Arbeit,0.834291,ja
+A 7.1–7.3,M4/E_b1_c20 ambig [= JSON],0.8238,nicht in der Arbeit,0.823801,ja
+A 7.1–7.3,M4/E_b1_c20 acc3 [= JSON],0.8701,nicht in der Arbeit,0.870123,ja
+A 7.1–7.3,M4/E_b1_c20 mrr [= JSON],0.8534,nicht in der Arbeit,0.853368,ja
+A 7.1–7.3,M4/E_b1_c20 doc [= JSON],0.8151,nicht in der Arbeit,0.815105,ja
+JSON-Abgleich,M4/E_b1_c20: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M4/E_d1_c6 acc1 [= JSON],0.8169,nicht in der Arbeit,0.816942,ja
+A 7.1–7.3,M4/E_d1_c6 ambig [= JSON],0.7687,nicht in der Arbeit,0.768702,ja
+A 7.1–7.3,M4/E_d1_c6 acc3 [= JSON],0.8669,nicht in der Arbeit,0.866888,ja
+A 7.1–7.3,M4/E_d1_c6 mrr [= JSON],0.8434,nicht in der Arbeit,0.843423,ja
+A 7.1–7.3,M4/E_d1_c6 doc [= JSON],0.8030,nicht in der Arbeit,0.803033,ja
+JSON-Abgleich,M4/E_d1_c6: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M4/E_d1_c20 acc1 [= JSON],0.8485,nicht in der Arbeit,0.848457,ja
+A 7.1–7.3,M4/E_d1_c20 ambig [= JSON],0.8688,nicht in der Arbeit,0.868794,ja
+A 7.1–7.3,M4/E_d1_c20 acc3 [= JSON],0.8714,nicht in der Arbeit,0.871443,ja
+A 7.1–7.3,M4/E_d1_c20 mrr [= JSON],0.8610,nicht in der Arbeit,0.860978,ja
+A 7.1–7.3,M4/E_d1_c20 doc [= JSON],0.8353,nicht in der Arbeit,0.835289,ja
+JSON-Abgleich,M4/E_d1_c20: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M4/E_d1_s01 acc1 [= JSON],0.8374,nicht in der Arbeit,0.837393,ja
+A 7.1–7.3,M4/E_d1_s01 ambig [= JSON],0.8337,nicht in der Arbeit,0.833655,ja
+A 7.1–7.3,M4/E_d1_s01 acc3 [= JSON],0.8681,nicht in der Arbeit,0.868116,ja
+A 7.1–7.3,M4/E_d1_s01 mrr [= JSON],0.8541,nicht in der Arbeit,0.854113,ja
+A 7.1–7.3,M4/E_d1_s01 doc [= JSON],0.8221,nicht in der Arbeit,0.822056,ja
+JSON-Abgleich,M4/E_d1_s01: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M4/E_d1_s1 acc1 [= JSON],0.8372,nicht in der Arbeit,0.837235,ja
+A 7.1–7.3,M4/E_d1_s1 ambig [= JSON],0.8332,nicht in der Arbeit,0.833152,ja
+A 7.1–7.3,M4/E_d1_s1 acc3 [= JSON],0.8679,nicht in der Arbeit,0.867892,ja
+A 7.1–7.3,M4/E_d1_s1 mrr [= JSON],0.8540,nicht in der Arbeit,0.854014,ja
+A 7.1–7.3,M4/E_d1_s1 doc [= JSON],0.8215,nicht in der Arbeit,0.821522,ja
+JSON-Abgleich,M4/E_d1_s1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M5/E_b1_c6 acc1 [= JSON],0.8348,nicht in der Arbeit,0.834832,ja
+A 7.1–7.3,M5/E_b1_c6 ambig [= JSON],0.8255,nicht in der Arbeit,0.825520,ja
+A 7.1–7.3,M5/E_b1_c6 acc3 [= JSON],0.8701,nicht in der Arbeit,0.870136,ja
+A 7.1–7.3,M5/E_b1_c6 mrr [= JSON],0.8536,nicht in der Arbeit,0.853637,ja
+A 7.1–7.3,M5/E_b1_c6 doc [= JSON],0.8186,nicht in der Arbeit,0.818550,ja
+JSON-Abgleich,M5/E_b1_c6: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M5/E_b1_c20 acc1 [= JSON],0.8359,nicht in der Arbeit,0.835928,ja
+A 7.1–7.3,M5/E_b1_c20 ambig [= JSON],0.8290,nicht in der Arbeit,0.829000,ja
+A 7.1–7.3,M5/E_b1_c20 acc3 [= JSON],0.8702,nicht in der Arbeit,0.870176,ja
+A 7.1–7.3,M5/E_b1_c20 mrr [= JSON],0.8545,nicht in der Arbeit,0.854503,ja
+A 7.1–7.3,M5/E_b1_c20 doc [= JSON],0.8176,nicht in der Arbeit,0.817632,ja
+JSON-Abgleich,M5/E_b1_c20: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M5/E_d1_c6 acc1 [= JSON],0.8311,nicht in der Arbeit,0.831109,ja
+A 7.1–7.3,M5/E_d1_c6 ambig [= JSON],0.8137,nicht in der Arbeit,0.813695,ja
+A 7.1–7.3,M5/E_d1_c6 acc3 [= JSON],0.8714,nicht in der Arbeit,0.871377,ja
+A 7.1–7.3,M5/E_d1_c6 mrr [= JSON],0.8525,nicht in der Arbeit,0.852547,ja
+A 7.1–7.3,M5/E_d1_c6 doc [= JSON],0.8209,nicht in der Arbeit,0.820910,ja
+JSON-Abgleich,M5/E_d1_c6: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M5/E_d1_c20 acc1 [= JSON],0.8496,nicht in der Arbeit,0.849646,ja
+A 7.1–7.3,M5/E_d1_c20 ambig [= JSON],0.8726,nicht in der Arbeit,0.872568,ja
+A 7.1–7.3,M5/E_d1_c20 acc3 [= JSON],0.8724,nicht in der Arbeit,0.872420,ja
+A 7.1–7.3,M5/E_d1_c20 mrr [= JSON],0.8622,nicht in der Arbeit,0.862187,ja
+A 7.1–7.3,M5/E_d1_c20 doc [= JSON],0.8381,nicht in der Arbeit,0.838087,ja
+JSON-Abgleich,M5/E_d1_c20: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M5/E_d1_s01 acc1 [= JSON],0.8456,nicht in der Arbeit,0.845645,ja
+A 7.1–7.3,M5/E_d1_s01 ambig [= JSON],0.8599,nicht in der Arbeit,0.859862,ja
+A 7.1–7.3,M5/E_d1_s01 acc3 [= JSON],0.8717,nicht in der Arbeit,0.871747,ja
+A 7.1–7.3,M5/E_d1_s01 mrr [= JSON],0.8601,nicht in der Arbeit,0.860086,ja
+A 7.1–7.3,M5/E_d1_s01 doc [= JSON],0.8324,nicht in der Arbeit,0.832429,ja
+JSON-Abgleich,M5/E_d1_s01: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7.1–7.3,M5/E_d1_s1 acc1 [= JSON],0.8441,nicht in der Arbeit,0.844061,ja
+A 7.1–7.3,M5/E_d1_s1 ambig [= JSON],0.8548,nicht in der Arbeit,0.854831,ja
+A 7.1–7.3,M5/E_d1_s1 acc3 [= JSON],0.8719,nicht in der Arbeit,0.871866,ja
+A 7.1–7.3,M5/E_d1_s1 mrr [= JSON],0.8592,nicht in der Arbeit,0.859205,ja
+A 7.1–7.3,M5/E_d1_s1 doc [= JSON],0.8303,nicht in der Arbeit,0.830254,ja
+JSON-Abgleich,M5/E_d1_s1: alle 7 Kennzahlen gleich dem Pipeline-JSON,—,—,alle gleich,ja
+A 7 (Nachtrag 19.09.),"eindeutiger Sockel korrekt (n_candidates == 1), alle Zellen",43544,"43,544 (chapters/06_results.tex:226)",43544,ja
+A 2/3 bzw. 7.1,"Differenz M3/E_d1 minus M3/E_default, acc1, Prozentpunkte",—,0.9 (chapters/06_results.tex:208),0.893,ja
+A 2/3 bzw. 7.1,"Differenz M1/E_d1 minus M1/E_default, acc1, Prozentpunkte",—,16.7 (chapters/06_results.tex:208),16.666,ja
+A 2/3 bzw. 7.1,"Differenz M3/E_d1 minus M3/E_default, ambig, Prozentpunkte",—,2.8 (chapters/06_results.tex:208),2.835,ja
+A 2/3 bzw. 7.1,"Differenz M1/E_d1 minus M1/E_default, ambig, Prozentpunkte",—,52.9 (chapters/06_results.tex:208),52.931,ja
+A 2/3 bzw. 7.1,"Differenz M5/E_d1 minus M3/E_default, ambig, Prozentpunkte",—,7.3 (chapters/06_results.tex:230),7.254,ja
+A 2/3 bzw. 7.1,"Differenz M5/E_d1 minus M3/E_default, acc1, Prozentpunkte",—,2.3 (chapters/07_discussion.tex:12),2.284,ja
+A 2/3 bzw. 7.1,"Differenz M5/E_c1 minus M3/E_default, ambig, Prozentpunkte",—,6.1 (chapters/06_results.tex:230),6.126,ja
+A 2/3 bzw. 7.1,"Differenz M5/E_c1 minus M3/E_default, acc1, Prozentpunkte",—,1.9 (chapters/06_results.tex:230),1.929,ja

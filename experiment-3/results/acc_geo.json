@@ -1,0 +1,407 @@
+{
+  "timestamp": "2026-06-12 16:25:18",
+  "n_documents": 100,
+  "doc_sample_seed": 42,
+  "cells": [
+    {
+      "model": "M1_dguzh",
+      "eval_resolver": "E_c1_geo",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.7624633431085044,
+        "accuracy_at_3": 0.8699902248289345,
+        "mrr": 0.8168668249313411,
+        "accuracy_at_1_with_candidates": 0.8414239482200647,
+        "accuracy_at_3_with_candidates": 0.9600862998921251
+      },
+      "document": {
+        "document_accuracy": 0.7086575372464895,
+        "n_documents": 100,
+        "document_precision": 0.7086575372464895,
+        "document_recall": 0.7086575372464895,
+        "document_f1": 0.7086575372464895
+      }
+    },
+    {
+      "model": "M1_dguzh",
+      "eval_resolver": "E_c2_geo",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.7096774193548387,
+        "accuracy_at_3": 0.8504398826979472,
+        "mrr": 0.7828067541777219,
+        "accuracy_at_1_with_candidates": 0.7831715210355987,
+        "accuracy_at_3_with_candidates": 0.9385113268608414
+      },
+      "document": {
+        "document_accuracy": 0.6491684186050302,
+        "n_documents": 100,
+        "document_precision": 0.6491684186050302,
+        "document_recall": 0.6491684186050302,
+        "document_f1": 0.6491684186050302
+      }
+    },
+    {
+      "model": "M1_dguzh",
+      "eval_resolver": "E_c1_h3",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.7565982404692082,
+        "accuracy_at_3": 0.8660801564027371,
+        "mrr": 0.812106722780347,
+        "accuracy_at_1_with_candidates": 0.8349514563106796,
+        "accuracy_at_3_with_candidates": 0.9557713052858684
+      },
+      "document": {
+        "document_accuracy": 0.6927359686190385,
+        "n_documents": 100,
+        "document_precision": 0.6927359686190385,
+        "document_recall": 0.6927359686190385,
+        "document_f1": 0.6927359686190385
+      }
+    },
+    {
+      "model": "M1_dguzh",
+      "eval_resolver": "E_c2_h3",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.7165200391006843,
+        "accuracy_at_3": 0.8357771260997068,
+        "mrr": 0.7825645517930063,
+        "accuracy_at_1_with_candidates": 0.790722761596548,
+        "accuracy_at_3_with_candidates": 0.9223300970873787
+      },
+      "document": {
+        "document_accuracy": 0.6342468269072911,
+        "n_documents": 100,
+        "document_precision": 0.6342468269072911,
+        "document_recall": 0.6342468269072911,
+        "document_f1": 0.6342468269072911
+      }
+    },
+    {
+      "model": "M2_distiluse_base",
+      "eval_resolver": "E_c1_geo",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.7947214076246334,
+        "accuracy_at_3": 0.8729227761485826,
+        "mrr": 0.8347086255317624,
+        "accuracy_at_1_with_candidates": 0.8770226537216829,
+        "accuracy_at_3_with_candidates": 0.9633225458468176
+      },
+      "document": {
+        "document_accuracy": 0.7542107793509237,
+        "n_documents": 100,
+        "document_precision": 0.7542107793509237,
+        "document_recall": 0.7542107793509237,
+        "document_f1": 0.7542107793509237
+      }
+    },
+    {
+      "model": "M2_distiluse_base",
+      "eval_resolver": "E_c2_geo",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.7487781036168133,
+        "accuracy_at_3": 0.8582600195503421,
+        "mrr": 0.8060387641032802,
+        "accuracy_at_1_with_candidates": 0.8263214670981661,
+        "accuracy_at_3_with_candidates": 0.9471413160733549
+      },
+      "document": {
+        "document_accuracy": 0.7030700404535263,
+        "n_documents": 100,
+        "document_precision": 0.7030700404535263,
+        "document_recall": 0.7030700404535263,
+        "document_f1": 0.7030700404535263
+      }
+    },
+    {
+      "model": "M2_distiluse_base",
+      "eval_resolver": "E_c1_h3",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.7966764418377321,
+        "accuracy_at_3": 0.8729227761485826,
+        "mrr": 0.8356385152084077,
+        "accuracy_at_1_with_candidates": 0.8791801510248112,
+        "accuracy_at_3_with_candidates": 0.9633225458468176
+      },
+      "document": {
+        "document_accuracy": 0.7559869806573886,
+        "n_documents": 100,
+        "document_precision": 0.7559869806573886,
+        "document_recall": 0.7559869806573886,
+        "document_f1": 0.7559869806573886
+      }
+    },
+    {
+      "model": "M2_distiluse_base",
+      "eval_resolver": "E_c2_h3",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.7409579667644184,
+        "accuracy_at_3": 0.8504398826979472,
+        "mrr": 0.7988511990344835,
+        "accuracy_at_1_with_candidates": 0.8176914778856527,
+        "accuracy_at_3_with_candidates": 0.9385113268608414
+      },
+      "document": {
+        "document_accuracy": 0.6775458069025863,
+        "n_documents": 100,
+        "document_precision": 0.6775458069025863,
+        "document_recall": 0.6775458069025863,
+        "document_f1": 0.6775458069025863
+      }
+    },
+    {
+      "model": "M3_default_finetuned",
+      "eval_resolver": "E_c1_geo",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.8289345063538612,
+        "accuracy_at_3": 0.8768328445747801,
+        "mrr": 0.8541778588268152,
+        "accuracy_at_1_with_candidates": 0.9147788565264293,
+        "accuracy_at_3_with_candidates": 0.9676375404530745
+      },
+      "document": {
+        "document_accuracy": 0.8034393557348376,
+        "n_documents": 100,
+        "document_precision": 0.8034393557348376,
+        "document_recall": 0.8034393557348376,
+        "document_f1": 0.8034393557348376
+      }
+    },
+    {
+      "model": "M3_default_finetuned",
+      "eval_resolver": "E_c2_geo",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.804496578690127,
+        "accuracy_at_3": 0.8729227761485826,
+        "mrr": 0.8399239321013514,
+        "accuracy_at_1_with_candidates": 0.8878101402373247,
+        "accuracy_at_3_with_candidates": 0.9633225458468176
+      },
+      "document": {
+        "document_accuracy": 0.7962100715717624,
+        "n_documents": 100,
+        "document_precision": 0.7962100715717624,
+        "document_recall": 0.7962100715717624,
+        "document_f1": 0.7962100715717624
+      }
+    },
+    {
+      "model": "M3_default_finetuned",
+      "eval_resolver": "E_c1_h3",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.8260019550342131,
+        "accuracy_at_3": 0.8768328445747801,
+        "mrr": 0.8524690007967997,
+        "accuracy_at_1_with_candidates": 0.9115426105717368,
+        "accuracy_at_3_with_candidates": 0.9676375404530745
+      },
+      "document": {
+        "document_accuracy": 0.8016659567200592,
+        "n_documents": 100,
+        "document_precision": 0.8016659567200592,
+        "document_recall": 0.8016659567200592,
+        "document_f1": 0.8016659567200592
+      }
+    },
+    {
+      "model": "M3_default_finetuned",
+      "eval_resolver": "E_c2_h3",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.8005865102639296,
+        "accuracy_at_3": 0.8680351906158358,
+        "mrr": 0.8362266467105177,
+        "accuracy_at_1_with_candidates": 0.883495145631068,
+        "accuracy_at_3_with_candidates": 0.9579288025889967
+      },
+      "document": {
+        "document_accuracy": 0.7594396073476396,
+        "n_documents": 100,
+        "document_precision": 0.7594396073476396,
+        "document_recall": 0.7594396073476396,
+        "document_f1": 0.7594396073476396
+      }
+    },
+    {
+      "model": "M4_spatial_config1",
+      "eval_resolver": "E_c1_geo",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.8396871945259042,
+        "accuracy_at_3": 0.8787878787878788,
+        "mrr": 0.859102934102934,
+        "accuracy_at_1_with_candidates": 0.9266450916936354,
+        "accuracy_at_3_with_candidates": 0.9697950377562028
+      },
+      "document": {
+        "document_accuracy": 0.7981912417098103,
+        "n_documents": 100,
+        "document_precision": 0.7981912417098103,
+        "document_recall": 0.7981912417098103,
+        "document_f1": 0.7981912417098103
+      }
+    },
+    {
+      "model": "M4_spatial_config1",
+      "eval_resolver": "E_c2_geo",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.7927663734115347,
+        "accuracy_at_3": 0.8680351906158358,
+        "mrr": 0.8297039131716551,
+        "accuracy_at_1_with_candidates": 0.8748651564185544,
+        "accuracy_at_3_with_candidates": 0.9579288025889967
+      },
+      "document": {
+        "document_accuracy": 0.7497000475510676,
+        "n_documents": 100,
+        "document_precision": 0.7497000475510676,
+        "document_recall": 0.7497000475510676,
+        "document_f1": 0.7497000475510676
+      }
+    },
+    {
+      "model": "M4_spatial_config1",
+      "eval_resolver": "E_c1_h3",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.8377321603128055,
+        "accuracy_at_3": 0.8778103616813294,
+        "mrr": 0.8579743795787939,
+        "accuracy_at_1_with_candidates": 0.924487594390507,
+        "accuracy_at_3_with_candidates": 0.9687162891046386
+      },
+      "document": {
+        "document_accuracy": 0.799569290490298,
+        "n_documents": 100,
+        "document_precision": 0.799569290490298,
+        "document_recall": 0.799569290490298,
+        "document_f1": 0.799569290490298
+      }
+    },
+    {
+      "model": "M4_spatial_config1",
+      "eval_resolver": "E_c2_h3",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.7800586510263929,
+        "accuracy_at_3": 0.8592375366568915,
+        "mrr": 0.8220402954273922,
+        "accuracy_at_1_with_candidates": 0.86084142394822,
+        "accuracy_at_3_with_candidates": 0.948220064724919
+      },
+      "document": {
+        "document_accuracy": 0.7123136985884253,
+        "n_documents": 100,
+        "document_precision": 0.7123136985884253,
+        "document_recall": 0.7123136985884253,
+        "document_f1": 0.7123136985884253
+      }
+    },
+    {
+      "model": "M5_spatial_config2",
+      "eval_resolver": "E_c1_geo",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.8289345063538612,
+        "accuracy_at_3": 0.8797653958944281,
+        "mrr": 0.8543103849555462,
+        "accuracy_at_1_with_candidates": 0.9147788565264293,
+        "accuracy_at_3_with_candidates": 0.970873786407767
+      },
+      "document": {
+        "document_accuracy": 0.8041072316661438,
+        "n_documents": 100,
+        "document_precision": 0.8041072316661438,
+        "document_recall": 0.8041072316661438,
+        "document_f1": 0.8041072316661438
+      }
+    },
+    {
+      "model": "M5_spatial_config2",
+      "eval_resolver": "E_c2_geo",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.8162267839687195,
+        "accuracy_at_3": 0.8768328445747801,
+        "mrr": 0.8474483700290152,
+        "accuracy_at_1_with_candidates": 0.9007551240560949,
+        "accuracy_at_3_with_candidates": 0.9676375404530745
+      },
+      "document": {
+        "document_accuracy": 0.794299704003857,
+        "n_documents": 100,
+        "document_precision": 0.794299704003857,
+        "document_recall": 0.794299704003857,
+        "document_f1": 0.794299704003857
+      }
+    },
+    {
+      "model": "M5_spatial_config2",
+      "eval_resolver": "E_c1_h3",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.8269794721407625,
+        "accuracy_at_3": 0.8797653958944281,
+        "mrr": 0.853319291222517,
+        "accuracy_at_1_with_candidates": 0.912621359223301,
+        "accuracy_at_3_with_candidates": 0.970873786407767
+      },
+      "document": {
+        "document_accuracy": 0.8034351449452767,
+        "n_documents": 100,
+        "document_precision": 0.8034351449452767,
+        "document_recall": 0.8034351449452767,
+        "document_f1": 0.8034351449452767
+      }
+    },
+    {
+      "model": "M5_spatial_config2",
+      "eval_resolver": "E_c2_h3",
+      "location": {
+        "total": 1023,
+        "no_candidates": 96,
+        "accuracy_at_1": 0.8220918866080157,
+        "accuracy_at_3": 0.8748778103616813,
+        "mrr": 0.8492102282424863,
+        "accuracy_at_1_with_candidates": 0.9072276159654801,
+        "accuracy_at_3_with_candidates": 0.9654800431499461
+      },
+      "document": {
+        "document_accuracy": 0.7697447654696467,
+        "n_documents": 100,
+        "document_precision": 0.7697447654696467,
+        "document_recall": 0.7697447654696467,
+        "document_f1": 0.7697447654696467
+      }
+    }
+  ]
+}

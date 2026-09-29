@@ -1,0 +1,81 @@
+{
+  "model": "M1_dguzh",
+  "eval_resolver": "E_spatial_config1",
+  "model_config": {
+    "base_model": "dguzh/geo-all-MiniLM-L6-v2",
+    "train": false
+  },
+  "eval_config": {
+    "type": "spatial",
+    "config": "config1"
+  },
+  "hyperparameters": null,
+  "n_folds": 5,
+  "seed": 42,
+  "folds": [
+    {
+      "fold": 0,
+      "val_documents": 12,
+      "val_toponyms": 213,
+      "accuracy_at_1": 0.460093896713615,
+      "accuracy_at_3": 0.7652582159624414,
+      "mrr": 0.6166458301465715,
+      "total": 213,
+      "no_candidates": 14,
+      "eval_duration_seconds": 6.3
+    },
+    {
+      "fold": 1,
+      "val_documents": 11,
+      "val_toponyms": 221,
+      "accuracy_at_1": 0.5294117647058824,
+      "accuracy_at_3": 0.7692307692307693,
+      "mrr": 0.6715749120160884,
+      "total": 221,
+      "no_candidates": 10,
+      "eval_duration_seconds": 5.9
+    },
+    {
+      "fold": 2,
+      "val_documents": 11,
+      "val_toponyms": 186,
+      "accuracy_at_1": 0.5967741935483871,
+      "accuracy_at_3": 0.7849462365591398,
+      "mrr": 0.705901930664739,
+      "total": 186,
+      "no_candidates": 14,
+      "eval_duration_seconds": 5.4
+    },
+    {
+      "fold": 3,
+      "val_documents": 11,
+      "val_toponyms": 245,
+      "accuracy_at_1": 0.4897959183673469,
+      "accuracy_at_3": 0.8326530612244898,
+      "mrr": 0.6636331918077508,
+      "total": 245,
+      "no_candidates": 14,
+      "eval_duration_seconds": 5.8
+    },
+    {
+      "fold": 4,
+      "val_documents": 11,
+      "val_toponyms": 191,
+      "accuracy_at_1": 0.4712041884816754,
+      "accuracy_at_3": 0.7382198952879581,
+      "mrr": 0.6094434056345052,
+      "total": 191,
+      "no_candidates": 33,
+      "eval_duration_seconds": 5.3
+    }
+  ],
+  "training_info": null,
+  "aggregate": {
+    "mean_accuracy_at_1": 0.5094559923633813,
+    "std_accuracy_at_1": 0.04961660327882512,
+    "mean_accuracy_at_3": 0.7780616356529596,
+    "std_accuracy_at_3": 0.03116696170119766,
+    "mean_mrr": 0.653439854053931,
+    "std_mrr": 0.035984834619575766
+  }
+}

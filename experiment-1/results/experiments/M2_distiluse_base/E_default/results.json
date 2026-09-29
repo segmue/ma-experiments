@@ -1,0 +1,80 @@
+{
+  "model": "M2_distiluse_base",
+  "eval_resolver": "E_default",
+  "model_config": {
+    "base_model": "sentence-transformers/distiluse-base-multilingual-cased-v1",
+    "train": false
+  },
+  "eval_config": {
+    "type": "default"
+  },
+  "hyperparameters": null,
+  "n_folds": 5,
+  "seed": 42,
+  "folds": [
+    {
+      "fold": 0,
+      "val_documents": 12,
+      "val_toponyms": 213,
+      "accuracy_at_1": 0.38497652582159625,
+      "accuracy_at_3": 0.6713615023474179,
+      "mrr": 0.5459602195679063,
+      "total": 213,
+      "no_candidates": 14,
+      "eval_duration_seconds": 9.8
+    },
+    {
+      "fold": 1,
+      "val_documents": 11,
+      "val_toponyms": 221,
+      "accuracy_at_1": 0.3755656108597285,
+      "accuracy_at_3": 0.665158371040724,
+      "mrr": 0.5479890832594818,
+      "total": 221,
+      "no_candidates": 10,
+      "eval_duration_seconds": 10.3
+    },
+    {
+      "fold": 2,
+      "val_documents": 11,
+      "val_toponyms": 186,
+      "accuracy_at_1": 0.5161290322580645,
+      "accuracy_at_3": 0.7419354838709677,
+      "mrr": 0.6427936196503338,
+      "total": 186,
+      "no_candidates": 14,
+      "eval_duration_seconds": 10.1
+    },
+    {
+      "fold": 3,
+      "val_documents": 11,
+      "val_toponyms": 245,
+      "accuracy_at_1": 0.44081632653061226,
+      "accuracy_at_3": 0.7061224489795919,
+      "mrr": 0.5927193431941015,
+      "total": 245,
+      "no_candidates": 14,
+      "eval_duration_seconds": 9.5
+    },
+    {
+      "fold": 4,
+      "val_documents": 11,
+      "val_toponyms": 191,
+      "accuracy_at_1": 0.3612565445026178,
+      "accuracy_at_3": 0.5916230366492147,
+      "mrr": 0.4934057494722188,
+      "total": 191,
+      "no_candidates": 33,
+      "eval_duration_seconds": 8.7
+    }
+  ],
+  "training_info": null,
+  "aggregate": {
+    "mean_accuracy_at_1": 0.41574880799452385,
+    "std_accuracy_at_1": 0.0569835052823732,
+    "mean_accuracy_at_3": 0.6752401685775832,
+    "std_accuracy_at_3": 0.05002097913903265,
+    "mean_mrr": 0.5645736030288084,
+    "std_mrr": 0.0501934685181605
+  }
+}

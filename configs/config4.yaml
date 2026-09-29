@@ -1,0 +1,49 @@
+# =============================================================================
+# Config 4 — Experiment 8 (H3-Config-Ablation)
+# H3: overlap-Modus, max_resolution=12 (fein, ~300 m2 pro Zelle) — ca. 18.0 Mio Zellen
+# Sonst identisch zu config1: nur max_resolution variiert (Aufloesungsreihe 11/12/13).
+# =============================================================================
+
+gazetteer: swissnames3d
+source_crs: 2056
+
+target_cells: 100
+min_resolution: 5
+max_resolution: 12
+containment_mode: overlap
+
+# Assoziationsmass: b1 = Ueberlagerung (Default), d1 = Adjazenz.
+# E_d1 = config1 mit measure: d1 ('spatial-h3-assoc --measure d1').
+association:
+  measure: b1
+  matrix_path: null
+  b1:
+    total_area_resolution: 10
+  d1:
+    r_star: 10
+    cap: 99999
+    k: 10
+    d_max: 12
+    batch: 40000
+    threads: 4
+    named_only: true
+
+static_slots:
+  - objektart: Gemeindegebiet
+    label: Gemeinde
+    slots: 2
+  - objektart: Bezirk
+    label: Bezirk
+    slots: 1
+  - objektart: Kanton
+    label: Kanton
+    slots: 1
+
+sentence_generator:
+  assoc_threshold: 0.001
+  max_slots: 10
+  max_slots_per_category: 5
+  max_categories: 10
+  max_filler_slots: 0
+
+output_file: config4/spatial_h3.duckdb

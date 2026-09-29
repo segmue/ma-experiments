@@ -1,0 +1,33 @@
+{
+  "model": "M2_distiluse_base",
+  "eval_resolver": "E_default",
+  "n_documents_eval": 6323,
+  "location": {
+    "total": 75741,
+    "no_candidates": 8159,
+    "accuracy_at_1": 0.7115696914484889,
+    "accuracy_at_3": 0.8353995854292919,
+    "mrr": 0.7773770529332409,
+    "accuracy_at_1_with_candidates": 0.797475659199195,
+    "accuracy_at_3_with_candidates": 0.9362552158858868
+  },
+  "document": {
+    "document_accuracy": 0.6778419617378548,
+    "n_documents": 6323,
+    "document_precision": 0.6778419617378548,
+    "document_recall": 0.6778419617378548,
+    "document_f1": 0.6778419617378548
+  },
+  "errors": {
+    "correct": 53895,
+    "correct_unambiguous": 43544,
+    "correct_ambiguous": 10351,
+    "unambiguous_total": 43734,
+    "ambiguous_total": 23848,
+    "acc1_ambiguous_only": 0.43404059040590404,
+    "wrong_rank": 13132,
+    "gold_not_in_candidates": 555,
+    "no_candidate": 8159
+  },
+  "eval_seconds": 6.0
+}

@@ -1,0 +1,60 @@
+{
+  "detection": {
+    "precision": 0.07535436043518551,
+    "recall": 0.7263656574211307,
+    "f1": 0.13654347736858405,
+    "tp": 54890,
+    "fp": 673535,
+    "fn": 20678
+  },
+  "systems": {
+    "M1_dguzh+E_default": {
+      "full_pipeline_precision": 0.045294985756941346,
+      "total_predicted": 728425,
+      "correct_resolutions": 32994,
+      "document_precision": 0.04887905885341151,
+      "document_recall": 0.36872679616653525,
+      "document_f1": 0.08631592950148213
+    },
+    "M2_distiluse_base+E_default": {
+      "full_pipeline_precision": 0.050447197721110615,
+      "total_predicted": 728425,
+      "correct_resolutions": 36747,
+      "document_precision": 0.05676681116189528,
+      "document_recall": 0.43174115761342946,
+      "document_f1": 0.10034050755201347
+    },
+    "M3_default_finetuned+E_default": {
+      "full_pipeline_precision": 0.0573085767237533,
+      "total_predicted": 728425,
+      "correct_resolutions": 41745,
+      "document_precision": 0.06550370981593487,
+      "document_recall": 0.5043887050307848,
+      "document_f1": 0.11594936345190021
+    },
+    "M4_spatial_config1+E_c1": {
+      "full_pipeline_precision": 0.058487833339053434,
+      "total_predicted": 728425,
+      "correct_resolutions": 42604,
+      "document_precision": 0.06606703910340161,
+      "document_recall": 0.5123353026951495,
+      "document_f1": 0.11704128434874995
+    },
+    "M5_spatial_config2+E_c2": {
+      "full_pipeline_precision": 0.05644918831725984,
+      "total_predicted": 728425,
+      "correct_resolutions": 41119,
+      "document_precision": 0.06384658774681459,
+      "document_recall": 0.4937412292003215,
+      "document_f1": 0.11307166963207563
+    },
+    "M5_spatial_config2+E_c1": {
+      "full_pipeline_precision": 0.058579812609396986,
+      "total_predicted": 728425,
+      "correct_resolutions": 42671,
+      "document_precision": 0.0660947460331907,
+      "document_recall": 0.5125712499498574,
+      "document_f1": 0.11709091885310433
+    }
+  }
+}

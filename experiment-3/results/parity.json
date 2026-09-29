@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-09-16 13:55:04",
+  "configs": {
+    "config1": {
+      "n_features": 815,
+      "identical_sentence_rate": 0.8098,
+      "jaccard_context_names_mean": 0.954,
+      "jaccard_context_names_median": 1.0,
+      "jaccard_dynamic_categories_mean": 0.9741
+    },
+    "config2": {
+      "n_features": 815,
+      "identical_sentence_rate": 0.173,
+      "jaccard_context_names_mean": 0.672,
+      "jaccard_context_names_median": 0.6667,
+      "jaccard_dynamic_categories_mean": 0.7003
+    }
+  },
+  "pairs": {
+    "config1": {
+      "h3_vs_geo": {
+        "n_features": 815,
+        "identical_sentence_rate": 0.8098,
+        "jaccard_context_names_mean": 0.954,
+        "jaccard_context_names_median": 1.0,
+        "jaccard_dynamic_categories_mean": 0.9741
+      },
+      "h3_vs_geo_strtree": {
+        "n_features": 815,
+        "identical_sentence_rate": 0.8098,
+        "jaccard_context_names_mean": 0.954,
+        "jaccard_context_names_median": 1.0,
+        "jaccard_dynamic_categories_mean": 0.9741
+      },
+      "geo_vs_geo_strtree": {
+        "n_features": 815,
+        "identical_sentence_rate": 1.0,
+        "jaccard_context_names_mean": 1.0,
+        "jaccard_context_names_median": 1.0,
+        "jaccard_dynamic_categories_mean": 1.0
+      }
+    },
+    "config2": {
+      "h3_vs_geo": {
+        "n_features": 815,
+        "identical_sentence_rate": 0.173,
+        "jaccard_context_names_mean": 0.672,
+        "jaccard_context_names_median": 0.6667,
+        "jaccard_dynamic_categories_mean": 0.7003
+      },
+      "h3_vs_geo_strtree": {
+        "n_features": 815,
+        "identical_sentence_rate": 0.173,
+        "jaccard_context_names_mean": 0.672,
+        "jaccard_context_names_median": 0.6667,
+        "jaccard_dynamic_categories_mean": 0.7003
+      },
+      "geo_vs_geo_strtree": {
+        "n_features": 815,
+        "identical_sentence_rate": 1.0,
+        "jaccard_context_names_mean": 1.0,
+        "jaccard_context_names_median": 1.0,
+        "jaccard_dynamic_categories_mean": 1.0
+      }
+    }
+  }
+}

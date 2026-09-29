@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-06-11 21:33:02",
+  "configs": {
+    "config1": {
+      "h3_db": "output/config1/spatial_h3.duckdb",
+      "output": "output/geo_config1/spatial_geo.duckdb",
+      "radius_by_res_m": {
+        "6": 3724.532667,
+        "7": 1406.475763,
+        "8": 531.41401,
+        "9": 200.786148,
+        "10": 75.863783,
+        "11": 28.663897000000002,
+        "12": 10.830188,
+        "13": 4.09201
+      },
+      "buffer_s": 126.68988409999292,
+      "db_create_s": 7.906899499997962,
+      "n_features": 442001,
+      "total_s": 135.20649469998898,
+      "db_size_mb": 1056.2,
+      "read_s": 146.807315500002,
+      "h3_db_size_mb": 1953.5,
+      "explain_checks": {
+        "single_intersects_const": {
+          "rtree_index_scan": true,
+          "spatial_join_operator": false
+        },
+        "batch_spatial_join": {
+          "rtree_index_scan": false,
+          "spatial_join_operator": true
+        }
+      }
+    },
+    "config2": {
+      "h3_db": "output/config2/spatial_h3.duckdb",
+      "output": "output/geo_config2/spatial_geo.duckdb",
+      "radius_by_res_m": {
+        "6": 3724.532667,
+        "7": 1406.475763,
+        "8": 531.41401,
+        "9": 200.786148,
+        "10": 75.863783
+      },
+      "buffer_s": 144.31945549999364,
+      "db_create_s": 3.7688863999937894,
+      "n_features": 442001,
+      "total_s": 148.70349970000098,
+      "db_size_mb": 896.8,
+      "read_s": 146.807315500002,
+      "h3_db_size_mb": 271.6,
+      "explain_checks": {
+        "single_intersects_const": {
+          "rtree_index_scan": true,
+          "spatial_join_operator": false
+        },
+        "batch_spatial_join": {
+          "rtree_index_scan": false,
+          "spatial_join_operator": true
+        }
+      }
+    }
+  }
+}

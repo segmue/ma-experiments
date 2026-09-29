@@ -1,0 +1,210 @@
+register_id,beschreibung,wert_register,wert_thesis,wert_nachgerechnet,gleich
+A 5 / K-14 1.3,M5: Sockel Acc@1 / Acc@3 und Zahl ambiger Items (Per-Item E_c1),43544 / 43544 / 23848,"43,544 (Anhang Ablationen)",43544 / 43544 / 23848,ja
+A 5 / K-14 1.3,M4: Sockel Acc@1 / Acc@3 und Zahl ambiger Items (Per-Item E_c1),43544 / 43544 / 23848,"43,544 (Anhang Ablationen)",43544 / 43544 / 23848,ja
+A 5 / 7.2 / 7.3,M5 Category cap 6 / B1: Acc@1 ambig,.8255,.8255 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.825520,ja
+A 5 / 7.2 / 7.3,M5 Category cap 6 / B1: Δ Acc@1 ambig gegen E_c1,-.0174,nicht in der Arbeit,-0.017360,ja
+A 5 (nur Spannweite),M5 Category cap 6 / B1: Acc@3 gesamt,—,.8701 (appendix/appendix.tex Tab. A9),0.870136,ja
+A 5 (nur Spannweite),M5 Category cap 6 / B1: Acc@3 ambig,—,.9376 (appendix/appendix.tex Tab. A9),0.937647,ja
+A 5 / 7.2 / 7.3,M5 Category cap 6 / D1: Acc@1 ambig,.8137,.8137 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.813695,ja
+A 5 / 7.2 / 7.3,M5 Category cap 6 / D1: Δ Acc@1 ambig gegen E_c1,-.0292,nicht in der Arbeit,-0.029185,ja
+A 5 (nur Spannweite),M5 Category cap 6 / D1: Acc@3 gesamt,—,.8714 (appendix/appendix.tex Tab. A9),0.871377,ja
+A 5 (nur Spannweite),M5 Category cap 6 / D1: Acc@3 ambig,—,.9416 (appendix/appendix.tex Tab. A9),0.941588,ja
+A 5 / 7.2 / 7.3,M5 Category cap 10 / B1: Acc@1 ambig,.8429,.8429 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.842880,ja
+A 5 / 7.2 / 7.3,M5 Category cap 10 / B1: Δ Acc@1 ambig gegen E_c1,+.0000,nicht in der Arbeit,+0.000000,ja
+A 5 (nur Spannweite),M5 Category cap 10 / B1: Acc@3 gesamt,—,.8710 (appendix/appendix.tex Tab. A9),0.870968,ja
+A 5 (nur Spannweite),M5 Category cap 10 / B1: Acc@3 ambig,—,.9403 (appendix/appendix.tex Tab. A9),0.940288,ja
+A 5 / 7.2 / 7.3,M5 Category cap 10 / D1: Acc@1 ambig,.8542,.8542 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.854160,ja
+A 5 / 7.2 / 7.3,M5 Category cap 10 / D1: Δ Acc@1 ambig gegen E_c1,+.0113,nicht in der Arbeit,+0.011280,ja
+A 5 (nur Spannweite),M5 Category cap 10 / D1: Acc@3 gesamt,—,.8716 (appendix/appendix.tex Tab. A9),0.871642,ja
+A 5 (nur Spannweite),M5 Category cap 10 / D1: Acc@3 ambig,—,.9424 (appendix/appendix.tex Tab. A9),0.942427,ja
+A 5 / 7.2 / 7.3,M5 Category cap 20 / B1: Acc@1 ambig,.8290,.8290 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.829000,ja
+A 5 / 7.2 / 7.3,M5 Category cap 20 / B1: Δ Acc@1 ambig gegen E_c1,-.0139,nicht in der Arbeit,-0.013880,ja
+A 5 (nur Spannweite),M5 Category cap 20 / B1: Acc@3 gesamt,—,.8702 (appendix/appendix.tex Tab. A9),0.870176,ja
+A 5 (nur Spannweite),M5 Category cap 20 / B1: Acc@3 ambig,—,.9378 (appendix/appendix.tex Tab. A9),0.937773,ja
+A 5 / 7.2 / 7.3,M5 Category cap 20 / D1: Acc@1 ambig,.8726,.8726 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.872568,ja
+A 5 / 7.2 / 7.3,M5 Category cap 20 / D1: Δ Acc@1 ambig gegen E_c1,+.0297,nicht in der Arbeit,+0.029688,ja
+A 5 (nur Spannweite),M5 Category cap 20 / D1: Acc@3 gesamt,—,.8724 (appendix/appendix.tex Tab. A9),0.872420,ja
+A 5 (nur Spannweite),M5 Category cap 20 / D1: Acc@3 ambig,—,.9449 (appendix/appendix.tex Tab. A9),0.944901,ja
+A 5 / 7.2 / 7.3,M5 Threshold 0.001 / B1: Acc@1 ambig,.8429,.8429 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.842880,ja
+A 5 / 7.2 / 7.3,M5 Threshold 0.001 / B1: Δ Acc@1 ambig gegen E_c1,+.0000,nicht in der Arbeit,+0.000000,ja
+A 5 (nur Spannweite),M5 Threshold 0.001 / B1: Acc@3 gesamt,—,.8710 (appendix/appendix.tex Tab. A9),0.870968,ja
+A 5 (nur Spannweite),M5 Threshold 0.001 / B1: Acc@3 ambig,—,.9403 (appendix/appendix.tex Tab. A9),0.940288,ja
+A 5 / 7.2 / 7.3,M5 Threshold 0.01 / B1: Acc@1 ambig,.8515,.8515 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.851476,ja
+A 5 / 7.2 / 7.3,M5 Threshold 0.01 / B1: Δ Acc@1 ambig gegen E_c1,+.0086,nicht in der Arbeit,+0.008596,ja
+A 5 (nur Spannweite),M5 Threshold 0.01 / B1: Acc@3 gesamt,—,.8723 (appendix/appendix.tex Tab. A9),0.872315,ja
+A 5 (nur Spannweite),M5 Threshold 0.01 / B1: Acc@3 ambig,—,.9446 (appendix/appendix.tex Tab. A9),0.944566,ja
+A 5 / 7.2 / 7.3,M5 Threshold 0.01 / D1: Acc@1 ambig,.8599,.8599 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.859862,ja
+A 5 / 7.2 / 7.3,M5 Threshold 0.01 / D1: Δ Acc@1 ambig gegen E_c1,+.0170,nicht in der Arbeit,+0.016983,ja
+A 5 (nur Spannweite),M5 Threshold 0.01 / D1: Acc@3 gesamt,—,.8717 (appendix/appendix.tex Tab. A9),0.871747,ja
+A 5 (nur Spannweite),M5 Threshold 0.01 / D1: Acc@3 ambig,—,.9428 (appendix/appendix.tex Tab. A9),0.942762,ja
+A 5 / 7.2 / 7.3,M5 Threshold 0.1 / B1: Acc@1 ambig,.7859,.7859 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.785894,ja
+A 5 / 7.2 / 7.3,M5 Threshold 0.1 / B1: Δ Acc@1 ambig gegen E_c1,-.0570,nicht in der Arbeit,-0.056986,ja
+A 5 (nur Spannweite),M5 Threshold 0.1 / B1: Acc@3 gesamt,—,.8677 (appendix/appendix.tex Tab. A9),0.867707,ja
+A 5 (nur Spannweite),M5 Threshold 0.1 / B1: Acc@3 ambig,—,.9299 (appendix/appendix.tex Tab. A9),0.929931,ja
+A 5 / 7.2 / 7.3,M5 Threshold 0.1 / D1: Acc@1 ambig,.8548,.8548 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.854831,ja
+A 5 / 7.2 / 7.3,M5 Threshold 0.1 / D1: Δ Acc@1 ambig gegen E_c1,+.0120,nicht in der Arbeit,+0.011951,ja
+A 5 (nur Spannweite),M5 Threshold 0.1 / D1: Acc@3 gesamt,—,.8719 (appendix/appendix.tex Tab. A9),0.871866,ja
+A 5 (nur Spannweite),M5 Threshold 0.1 / D1: Acc@3 ambig,—,.9431 (appendix/appendix.tex Tab. A9),0.943140,ja
+A 5 / 7.2 / 7.3,M5 Slot limit 10 / B1: Acc@1 ambig,.8429,.8429 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.842880,ja
+A 5 / 7.2 / 7.3,M5 Slot limit 10 / B1: Δ Acc@1 ambig gegen E_c1,+.0000,nicht in der Arbeit,+0.000000,ja
+A 5 (nur Spannweite),M5 Slot limit 10 / B1: Acc@3 gesamt,—,.8710 (appendix/appendix.tex Tab. A9),0.870968,ja
+A 5 (nur Spannweite),M5 Slot limit 10 / B1: Acc@3 ambig,—,.9403 (appendix/appendix.tex Tab. A9),0.940288,ja
+A 5 / 7.2 / 7.3,M5 Slot limit 5 / B1: Acc@1 ambig,.8342,.8342 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.834158,ja
+A 5 / 7.2 / 7.3,M5 Slot limit 5 / B1: Δ Acc@1 ambig gegen E_c1,-.0087,nicht in der Arbeit,-0.008722,ja
+A 5 (nur Spannweite),M5 Slot limit 5 / B1: Acc@3 gesamt,—,.8712 (appendix/appendix.tex Tab. A9),0.871219,ja
+A 5 (nur Spannweite),M5 Slot limit 5 / B1: Acc@3 ambig,—,.9411 (appendix/appendix.tex Tab. A9),0.941085,ja
+A 5 / 7.2 / 7.3,M5 Slot limit 3 / B1: Acc@1 ambig,.8264,.8264 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.826442,ja
+A 5 / 7.2 / 7.3,M5 Slot limit 3 / B1: Δ Acc@1 ambig gegen E_c1,-.0164,nicht in der Arbeit,-0.016437,ja
+A 5 (nur Spannweite),M5 Slot limit 3 / B1: Acc@3 gesamt,—,.8715 (appendix/appendix.tex Tab. A9),0.871509,ja
+A 5 (nur Spannweite),M5 Slot limit 3 / B1: Acc@3 ambig,—,.9420 (appendix/appendix.tex Tab. A9),0.942008,ja
+A 5 / 7.2 / 7.3,M5 without dynamic context / B1: Acc@1 ambig,.7821,.7821 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.782120,ja
+A 5 / 7.2 / 7.3,M5 without dynamic context / B1: Δ Acc@1 ambig gegen E_c1,-.0608,nicht in der Arbeit,-0.060760,ja
+A 5 (nur Spannweite),M5 without dynamic context / B1: Acc@3 gesamt,—,.8674 (appendix/appendix.tex Tab. A9),0.867364,ja
+A 5 (nur Spannweite),M5 without dynamic context / B1: Acc@3 ambig,—,.9288 (appendix/appendix.tex Tab. A9),0.928841,ja
+A 5 / 7.2 / 7.3,M5 without static context / B1: Acc@1 ambig,.8230,.8230 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.823046,ja
+A 5 / 7.2 / 7.3,M5 without static context / B1: Δ Acc@1 ambig gegen E_c1,-.0198,nicht in der Arbeit,-0.019834,ja
+A 5 (nur Spannweite),M5 without static context / B1: Acc@3 gesamt,—,.8715 (appendix/appendix.tex Tab. A9),0.871483,ja
+A 5 (nur Spannweite),M5 without static context / B1: Acc@3 ambig,—,.9419 (appendix/appendix.tex Tab. A9),0.941924,ja
+A 5 / 7.2 / 7.3,M5 all-ones matrix: Acc@1 ambig,.8022,.8022 (Abb. 9 (Bildwert laut abb_9_ablationen_siebzehn_varianten.py)),0.802248,ja
+A 5 / 7.2 / 7.3,M5 all-ones matrix: Δ Acc@1 ambig gegen E_c1,-.0406,nicht in der Arbeit,-0.040632,ja
+A 5 (nur Spannweite),M5 all-ones matrix: Acc@3 gesamt,—,.8673 (appendix/appendix.tex Tab. A9),0.867258,ja
+A 5 (nur Spannweite),M5 all-ones matrix: Acc@3 ambig,—,.9285 (appendix/appendix.tex Tab. A9),0.928506,ja
+A 5 / 7.2 / 7.3,M5 Base: Acc@1 ambig,.8429,nicht in der Arbeit,0.842880,ja
+A 5 (nur Spannweite),M5 Base: Acc@3 gesamt,—,.8710 (appendix/appendix.tex Tab. A9),0.870968,ja
+A 5 (nur Spannweite),M5 Base: Acc@3 ambig,—,.9403 (appendix/appendix.tex Tab. A9),0.940288,ja
+A 5 / 7.2 / 7.3,M4 Category cap 6 / B1: Acc@1 ambig,.7948,.7948 (appendix/appendix.tex Tab. A8),0.794826,ja
+A 5 / 7.2 / 7.3,M4 Category cap 6 / B1: Δ Acc@1 ambig gegen E_c1,-.0372,−.0372 (appendix/appendix.tex Tab. A8),-0.037194,ja
+A 5 / 7.2 / 7.3,M4 Category cap 6 / B1: Acc@1 gesamt,—,.8252 (appendix/appendix.tex Tab. A8),0.825167,ja
+A 5 / 7.2 / 7.3,M4 Category cap 6 / B1: Δ Acc@1 gesamt,—,−.0117 (appendix/appendix.tex Tab. A8),-0.011711,ja
+A 5 (nur Spannweite),M4 Category cap 6 / B1: Acc@3 gesamt,—,.8676 (appendix/appendix.tex Tab. A9),0.867641,ja
+A 5 (nur Spannweite),M4 Category cap 6 / B1: Acc@3 ambig,—,.9297 (appendix/appendix.tex Tab. A9),0.929722,ja
+A 5 / 7.2 / 7.3,M4 Category cap 6 / D1: Acc@1 ambig,.7687,.7687 (appendix/appendix.tex Tab. A8),0.768702,ja
+A 5 / 7.2 / 7.3,M4 Category cap 6 / D1: Δ Acc@1 ambig gegen E_c1,-.0633,−.0633 (appendix/appendix.tex Tab. A8),-0.063318,ja
+A 5 / 7.2 / 7.3,M4 Category cap 6 / D1: Acc@1 gesamt,—,.8169 (appendix/appendix.tex Tab. A8),0.816942,ja
+A 5 / 7.2 / 7.3,M4 Category cap 6 / D1: Δ Acc@1 gesamt,—,−.0199 (appendix/appendix.tex Tab. A8),-0.019936,ja
+A 5 (nur Spannweite),M4 Category cap 6 / D1: Acc@3 gesamt,—,.8669 (appendix/appendix.tex Tab. A9),0.866888,ja
+A 5 (nur Spannweite),M4 Category cap 6 / D1: Acc@3 ambig,—,.9273 (appendix/appendix.tex Tab. A9),0.927331,ja
+A 5 / 7.2 / 7.3,M4 Category cap 10 / B1: Acc@1 ambig,.8320,.8320 (appendix/appendix.tex Tab. A8),0.832019,ja
+A 5 / 7.2 / 7.3,M4 Category cap 10 / B1: Δ Acc@1 ambig gegen E_c1,+.0000,±.0000 (appendix/appendix.tex Tab. A8),+0.000000,ja
+A 5 / 7.2 / 7.3,M4 Category cap 10 / B1: Acc@1 gesamt,—,.8369 (appendix/appendix.tex Tab. A8),0.836878,ja
+A 5 / 7.2 / 7.3,M4 Category cap 10 / B1: Δ Acc@1 gesamt,—,±.0000 (appendix/appendix.tex Tab. A8),+0.000000,ja
+A 5 (nur Spannweite),M4 Category cap 10 / B1: Acc@3 gesamt,—,.8691 (appendix/appendix.tex Tab. A9),0.869133,ja
+A 5 (nur Spannweite),M4 Category cap 10 / B1: Acc@3 ambig,—,.9345 (appendix/appendix.tex Tab. A9),0.934460,ja
+A 5 / 7.2 / 7.3,M4 Category cap 10 / D1: Acc@1 ambig,.8287,.8287 (appendix/appendix.tex Tab. A8),0.828665,ja
+A 5 / 7.2 / 7.3,M4 Category cap 10 / D1: Δ Acc@1 ambig gegen E_c1,-.0034,−.0034 (appendix/appendix.tex Tab. A8),-0.003355,ja
+A 5 / 7.2 / 7.3,M4 Category cap 10 / D1: Acc@1 gesamt,—,.8358 (appendix/appendix.tex Tab. A8),0.835822,ja
+A 5 / 7.2 / 7.3,M4 Category cap 10 / D1: Δ Acc@1 gesamt,—,−.0011 (appendix/appendix.tex Tab. A8),-0.001056,ja
+A 5 (nur Spannweite),M4 Category cap 10 / D1: Acc@3 gesamt,—,.8680 (appendix/appendix.tex Tab. A9),0.867958,ja
+A 5 (nur Spannweite),M4 Category cap 10 / D1: Acc@3 ambig,—,.9307 (appendix/appendix.tex Tab. A9),0.930728,ja
+A 5 / 7.2 / 7.3,M4 Category cap 20 / B1: Acc@1 ambig,.8238,.8238 (appendix/appendix.tex Tab. A8),0.823801,ja
+A 5 / 7.2 / 7.3,M4 Category cap 20 / B1: Δ Acc@1 ambig gegen E_c1,-.0082,−.0082 (appendix/appendix.tex Tab. A8),-0.008219,ja
+A 5 / 7.2 / 7.3,M4 Category cap 20 / B1: Acc@1 gesamt,—,.8343 (appendix/appendix.tex Tab. A8),0.834291,ja
+A 5 / 7.2 / 7.3,M4 Category cap 20 / B1: Δ Acc@1 gesamt,—,−.0026 (appendix/appendix.tex Tab. A8),-0.002588,ja
+A 5 (nur Spannweite),M4 Category cap 20 / B1: Acc@3 gesamt,—,.8701 (appendix/appendix.tex Tab. A9),0.870123,ja
+A 5 (nur Spannweite),M4 Category cap 20 / B1: Acc@3 ambig,—,.9376 (appendix/appendix.tex Tab. A9),0.937605,ja
+A 5 / 7.2 / 7.3,M4 Category cap 20 / D1: Acc@1 ambig,.8688,.8688 (appendix/appendix.tex Tab. A8),0.868794,ja
+A 5 / 7.2 / 7.3,M4 Category cap 20 / D1: Δ Acc@1 ambig gegen E_c1,+.0368,+.0368 (appendix/appendix.tex Tab. A8),+0.036775,ja
+A 5 / 7.2 / 7.3,M4 Category cap 20 / D1: Acc@1 gesamt,—,.8485 (appendix/appendix.tex Tab. A8),0.848457,ja
+A 5 / 7.2 / 7.3,M4 Category cap 20 / D1: Δ Acc@1 gesamt,—,+.0116 (appendix/appendix.tex Tab. A8),+0.011579,ja
+A 5 (nur Spannweite),M4 Category cap 20 / D1: Acc@3 gesamt,—,.8714 (appendix/appendix.tex Tab. A9),0.871443,ja
+A 5 (nur Spannweite),M4 Category cap 20 / D1: Acc@3 ambig,—,.9418 (appendix/appendix.tex Tab. A9),0.941798,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.001 / B1: Acc@1 ambig,.8320,.8320 (appendix/appendix.tex Tab. A8),0.832019,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.001 / B1: Δ Acc@1 ambig gegen E_c1,+.0000,±.0000 (appendix/appendix.tex Tab. A8),+0.000000,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.001 / B1: Acc@1 gesamt,—,.8369 (appendix/appendix.tex Tab. A8),0.836878,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.001 / B1: Δ Acc@1 gesamt,—,±.0000 (appendix/appendix.tex Tab. A8),+0.000000,ja
+A 5 (nur Spannweite),M4 Threshold 0.001 / B1: Acc@3 gesamt,—,.8691 (appendix/appendix.tex Tab. A9),0.869133,ja
+A 5 (nur Spannweite),M4 Threshold 0.001 / B1: Acc@3 ambig,—,.9345 (appendix/appendix.tex Tab. A9),0.934460,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.01 / B1: Acc@1 ambig,.8397,.8397 (appendix/appendix.tex Tab. A8),0.839693,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.01 / B1: Δ Acc@1 ambig gegen E_c1,+.0077,+.0077 (appendix/appendix.tex Tab. A8),+0.007674,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.01 / B1: Acc@1 gesamt,—,.8393 (appendix/appendix.tex Tab. A8),0.839294,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.01 / B1: Δ Acc@1 gesamt,—,+.0024 (appendix/appendix.tex Tab. A8),+0.002416,ja
+A 5 (nur Spannweite),M4 Threshold 0.01 / B1: Acc@3 gesamt,—,.8699 (appendix/appendix.tex Tab. A9),0.869859,ja
+A 5 (nur Spannweite),M4 Threshold 0.01 / B1: Acc@3 ambig,—,.9368 (appendix/appendix.tex Tab. A9),0.936766,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.01 / D1: Acc@1 ambig,.8337,.8337 (appendix/appendix.tex Tab. A8),0.833655,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.01 / D1: Δ Acc@1 ambig gegen E_c1,+.0016,+.0016 (appendix/appendix.tex Tab. A8),+0.001635,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.01 / D1: Acc@1 gesamt,—,.8374 (appendix/appendix.tex Tab. A8),0.837393,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.01 / D1: Δ Acc@1 gesamt,—,+.0005 (appendix/appendix.tex Tab. A8),+0.000515,ja
+A 5 (nur Spannweite),M4 Threshold 0.01 / D1: Acc@3 gesamt,—,.8681 (appendix/appendix.tex Tab. A9),0.868116,ja
+A 5 (nur Spannweite),M4 Threshold 0.01 / D1: Acc@3 ambig,—,.9312 (appendix/appendix.tex Tab. A9),0.931231,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.1 / B1: Acc@1 ambig,.7341,.7341 (appendix/appendix.tex Tab. A8),0.734066,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.1 / B1: Δ Acc@1 ambig gegen E_c1,-.0980,−.0980 (appendix/appendix.tex Tab. A8),-0.097954,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.1 / B1: Acc@1 gesamt,—,.8060 (appendix/appendix.tex Tab. A8),0.806036,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.1 / B1: Δ Acc@1 gesamt,—,−.0308 (appendix/appendix.tex Tab. A8),-0.030842,ja
+A 5 (nur Spannweite),M4 Threshold 0.1 / B1: Acc@3 gesamt,—,.8614 (appendix/appendix.tex Tab. A9),0.861436,ja
+A 5 (nur Spannweite),M4 Threshold 0.1 / B1: Acc@3 ambig,—,.9100 (appendix/appendix.tex Tab. A9),0.910013,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.1 / D1: Acc@1 ambig,.8332,.8332 (appendix/appendix.tex Tab. A8),0.833152,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.1 / D1: Δ Acc@1 ambig gegen E_c1,+.0011,+.0011 (appendix/appendix.tex Tab. A8),+0.001132,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.1 / D1: Acc@1 gesamt,—,.8372 (appendix/appendix.tex Tab. A8),0.837235,ja
+A 5 / 7.2 / 7.3,M4 Threshold 0.1 / D1: Δ Acc@1 gesamt,—,+.0004 (appendix/appendix.tex Tab. A8),+0.000356,ja
+A 5 (nur Spannweite),M4 Threshold 0.1 / D1: Acc@3 gesamt,—,.8679 (appendix/appendix.tex Tab. A9),0.867892,ja
+A 5 (nur Spannweite),M4 Threshold 0.1 / D1: Acc@3 ambig,—,.9305 (appendix/appendix.tex Tab. A9),0.930518,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 10 / B1: Acc@1 ambig,.8320,.8320 (appendix/appendix.tex Tab. A8),0.832019,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 10 / B1: Δ Acc@1 ambig gegen E_c1,+.0000,±.0000 (appendix/appendix.tex Tab. A8),+0.000000,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 10 / B1: Acc@1 gesamt,—,.8369 (appendix/appendix.tex Tab. A8),0.836878,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 10 / B1: Δ Acc@1 gesamt,—,±.0000 (appendix/appendix.tex Tab. A8),+0.000000,ja
+A 5 (nur Spannweite),M4 Slot limit 10 / B1: Acc@3 gesamt,—,.8691 (appendix/appendix.tex Tab. A9),0.869133,ja
+A 5 (nur Spannweite),M4 Slot limit 10 / B1: Acc@3 ambig,—,.9345 (appendix/appendix.tex Tab. A9),0.934460,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 5 / B1: Acc@1 ambig,.8057,.8057 (appendix/appendix.tex Tab. A8),0.805728,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 5 / B1: Δ Acc@1 ambig gegen E_c1,-.0263,−.0263 (appendix/appendix.tex Tab. A8),-0.026292,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 5 / B1: Acc@1 gesamt,—,.8286 (appendix/appendix.tex Tab. A8),0.828600,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 5 / B1: Δ Acc@1 gesamt,—,−.0083 (appendix/appendix.tex Tab. A8),-0.008278,ja
+A 5 (nur Spannweite),M4 Slot limit 5 / B1: Acc@3 gesamt,—,.8692 (appendix/appendix.tex Tab. A9),0.869159,ja
+A 5 (nur Spannweite),M4 Slot limit 5 / B1: Acc@3 ambig,—,.9345 (appendix/appendix.tex Tab. A9),0.934544,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 3 / B1: Acc@1 ambig,.7840,.7840 (appendix/appendix.tex Tab. A8),0.784049,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 3 / B1: Δ Acc@1 ambig gegen E_c1,-.0480,−.0480 (appendix/appendix.tex Tab. A8),-0.047970,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 3 / B1: Acc@1 gesamt,—,.8218 (appendix/appendix.tex Tab. A8),0.821774,ja
+A 5 / 7.2 / 7.3,M4 Slot limit 3 / B1: Δ Acc@1 gesamt,—,−.0151 (appendix/appendix.tex Tab. A8),-0.015104,ja
+A 5 (nur Spannweite),M4 Slot limit 3 / B1: Acc@3 gesamt,—,.8684 (appendix/appendix.tex Tab. A9),0.868446,ja
+A 5 (nur Spannweite),M4 Slot limit 3 / B1: Acc@3 ambig,—,.9323 (appendix/appendix.tex Tab. A9),0.932279,ja
+A 5 / 7.2 / 7.3,M4 without dynamic context / B1: Acc@1 ambig,.7213,.7213 (appendix/appendix.tex Tab. A8),0.721318,ja
+A 5 / 7.2 / 7.3,M4 without dynamic context / B1: Δ Acc@1 ambig gegen E_c1,-.1107,−.1107 (appendix/appendix.tex Tab. A8),-0.110701,ja
+A 5 / 7.2 / 7.3,M4 without dynamic context / B1: Acc@1 gesamt,—,.8020 (appendix/appendix.tex Tab. A8),0.802023,ja
+A 5 / 7.2 / 7.3,M4 without dynamic context / B1: Δ Acc@1 gesamt,—,−.0349 (appendix/appendix.tex Tab. A8),-0.034856,ja
+A 5 (nur Spannweite),M4 without dynamic context / B1: Acc@3 gesamt,—,.8610 (appendix/appendix.tex Tab. A9),0.860987,ja
+A 5 (nur Spannweite),M4 without dynamic context / B1: Acc@3 ambig,—,.9086 (appendix/appendix.tex Tab. A9),0.908588,ja
+A 5 / 7.2 / 7.3,M4 without static context / B1: Acc@1 ambig,.8069,.8069 (appendix/appendix.tex Tab. A8),0.806902,ja
+A 5 / 7.2 / 7.3,M4 without static context / B1: Δ Acc@1 ambig gegen E_c1,-.0251,−.0251 (appendix/appendix.tex Tab. A8),-0.025117,ja
+A 5 / 7.2 / 7.3,M4 without static context / B1: Acc@1 gesamt,—,.8290 (appendix/appendix.tex Tab. A8),0.828970,ja
+A 5 / 7.2 / 7.3,M4 without static context / B1: Δ Acc@1 gesamt,—,−.0079 (appendix/appendix.tex Tab. A8),-0.007909,ja
+A 5 (nur Spannweite),M4 without static context / B1: Acc@3 gesamt,—,.8703 (appendix/appendix.tex Tab. A9),0.870268,ja
+A 5 (nur Spannweite),M4 without static context / B1: Acc@3 ambig,—,.9381 (appendix/appendix.tex Tab. A9),0.938066,ja
+A 5 / 7.2 / 7.3,M4 all-ones matrix: Acc@1 ambig,.7638,.7638 (appendix/appendix.tex Tab. A8),0.763754,ja
+A 5 / 7.2 / 7.3,M4 all-ones matrix: Δ Acc@1 ambig gegen E_c1,-.0683,−.0683 (appendix/appendix.tex Tab. A8),-0.068266,ja
+A 5 / 7.2 / 7.3,M4 all-ones matrix: Acc@1 gesamt,—,.8154 (appendix/appendix.tex Tab. A8),0.815384,ja
+A 5 / 7.2 / 7.3,M4 all-ones matrix: Δ Acc@1 gesamt,—,−.0215 (appendix/appendix.tex Tab. A8),-0.021494,ja
+A 5 (nur Spannweite),M4 all-ones matrix: Acc@3 gesamt,—,.8611 (appendix/appendix.tex Tab. A9),0.861119,ja
+A 5 (nur Spannweite),M4 all-ones matrix: Acc@3 ambig,—,.9090 (appendix/appendix.tex Tab. A9),0.909007,ja
+A 5 / 7.2 / 7.3,M4 Base: Acc@1 ambig,.8320,.8320 (appendix/appendix.tex Tab. A8),0.832019,ja
+A 5 / 7.2 / 7.3,M4 Base: Acc@1 gesamt,—,.8369 (appendix/appendix.tex Tab. A8),0.836878,ja
+A 5 (nur Spannweite),M4 Base: Acc@3 gesamt,—,.8691 (appendix/appendix.tex Tab. A9),0.869133,ja
+A 5 (nur Spannweite),M4 Base: Acc@3 ambig,—,.9345 (appendix/appendix.tex Tab. A9),0.934460,ja
+A 5 / 7.2 / 7.3,Fliesstext: M5/E_d1 ambig,.8542,.8542 (chapters/06_results.tex:320),0.854160,ja
+A 5 / 7.2 / 7.3,Fliesstext: B1: Kappung 6 kostet,.0174,.0174 (chapters/06_results.tex:322),0.017360,ja
+A 5 / 7.2 / 7.3,Fliesstext: B1: Kappung 20 kostet,.0139,.0139 (chapters/06_results.tex:322),0.013880,ja
+A 5 / 7.2 / 7.3,Fliesstext: D1: Kappung 6 kostet (gegen E_d1),.0405,.0405 (chapters/06_results.tex:322),0.040465,ja
+A 5 / 7.2 / 7.3,Fliesstext: D1: Kappung 20 bringt (gegen E_d1),.0184,.0184 (chapters/06_results.tex:322),0.018408,ja
+A 5 / 7.2 / 7.3,Fliesstext: D1 x 20 ambig (höchster Ablationswert),.8726,.8726 (chapters/06_results.tex:322; chapters/08_conclusion.tex:7),0.872568,ja
+A 5 / 7.2 / 7.3,Fliesstext: M4: D1 x 10 hinter B1-Basis,.0034,.0034 (chapters/06_results.tex:322),0.003355,ja
+A 5 / 7.2 / 7.3,Fliesstext: M4: D1 x 20 gegen B1-Basis,.0368,.0368 (chapters/06_results.tex:322),0.036775,ja
+A 5 / 7.2 / 7.3,Fliesstext: B1: Schwelle 0.01 bringt,.0086,.0086 (chapters/06_results.tex:324),0.008596,ja
+A 5 / 7.2 / 7.3,Fliesstext: D1: Schwelle 0.01 bringt (gegen E_d1),.0057,.0057 (chapters/06_results.tex:324),0.005703,ja
+A 5 / 7.2 / 7.3,Fliesstext: B1: Schwelle 0.1 kostet,.0570,.0570 (chapters/06_results.tex:324),0.056986,ja
+A 5 / 7.2 / 7.3,Fliesstext: D1: Schwelle 0.1 (gegen E_d1),.0007 (A 7.3: +0.000671),.0006 (chapters/06_results.tex:324),0.000671,nein
+A 5 / 7.2 / 7.3,Fliesstext: Basis M5/E_c1 ambig,.8429,.8429 (chapters/06_results.tex:326),0.842880,ja
+A 5 / 7.2 / 7.3,Fliesstext: Einsermatrix ambig M5,.8022,.8022 (chapters/06_results.tex:326/328),0.802248,ja
+A 5 / 7.2 / 7.3,Fliesstext: Verlust Einsermatrix M5,.0406,.0406 (chapters/06_results.tex:326),0.040632,ja
+A 5 / 7.2 / 7.3,Fliesstext: ohne dynamischen Kontext M5,.7821,.7821 (chapters/06_results.tex:326),0.782120,ja
+A 5 / 7.2 / 7.3,Fliesstext: ohne statischen Kontext M5,.8230,.8230 (chapters/06_results.tex:326),0.823046,ja
+A 5 / 7.2 / 7.3,Fliesstext: Verlust ohne dynamischen Kontext M5,.0608,.0608 (chapters/06_results.tex:326/328),0.060760,ja
+A 5 / 7.2 / 7.3,Fliesstext: Verlust ohne statischen Kontext M5,.0198,.0198 (chapters/06_results.tex:326),0.019834,ja
+A 5 / 7.2 / 7.3,Fliesstext: 5 Slots kosten M5,.0087,.0087 (chapters/06_results.tex:326),0.008722,ja
+A 5 / 7.2 / 7.3,Fliesstext: 3 Slots kosten M5,.0164,.0164 (chapters/06_results.tex:326/328),0.016437,ja
+A 5 / 7.2 / 7.3,Fliesstext: M4 ohne dynamischen Kontext,.1107,.1107 (chapters/06_results.tex:328),0.110701,ja
+A 5 / 7.2 / 7.3,Fliesstext: M4 Schwelle 0.1,.0980,.0980 (chapters/06_results.tex:328),0.097954,ja
+A 5 / 7.2 / 7.3,Fliesstext: M4 3 Slots,.0480,.0480 (chapters/06_results.tex:328),0.047970,ja
+A 5 / 7.2 / 7.3,Fliesstext: M4 Einsermatrix ambig,.7638,.7638 (chapters/06_results.tex:328),0.763754,ja
+A 5,"Fliesstext 6.3.5: Acc@3 ambig Minimum, M5 ohne D1-Zeilen",.9285,.9285 (chapters/06_results.tex:330),0.928506,ja
+A 5,"Fliesstext 6.3.5: Acc@3 ambig Maximum, M5 ohne D1-Zeilen",.9446,.9446 (chapters/06_results.tex:330),0.944566,ja
+A 5,"Fliesstext 6.3.5: Acc@3 ambig Spannweite, M5 ohne D1-Zeilen",.0161,.0161 (chapters/06_results.tex:330),0.016060,ja
+A 5,"Fliesstext 6.3.5: Acc@1 ambig Spannweite, M5 ohne D1-Zeilen",.0694,.0694 (chapters/06_results.tex:330),0.069356,ja
+A 5,Quotient Verlust Einsermatrix / Verlust ohne dynamischen Kontext («two-thirds»),.668,two-thirds (chapters/06_results.tex:326),0.6687,nein

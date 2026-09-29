@@ -1,0 +1,33 @@
+{
+  "model": "M5_spatial_config2",
+  "eval_resolver": "E_c2",
+  "n_documents_eval": 6323,
+  "location": {
+    "total": 75741,
+    "no_candidates": 8159,
+    "accuracy_at_1": 0.812809442706064,
+    "accuracy_at_3": 0.8693970240688663,
+    "mrr": 0.8419496497691286,
+    "accuracy_at_1_with_candidates": 0.9109378236808617,
+    "accuracy_at_3_with_candidates": 0.9743570773282827
+  },
+  "document": {
+    "document_accuracy": 0.7943297904906133,
+    "n_documents": 6323,
+    "document_precision": 0.7943297904906133,
+    "document_recall": 0.7943297904906133,
+    "document_f1": 0.7943297904906133
+  },
+  "errors": {
+    "correct": 61563,
+    "correct_unambiguous": 43544,
+    "correct_ambiguous": 18019,
+    "unambiguous_total": 43734,
+    "ambiguous_total": 23848,
+    "acc1_ambiguous_only": 0.7555769875880577,
+    "wrong_rank": 5464,
+    "gold_not_in_candidates": 555,
+    "no_candidate": 8159
+  },
+  "eval_seconds": 7.9
+}

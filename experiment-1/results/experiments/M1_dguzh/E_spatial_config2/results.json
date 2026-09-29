@@ -1,0 +1,81 @@
+{
+  "model": "M1_dguzh",
+  "eval_resolver": "E_spatial_config2",
+  "model_config": {
+    "base_model": "dguzh/geo-all-MiniLM-L6-v2",
+    "train": false
+  },
+  "eval_config": {
+    "type": "spatial",
+    "config": "config2"
+  },
+  "hyperparameters": null,
+  "n_folds": 5,
+  "seed": 42,
+  "folds": [
+    {
+      "fold": 0,
+      "val_documents": 12,
+      "val_toponyms": 213,
+      "accuracy_at_1": 0.4272300469483568,
+      "accuracy_at_3": 0.7652582159624414,
+      "mrr": 0.6012334500832153,
+      "total": 213,
+      "no_candidates": 14,
+      "eval_duration_seconds": 5.9
+    },
+    {
+      "fold": 1,
+      "val_documents": 11,
+      "val_toponyms": 221,
+      "accuracy_at_1": 0.4841628959276018,
+      "accuracy_at_3": 0.7918552036199095,
+      "mrr": 0.6495118736075012,
+      "total": 221,
+      "no_candidates": 10,
+      "eval_duration_seconds": 7.0
+    },
+    {
+      "fold": 2,
+      "val_documents": 11,
+      "val_toponyms": 186,
+      "accuracy_at_1": 0.532258064516129,
+      "accuracy_at_3": 0.7634408602150538,
+      "mrr": 0.6649536912139279,
+      "total": 186,
+      "no_candidates": 14,
+      "eval_duration_seconds": 5.4
+    },
+    {
+      "fold": 3,
+      "val_documents": 11,
+      "val_toponyms": 245,
+      "accuracy_at_1": 0.46530612244897956,
+      "accuracy_at_3": 0.8,
+      "mrr": 0.643814301179254,
+      "total": 245,
+      "no_candidates": 14,
+      "eval_duration_seconds": 5.8
+    },
+    {
+      "fold": 4,
+      "val_documents": 11,
+      "val_toponyms": 191,
+      "accuracy_at_1": 0.47643979057591623,
+      "accuracy_at_3": 0.7120418848167539,
+      "mrr": 0.6049371600122351,
+      "total": 191,
+      "no_candidates": 33,
+      "eval_duration_seconds": 5.2
+    }
+  ],
+  "training_info": null,
+  "aggregate": {
+    "mean_accuracy_at_1": 0.47707938408339673,
+    "std_accuracy_at_1": 0.03381963363643877,
+    "mean_accuracy_at_3": 0.7665192329228316,
+    "std_accuracy_at_3": 0.03079519824327145,
+    "mean_mrr": 0.6328900952192267,
+    "std_mrr": 0.025326688487487068
+  }
+}

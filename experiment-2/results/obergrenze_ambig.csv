@@ -1,0 +1,8 @@
+source,total,with_candidates,ambiguous_total,reachable_all,reachable_ambiguous,gold_missing_ambiguous,bound_acc1,bound_with_cand,bound_ambiguous_only,acc1_ambiguous_only,correct_ambiguous,share_of_bound
+items_E_default.pkl,75741,67582,23848,67027,23483,365,0.884950,0.991788,0.984695,,,
+items_E_c1.pkl,75741,67582,23848,67027,23483,365,0.884950,0.991788,0.984695,,,
+items_E_d1.pkl,75741,67582,23848,67027,23483,365,0.884950,0.991788,0.984695,,,
+items_E_d1_c20.pkl,75741,67582,23848,67027,23483,365,0.884950,0.991788,0.984695,,,
+M5/E_c1,,,23848,,23483,365,,,0.984695,0.842880,20101,0.855981
+M5/E_d1,,,23848,,23483,365,,,0.984695,0.854160,20370,0.867436
+M5/E_d1_c20,,,23848,,23483,365,,,0.984695,0.872568,20809,0.886130

@@ -1,0 +1,164 @@
+register_id,beschreibung,wert_register,wert_thesis,wert_nachgerechnet,gleich
+A 7.1/7.4,M1: E_c1 gegen E_d1; nur E_c1 korrekt,1861,nicht in der Arbeit,1861,ja
+A 7.1/7.4,M1: E_c1 gegen E_d1; nur E_d1 korrekt,3666,nicht in der Arbeit,3666,ja
+A 7.1/7.4,M1: E_c1 gegen E_d1; McNemar p exakt zweiseitig,1.92e-132,nicht in der Arbeit,1.92e-132,ja
+A 7.1/7.4,M1: E_c1 gegen E_d1; Kippersaldo netto,+1805,nicht in der Arbeit,+1805,ja
+A 7.1/7.4,M1: E_c1 gegen E_d1; Kippersaldo grossflächig,+373,nicht in der Arbeit,+373,ja
+A 7.1/7.4,M1: E_c1 gegen E_d1; Kippersaldo punktförmig,+1432,nicht in der Arbeit,+1432,ja
+A 7.1/7.4,M1: E_c1 gegen E_d1; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M2: E_c1 gegen E_d1; nur E_c1 korrekt,1129,nicht in der Arbeit,1129,ja
+A 7.1/7.4,M2: E_c1 gegen E_d1; nur E_d1 korrekt,1783,nicht in der Arbeit,1783,ja
+A 7.1/7.4,M2: E_c1 gegen E_d1; McNemar p exakt zweiseitig,5.58e-34,nicht in der Arbeit,5.58e-34,ja
+A 7.1/7.4,M2: E_c1 gegen E_d1; Kippersaldo netto,+654,nicht in der Arbeit,+654,ja
+A 7.1/7.4,M2: E_c1 gegen E_d1; Kippersaldo grossflächig,+526,nicht in der Arbeit,+526,ja
+A 7.1/7.4,M2: E_c1 gegen E_d1; Kippersaldo punktförmig,+128,nicht in der Arbeit,+128,ja
+A 7.1/7.4,M2: E_c1 gegen E_d1; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M3: E_c1 gegen E_d1; nur E_c1 korrekt,1430,nicht in der Arbeit,1430,ja
+A 7.1/7.4,M3: E_c1 gegen E_d1; nur E_d1 korrekt,916,nicht in der Arbeit,916,ja
+A 7.1/7.4,M3: E_c1 gegen E_d1; McNemar p exakt zweiseitig,2.07e-26,nicht in der Arbeit,2.07e-26,ja
+A 7.1/7.4,M3: E_c1 gegen E_d1; Kippersaldo netto,-514,nicht in der Arbeit,-514,ja
+A 7.1/7.4,M3: E_c1 gegen E_d1; Kippersaldo grossflächig,+116,nicht in der Arbeit,+116,ja
+A 7.1/7.4,M3: E_c1 gegen E_d1; Kippersaldo punktförmig,-630,nicht in der Arbeit,-630,ja
+A 7.1/7.4,M3: E_c1 gegen E_d1; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M4: E_c1 gegen E_d1; nur E_c1 korrekt,980,980,980,ja
+A 7.1/7.4,M4: E_c1 gegen E_d1; nur E_d1 korrekt,900,900,900,ja
+A 7.1/7.4,M4: E_c1 gegen E_d1; McNemar p exakt zweiseitig,6.84e-02,6.8e-02,6.84e-02,ja
+A 7.1/7.4,M4: E_c1 gegen E_d1; Kippersaldo netto,-80,nicht in der Arbeit,-80,ja
+A 7.1/7.4,M4: E_c1 gegen E_d1; Kippersaldo grossflächig,+119,nicht in der Arbeit,+119,ja
+A 7.1/7.4,M4: E_c1 gegen E_d1; Kippersaldo punktförmig,-199,nicht in der Arbeit,-199,ja
+A 7.1/7.4,M4: E_c1 gegen E_d1; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M5: E_c1 gegen E_d1; nur E_c1 korrekt,684,684,684,ja
+A 7.1/7.4,M5: E_c1 gegen E_d1; nur E_d1 korrekt,953,953,953,ja
+A 7.1/7.4,M5: E_c1 gegen E_d1; McNemar p exakt zweiseitig,3.17e-11,3.2e-11,3.17e-11,ja
+A 7.1/7.4,M5: E_c1 gegen E_d1; Kippersaldo netto,+269,nicht in der Arbeit,+269,ja
+A 7.1/7.4,M5: E_c1 gegen E_d1; Kippersaldo grossflächig,+350,nicht in der Arbeit,+350,ja
+A 7.1/7.4,M5: E_c1 gegen E_d1; Kippersaldo punktförmig,-81,nicht in der Arbeit,-81,ja
+A 7.1/7.4,M5: E_c1 gegen E_d1; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.4 / AUSWERTUNG 4,M5: E_c1 gegen E_d1; Kippersaldo Gold-Kategorie Hauptgipfel,-207,nicht in der Arbeit,-207,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c6; nur E_c1 korrekt,857,nicht in der Arbeit,857,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c6; nur E_b1_c6 korrekt,443,nicht in der Arbeit,443,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c6; McNemar p exakt zweiseitig,7.06e-31,nicht in der Arbeit,7.06e-31,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c6; Kippersaldo netto,-414,nicht in der Arbeit,-414,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c6; Kippersaldo grossflächig,+136,nicht in der Arbeit,+136,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c6; Kippersaldo punktförmig,-550,nicht in der Arbeit,-550,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c6; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.4 / AUSWERTUNG 4,M5: E_c1 gegen E_b1_c6; Kippersaldo Gold-Kategorie Hauptgipfel,-405,nicht in der Arbeit,-405,ja
+A 7.4 / AUSWERTUNG 4,M5: E_c1 gegen E_b1_c6; Kippersaldo Gold-Kategorie Gipfel,-215,nicht in der Arbeit,-215,ja
+A 7.4 / AUSWERTUNG 4,M5: E_c1 gegen E_b1_c6; Kippersaldo Gold-Kategorie Grat,+82,nicht in der Arbeit,+82,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c6; nur E_d1 korrekt,1384,nicht in der Arbeit,1384,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c6; nur E_d1_c6 korrekt,419,nicht in der Arbeit,419,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c6; McNemar p exakt zweiseitig,3.69e-120,nicht in der Arbeit,3.69e-120,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c6; Kippersaldo netto,-965,nicht in der Arbeit,-965,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c6; Kippersaldo grossflächig,-130,nicht in der Arbeit,-130,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c6; Kippersaldo punktförmig,-835,nicht in der Arbeit,-835,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c6; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.4 / AUSWERTUNG 4,M5: E_d1 gegen E_d1_c6; Kippersaldo Gold-Kategorie Alpiner Gipfel,-1044,nicht in der Arbeit,-1044,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c20; nur E_d1 korrekt,429,nicht in der Arbeit,429,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c20; nur E_d1_c20 korrekt,868,nicht in der Arbeit,868,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c20; McNemar p exakt zweiseitig,1.13e-34,nicht in der Arbeit,1.13e-34,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c20; Kippersaldo netto,+439,nicht in der Arbeit,+439,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c20; Kippersaldo grossflächig,+183,nicht in der Arbeit,+183,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c20; Kippersaldo punktförmig,+256,nicht in der Arbeit,+256,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_c20; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c20; nur E_c1 korrekt,871,nicht in der Arbeit,871,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c20; nur E_b1_c20 korrekt,540,nicht in der Arbeit,540,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c20; McNemar p exakt zweiseitig,1.09e-18,nicht in der Arbeit,1.09e-18,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c20; Kippersaldo netto,-331,nicht in der Arbeit,-331,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c20; Kippersaldo grossflächig,-126,nicht in der Arbeit,-126,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c20; Kippersaldo punktförmig,-205,nicht in der Arbeit,-205,ja
+A 7.1/7.4,M5: E_c1 gegen E_b1_c20; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M5: E_b1_c6 gegen E_d1_c6; nur E_b1_c6 korrekt,1567,nicht in der Arbeit,1567,ja
+A 7.1/7.4,M5: E_b1_c6 gegen E_d1_c6; nur E_d1_c6 korrekt,1285,nicht in der Arbeit,1285,ja
+A 7.1/7.4,M5: E_b1_c6 gegen E_d1_c6; McNemar p exakt zweiseitig,1.40e-07,nicht in der Arbeit,1.40e-07,ja
+A 7.1/7.4,M5: E_b1_c6 gegen E_d1_c6; Kippersaldo netto,-282,nicht in der Arbeit,-282,ja
+A 7.1/7.4,M5: E_b1_c6 gegen E_d1_c6; Kippersaldo grossflächig,+84,nicht in der Arbeit,+84,ja
+A 7.1/7.4,M5: E_b1_c6 gegen E_d1_c6; Kippersaldo punktförmig,-366,nicht in der Arbeit,-366,ja
+A 7.1/7.4,M5: E_b1_c6 gegen E_d1_c6; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M5: E_b1_c20 gegen E_d1_c20; nur E_b1_c20 korrekt,327,nicht in der Arbeit,327,ja
+A 7.1/7.4,M5: E_b1_c20 gegen E_d1_c20; nur E_d1_c20 korrekt,1366,nicht in der Arbeit,1366,ja
+A 7.1/7.4,M5: E_b1_c20 gegen E_d1_c20; McNemar p exakt zweiseitig,9.99e-151,nicht in der Arbeit,9.99e-151,ja
+A 7.1/7.4,M5: E_b1_c20 gegen E_d1_c20; Kippersaldo netto,+1039,nicht in der Arbeit,+1039,ja
+A 7.1/7.4,M5: E_b1_c20 gegen E_d1_c20; Kippersaldo grossflächig,+659,nicht in der Arbeit,+659,ja
+A 7.1/7.4,M5: E_b1_c20 gegen E_d1_c20; Kippersaldo punktförmig,+380,nicht in der Arbeit,+380,ja
+A 7.1/7.4,M5: E_b1_c20 gegen E_d1_c20; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s01; nur E_d1 korrekt,30,nicht in der Arbeit,30,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s01; nur E_d1_s01 korrekt,166,nicht in der Arbeit,166,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s01; McNemar p exakt zweiseitig,5.15e-24,nicht in der Arbeit,5.15e-24,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s01; Kippersaldo netto,+136,nicht in der Arbeit,+136,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s01; Kippersaldo grossflächig,+1,nicht in der Arbeit,+1,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s01; Kippersaldo punktförmig,+135,nicht in der Arbeit,+135,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s01; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.4 / AUSWERTUNG 4,M5: E_d1 gegen E_d1_s01; Kippersaldo Gold-Kategorie Hauptgipfel,+125,nicht in der Arbeit,+125,ja
+A 7.4 / AUSWERTUNG 4,M5: E_d1 gegen E_d1_s01; Kippersaldo Gold-Kategorie Gipfel,+6,nicht in der Arbeit,+6,ja
+A 7.4 / AUSWERTUNG 4,M5: E_d1 gegen E_d1_s01; Kippersaldo Gold-Kategorie Alpiner Gipfel,+4,nicht in der Arbeit,+4,ja
+A 7.4 / AUSWERTUNG 4,M5: E_d1 gegen E_d1_s01; Kippersaldo Gold-Kategorie Skilift,+3,nicht in der Arbeit,+3,ja
+A 7.4 / AUSWERTUNG 4,M5: E_d1 gegen E_d1_s01; Kippersaldo Gold-Kategorie Flurname swisstopo,-2,nicht in der Arbeit,-2,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s1; nur E_d1 korrekt,322,nicht in der Arbeit,322,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s1; nur E_d1_s1 korrekt,338,nicht in der Arbeit,338,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s1; McNemar p exakt zweiseitig,5.59e-01,nicht in der Arbeit,5.59e-01,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s1; Kippersaldo netto,+16,nicht in der Arbeit,+16,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s1; Kippersaldo grossflächig,-172,nicht in der Arbeit,-172,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s1; Kippersaldo punktförmig,+188,nicht in der Arbeit,+188,ja
+A 7.1/7.4,M5: E_d1 gegen E_d1_s1; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c6; nur E_d1 korrekt,1761,nicht in der Arbeit,1761,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c6; nur E_d1_c6 korrekt,331,nicht in der Arbeit,331,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c6; McNemar p exakt zweiseitig,6.09e-235,nicht in der Arbeit,6.09e-235,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c6; Kippersaldo netto,-1430,nicht in der Arbeit,-1430,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c6; Kippersaldo grossflächig,-180,nicht in der Arbeit,-180,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c6; Kippersaldo punktförmig,-1250,nicht in der Arbeit,-1250,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c6; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.4 / AUSWERTUNG 4,M4: E_d1 gegen E_d1_c6; Kippersaldo Gold-Kategorie Alpiner Gipfel,-1348,nicht in der Arbeit,-1348,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c20; nur E_d1 korrekt,377,nicht in der Arbeit,377,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c20; nur E_d1_c20 korrekt,1334,nicht in der Arbeit,1334,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c20; McNemar p exakt zweiseitig,3.99e-125,nicht in der Arbeit,3.99e-125,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c20; Kippersaldo netto,+957,nicht in der Arbeit,+957,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c20; Kippersaldo grossflächig,+219,nicht in der Arbeit,+219,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c20; Kippersaldo punktförmig,+738,nicht in der Arbeit,+738,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_c20; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c6; nur E_c1 korrekt,1356,nicht in der Arbeit,1356,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c6; nur E_b1_c6 korrekt,469,nicht in der Arbeit,469,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c6; McNemar p exakt zweiseitig,1.30e-99,nicht in der Arbeit,1.30e-99,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c6; Kippersaldo netto,-887,nicht in der Arbeit,-887,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c6; Kippersaldo grossflächig,-26,nicht in der Arbeit,-26,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c6; Kippersaldo punktförmig,-861,nicht in der Arbeit,-861,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c6; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c20; nur E_c1 korrekt,883,nicht in der Arbeit,883,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c20; nur E_b1_c20 korrekt,687,nicht in der Arbeit,687,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c20; McNemar p exakt zweiseitig,8.33e-07,nicht in der Arbeit,8.33e-07,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c20; Kippersaldo netto,-196,nicht in der Arbeit,-196,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c20; Kippersaldo grossflächig,-344,nicht in der Arbeit,-344,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c20; Kippersaldo punktförmig,+148,nicht in der Arbeit,+148,ja
+A 7.1/7.4,M4: E_c1 gegen E_b1_c20; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M4: E_b1_c6 gegen E_d1_c6; nur E_b1_c6 korrekt,2013,nicht in der Arbeit,2013,ja
+A 7.1/7.4,M4: E_b1_c6 gegen E_d1_c6; nur E_d1_c6 korrekt,1390,nicht in der Arbeit,1390,ja
+A 7.1/7.4,M4: E_b1_c6 gegen E_d1_c6; McNemar p exakt zweiseitig,1.11e-26,nicht in der Arbeit,1.11e-26,ja
+A 7.1/7.4,M4: E_b1_c6 gegen E_d1_c6; Kippersaldo netto,-623,nicht in der Arbeit,-623,ja
+A 7.1/7.4,M4: E_b1_c6 gegen E_d1_c6; Kippersaldo grossflächig,-35,nicht in der Arbeit,-35,ja
+A 7.1/7.4,M4: E_b1_c6 gegen E_d1_c6; Kippersaldo punktförmig,-588,nicht in der Arbeit,-588,ja
+A 7.1/7.4,M4: E_b1_c6 gegen E_d1_c6; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M4: E_b1_c20 gegen E_d1_c20; nur E_b1_c20 korrekt,264,nicht in der Arbeit,264,ja
+A 7.1/7.4,M4: E_b1_c20 gegen E_d1_c20; nur E_d1_c20 korrekt,1337,nicht in der Arbeit,1337,ja
+A 7.1/7.4,M4: E_b1_c20 gegen E_d1_c20; McNemar p exakt zweiseitig,1.47e-172,nicht in der Arbeit,1.46e-172,nein
+A 7.1/7.4,M4: E_b1_c20 gegen E_d1_c20; Kippersaldo netto,+1073,nicht in der Arbeit,+1073,ja
+A 7.1/7.4,M4: E_b1_c20 gegen E_d1_c20; Kippersaldo grossflächig,+682,nicht in der Arbeit,+682,ja
+A 7.1/7.4,M4: E_b1_c20 gegen E_d1_c20; Kippersaldo punktförmig,+391,nicht in der Arbeit,+391,ja
+A 7.1/7.4,M4: E_b1_c20 gegen E_d1_c20; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s01; nur E_d1 korrekt,8,nicht in der Arbeit,8,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s01; nur E_d1_s01 korrekt,127,nicht in der Arbeit,127,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s01; McNemar p exakt zweiseitig,1.08e-28,nicht in der Arbeit,1.08e-28,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s01; Kippersaldo netto,+119,nicht in der Arbeit,+119,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s01; Kippersaldo grossflächig,+5,nicht in der Arbeit,+5,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s01; Kippersaldo punktförmig,+114,nicht in der Arbeit,+114,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s01; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+A 7.4 / AUSWERTUNG 4,M4: E_d1 gegen E_d1_s01; Kippersaldo Gold-Kategorie Hauptgipfel,+110,nicht in der Arbeit,+110,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s1; nur E_d1 korrekt,207,nicht in der Arbeit,207,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s1; nur E_d1_s1 korrekt,314,nicht in der Arbeit,314,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s1; McNemar p exakt zweiseitig,3.17e-06,nicht in der Arbeit,3.17e-06,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s1; Kippersaldo netto,+107,nicht in der Arbeit,+107,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s1; Kippersaldo grossflächig,-40,nicht in der Arbeit,-40,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s1; Kippersaldo punktförmig,+147,nicht in der Arbeit,+147,ja
+A 7.1/7.4,M4: E_d1 gegen E_d1_s1; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja
+AUSWERTUNG_E_d1 4.1 (nicht im Register),M5: E_c1 gegen E_d1_c20; Kippersaldo netto,+708,nicht in der Arbeit,+708,ja
+AUSWERTUNG_E_d1 4.1 (nicht im Register),M5: E_c1 gegen E_d1_c20; Kippersaldo grossflächig,+533,nicht in der Arbeit,+533,ja
+AUSWERTUNG_E_d1 4.1 (nicht im Register),M5: E_c1 gegen E_d1_c20; Kippersaldo punktförmig,+175,nicht in der Arbeit,+175,ja
+AUSWERTUNG_E_d1 4.1 (nicht im Register),M5: E_c1 gegen E_d1_c20; alle diskordanten Items ambig,True,nicht in der Arbeit,True,ja

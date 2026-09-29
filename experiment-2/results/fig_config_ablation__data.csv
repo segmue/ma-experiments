@@ -1,0 +1,17 @@
+model,arm,containment_mode,max_resolution,acc1_ambiguous_only
+M3,E_c3,overlap,11,0.8050
+M3,E_c4,overlap,12,0.7846
+M3,E_c1,overlap,13,0.8315
+M3,E_c2,center,10,0.7268
+M3,E_c5,center,13,0.7756
+M4,E_c3,overlap,11,0.8182
+M4,E_c4,overlap,12,0.7958
+M4,E_c1,overlap,13,0.8320
+M4,E_c2,center,10,0.6268
+M4,E_c5,center,13,0.7251
+M5,E_c3,overlap,11,0.8448
+M5,E_c4,overlap,12,0.8257
+M5,E_c1,overlap,13,0.8429
+M5,E_c2,center,10,0.7556
+M5,E_c5,center,13,0.8034
+M3,E_default,—,—,0.7816

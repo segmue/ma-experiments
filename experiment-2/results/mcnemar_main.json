@@ -1,0 +1,213 @@
+{
+  "_meta": {
+    "date": "2026-09-04",
+    "script": "12_mcnemar_main.py",
+    "method": "Exakter McNemar-Test (zweiseitiger Binomialtest auf den diskordanten Paaren). Gepaart ueber (doc_id, start, end, gold_id); identische Items und Kandidaten in allen Zellen.",
+    "subsets": {
+      "all": "alle Gold-Toponyme, Items ohne Kandidat zaehlen als Fehler",
+      "ambiguous": "nur Items mit mehr als einem Gazetteer-Kandidaten (Leitmetrik)"
+    }
+  },
+  "pairs": [
+    {
+      "label": "bestes System gegen faire Baseline",
+      "system_a": "M5_spatial_config2/E_c1",
+      "system_b": "M3_default_finetuned/E_default",
+      "all": {
+        "subset": "all",
+        "n_items": 75741,
+        "acc_a": 0.8403,
+        "acc_b": 0.821,
+        "only_a_correct": 2417,
+        "only_b_correct": 956,
+        "discordant": 3373,
+        "mcnemar_p": 4.263952296214809e-144
+      },
+      "ambiguous": {
+        "subset": "ambiguous",
+        "n_items": 23848,
+        "acc_a": 0.8429,
+        "acc_b": 0.7816,
+        "only_a_correct": 2417,
+        "only_b_correct": 956,
+        "discordant": 3373,
+        "mcnemar_p": 4.263952296214809e-144
+      }
+    },
+    {
+      "label": "Diagonale config1 gegen faire Baseline",
+      "system_a": "M4_spatial_config1/E_c1",
+      "system_b": "M3_default_finetuned/E_default",
+      "all": {
+        "subset": "all",
+        "n_items": 75741,
+        "acc_a": 0.8369,
+        "acc_b": 0.821,
+        "only_a_correct": 2331,
+        "only_b_correct": 1129,
+        "discordant": 3460,
+        "mcnemar_p": 1.4298914375691374e-94
+      },
+      "ambiguous": {
+        "subset": "ambiguous",
+        "n_items": 23848,
+        "acc_a": 0.832,
+        "acc_b": 0.7816,
+        "only_a_correct": 2331,
+        "only_b_correct": 1129,
+        "discordant": 3460,
+        "mcnemar_p": 1.4298914375691374e-94
+      }
+    },
+    {
+      "label": "Diagonale config2 gegen faire Baseline",
+      "system_a": "M5_spatial_config2/E_c2",
+      "system_b": "M3_default_finetuned/E_default",
+      "all": {
+        "subset": "all",
+        "n_items": 75741,
+        "acc_a": 0.8128,
+        "acc_b": 0.821,
+        "only_a_correct": 2223,
+        "only_b_correct": 2844,
+        "discordant": 5067,
+        "mcnemar_p": 2.7638046126092513e-18
+      },
+      "ambiguous": {
+        "subset": "ambiguous",
+        "n_items": 23848,
+        "acc_a": 0.7556,
+        "acc_b": 0.7816,
+        "only_a_correct": 2223,
+        "only_b_correct": 2844,
+        "discordant": 5067,
+        "mcnemar_p": 2.7638046126092513e-18
+      }
+    },
+    {
+      "label": "Beschreibungseffekt bei fixem Modell",
+      "system_a": "M3_default_finetuned/E_c1",
+      "system_b": "M3_default_finetuned/E_default",
+      "all": {
+        "subset": "all",
+        "n_items": 75741,
+        "acc_a": 0.8367,
+        "acc_b": 0.821,
+        "only_a_correct": 2333,
+        "only_b_correct": 1143,
+        "discordant": 3476,
+        "mcnemar_p": 2.9662985152633175e-92
+      },
+      "ambiguous": {
+        "subset": "ambiguous",
+        "n_items": 23848,
+        "acc_a": 0.8315,
+        "acc_b": 0.7816,
+        "only_a_correct": 2333,
+        "only_b_correct": 1143,
+        "discordant": 3476,
+        "mcnemar_p": 2.9662985152633175e-92
+      }
+    },
+    {
+      "label": "bestes System gegen Diagonale config1",
+      "system_a": "M5_spatial_config2/E_c1",
+      "system_b": "M4_spatial_config1/E_c1",
+      "all": {
+        "subset": "all",
+        "n_items": 75741,
+        "acc_a": 0.8403,
+        "acc_b": 0.8369,
+        "only_a_correct": 761,
+        "only_b_correct": 502,
+        "discordant": 1263,
+        "mcnemar_p": 3.2206333351185107e-13
+      },
+      "ambiguous": {
+        "subset": "ambiguous",
+        "n_items": 23848,
+        "acc_a": 0.8429,
+        "acc_b": 0.832,
+        "only_a_correct": 761,
+        "only_b_correct": 502,
+        "discordant": 1263,
+        "mcnemar_p": 3.2206333351185107e-13
+      }
+    },
+    {
+      "label": "bestes System gegen M3 auf E_c1",
+      "system_a": "M5_spatial_config2/E_c1",
+      "system_b": "M3_default_finetuned/E_c1",
+      "all": {
+        "subset": "all",
+        "n_items": 75741,
+        "acc_a": 0.8403,
+        "acc_b": 0.8367,
+        "only_a_correct": 922,
+        "only_b_correct": 651,
+        "discordant": 1573,
+        "mcnemar_p": 8.840788318624176e-12
+      },
+      "ambiguous": {
+        "subset": "ambiguous",
+        "n_items": 23848,
+        "acc_a": 0.8429,
+        "acc_b": 0.8315,
+        "only_a_correct": 922,
+        "only_b_correct": 651,
+        "discordant": 1573,
+        "mcnemar_p": 8.840788318624176e-12
+      }
+    },
+    {
+      "label": "M4 gegen M3 auf E_c1 (Reproduktion 07)",
+      "system_a": "M4_spatial_config1/E_c1",
+      "system_b": "M3_default_finetuned/E_c1",
+      "all": {
+        "subset": "all",
+        "n_items": 75741,
+        "acc_a": 0.8369,
+        "acc_b": 0.8367,
+        "only_a_correct": 935,
+        "only_b_correct": 923,
+        "discordant": 1858,
+        "mcnemar_p": 0.798581821368152
+      },
+      "ambiguous": {
+        "subset": "ambiguous",
+        "n_items": 23848,
+        "acc_a": 0.832,
+        "acc_b": 0.8315,
+        "only_a_correct": 935,
+        "only_b_correct": 923,
+        "discordant": 1858,
+        "mcnemar_p": 0.798581821368152
+      }
+    },
+    {
+      "label": "Kreuzkombination gegen eigene Diagonale",
+      "system_a": "M5_spatial_config2/E_c1",
+      "system_b": "M5_spatial_config2/E_c2",
+      "all": {
+        "subset": "all",
+        "n_items": 75741,
+        "acc_a": 0.8403,
+        "acc_b": 0.8128,
+        "only_a_correct": 2733,
+        "only_b_correct": 651,
+        "discordant": 3384,
+        "mcnemar_p": 3.881435818647919e-301
+      },
+      "ambiguous": {
+        "subset": "ambiguous",
+        "n_items": 23848,
+        "acc_a": 0.8429,
+        "acc_b": 0.7556,
+        "only_a_correct": 2733,
+        "only_b_correct": 651,
+        "discordant": 3384,
+        "mcnemar_p": 3.881435818647919e-301
+      }
+    }
+  ]
+}

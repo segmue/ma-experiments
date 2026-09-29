@@ -1,0 +1,4 @@
+source,total,with_candidates,ambiguous_total,exp_acc1,exp_acc1_with_cand,exp_acc1_ambiguous_only
+items_E_default.pkl,75741,67582,23848,0.6810,0.7633,0.3371
+items_E_c1.pkl,75741,67582,23848,0.6810,0.7633,0.3371
+items_E_d1.pkl,75741,67582,23848,0.6810,0.7633,0.3371

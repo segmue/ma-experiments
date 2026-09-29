@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-09-16 15:12:18",
+  "model": "M5_spatial_config2",
+  "n_docs_per_set": 100,
+  "systems": {
+    "default": {
+      "set_a": {
+        "seconds": 26.5,
+        "n_refs": 1038,
+        "s_per_doc": 0.265,
+        "ms_per_ref": 25.5,
+        "factor_vs_default": 1.0
+      },
+      "set_b": {
+        "seconds": 22.3,
+        "n_refs": 991,
+        "s_per_doc": 0.223,
+        "ms_per_ref": 22.5,
+        "factor_vs_default": 1.0
+      }
+    },
+    "h3_config1": {
+      "set_a": {
+        "seconds": 39.2,
+        "n_refs": 1038,
+        "s_per_doc": 0.392,
+        "ms_per_ref": 37.8,
+        "factor_vs_default": 1.48
+      },
+      "set_b": {
+        "seconds": 62.5,
+        "n_refs": 991,
+        "s_per_doc": 0.625,
+        "ms_per_ref": 63.1,
+        "factor_vs_default": 2.8
+      }
+    },
+    "h3_config2": {
+      "set_a": {
+        "seconds": 12.5,
+        "n_refs": 1038,
+        "s_per_doc": 0.125,
+        "ms_per_ref": 12.0,
+        "factor_vs_default": 0.47
+      },
+      "set_b": {
+        "seconds": 14.3,
+        "n_refs": 991,
+        "s_per_doc": 0.143,
+        "ms_per_ref": 14.4,
+        "factor_vs_default": 0.64
+      }
+    },
+    "geo_config1": {
+      "set_a": {
+        "seconds": 509.8,
+        "n_refs": 1038,
+        "s_per_doc": 5.098,
+        "ms_per_ref": 491.2,
+        "factor_vs_default": 19.24
+      },
+      "set_b": {
+        "seconds": 585.1,
+        "n_refs": 991,
+        "s_per_doc": 5.851,
+        "ms_per_ref": 590.4,
+        "factor_vs_default": 26.24
+      }
+    },
+    "geo_config2": {
+      "set_a": {
+        "seconds": 380.4,
+        "n_refs": 1038,
+        "s_per_doc": 3.804,
+        "ms_per_ref": 366.5,
+        "factor_vs_default": 14.35
+      },
+      "set_b": {
+        "seconds": 383.1,
+        "n_refs": 991,
+        "s_per_doc": 3.831,
+        "ms_per_ref": 386.6,
+        "factor_vs_default": 17.18
+      }
+    },
+    "geostr_config1": {
+      "set_a": {
+        "seconds": 12.4,
+        "n_refs": 1038,
+        "s_per_doc": 0.124,
+        "ms_per_ref": 12.0,
+        "factor_vs_default": 0.47
+      },
+      "set_b": {
+        "seconds": 11.2,
+        "n_refs": 991,
+        "s_per_doc": 0.112,
+        "ms_per_ref": 11.3,
+        "factor_vs_default": 0.5
+      }
+    },
+    "geostr_config2": {
+      "set_a": {
+        "seconds": 10.4,
+        "n_refs": 1038,
+        "s_per_doc": 0.104,
+        "ms_per_ref": 10.0,
+        "factor_vs_default": 0.39
+      },
+      "set_b": {
+        "seconds": 10.1,
+        "n_refs": 991,
+        "s_per_doc": 0.101,
+        "ms_per_ref": 10.2,
+        "factor_vs_default": 0.45
+      }
+    }
+  }
+}

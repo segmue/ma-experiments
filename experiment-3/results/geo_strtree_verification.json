@@ -1,0 +1,906 @@
+{
+  "timestamp": "2026-09-16 11:10:16",
+  "configs": {
+    "config1": {
+      "config": "config1",
+      "objektart_filter": [
+        "Flurname swisstopo",
+        "Ort"
+      ],
+      "n_single_ids": 21,
+      "n_batch_ids": 50,
+      "build_stats": {
+        "n_features": 442001,
+        "meta_s": 0.17,
+        "wkb_read_and_parse_s": 1.84,
+        "strtree_build_s": 0.11,
+        "total_s": 2.12,
+        "rss_mb": 3013.7,
+        "shapely": "2.1.2",
+        "geos": "3.13.1"
+      },
+      "single_path": {
+        "single/intersect_filtered/fid=341599": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=341599": {
+          "ok": true,
+          "n_geo": 12,
+          "n_geo_strtree": 12
+        },
+        "single/overlap_gemeinde/fid=341599": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=341599/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=65968": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=65968": {
+          "ok": true,
+          "n_geo": 11,
+          "n_geo_strtree": 11
+        },
+        "single/overlap_gemeinde/fid=65968": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=65968/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=290684": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=290684": {
+          "ok": true,
+          "n_geo": 8,
+          "n_geo_strtree": 8
+        },
+        "single/overlap_gemeinde/fid=290684": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=290684/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=66147": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=66147": {
+          "ok": true,
+          "n_geo": 8,
+          "n_geo_strtree": 8
+        },
+        "single/overlap_gemeinde/fid=66147": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=66147/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=331350": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=331350": {
+          "ok": true,
+          "n_geo": 8,
+          "n_geo_strtree": 8
+        },
+        "single/overlap_gemeinde/fid=331350": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=331350/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=340643": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=340643": {
+          "ok": true,
+          "n_geo": 8,
+          "n_geo_strtree": 8
+        },
+        "single/overlap_gemeinde/fid=340643": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=340643/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=323081": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=323081": {
+          "ok": true,
+          "n_geo": 9,
+          "n_geo_strtree": 9
+        },
+        "single/overlap_gemeinde/fid=323081": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=323081/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=5075": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=5075": {
+          "ok": true,
+          "n_geo": 20,
+          "n_geo_strtree": 20
+        },
+        "single/overlap_gemeinde/fid=5075": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=5075/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=11379": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=11379": {
+          "ok": true,
+          "n_geo": 13,
+          "n_geo_strtree": 13
+        },
+        "single/overlap_gemeinde/fid=11379": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=11379/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=5166": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=5166": {
+          "ok": true,
+          "n_geo": 13,
+          "n_geo_strtree": 13
+        },
+        "single/overlap_gemeinde/fid=5166": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=5166/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=10374": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=10374": {
+          "ok": true,
+          "n_geo": 10,
+          "n_geo_strtree": 10
+        },
+        "single/overlap_gemeinde/fid=10374": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=10374/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=10255": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=10255": {
+          "ok": true,
+          "n_geo": 13,
+          "n_geo_strtree": 13
+        },
+        "single/overlap_gemeinde/fid=10255": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=10255/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=4543": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=4543": {
+          "ok": true,
+          "n_geo": 8,
+          "n_geo_strtree": 8
+        },
+        "single/overlap_gemeinde/fid=4543": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=4543/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=9128": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/intersect_plain/fid=9128": {
+          "ok": true,
+          "n_geo": 20,
+          "n_geo_strtree": 20
+        },
+        "single/overlap_gemeinde/fid=9128": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=9128/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=439827": {
+          "ok": true,
+          "n_geo": 13,
+          "n_geo_strtree": 13
+        },
+        "single/intersect_plain/fid=439827": {
+          "ok": true,
+          "n_geo": 20,
+          "n_geo_strtree": 20
+        },
+        "single/overlap_gemeinde/fid=439827": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=439827/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=412911": {
+          "ok": true,
+          "n_geo": 3,
+          "n_geo_strtree": 3
+        },
+        "single/intersect_plain/fid=412911": {
+          "ok": true,
+          "n_geo": 12,
+          "n_geo_strtree": 12
+        },
+        "single/overlap_gemeinde/fid=412911": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=412911/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=428239": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=428239": {
+          "ok": true,
+          "n_geo": 19,
+          "n_geo_strtree": 19
+        },
+        "single/overlap_gemeinde/fid=428239": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=428239/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=377685": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=377685": {
+          "ok": true,
+          "n_geo": 11,
+          "n_geo_strtree": 11
+        },
+        "single/overlap_gemeinde/fid=377685": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=377685/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=427567": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=427567": {
+          "ok": true,
+          "n_geo": 16,
+          "n_geo_strtree": 16
+        },
+        "single/overlap_gemeinde/fid=427567": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=427567/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=402313": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=402313": {
+          "ok": true,
+          "n_geo": 10,
+          "n_geo_strtree": 10
+        },
+        "single/overlap_gemeinde/fid=402313": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=402313/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=441432": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=441432": {
+          "ok": true,
+          "n_geo": 13,
+          "n_geo_strtree": 13
+        },
+        "single/overlap_gemeinde/fid=441432": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=441432/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        }
+      },
+      "batch_path": {
+        "batch/intersect_filtered": {
+          "ok": true,
+          "n_geo": 38,
+          "n_geo_strtree": 38
+        },
+        "batch/overlap_gemeinde": {
+          "ok": true,
+          "n_geo": 61,
+          "n_geo_strtree": 61
+        },
+        "batch/overlap_gemeinde/measure": {
+          "ok": true,
+          "max_rel_diff": 4.71997688151988e-16
+        }
+      },
+      "index_evidence": {
+        "n_features": 442001,
+        "bbox_candidates_median": 30.000000000000004,
+        "scanned_fraction_median": 6.787e-05,
+        "scanned_fraction_max": 0.00030543,
+        "note": "Anteil der Objekte, die die Baumabfrage ueberhaupt beruehrt. Ein Wert weit unter 1.0 ist der STRtree-Beleg dafuer, dass der Index greift; das Gegenstueck zu explain_checks.rtree_index_scan."
+      },
+      "equality_seconds": 53.2,
+      "sentence_parity": {
+        "n_features": 100,
+        "identical_sentence_rate": 1.0,
+        "examples_differing": []
+      },
+      "all_ok": true
+    },
+    "config2": {
+      "config": "config2",
+      "objektart_filter": [
+        "Flurname swisstopo",
+        "Ort"
+      ],
+      "n_single_ids": 21,
+      "n_batch_ids": 50,
+      "build_stats": {
+        "n_features": 442001,
+        "meta_s": 0.18,
+        "wkb_read_and_parse_s": 1.74,
+        "strtree_build_s": 0.1,
+        "total_s": 2.02,
+        "rss_mb": 5101.1,
+        "shapely": "2.1.2",
+        "geos": "3.13.1"
+      },
+      "single_path": {
+        "single/intersect_filtered/fid=341599": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=341599": {
+          "ok": true,
+          "n_geo": 13,
+          "n_geo_strtree": 13
+        },
+        "single/overlap_gemeinde/fid=341599": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=341599/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=65968": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=65968": {
+          "ok": true,
+          "n_geo": 11,
+          "n_geo_strtree": 11
+        },
+        "single/overlap_gemeinde/fid=65968": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=65968/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=290684": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=290684": {
+          "ok": true,
+          "n_geo": 8,
+          "n_geo_strtree": 8
+        },
+        "single/overlap_gemeinde/fid=290684": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=290684/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=66147": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=66147": {
+          "ok": true,
+          "n_geo": 11,
+          "n_geo_strtree": 11
+        },
+        "single/overlap_gemeinde/fid=66147": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=66147/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=331350": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=331350": {
+          "ok": true,
+          "n_geo": 9,
+          "n_geo_strtree": 9
+        },
+        "single/overlap_gemeinde/fid=331350": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=331350/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=340643": {
+          "ok": true,
+          "n_geo": 0,
+          "n_geo_strtree": 0
+        },
+        "single/intersect_plain/fid=340643": {
+          "ok": true,
+          "n_geo": 10,
+          "n_geo_strtree": 10
+        },
+        "single/overlap_gemeinde/fid=340643": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=340643/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=323081": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/intersect_plain/fid=323081": {
+          "ok": true,
+          "n_geo": 10,
+          "n_geo_strtree": 10
+        },
+        "single/overlap_gemeinde/fid=323081": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=323081/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=5075": {
+          "ok": true,
+          "n_geo": 4,
+          "n_geo_strtree": 4
+        },
+        "single/intersect_plain/fid=5075": {
+          "ok": true,
+          "n_geo": 20,
+          "n_geo_strtree": 20
+        },
+        "single/overlap_gemeinde/fid=5075": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=5075/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=11379": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/intersect_plain/fid=11379": {
+          "ok": true,
+          "n_geo": 18,
+          "n_geo_strtree": 18
+        },
+        "single/overlap_gemeinde/fid=11379": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=11379/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=5166": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=5166": {
+          "ok": true,
+          "n_geo": 16,
+          "n_geo_strtree": 16
+        },
+        "single/overlap_gemeinde/fid=5166": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=5166/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=10374": {
+          "ok": true,
+          "n_geo": 4,
+          "n_geo_strtree": 4
+        },
+        "single/intersect_plain/fid=10374": {
+          "ok": true,
+          "n_geo": 16,
+          "n_geo_strtree": 16
+        },
+        "single/overlap_gemeinde/fid=10374": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=10374/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=10255": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=10255": {
+          "ok": true,
+          "n_geo": 18,
+          "n_geo_strtree": 18
+        },
+        "single/overlap_gemeinde/fid=10255": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=10255/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=4543": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=4543": {
+          "ok": true,
+          "n_geo": 13,
+          "n_geo_strtree": 13
+        },
+        "single/overlap_gemeinde/fid=4543": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=4543/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=9128": {
+          "ok": true,
+          "n_geo": 22,
+          "n_geo_strtree": 22
+        },
+        "single/intersect_plain/fid=9128": {
+          "ok": true,
+          "n_geo": 20,
+          "n_geo_strtree": 20
+        },
+        "single/overlap_gemeinde/fid=9128": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=9128/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=439827": {
+          "ok": true,
+          "n_geo": 20,
+          "n_geo_strtree": 20
+        },
+        "single/intersect_plain/fid=439827": {
+          "ok": true,
+          "n_geo": 20,
+          "n_geo_strtree": 20
+        },
+        "single/overlap_gemeinde/fid=439827": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=439827/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=412911": {
+          "ok": true,
+          "n_geo": 4,
+          "n_geo_strtree": 4
+        },
+        "single/intersect_plain/fid=412911": {
+          "ok": true,
+          "n_geo": 13,
+          "n_geo_strtree": 13
+        },
+        "single/overlap_gemeinde/fid=412911": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=412911/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=428239": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=428239": {
+          "ok": true,
+          "n_geo": 20,
+          "n_geo_strtree": 20
+        },
+        "single/overlap_gemeinde/fid=428239": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=428239/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=377685": {
+          "ok": true,
+          "n_geo": 8,
+          "n_geo_strtree": 8
+        },
+        "single/intersect_plain/fid=377685": {
+          "ok": true,
+          "n_geo": 18,
+          "n_geo_strtree": 18
+        },
+        "single/overlap_gemeinde/fid=377685": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=377685/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=427567": {
+          "ok": true,
+          "n_geo": 3,
+          "n_geo_strtree": 3
+        },
+        "single/intersect_plain/fid=427567": {
+          "ok": true,
+          "n_geo": 19,
+          "n_geo_strtree": 19
+        },
+        "single/overlap_gemeinde/fid=427567": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=427567/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=402313": {
+          "ok": true,
+          "n_geo": 3,
+          "n_geo_strtree": 3
+        },
+        "single/intersect_plain/fid=402313": {
+          "ok": true,
+          "n_geo": 15,
+          "n_geo_strtree": 15
+        },
+        "single/overlap_gemeinde/fid=402313": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/overlap_gemeinde/fid=402313/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        },
+        "single/intersect_filtered/fid=441432": {
+          "ok": true,
+          "n_geo": 1,
+          "n_geo_strtree": 1
+        },
+        "single/intersect_plain/fid=441432": {
+          "ok": true,
+          "n_geo": 15,
+          "n_geo_strtree": 15
+        },
+        "single/overlap_gemeinde/fid=441432": {
+          "ok": true,
+          "n_geo": 2,
+          "n_geo_strtree": 2
+        },
+        "single/overlap_gemeinde/fid=441432/measure": {
+          "ok": true,
+          "max_rel_diff": 0.0
+        }
+      },
+      "batch_path": {
+        "batch/intersect_filtered": {
+          "ok": true,
+          "n_geo": 99,
+          "n_geo_strtree": 99
+        },
+        "batch/overlap_gemeinde": {
+          "ok": true,
+          "n_geo": 66,
+          "n_geo_strtree": 66
+        },
+        "batch/overlap_gemeinde/measure": {
+          "ok": true,
+          "max_rel_diff": 6.55147000335134e-16
+        }
+      },
+      "index_evidence": {
+        "n_features": 442001,
+        "bbox_candidates_median": 32.0,
+        "scanned_fraction_median": 7.24e-05,
+        "scanned_fraction_max": 0.00038688,
+        "note": "Anteil der Objekte, die die Baumabfrage ueberhaupt beruehrt. Ein Wert weit unter 1.0 ist der STRtree-Beleg dafuer, dass der Index greift; das Gegenstueck zu explain_checks.rtree_index_scan."
+      },
+      "equality_seconds": 26.1,
+      "sentence_parity": {
+        "n_features": 100,
+        "identical_sentence_rate": 1.0,
+        "examples_differing": []
+      },
+      "all_ok": true
+    }
+  },
+  "all_ok": true
+}

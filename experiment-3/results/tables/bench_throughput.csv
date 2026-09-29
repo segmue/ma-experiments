@@ -1,0 +1,15 @@
+system,set,seconds,factor
+default,set_a,26.5,1.0
+default,set_b,22.3,1.0
+h3_config1,set_a,39.2,1.48
+h3_config1,set_b,62.5,2.8
+h3_config2,set_a,12.5,0.47
+h3_config2,set_b,14.3,0.64
+geo_config1,set_a,509.8,19.24
+geo_config1,set_b,585.1,26.24
+geo_config2,set_a,380.4,14.35
+geo_config2,set_b,383.1,17.18
+geostr_config1,set_a,12.4,0.47
+geostr_config1,set_b,11.2,0.5
+geostr_config2,set_a,10.4,0.39
+geostr_config2,set_b,10.1,0.45

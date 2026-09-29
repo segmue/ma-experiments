@@ -1,0 +1,124 @@
+{
+  "model": "M5_spatial_config2",
+  "eval_resolver": "E_spatial_config1",
+  "model_config": {
+    "base_model": "sentence-transformers/distiluse-base-multilingual-cased-v1",
+    "train": true,
+    "train_resolver": "spatial",
+    "config": "config2"
+  },
+  "eval_config": {
+    "type": "spatial",
+    "config": "config1"
+  },
+  "hyperparameters": {
+    "learning_rate": 1e-05,
+    "epochs": 2,
+    "batch_size": 8,
+    "warmup_ratio": 0.1
+  },
+  "n_folds": 5,
+  "seed": 42,
+  "folds": [
+    {
+      "fold": 0,
+      "val_documents": 12,
+      "val_toponyms": 213,
+      "accuracy_at_1": 0.5774647887323944,
+      "accuracy_at_3": 0.8028169014084507,
+      "mrr": 0.6936605758415404,
+      "total": 213,
+      "no_candidates": 14,
+      "eval_duration_seconds": 7.6
+    },
+    {
+      "fold": 1,
+      "val_documents": 11,
+      "val_toponyms": 221,
+      "accuracy_at_1": 0.6108597285067874,
+      "accuracy_at_3": 0.8235294117647058,
+      "mrr": 0.7327355675998211,
+      "total": 221,
+      "no_candidates": 10,
+      "eval_duration_seconds": 6.7
+    },
+    {
+      "fold": 2,
+      "val_documents": 11,
+      "val_toponyms": 186,
+      "accuracy_at_1": 0.6451612903225806,
+      "accuracy_at_3": 0.8279569892473119,
+      "mrr": 0.7408579473095602,
+      "total": 186,
+      "no_candidates": 14,
+      "eval_duration_seconds": 6.7
+    },
+    {
+      "fold": 3,
+      "val_documents": 11,
+      "val_toponyms": 245,
+      "accuracy_at_1": 0.6285714285714286,
+      "accuracy_at_3": 0.8367346938775511,
+      "mrr": 0.7369444065251519,
+      "total": 245,
+      "no_candidates": 14,
+      "eval_duration_seconds": 7.4
+    },
+    {
+      "fold": 4,
+      "val_documents": 11,
+      "val_toponyms": 191,
+      "accuracy_at_1": 0.6596858638743456,
+      "accuracy_at_3": 0.774869109947644,
+      "mrr": 0.7225562857929761,
+      "total": 191,
+      "no_candidates": 33,
+      "eval_duration_seconds": 7.0
+    }
+  ],
+  "training_info": [
+    {
+      "fold": 0,
+      "train_documents": 44,
+      "train_toponyms": 843,
+      "training_loss": [],
+      "train_duration_seconds": 732.6
+    },
+    {
+      "fold": 1,
+      "train_documents": 45,
+      "train_toponyms": 835,
+      "training_loss": [],
+      "train_duration_seconds": 760.1
+    },
+    {
+      "fold": 2,
+      "train_documents": 45,
+      "train_toponyms": 870,
+      "training_loss": [],
+      "train_duration_seconds": 817.8
+    },
+    {
+      "fold": 3,
+      "train_documents": 45,
+      "train_toponyms": 811,
+      "training_loss": [],
+      "train_duration_seconds": 707.2
+    },
+    {
+      "fold": 4,
+      "train_documents": 45,
+      "train_toponyms": 865,
+      "training_loss": [],
+      "train_duration_seconds": 813.0
+    }
+  ],
+  "aggregate": {
+    "mean_accuracy_at_1": 0.6243486200015073,
+    "std_accuracy_at_1": 0.02856488750500275,
+    "mean_accuracy_at_3": 0.8131814212491326,
+    "std_accuracy_at_3": 0.0221603765206184,
+    "mean_mrr": 0.7253509566138099,
+    "std_mrr": 0.016979385967624674
+  }
+}

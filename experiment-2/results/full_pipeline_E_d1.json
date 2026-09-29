@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "skript": "fp_E-d1.py",
+    "arm": "E_d1",
+    "modell": "M5_spatial_config2",
+    "descriptions_sha256": "41d4e42e921d312f21a94a5c9afd4b3c7ec173538811e5bedf8ce27a129ef4b4",
+    "chunk_docs": 400,
+    "hinweis": "Ergaenzt results/full_pipeline.json um die Zeile M5_spatial_config2+E_d1; jene Datei ist unberuehrt."
+  },
+  "detection": {
+    "precision": 0.07535436043518551,
+    "recall": 0.7263656574211307,
+    "f1": 0.13654347736858405,
+    "tp": 54890,
+    "fp": 673535,
+    "fn": 20678
+  },
+  "systems": {
+    "M5_spatial_config2+E_d1": {
+      "full_pipeline_precision": 0.05867728317946254,
+      "total_predicted": 728425,
+      "correct_resolutions": 42742,
+      "document_precision": 0.06722794834419717,
+      "document_recall": 0.5168681878906194,
+      "document_f1": 0.1189803721704472
+    }
+  }
+}

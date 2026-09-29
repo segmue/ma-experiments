@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-06-12 09:24:23",
+  "configs": {
+    "config1": {
+      "n_features": 50,
+      "systems": {
+        "h3": {
+          "batch_total_s": 1.42,
+          "batch_per_feature_ms": 28.3,
+          "single_truncated": true,
+          "single_n": 25,
+          "single_median_ms": 393.6,
+          "single_mean_ms": 609.5
+        },
+        "geo": {
+          "batch_total_s": 22.26,
+          "batch_per_feature_ms": 445.104,
+          "single_truncated": true,
+          "single_n": 19,
+          "single_median_ms": 748.12,
+          "single_mean_ms": 810.44
+        }
+      }
+    },
+    "config2": {
+      "n_features": 50,
+      "systems": {
+        "h3": {
+          "batch_total_s": 0.28,
+          "batch_per_feature_ms": 5.651,
+          "single_n": 50,
+          "single_median_ms": 73.08,
+          "single_mean_ms": 74.44
+        },
+        "geo": {
+          "batch_total_s": 25.35,
+          "batch_per_feature_ms": 506.99,
+          "single_truncated": true,
+          "single_n": 33,
+          "single_median_ms": 478.43,
+          "single_mean_ms": 470.98
+        }
+      }
+    }
+  }
+}

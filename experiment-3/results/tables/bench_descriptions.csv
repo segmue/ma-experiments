@@ -1,0 +1,13 @@
+config,system,pfad,ms_pro_feature
+config1,h3,batch,3.143
+config1,h3,einzel,643.68
+config1,geo,batch,504.859
+config1,geo,einzel,1147.62
+config1,geo_strtree,batch,4.127
+config1,geo_strtree,einzel,5.29
+config2,h3,batch,12.476
+config2,h3,einzel,1613.59
+config2,geo,batch,906.836
+config2,geo,einzel,1106.11
+config2,geo_strtree,batch,6.234
+config2,geo_strtree,einzel,7.66

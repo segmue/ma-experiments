@@ -1,0 +1,527 @@
+{
+  "timestamp": "2026-06-12 07:19:42",
+  "params": {
+    "strata_n": 5,
+    "n_repeats": 3,
+    "batch_size": 20,
+    "seed": 42
+  },
+  "configs": {
+    "config1": {
+      "objektart_filter": [
+        "Flurname swisstopo",
+        "Ort"
+      ],
+      "systems": {
+        "h3": {
+          "overlap_gemeinde__PKT": {
+            "n": 5,
+            "median_ms": 40.91,
+            "p25_ms": 40.4,
+            "p75_ms": 41.26,
+            "mean_ms": 40.86
+          },
+          "overlap_gemeinde__LIN": {
+            "n": 5,
+            "median_ms": 41.58,
+            "p25_ms": 39.81,
+            "p75_ms": 42.12,
+            "mean_ms": 41.93
+          },
+          "overlap_gemeinde__PLY": {
+            "n": 5,
+            "median_ms": 38.86,
+            "p25_ms": 35.17,
+            "p75_ms": 39.37,
+            "mean_ms": 37.72
+          },
+          "intersect_filtered__PKT": {
+            "n": 5,
+            "median_ms": 419.33,
+            "p25_ms": 312.54,
+            "p75_ms": 452.92,
+            "mean_ms": 412.14
+          },
+          "intersect_filtered__LIN": {
+            "n": 5,
+            "median_ms": 620.85,
+            "p25_ms": 612.29,
+            "p75_ms": 654.33,
+            "mean_ms": 638.19
+          },
+          "intersect_filtered__PLY": {
+            "n": 5,
+            "median_ms": 664.45,
+            "p25_ms": 591.48,
+            "p75_ms": 677.53,
+            "mean_ms": 652.13
+          },
+          "intersect_plain__PKT": {
+            "n": 5,
+            "median_ms": 501.8,
+            "p25_ms": 490.56,
+            "p75_ms": 502.31,
+            "mean_ms": 504.87
+          },
+          "intersect_plain__LIN": {
+            "n": 5,
+            "median_ms": 503.48,
+            "p25_ms": 472.05,
+            "p75_ms": 511.29,
+            "mean_ms": 497.03
+          },
+          "intersect_plain__PLY": {
+            "n": 5,
+            "median_ms": 3886.01,
+            "p25_ms": 490.87,
+            "p75_ms": 4098.15,
+            "mean_ms": 2735.96
+          },
+          "batch_overlap_gemeinde": {
+            "n": 3,
+            "median_ms": 118.62,
+            "p25_ms": 110.96,
+            "p75_ms": 121.68,
+            "mean_ms": 117.08,
+            "per_feature_ms": 5.931
+          },
+          "batch_intersect_filtered": {
+            "n": 3,
+            "median_ms": 6379.23,
+            "p25_ms": 6055.68,
+            "p75_ms": 6568.49,
+            "mean_ms": 6334.47,
+            "per_feature_ms": 318.962
+          }
+        },
+        "geo": {
+          "overlap_gemeinde__PKT": {
+            "n": 5,
+            "median_ms": 17.48,
+            "p25_ms": 16.64,
+            "p75_ms": 18.45,
+            "mean_ms": 17.92
+          },
+          "overlap_gemeinde__LIN": {
+            "n": 5,
+            "median_ms": 20.51,
+            "p25_ms": 17.18,
+            "p75_ms": 20.56,
+            "mean_ms": 20.34
+          },
+          "overlap_gemeinde__PLY": {
+            "n": 5,
+            "median_ms": 21.09,
+            "p25_ms": 18.63,
+            "p75_ms": 21.45,
+            "mean_ms": 20.57
+          },
+          "intersect_filtered__PKT": {
+            "n": 5,
+            "median_ms": 406.98,
+            "p25_ms": 394.69,
+            "p75_ms": 408.05,
+            "mean_ms": 410.66
+          },
+          "intersect_filtered__LIN": {
+            "n": 5,
+            "median_ms": 528.65,
+            "p25_ms": 506.97,
+            "p75_ms": 539.2,
+            "mean_ms": 532.3
+          },
+          "intersect_filtered__PLY": {
+            "n": 5,
+            "median_ms": 630.55,
+            "p25_ms": 605.96,
+            "p75_ms": 652.44,
+            "mean_ms": 633.19
+          },
+          "intersect_plain__PKT": {
+            "n": 5,
+            "median_ms": 21.01,
+            "p25_ms": 17.74,
+            "p75_ms": 23.49,
+            "mean_ms": 21.36
+          },
+          "intersect_plain__LIN": {
+            "n": 5,
+            "median_ms": 22.41,
+            "p25_ms": 19.88,
+            "p75_ms": 22.8,
+            "mean_ms": 22.76
+          },
+          "intersect_plain__PLY": {
+            "n": 5,
+            "median_ms": 23.25,
+            "p25_ms": 20.49,
+            "p75_ms": 23.34,
+            "mean_ms": 23.32
+          },
+          "batch_overlap_gemeinde": {
+            "n": 3,
+            "median_ms": 70.79,
+            "p25_ms": 67.9,
+            "p75_ms": 73.7,
+            "mean_ms": 70.8,
+            "per_feature_ms": 3.54
+          },
+          "batch_intersect_filtered": {
+            "n": 3,
+            "median_ms": 17566.14,
+            "p25_ms": 11129.09,
+            "p75_ms": 23756.72,
+            "mean_ms": 17483.98,
+            "per_feature_ms": 878.307
+          }
+        },
+        "geo_dwithin": {
+          "overlap_gemeinde__PKT": {
+            "n": 5,
+            "median_ms": 41.55,
+            "p25_ms": 39.32,
+            "p75_ms": 41.67,
+            "mean_ms": 40.87
+          },
+          "overlap_gemeinde__LIN": {
+            "n": 2,
+            "median_ms": 20760.23,
+            "p25_ms": 1660.16,
+            "p75_ms": 39860.29,
+            "mean_ms": 20760.23,
+            "truncated": true
+          },
+          "overlap_gemeinde__PLY": {
+            "n": 5,
+            "median_ms": 47.99,
+            "p25_ms": 45.43,
+            "p75_ms": 49.21,
+            "mean_ms": 47.95
+          },
+          "intersect_filtered__PKT": {
+            "n": 5,
+            "median_ms": 152.89,
+            "p25_ms": 151.02,
+            "p75_ms": 153.12,
+            "mean_ms": 152.83
+          },
+          "intersect_filtered__LIN": {
+            "n": 2,
+            "median_ms": 116257.31,
+            "p25_ms": 9068.69,
+            "p75_ms": 223445.94,
+            "mean_ms": 116257.31,
+            "truncated": true
+          },
+          "intersect_filtered__PLY": {
+            "n": 2,
+            "median_ms": 13472.65,
+            "p25_ms": 9349.03,
+            "p75_ms": 17596.27,
+            "mean_ms": 13472.65,
+            "truncated": true
+          },
+          "intersect_plain__PKT": {
+            "n": 5,
+            "median_ms": 150.61,
+            "p25_ms": 145.53,
+            "p75_ms": 151.26,
+            "mean_ms": 150.19
+          },
+          "intersect_plain__LIN": {
+            "n": 2,
+            "median_ms": 115982.04,
+            "p25_ms": 9191.44,
+            "p75_ms": 222772.64,
+            "mean_ms": 115982.04,
+            "truncated": true
+          },
+          "intersect_plain__PLY": {
+            "n": 2,
+            "median_ms": 13357.69,
+            "p25_ms": 9316.12,
+            "p75_ms": 17399.27,
+            "mean_ms": 13357.69,
+            "truncated": true
+          },
+          "batch_overlap_gemeinde": {
+            "n": 2,
+            "median_ms": 44096.98,
+            "p25_ms": 43932.54,
+            "p75_ms": 44261.43,
+            "mean_ms": 44096.98,
+            "per_feature_ms": 2204.849,
+            "truncated": true
+          },
+          "batch_intersect_filtered": {
+            "n": 2,
+            "median_ms": 72891.55,
+            "p25_ms": 72738.82,
+            "p75_ms": 73044.28,
+            "mean_ms": 72891.55,
+            "per_feature_ms": 3644.578,
+            "truncated": true
+          }
+        }
+      }
+    },
+    "config2": {
+      "objektart_filter": [
+        "Flurname swisstopo",
+        "Ort"
+      ],
+      "systems": {
+        "h3": {
+          "overlap_gemeinde__PKT": {
+            "n": 5,
+            "median_ms": 12.92,
+            "p25_ms": 12.35,
+            "p75_ms": 13.05,
+            "mean_ms": 12.98
+          },
+          "overlap_gemeinde__LIN": {
+            "n": 5,
+            "median_ms": 11.32,
+            "p25_ms": 10.26,
+            "p75_ms": 11.68,
+            "mean_ms": 11.47
+          },
+          "overlap_gemeinde__PLY": {
+            "n": 5,
+            "median_ms": 11.22,
+            "p25_ms": 10.5,
+            "p75_ms": 13.84,
+            "mean_ms": 12.05
+          },
+          "intersect_filtered__PKT": {
+            "n": 5,
+            "median_ms": 46.35,
+            "p25_ms": 44.91,
+            "p75_ms": 46.58,
+            "mean_ms": 46.27
+          },
+          "intersect_filtered__LIN": {
+            "n": 5,
+            "median_ms": 47.29,
+            "p25_ms": 44.53,
+            "p75_ms": 48.86,
+            "mean_ms": 47.28
+          },
+          "intersect_filtered__PLY": {
+            "n": 5,
+            "median_ms": 46.33,
+            "p25_ms": 44.57,
+            "p75_ms": 47.95,
+            "mean_ms": 46.91
+          },
+          "intersect_plain__PKT": {
+            "n": 5,
+            "median_ms": 57.53,
+            "p25_ms": 55.7,
+            "p75_ms": 58.43,
+            "mean_ms": 57.47
+          },
+          "intersect_plain__LIN": {
+            "n": 5,
+            "median_ms": 58.42,
+            "p25_ms": 54.94,
+            "p75_ms": 59.56,
+            "mean_ms": 61.06
+          },
+          "intersect_plain__PLY": {
+            "n": 5,
+            "median_ms": 57.73,
+            "p25_ms": 55.35,
+            "p75_ms": 60.42,
+            "mean_ms": 58.19
+          },
+          "batch_overlap_gemeinde": {
+            "n": 3,
+            "median_ms": 44.81,
+            "p25_ms": 40.46,
+            "p75_ms": 51.01,
+            "mean_ms": 45.42,
+            "per_feature_ms": 2.24
+          },
+          "batch_intersect_filtered": {
+            "n": 3,
+            "median_ms": 45.35,
+            "p25_ms": 42.15,
+            "p75_ms": 46.51,
+            "mean_ms": 44.67,
+            "per_feature_ms": 2.268
+          }
+        },
+        "geo": {
+          "overlap_gemeinde__PKT": {
+            "n": 5,
+            "median_ms": 17.01,
+            "p25_ms": 16.03,
+            "p75_ms": 17.99,
+            "mean_ms": 17.63
+          },
+          "overlap_gemeinde__LIN": {
+            "n": 5,
+            "median_ms": 19.72,
+            "p25_ms": 16.21,
+            "p75_ms": 20.93,
+            "mean_ms": 19.46
+          },
+          "overlap_gemeinde__PLY": {
+            "n": 5,
+            "median_ms": 18.73,
+            "p25_ms": 16.87,
+            "p75_ms": 23.12,
+            "mean_ms": 20.2
+          },
+          "intersect_filtered__PKT": {
+            "n": 5,
+            "median_ms": 205.74,
+            "p25_ms": 200.76,
+            "p75_ms": 207.09,
+            "mean_ms": 205.47
+          },
+          "intersect_filtered__LIN": {
+            "n": 5,
+            "median_ms": 210.41,
+            "p25_ms": 202.93,
+            "p75_ms": 213.68,
+            "mean_ms": 209.82
+          },
+          "intersect_filtered__PLY": {
+            "n": 5,
+            "median_ms": 228.83,
+            "p25_ms": 224.27,
+            "p75_ms": 234.01,
+            "mean_ms": 229.96
+          },
+          "intersect_plain__PKT": {
+            "n": 5,
+            "median_ms": 7.66,
+            "p25_ms": 6.12,
+            "p75_ms": 7.89,
+            "mean_ms": 7.54
+          },
+          "intersect_plain__LIN": {
+            "n": 5,
+            "median_ms": 8.92,
+            "p25_ms": 7.53,
+            "p75_ms": 9.16,
+            "mean_ms": 8.51
+          },
+          "intersect_plain__PLY": {
+            "n": 5,
+            "median_ms": 9.17,
+            "p25_ms": 8.64,
+            "p75_ms": 9.5,
+            "mean_ms": 9.15
+          },
+          "batch_overlap_gemeinde": {
+            "n": 3,
+            "median_ms": 38.07,
+            "p25_ms": 37.59,
+            "p75_ms": 40.14,
+            "mean_ms": 38.6,
+            "per_feature_ms": 1.903
+          },
+          "batch_intersect_filtered": {
+            "n": 3,
+            "median_ms": 6043.89,
+            "p25_ms": 5851.57,
+            "p75_ms": 6515.64,
+            "mean_ms": 6137.03,
+            "per_feature_ms": 302.195
+          }
+        },
+        "geo_dwithin": {
+          "overlap_gemeinde__PKT": {
+            "n": 5,
+            "median_ms": 42.37,
+            "p25_ms": 42.11,
+            "p75_ms": 42.71,
+            "mean_ms": 42.46
+          },
+          "overlap_gemeinde__LIN": {
+            "n": 2,
+            "median_ms": 20930.62,
+            "p25_ms": 1667.45,
+            "p75_ms": 40193.79,
+            "mean_ms": 20930.62,
+            "truncated": true
+          },
+          "overlap_gemeinde__PLY": {
+            "n": 5,
+            "median_ms": 50.32,
+            "p25_ms": 46.6,
+            "p75_ms": 51.22,
+            "mean_ms": 50.1
+          },
+          "intersect_filtered__PKT": {
+            "n": 5,
+            "median_ms": 155.94,
+            "p25_ms": 153.73,
+            "p75_ms": 157.12,
+            "mean_ms": 156.03
+          },
+          "intersect_filtered__LIN": {
+            "n": 2,
+            "median_ms": 115339.97,
+            "p25_ms": 9084.27,
+            "p75_ms": 221595.67,
+            "mean_ms": 115339.97,
+            "truncated": true
+          },
+          "intersect_filtered__PLY": {
+            "n": 2,
+            "median_ms": 13330.52,
+            "p25_ms": 9253.5,
+            "p75_ms": 17407.53,
+            "mean_ms": 13330.52,
+            "truncated": true
+          },
+          "intersect_plain__PKT": {
+            "n": 5,
+            "median_ms": 153.69,
+            "p25_ms": 150.12,
+            "p75_ms": 155.84,
+            "mean_ms": 153.77
+          },
+          "intersect_plain__LIN": {
+            "n": 2,
+            "median_ms": 114897.58,
+            "p25_ms": 8976.32,
+            "p75_ms": 220818.83,
+            "mean_ms": 114897.58,
+            "truncated": true
+          },
+          "intersect_plain__PLY": {
+            "n": 2,
+            "median_ms": 13464.91,
+            "p25_ms": 9339.1,
+            "p75_ms": 17590.73,
+            "mean_ms": 13464.91,
+            "truncated": true
+          },
+          "batch_overlap_gemeinde": {
+            "n": 2,
+            "median_ms": 44414.46,
+            "p25_ms": 44315.09,
+            "p75_ms": 44513.83,
+            "mean_ms": 44414.46,
+            "per_feature_ms": 2220.723,
+            "truncated": true
+          },
+          "batch_intersect_filtered": {
+            "n": 2,
+            "median_ms": 73868.13,
+            "p25_ms": 73752.46,
+            "p75_ms": 73983.81,
+            "mean_ms": 73868.13,
+            "per_feature_ms": 3693.407,
+            "truncated": true
+          }
+        }
+      }
+    }
+  }
+}

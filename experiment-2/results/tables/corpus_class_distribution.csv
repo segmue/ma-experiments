@@ -1,0 +1,30 @@
+objektart,geometrie,n_gold,anteil_gold,n_gazetteer
+Alpiner Gipfel,Punkt,30465,0.40223,233
+Hauptgipfel,Punkt,21909,0.28926,2960
+Massiv,Flaeche,9970,0.13163,67
+Gipfel,Punkt,5252,0.06934,2764
+Grat,Flaeche,3165,0.04179,2528
+Tal,Flaeche,751,0.00992,3626
+Flurname swisstopo,Punkt,495,0.00654,259348
+Abwasserreinigungsareal,Flaeche,443,0.00585,684
+Huegelzug,Flaeche,436,0.00576,40
+Ort,Flaeche,408,0.00539,34104
+Landesgrenzstein,Punkt,326,0.0043,6869
+Haupthuegel,Punkt,287,0.00379,1352
+Landschaftsname,Flaeche,256,0.00338,100
+Pass,Punkt,245,0.00323,2461
+Quartierteil,Flaeche,240,0.00317,18494
+Lokalname swisstopo,Punkt,214,0.00283,18677
+Aussichtspunkt,Punkt,206,0.00272,91
+Haltestelle Bahn,Punkt,177,0.00234,3156
+Gebiet,Flaeche,154,0.00203,3828
+Other,—,139,0.00184,
+Felskopf,Punkt,78,0.00103,253
+Uebrige Bahnen,Punkt,68,0.0009,1183
+Sesselbahn,Linie,57,0.00075,365
+
+# Geometrieverteilung des Goldstandards
+Punkt,,59722,0.7885,
+Flaeche,,15823,0.20891,
+—,,139,0.00184,
+Linie,,57,0.00075,

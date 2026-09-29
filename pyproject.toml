@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ma-experiments"
+version = "1.0.0"
+description = "Experiments of the master's thesis 'Describing Places by Their Surroundings'"
+authors = ["Sebastian Gmür"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "~3.12"
+# plugin brings geoparser 0.3.1, torch, sentence-transformers, spacy, duckdb, h3, pyarrow
+# and the engine (ma-h3-multi-resolution-engine, rev 23fe41b)
+geoparser-h3-resolver = {git = "https://github.com/segmue/ma-geoparser-h3-resolver.git", rev = "44344f7cdb985108ef89a3449bcdf8ad0c6a207a"}
+scikit-learn = "^1.5"
+numpy = "^2.0"
+pandas = "^2.2"
+scipy = "*"
+geopandas = "*"
+shapely = "^2.1"
+matplotlib = "*"
+seaborn = "^0.13"
+psutil = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

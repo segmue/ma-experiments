@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-06-12 09:25:21",
+  "model": "M5_spatial_config2",
+  "n_docs_per_set": 3,
+  "systems": {
+    "default": {
+      "set_a": {
+        "seconds": 4.0,
+        "n_refs": 60,
+        "s_per_doc": 1.34,
+        "ms_per_ref": 67.0,
+        "factor_vs_default": 1.0
+      },
+      "set_b": {
+        "seconds": 1.6,
+        "n_refs": 37,
+        "s_per_doc": 0.521,
+        "ms_per_ref": 42.2,
+        "factor_vs_default": 1.0
+      }
+    },
+    "h3_config1": {
+      "set_a": {
+        "seconds": 7.1,
+        "n_refs": 60,
+        "s_per_doc": 2.351,
+        "ms_per_ref": 117.6,
+        "factor_vs_default": 1.77
+      },
+      "set_b": {
+        "seconds": 4.3,
+        "n_refs": 37,
+        "s_per_doc": 1.437,
+        "ms_per_ref": 116.5,
+        "factor_vs_default": 2.69
+      }
+    },
+    "h3_config2": {
+      "set_a": {
+        "seconds": 1.2,
+        "n_refs": 60,
+        "s_per_doc": 0.403,
+        "ms_per_ref": 20.1,
+        "factor_vs_default": 0.3
+      },
+      "set_b": {
+        "seconds": 1.2,
+        "n_refs": 37,
+        "s_per_doc": 0.395,
+        "ms_per_ref": 32.0,
+        "factor_vs_default": 0.75
+      }
+    },
+    "geo_config1": {
+      "set_a": {
+        "seconds": 14.1,
+        "n_refs": 60,
+        "s_per_doc": 4.693,
+        "ms_per_ref": 234.7,
+        "factor_vs_default": 3.52
+      },
+      "set_b": {
+        "seconds": 35.1,
+        "n_refs": 37,
+        "s_per_doc": 11.712,
+        "ms_per_ref": 949.7,
+        "factor_vs_default": 21.94
+      }
+    },
+    "geo_config2": {
+      "set_a": {
+        "seconds": 22.5,
+        "n_refs": 60,
+        "s_per_doc": 7.486,
+        "ms_per_ref": 374.3,
+        "factor_vs_default": 5.62
+      },
+      "set_b": {
+        "seconds": 59.0,
+        "n_refs": 37,
+        "s_per_doc": 19.679,
+        "ms_per_ref": 1595.6,
+        "factor_vs_default": 36.88
+      }
+    }
+  }
+}

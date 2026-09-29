@@ -1,0 +1,122 @@
+{
+  "model": "M3_default_finetuned",
+  "eval_resolver": "E_default",
+  "model_config": {
+    "base_model": "sentence-transformers/distiluse-base-multilingual-cased-v1",
+    "train": true,
+    "train_resolver": "default"
+  },
+  "eval_config": {
+    "type": "default"
+  },
+  "hyperparameters": {
+    "learning_rate": 1e-05,
+    "epochs": 2,
+    "batch_size": 8,
+    "warmup_ratio": 0.1
+  },
+  "n_folds": 5,
+  "seed": 42,
+  "folds": [
+    {
+      "fold": 0,
+      "val_documents": 12,
+      "val_toponyms": 213,
+      "accuracy_at_1": 0.5821596244131455,
+      "accuracy_at_3": 0.812206572769953,
+      "mrr": 0.6963023054329514,
+      "total": 213,
+      "no_candidates": 14,
+      "eval_duration_seconds": 6.8
+    },
+    {
+      "fold": 1,
+      "val_documents": 11,
+      "val_toponyms": 221,
+      "accuracy_at_1": 0.5610859728506787,
+      "accuracy_at_3": 0.8144796380090498,
+      "mrr": 0.6960639495156452,
+      "total": 221,
+      "no_candidates": 10,
+      "eval_duration_seconds": 6.7
+    },
+    {
+      "fold": 2,
+      "val_documents": 11,
+      "val_toponyms": 186,
+      "accuracy_at_1": 0.5967741935483871,
+      "accuracy_at_3": 0.7688172043010753,
+      "mrr": 0.702984297661717,
+      "total": 186,
+      "no_candidates": 14,
+      "eval_duration_seconds": 6.0
+    },
+    {
+      "fold": 3,
+      "val_documents": 11,
+      "val_toponyms": 245,
+      "accuracy_at_1": 0.6775510204081633,
+      "accuracy_at_3": 0.8163265306122449,
+      "mrr": 0.7553035322476783,
+      "total": 245,
+      "no_candidates": 14,
+      "eval_duration_seconds": 6.0
+    },
+    {
+      "fold": 4,
+      "val_documents": 11,
+      "val_toponyms": 191,
+      "accuracy_at_1": 0.6649214659685864,
+      "accuracy_at_3": 0.7591623036649214,
+      "mrr": 0.717725895872602,
+      "total": 191,
+      "no_candidates": 33,
+      "eval_duration_seconds": 6.5
+    }
+  ],
+  "training_info": [
+    {
+      "fold": 0,
+      "train_documents": 44,
+      "train_toponyms": 843,
+      "training_loss": [],
+      "train_duration_seconds": 236.6
+    },
+    {
+      "fold": 1,
+      "train_documents": 45,
+      "train_toponyms": 835,
+      "training_loss": [],
+      "train_duration_seconds": 248.3
+    },
+    {
+      "fold": 2,
+      "train_documents": 45,
+      "train_toponyms": 870,
+      "training_loss": [],
+      "train_duration_seconds": 244.8
+    },
+    {
+      "fold": 3,
+      "train_documents": 45,
+      "train_toponyms": 811,
+      "training_loss": [],
+      "train_duration_seconds": 225.6
+    },
+    {
+      "fold": 4,
+      "train_documents": 45,
+      "train_toponyms": 865,
+      "training_loss": [],
+      "train_duration_seconds": 262.4
+    }
+  ],
+  "aggregate": {
+    "mean_accuracy_at_1": 0.6164984554377922,
+    "std_accuracy_at_1": 0.046283795626579756,
+    "mean_accuracy_at_3": 0.7941984498714489,
+    "std_accuracy_at_3": 0.02488778900416973,
+    "mean_mrr": 0.7136759961461188,
+    "std_mrr": 0.022251270443160533
+  }
+}
